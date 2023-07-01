@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.21.43.51-095_2@95
+  name: 🏁RELAY-172.67.220.13-095_2@95
   network: ws
   port: 80
   server: 104.21.69.223
@@ -14,7 +14,7 @@ proxies:
   ws-path: /vpnneo
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-198.41.209.52-168_2@168
+  name: 🏁RELAY-172.67.65.72-167_2@167
   network: ws
   port: 80
   server: 104.21.69.223
@@ -27,17 +27,17 @@ proxies:
   ws-path: /shirker
 - alterId: 0
   cipher: auto
-  name: 🇸🇬SG-51.79.242.28-169_2@169
+  name: 🏁RELAY-104.31.16.41-171_2@171
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 91e2689d-4722-49ba-a285-a092f3f8dc04
+  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
   ws-headers:
-    Host: 69.nrz.biz.id
-  ws-path: /vmess
+    Host: de5.irteh.fun
+  ws-path: /i99LgvSaslbsPLLQQ7j6Z
 - alterId: 0
   cipher: auto
   name: 🏁RELAY-172.67.147.10-178_2@178
@@ -53,7 +53,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.21.53.35-180_2@180
+  name: 🏁RELAY-104.21.53.35-191_2@191
   network: ws
   port: 80
   server: 104.21.69.223
@@ -62,21 +62,8 @@ proxies:
   type: vmess
   uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
   ws-headers:
-    Host: dp3.yxjnode.com
+    Host: dp1.yxjnode.com
   ws-path: /yxzbp
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.31.16.35-183_2@183
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c
-  ws-headers:
-    Host: de14.irteh.fun
-  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
