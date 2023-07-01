@@ -14,20 +14,46 @@ proxies:
   ws-path: /vpnneo
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.147.10-167_2@167
+  name: 🏁RELAY-198.41.209.52-168_2@168
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 3fec7182-02fb-4730-9b97-4c9aee563ef6
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-headers:
-    Host: dl8.v001sssv.pw
+    Host: ca.ilovescp.com
+  ws-path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG-51.79.242.28-169_2@169
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 91e2689d-4722-49ba-a285-a092f3f8dc04
+  ws-headers:
+    Host: 69.nrz.biz.id
+  ws-path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.147.10-178_2@178
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233
+  ws-headers:
+    Host: dl.v001sssv.pw
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.208.87-171_2@171
+  name: 🏁RELAY-104.21.53.35-180_2@180
   network: ws
   port: 80
   server: 104.21.69.223
@@ -40,21 +66,21 @@ proxies:
   ws-path: /yxzbp
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.31.16.43-174_2@174
+  name: 🏁RELAY-104.31.16.35-183_2@183
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
+  uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c
   ws-headers:
-    Host: de5.irteh.fun
-  ws-path: /i99LgvSaslbsPLLQQ7j6Z
+    Host: de14.irteh.fun
+  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇬🇧_GB_英国_5@8
+  name: 🇺🇸 _US_美国->🇮🇳_IN_印度_5@21
   network: ws
   port: 80
   server: 104.21.69.223
@@ -65,7 +91,7 @@ proxies:
   uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
   ws-opts:
     headers:
-      Host: uk1.scproxy.top
+      Host: in.sharecentrepro.com
     path: /shirker
 - alterId: 0
   cipher: auto
@@ -99,6 +125,22 @@ proxies:
     headers:
       Host: 8fhq6a.aiossh.my.id
     path: /v2ray
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 25_5@48
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  ws-opts:
+    headers:
+      Host: dp3.scproxy.top
+    path: /shirker
 - alterId: 4
   cipher: auto
   name: 🇺🇸美国-德克萨斯-0-v2ray-sg4.zingfast.vn:80_7@12
@@ -132,6 +174,21 @@ proxies:
   uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
   ws-opts:
     path: /hahuutung
+- alterId: 0
+  cipher: auto
+  name: _US_美国 20_0@47
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3fec7182-02fb-4730-9b97-4c9aee563ef6
+  ws-opts:
+    headers:
+      Host: dl8.v001sssv.pw
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1_6@0_8@192
@@ -195,19 +252,6 @@ proxies:
   uuid: 799d4bec-7067-41b2-a17c-197e09ce7c15
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.19.213.4-024_2@24
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
-  ws-headers:
-    Host: dp4.scproxy.top
-  ws-path: /shirker
-- alterId: 0
-  cipher: auto
   name: 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   network: ws
   port: 80
@@ -246,19 +290,6 @@ proxies:
   uuid: dcea7f3e-98ba-4ac8-a294-5092dc381a57
   ws-opts:
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.19.213.4-038_2@38
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
-  ws-headers:
-    Host: dp3.scproxy.top
-  ws-path: /shirker
 - alterId: 0
   cipher: auto
   name: 🇳🇱_NL_荷兰_6_20@24_8@503
@@ -331,18 +362,3 @@ proxies:
   tls: false
   type: vmess
   uuid: c9a56865-edcc-4989-a601-c42ced94c8f8
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】102_9@33
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233
-  ws-opts:
-    headers:
-      Host: dl.v001sssv.pw
-    path: /
