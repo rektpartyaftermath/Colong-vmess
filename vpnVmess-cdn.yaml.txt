@@ -1,0 +1,348 @@
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.21.43.51-095_2@95
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
+  ws-headers:
+    Host: ctn.nextvpn.cc
+  ws-path: /vpnneo
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.147.10-167_2@167
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3fec7182-02fb-4730-9b97-4c9aee563ef6
+  ws-headers:
+    Host: dl8.v001sssv.pw
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.208.87-171_2@171
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
+  ws-headers:
+    Host: dp3.yxjnode.com
+  ws-path: /yxzbp
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.31.16.43-174_2@174
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
+  ws-headers:
+    Host: de5.irteh.fun
+  ws-path: /i99LgvSaslbsPLLQQ7j6Z
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国->🇬🇧_GB_英国_5@8
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  ws-opts:
+    headers:
+      Host: uk1.scproxy.top
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡_5@32
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 8a694cfb-d143-4378-cb85-faacdc69e5e1
+  ws-opts:
+    headers:
+      Host: ass.669990.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇸🇬 _SG_新加坡_5@46
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae
+  ws-opts:
+    headers:
+      Host: 8fhq6a.aiossh.my.id
+    path: /v2ray
+- alterId: 4
+  cipher: auto
+  name: 🇺🇸美国-德克萨斯-0-v2ray-sg4.zingfast.vn:80_7@12
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  tls: false
+  type: vmess
+  udp: false
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  ws-path: /anti13.zingfast.vn
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1_2@3_8@86
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
+- alterId: 0
+  cipher: auto
+  name: 🇻🇳_VN_越南_2@45_8@112
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
+  ws-opts:
+    path: /hahuutung
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_1_6@0_8@192
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 43930e8c-8347-4929-8e2c-9197e7c71423
+  ws-opts:
+    headers:
+      host: hax.scyu.app
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇻🇳_VN_越南_7@35_8@232
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_HK_香港_4_9@33_8@286
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  servername: www.baidu.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1f1136af-9479-4851-aa8b-6ae7e6a4bd33
+  ws-opts:
+    path: /zh-cn/
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇬🇧_GB_英国_12@15_8@340
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9dbfdc2b-f3ef-418b-b5d5-221b78a4ea63
+  ws-opts:
+    headers:
+      host: vc-uk1.imnibaba.tk
+    path: /tg@sudoxin
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼_TW_台湾_12@43_8@354
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 799d4bec-7067-41b2-a17c-197e09ce7c15
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.19.213.4-024_2@24
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  ws-headers:
+    Host: dp4.scproxy.top
+  ws-path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 🇮🇩_ID_印度尼西亚_2_15@30_8@411
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
+  ws-opts:
+    headers:
+      host: jpjoq.ftvpn.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵_JP_日本_4_15@41_8@417
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  servername: ca0831a7-9d9b-a828-144e-1cb47eae7ff9.cnnic.rip
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 799d4bec-7067-41b2-a17c-197e09ce7c15
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵_JP_日本_3_16@16_8@429
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  servername: www.baidu.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: dcea7f3e-98ba-4ac8-a294-5092dc381a57
+  ws-opts:
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.19.213.4-038_2@38
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  ws-headers:
+    Host: dp3.scproxy.top
+  ws-path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱_NL_荷兰_6_20@24_8@503
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  servername: npanel.digi2023game.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b35cd4e8-e193-4bbd-9084-91d73d2353f0
+  ws-opts:
+    path: /o8q9OHerR9LI4jhrTESVxpF0X/vmessws
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_21@9_8@513
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fceab4b1-5abd-4015-a165-aa694327b462
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_HK_香港->🇯🇵_JP_日本_21@24_8@524
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c
+  ws-opts:
+    path: /yfjc/jp1
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬_SG_新加坡_7_21@27_8@527
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fceab4b1-5abd-4015-a165-aa694327b462
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_HK_香港_4_23@21_8@590
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  servername: hk80.sanfen001.pics
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ed1e7cc5-e0cf-424a-8e28-70ca305f26d3
+  ws-opts:
+    path: /zh-cn/
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_HK_香港_2_24@33_8@623
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c9a56865-edcc-4989-a601-c42ced94c8f8
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】102_9@33
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233
+  ws-opts:
+    headers:
+      Host: dl.v001sssv.pw
+    path: /
