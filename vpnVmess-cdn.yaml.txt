@@ -1,33 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-096_2@96
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb
-  ws-headers:
-    Host: 9.vip341.xyz
-  ws-path: /ny
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.64.160.32-106_2@106
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6196e8eb-4d60-433c-a82b-19b5930c0fd5
-  ws-headers:
-    Host: us.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.67.147.10-120_2@120
+  name: 🏁RELAY-104.21.79.184-118_2@118
   network: ws
   port: 80
   server: 104.21.69.223
@@ -37,6 +11,19 @@ proxies:
   uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233
   ws-headers:
     Host: dl.v001sssv.pw
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.147.10-167_2@165
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3fec7182-02fb-4730-9b97-4c9aee563ef6
+  ws-headers:
+    Host: dl8.v001sssv.pw
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -125,6 +112,21 @@ proxies:
   uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
 - alterId: 0
   cipher: auto
+  name: _US_美国 12_0@31
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: dp1.scproxy.top
+    path: /shirker
+- alterId: 0
+  cipher: auto
   name: 🇻🇳_VN_越南_2@45_8@112
   network: ws
   port: 80
@@ -151,7 +153,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: _US_美国 20_0@47
+  name: _US_美国 17_0@44
   network: ws
   port: 80
   server: 104.21.69.223
@@ -159,11 +161,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3fec7182-02fb-4730-9b97-4c9aee563ef6
+  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
   ws-opts:
     headers:
-      Host: dl8.v001sssv.pw
-    path: /
+      Host: dp1.yxjnode.com
+    path: /yxzbp
 - alterId: 0
   cipher: auto
   name: 🇻🇳_VN_越南_7@35_8@232
@@ -174,6 +176,21 @@ proxies:
   tls: false
   type: vmess
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+- alterId: 0
+  cipher: auto
+  name: _US_美国->🇩🇪_DE_德国 2_0@46
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c
+  ws-opts:
+    headers:
+      Host: de14.irteh.fun
+    path: /ozX9aUPiJVtoLavjTW
 - alterId: 0
   cipher: auto
   name: 🇭🇰_HK_香港_4_9@33_8@286
@@ -187,22 +204,6 @@ proxies:
   uuid: 1f1136af-9479-4851-aa8b-6ae7e6a4bd33
   ws-opts:
     path: /zh-cn/
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇩🇪_DE_德国_1@7
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c
-  ws-opts:
-    headers:
-      Host: de14.irteh.fun
-    path: /ozX9aUPiJVtoLavjTW
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇬🇧_GB_英国_12@15_8@340
@@ -267,38 +268,6 @@ proxies:
   uuid: dcea7f3e-98ba-4ac8-a294-5092dc381a57
   ws-opts:
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 6_1@20
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: dp1.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 7_1@21
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
-  ws-opts:
-    headers:
-      Host: dp1.yxjnode.com
-    path: /yxzbp
 - alterId: 0
   cipher: auto
   name: 🇳🇱_NL_荷兰_6_20@24_8@503
@@ -371,3 +340,16 @@ proxies:
   tls: false
   type: vmess
   uuid: c9a56865-edcc-4989-a601-c42ced94c8f8
+- alterId: 0
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-096_2@96
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb
+  ws-headers:
+    Host: 9.vip341.xyz
+  ws-path: /ny
