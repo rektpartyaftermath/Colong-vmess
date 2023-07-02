@@ -1,7 +1,39 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇨🇳CN-119.36.161.40-067_2@67
+  name: 🇦🇶NOWHERE-0.0.0.0-059_2@59
+  network: ws
+  port: 443
+  server: v5.tgfaka.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 61c4c45e-d5c8-47ed-ae28-cee95f09b3b7
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.26.9.76-064_2@64
+  network: ws
+  port: 443
+  server: powerservice.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  ws-opts:
+    path: /sshocean
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳CN-119.36.161.40-073_2@73
   network: ws
   port: 443
   server: 119.36.161.40
@@ -17,23 +49,55 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.18.28.109-172_2@172
+  name: 🏁RELAY-104.26.5.10-077_2@77
   network: ws
   port: 443
-  server: franc.digires.shop
+  server: api.qiscus.com
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+  uuid: 47e37af6-06b0-f5d8-0e1d-b601474c1351
   ws-opts:
-    path: /11201
+    path: /726f5dd4/
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-078_2@78
+  network: ws
+  port: 443
+  server: v1.tgfaka.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 61c4c45e-d5c8-47ed-ae28-cee95f09b3b7
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.24.169.238-117_2@117
+  network: ws
+  port: 443
+  server: 104.24.169.238
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1a25dce4-9d27-4e8d-e46e-16199be54f81
+  ws-opts:
+    path: /ports/45314
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
 - alterId: 64
   cipher: auto
-  name: 🏁RELAY-172.67.215.25-188_2@188
+  name: 🏁RELAY-104.21.78.23-131_2@131
   network: ws
   port: 443
   server: aaaa.wxx.gay
@@ -49,7 +113,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 🏁RELAY-172.67.219.34-190_2@190
+  name: 🏁RELAY-172.64.80.1-133_2@133
   network: ws
   port: 443
   server: hkd1.quickerlink.xyz
@@ -59,6 +123,22 @@ proxies:
   uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9
   ws-opts:
     path: /h6jr23x9h3lqiitg
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.18.29.109-159_2@157
+  network: ws
+  port: 443
+  server: franc.digires.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+  ws-opts:
+    path: /11201
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
@@ -117,22 +197,6 @@ proxies:
     path: /3G6WPDL7
   servername: graph.facebook.com
   udp: true
-- alterId: 0
-  cipher: auto
-  name: _US_美国 11_0@25
-  network: ws
-  port: 443
-  server: zfc.windowsupdate1.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca
-  ws-opts:
-    headers:
-      host: graph.facebook.com
-    path: /pq/usfh2?ed=2048
-  servername: graph.facebook.com
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -167,6 +231,22 @@ proxies:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
+- alterId: 0
+  cipher: auto
+  name: _US_美国 11_0@25
+  network: ws
+  port: 443
+  server: zfc.windowsupdate1.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca
+  ws-opts:
+    headers:
+      host: graph.facebook.com
+    path: /pq/usfh2?ed=2048
+  servername: graph.facebook.com
 - alterId: 0
   cipher: auto
   name: 🇯🇵_JP_日本_6@19
@@ -917,22 +997,6 @@ proxies:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
-- alterId: 0
-  cipher: auto
-  name: _US_美国 18_0@44
-  network: ws
-  port: 443
-  server: cloudflare.piaole.me
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 7f661b42-fb36-48aa-a0db-6961180ca69d
-  ws-opts:
-    headers:
-      host: graph.facebook.com
-    path: /
-  servername: graph.facebook.com
 - alterId: 32
   cipher: auto
   name: 🇺🇸_US_美国_15_4@35_8@162
@@ -1191,6 +1255,22 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: _US_美国 18_0@44
+  network: ws
+  port: 443
+  server: cloudflare.piaole.me
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7f661b42-fb36-48aa-a0db-6961180ca69d
+  ws-opts:
+    headers:
+      host: graph.facebook.com
+    path: /
+  servername: graph.facebook.com
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇱🇹_LT_立陶宛_5@37_8@191
   network: ws
   port: 443
@@ -1237,22 +1317,6 @@ proxies:
     path: /pq/fr1?ed=2048
   servername: graph.facebook.com
   udp: true
-- alterId: 0
-  cipher: auto
-  name: _SG_新加坡 6_0@48
-  network: ws
-  port: 443
-  server: 0kxedm1x8q8lksmj17.xingbayun.buzz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1ed5bca2-9765-4518-b35a-0808227cb2b2
-  ws-opts:
-    headers:
-      host: graph.facebook.com
-    path: /zh-cn
-  servername: graph.facebook.com
 - alterId: 0
   cipher: auto
   name: 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国_6@16_8@200
@@ -1365,6 +1429,22 @@ proxies:
     headers:
       host: graph.facebook.com
   udp: true
+- alterId: 0
+  cipher: auto
+  name: _SG_新加坡 6_0@48
+  network: ws
+  port: 443
+  server: 0kxedm1x8q8lksmj17.xingbayun.buzz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1ed5bca2-9765-4518-b35a-0808227cb2b2
+  ws-opts:
+    headers:
+      host: graph.facebook.com
+    path: /zh-cn
+  servername: graph.facebook.com
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_3_8@33_8@264
@@ -1831,24 +1911,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 9_1@18
-  network: ws
-  port: 443
-  server: 162.159.243.235
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 20c08a8d-85d6-47c6-bbb0-c8389a578b71
-  ws-opts:
-    headers:
-      host: graph.facebook.com
-    path: /7803f1
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_13_12@30_8@346
   network: ws
   port: 443
@@ -2297,24 +2359,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 23_1@39
-  network: ws
-  port: 443
-  server: Lille.kotick.site
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
-  ws-opts:
-    headers:
-      host: graph.facebook.com
-    path: /speedtest
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_3_19@26_8@488
   network: ws
   port: 443
@@ -2360,6 +2404,24 @@ proxies:
     path: /E86414F638E11
     headers:
       host: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 11_1@28
+  network: ws
+  port: 443
+  server: cdn.aikun.online
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 8eddf617-8b05-4221-add9-9487dbdfa92d
+  ws-opts:
+    headers:
+      host: graph.facebook.com
+    path: /lius
+  servername: graph.facebook.com
   udp: true
 - alterId: 0
   cipher: auto
@@ -2715,7 +2777,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】46_9@8
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】46_9@6
   network: ws
   port: 443
   server: bluehost.com
@@ -2731,7 +2793,7 @@ proxies:
   servername: graph.facebook.com
 - alterId: 0
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】154_9@9
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】154_9@14
   network: ws
   port: 443
   server: 104.25.242.66
@@ -2747,23 +2809,7 @@ proxies:
   servername: graph.facebook.com
 - alterId: 0
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】147_9@13
-  network: ws
-  port: 443
-  server: 104.24.169.238
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 1a25dce4-9d27-4e8d-e46e-16199be54f81
-  ws-opts:
-    headers:
-      host: graph.facebook.com
-    path: /ports/45314
-  servername: graph.facebook.com
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】178_9@22
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】178_9@16
   network: ws
   port: 443
   server: 104.24.226.79
@@ -2777,3 +2823,51 @@ proxies:
       host: graph.facebook.com
     path: /ports/10178
   servername: graph.facebook.com
+- alterId: 0
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-050_2@50
+  network: ws
+  port: 443
+  server: v2.tgfaka.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2df8cb33-de40-438c-840a-5f1d05fe7518
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.17.20.119-052_2@52
+  network: ws
+  port: 443
+  server: 104.17.20.119
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6dd416ed-b07e-4b12-934a-520e22f3a6f5
+  ws-opts:
+    path: /ray
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.64.199.253-053_2@53
+  network: ws
+  port: 443
+  server: 172.64.199.253
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2ad6e16f-08e9-482d-ae7a-70d1b2ec7159
+  ws-opts:
+    path: /Vmess
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true

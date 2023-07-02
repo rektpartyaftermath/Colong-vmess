@@ -1,46 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.220.13-095_2@95
+  name: 🇦🇶NOWHERE-0.0.0.0-096_2@96
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
+  uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb
   ws-headers:
-    Host: ctn.nextvpn.cc
-  ws-path: /vpnneo
+    Host: 9.vip341.xyz
+  ws-path: /ny
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.65.72-167_2@167
+  name: 🏁RELAY-172.64.160.32-106_2@106
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: 6196e8eb-4d60-433c-a82b-19b5930c0fd5
   ws-headers:
-    Host: ca.ilovescp.com
-  ws-path: /shirker
+    Host: us.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.31.16.41-171_2@171
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
-  ws-headers:
-    Host: de5.irteh.fun
-  ws-path: /i99LgvSaslbsPLLQQ7j6Z
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.67.147.10-178_2@178
+  name: 🏁RELAY-172.67.147.10-120_2@120
   network: ws
   port: 80
   server: 104.21.69.223
@@ -51,19 +38,6 @@ proxies:
   ws-headers:
     Host: dl.v001sssv.pw
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.21.53.35-191_2@191
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
-  ws-headers:
-    Host: dp1.yxjnode.com
-  ws-path: /yxzbp
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -163,6 +137,20 @@ proxies:
     path: /hahuutung
 - alterId: 0
   cipher: auto
+  name: 🇺🇸_US_美国_1_6@0_8@192
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 43930e8c-8347-4929-8e2c-9197e7c71423
+  ws-opts:
+    headers:
+      host: hax.scyu.app
+    path: /
+- alterId: 0
+  cipher: auto
   name: _US_美国 20_0@47
   network: ws
   port: 80
@@ -175,20 +163,6 @@ proxies:
   ws-opts:
     headers:
       Host: dl8.v001sssv.pw
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_1_6@0_8@192
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 43930e8c-8347-4929-8e2c-9197e7c71423
-  ws-opts:
-    headers:
-      host: hax.scyu.app
     path: /
 - alterId: 0
   cipher: auto
@@ -213,6 +187,22 @@ proxies:
   uuid: 1f1136af-9479-4851-aa8b-6ae7e6a4bd33
   ws-opts:
     path: /zh-cn/
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国->🇩🇪_DE_德国_1@7
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c
+  ws-opts:
+    headers:
+      Host: de14.irteh.fun
+    path: /ozX9aUPiJVtoLavjTW
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇬🇧_GB_英国_12@15_8@340
@@ -277,6 +267,38 @@ proxies:
   uuid: dcea7f3e-98ba-4ac8-a294-5092dc381a57
   ws-opts:
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 6_1@20
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: dp1.scproxy.top
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 7_1@21
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
+  ws-opts:
+    headers:
+      Host: dp1.yxjnode.com
+    path: /yxzbp
 - alterId: 0
   cipher: auto
   name: 🇳🇱_NL_荷兰_6_20@24_8@503
