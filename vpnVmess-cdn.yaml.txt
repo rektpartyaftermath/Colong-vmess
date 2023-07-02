@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.21.79.184-118_2@118
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233
-  ws-headers:
-    Host: dl.v001sssv.pw
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.67.147.10-167_2@165
+  name: 🏁RELAY-104.21.79.184-117_2@117
   network: ws
   port: 80
   server: 104.21.69.223
@@ -153,6 +140,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇻🇳_VN_越南_7@35_8@232
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+- alterId: 0
+  cipher: auto
   name: _US_美国 17_0@44
   network: ws
   port: 80
@@ -166,16 +163,6 @@ proxies:
     headers:
       Host: dp1.yxjnode.com
     path: /yxzbp
-- alterId: 0
-  cipher: auto
-  name: 🇻🇳_VN_越南_7@35_8@232
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
 - alterId: 0
   cipher: auto
   name: _US_美国->🇩🇪_DE_德国 2_0@46
@@ -340,6 +327,51 @@ proxies:
   tls: false
   type: vmess
   uuid: c9a56865-edcc-4989-a601-c42ced94c8f8
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip76_9@67
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9572d691-e27a-4f54-ef4d-57600a785b55
+  ws-opts:
+    headers:
+      Host: txx.vtcss.top
+    path: /qwer0
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip94_9@83
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0e1064af-3f2c-4859-a9d2-e45feca6940f
+  ws-opts:
+    headers:
+      Host: v1.us1.microsoftdebug.com
+    path: /windows7.ios
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip127_9@106
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233
+  ws-opts:
+    headers:
+      Host: dl.v001sssv.pw
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇦🇶NOWHERE-0.0.0.0-096_2@96
