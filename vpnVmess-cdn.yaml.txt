@@ -1,6 +1,36 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】8_9@169
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 203b2ab2-4994-4193-8193-6631a575edb0
+  ws-opts:
+    headers:
+      Host: us53.encrypted.my.id
+    path: /GSoTl9ZoYG5V2R0k4tUTGI8k
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】24_9@171
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2caa5a0e-519b-4503-80d4-5363193e5018
+  ws-opts:
+    headers:
+      Host: us50.encrypted.my.id
+    path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
+- alterId: 0
+  cipher: auto
   name: 🏁RELAY-104.21.43.51-013_2@13
   network: ws
   port: 80
@@ -14,20 +44,7 @@ proxies:
   ws-path: /vpnneo
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.31.16.40-068_2@68
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c
-  ws-headers:
-    Host: de14.irteh.fun
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.67.124.155-072_2@72
+  name: 🏁RELAY-172.67.226.113-061_2@61
   network: ws
   port: 80
   server: 104.21.69.223
@@ -38,6 +55,19 @@ proxies:
   ws-headers:
     Host: ca.ilovescp.com
   ws-path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.31.16.46-069_2@69
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c
+  ws-headers:
+    Host: de14.irteh.fun
+  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -355,3 +385,93 @@ proxies:
   tls: false
   type: vmess
   uuid: c9a56865-edcc-4989-a601-c42ced94c8f8
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】100_9@117
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4bf9b7e0-85d1-4a59-9a29-e6619dcd7c50
+  ws-opts:
+    headers:
+      Host: us47.encrypted.my.id
+    path: /pSAXxD8Ib7FZloqUMG
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】102_9@120
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f3464642-f113-4575-aa33-f68aef56b5c0
+  ws-opts:
+    headers:
+      Host: us54.encrypted.my.id
+    path: /mePGXW6SFZZw2QyAqaYK
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】193_9@121
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0dce8b7e-4189-427b-95b7-93fc55d25115
+  ws-opts:
+    headers:
+      Host: us55.encrypted.my.id
+    path: /PxcYlDIHtv3GtsBfhm1AaayIV
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】174_9@122
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 52fe86cc-db7f-43d0-83f8-7e4c91a61f35
+  ws-opts:
+    headers:
+      Host: us56.encrypted.my.id
+    path: /qRV8zMMajQyex4KWUBkia1vvH
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】164_9@124
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 82f58397-480e-4975-b3ec-fea904dc5912
+  ws-opts:
+    headers:
+      Host: us48.encrypted.my.id
+    path: /O0emfe0pBfYovpz5526rhq
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】84_9@125
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 468cde3d-26b5-4007-a20a-1cd19f46d5d6
+  ws-opts:
+    headers:
+      Host: us58.encrypted.my.id
+    path: /KXwHGCrIVG4NYiB2
