@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.220.13-063_2@63
+  name: 🏁RELAY-104.21.43.51-013_2@13
   network: ws
   port: 80
   server: 104.21.69.223
@@ -12,6 +12,32 @@ proxies:
   ws-headers:
     Host: ctn.nextvpn.cc
   ws-path: /vpnneo
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.31.16.40-068_2@68
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c
+  ws-headers:
+    Host: de14.irteh.fun
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.124.155-072_2@72
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-headers:
+    Host: ca.ilovescp.com
+  ws-path: /shirker
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -89,21 +115,6 @@ proxies:
   ws-path: /anti13.zingfast.vn
 - alterId: 0
   cipher: auto
-  name: _US_美国 12_0@31
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: dp1.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
   name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1_2@3_8@86
   network: ws
   port: 80
@@ -140,7 +151,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: _US_美国 17_0@44
+  name: _US_美国 12_0@46
   network: ws
   port: 80
   server: 104.21.69.223
@@ -153,21 +164,6 @@ proxies:
     headers:
       Host: dp1.yxjnode.com
     path: /yxzbp
-- alterId: 0
-  cipher: auto
-  name: _US_美国->🇩🇪_DE_德国 2_0@46
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c
-  ws-opts:
-    headers:
-      Host: de14.irteh.fun
-    path: /ozX9aUPiJVtoLavjTW
 - alterId: 0
   cipher: auto
   name: 🇻🇳_VN_越南_7@35_8@232
@@ -359,18 +355,3 @@ proxies:
   tls: false
   type: vmess
   uuid: c9a56865-edcc-4989-a601-c42ced94c8f8
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】31_9@30
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9572d691-e27a-4f54-ef4d-57600a785b55
-  ws-opts:
-    headers:
-      Host: txx.vtcss.top
-    path: /qwer0
