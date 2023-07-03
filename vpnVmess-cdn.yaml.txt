@@ -1,17 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.21.79.184-117_2@117
+  name: 🏁RELAY-172.67.220.13-063_2@63
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 3fec7182-02fb-4730-9b97-4c9aee563ef6
+  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
   ws-headers:
-    Host: dl8.v001sssv.pw
-  ws-path: /
+    Host: ctn.nextvpn.cc
+  ws-path: /vpnneo
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -89,16 +89,6 @@ proxies:
   ws-path: /anti13.zingfast.vn
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1_2@3_8@86
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
-- alterId: 0
-  cipher: auto
   name: _US_美国 12_0@31
   network: ws
   port: 80
@@ -112,6 +102,16 @@ proxies:
     headers:
       Host: dp1.scproxy.top
     path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1_2@3_8@86
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
 - alterId: 0
   cipher: auto
   name: 🇻🇳_VN_越南_2@45_8@112
@@ -138,16 +138,6 @@ proxies:
     headers:
       host: hax.scyu.app
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇻🇳_VN_越南_7@35_8@232
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
 - alterId: 0
   cipher: auto
   name: _US_美国 17_0@44
@@ -178,6 +168,16 @@ proxies:
     headers:
       Host: de14.irteh.fun
     path: /ozX9aUPiJVtoLavjTW
+- alterId: 0
+  cipher: auto
+  name: 🇻🇳_VN_越南_7@35_8@232
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
 - alterId: 0
   cipher: auto
   name: 🇭🇰_HK_香港_4_9@33_8@286
@@ -215,6 +215,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 799d4bec-7067-41b2-a17c-197e09ce7c15
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 7_1@13
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3fec7182-02fb-4730-9b97-4c9aee563ef6
+  ws-opts:
+    headers:
+      Host: dl8.v001sssv.pw
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇮🇩_ID_印度尼西亚_2_15@30_8@411
@@ -255,6 +271,22 @@ proxies:
   uuid: dcea7f3e-98ba-4ac8-a294-5092dc381a57
   ws-opts:
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国->🇫🇷_FR_法国_1@26
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233
+  ws-opts:
+    headers:
+      Host: dl.v001sssv.pw
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇳🇱_NL_荷兰_6_20@24_8@503
@@ -329,7 +361,7 @@ proxies:
   uuid: c9a56865-edcc-4989-a601-c42ced94c8f8
 - alterId: 0
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip76_9@67
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】31_9@30
   network: ws
   port: 80
   server: 104.21.69.223
@@ -342,46 +374,3 @@ proxies:
     headers:
       Host: txx.vtcss.top
     path: /qwer0
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip94_9@83
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0e1064af-3f2c-4859-a9d2-e45feca6940f
-  ws-opts:
-    headers:
-      Host: v1.us1.microsoftdebug.com
-    path: /windows7.ios
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip127_9@106
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233
-  ws-opts:
-    headers:
-      Host: dl.v001sssv.pw
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-096_2@96
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb
-  ws-headers:
-    Host: 9.vip341.xyz
-  ws-path: /ny
