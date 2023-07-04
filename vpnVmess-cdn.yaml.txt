@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-162.159.133.191-108_2@108
+  name: 🏁RELAY-172.64.98.78-104_2@104
   network: ws
   port: 80
   server: 104.21.69.223
@@ -14,31 +14,17 @@ proxies:
   ws-path: /shirker
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.31.16.36-117_2@117
+  name: 🏁RELAY-104.31.16.27-112_2@112
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
+  uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c
   ws-headers:
-    Host: de5.irteh.fun
-  ws-path: /i99LgvSaslbsPLLQQ7j6Z
-- alterId: 0
-  cipher: auto
-  name: 欧洲(油管:破解资源君2.0) 3_4@14
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
-  ws-headers:
-    Host: ctn.nextvpn.cc
-  ws-path: /vpnneo
+    Host: de14.irteh.fun
+  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
