@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.205.147-063_2@63
+  name: 🏁RELAY-162.159.133.191-108_2@108
   network: ws
   port: 80
   server: 104.21.69.223
@@ -14,33 +14,7 @@ proxies:
   ws-path: /shirker
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.21.79.184-065_2@65
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233
-  ws-headers:
-    Host: dl.v001sssv.pw
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.21.79.184-066_2@66
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3fec7182-02fb-4730-9b97-4c9aee563ef6
-  ws-headers:
-    Host: dl8.v001sssv.pw
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.31.16.34-067_2@67
+  name: 🏁RELAY-104.31.16.36-117_2@117
   network: ws
   port: 80
   server: 104.21.69.223
@@ -162,21 +136,6 @@ proxies:
   uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
   ws-opts:
     path: /hahuutung
-- alterId: 0
-  cipher: auto
-  name: _US_美国 12_0@46
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
-  ws-opts:
-    headers:
-      Host: dp1.yxjnode.com
-    path: /yxzbp
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1_6@0_8@192
