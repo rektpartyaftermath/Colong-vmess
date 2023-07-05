@@ -14,20 +14,7 @@ proxies:
   ws-path: /images
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US-34.214.125.213-148_2@148
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 59e004fd-959f-4844-9354-1125c9c67333
-  ws-headers:
-    Host: gw.alicdn.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.31.16.33-156_2@156
+  name: 🏁RELAY-104.31.16.32-158_2@158
   network: ws
   port: 80
   server: 104.21.69.223
@@ -40,7 +27,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.201.186-185_2@183
+  name: 🏁RELAY-172.64.69.121-194_2@192
   network: ws
   port: 80
   server: 104.21.69.223
