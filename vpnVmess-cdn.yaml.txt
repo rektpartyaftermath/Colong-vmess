@@ -1,20 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.64.98.78-104_2@104
+  name: 🇦🇶NOWHERE-0.0.0.0-053_2@53
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
   ws-headers:
-    Host: ca.ilovescp.com
-  ws-path: /shirker
+    Host: v.qq.com
+  ws-path: /images
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.31.16.27-112_2@112
+  name: 🇺🇸US-34.214.125.213-148_2@148
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 59e004fd-959f-4844-9354-1125c9c67333
+  ws-headers:
+    Host: gw.alicdn.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.31.16.33-156_2@156
   network: ws
   port: 80
   server: 104.21.69.223
@@ -25,6 +38,19 @@ proxies:
   ws-headers:
     Host: de14.irteh.fun
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.201.186-185_2@183
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-headers:
+    Host: ca.ilovescp.com
+  ws-path: /shirker
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
