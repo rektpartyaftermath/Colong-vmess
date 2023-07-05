@@ -14,30 +14,46 @@ proxies:
   ws-path: /images
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.31.16.32-158_2@158
+  name: 🇺🇸US-47.254.89.211-139_2@139
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c
+  uuid: 203b2ab2-4994-4193-8193-6631a575edb0
   ws-headers:
-    Host: de14.irteh.fun
+    Host: us53.encrypted.my.id
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.64.69.121-194_2@192
+  name: 🏁RELAY-104.31.16.37-153_2@153
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
   ws-headers:
-    Host: ca.ilovescp.com
-  ws-path: /shirker
+    Host: de5.irteh.fun
+  ws-path: /i99LgvSaslbsPLLQQ7j6Z
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国->🇬🇧_GB_英国_5@8
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  ws-opts:
+    headers:
+      Host: uk1.scproxy.top
+    path: /shirker
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
