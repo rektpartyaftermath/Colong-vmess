@@ -16,48 +16,7 @@ proxies:
     path: 10ea07e1
 - alterId: 0
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】275_9@100
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
-  ws-opts:
-    headers:
-      Host: de5.irteh.fun
-    path: /i99LgvSaslbsPLLQQ7j6Z
-- alterId: 0
-  cipher: auto
-  name: 🇰🇿KZ-146.59.94.89-133_2@133
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e2feaff7-3ab3-4144-a31e-6bbce47bd353
-  ws-headers:
-    Host: p1.09vpn.com
-  ws-path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.18.2.198-138_2@138
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b236aba4-7f35-4ef8-b978-ed451608b8b6
-  ws-headers:
-    Host: nusa1.hijinetwork.cloud
-  ws-path: /tunnelvmess
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.67.101.147-139_2@139
+  name: 🏁RELAY-172.67.12.202-124_2@124
   network: ws
   port: 80
   server: 104.21.69.223
@@ -68,6 +27,19 @@ proxies:
   ws-headers:
     Host: ssrsub.v03.ssrsub.com
   ws-path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.18.2.198-127_2@127
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b236aba4-7f35-4ef8-b978-ed451608b8b6
+  ws-headers:
+    Host: nusa1.hijinetwork.cloud
+  ws-path: /tunnelvmess
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -317,19 +289,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-051_2@51
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  ws-headers:
-    Host: v116.v2dns.bar
-  ws-path: /v116-DtoEwAEX
-- alterId: 0
-  cipher: auto
   name: 🇭🇰_HK_香港_4_23@21_8@590
   network: ws
   port: 80
@@ -343,6 +302,44 @@ proxies:
     path: /zh-cn/
 - alterId: 0
   cipher: auto
+  name: 🇭🇰_HK_香港_2_24@33_8@623
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c9a56865-edcc-4989-a601-c42ced94c8f8
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】275_9@60
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
+  ws-opts:
+    headers:
+      Host: de5.irteh.fun
+    path: /i99LgvSaslbsPLLQQ7j6Z
+- alterId: 0
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-051_2@51
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  ws-headers:
+    Host: v116.v2dns.bar
+  ws-path: /v116-DtoEwAEX
+- alterId: 0
+  cipher: auto
   name: 🇦🇶NOWHERE-0.0.0.0-052_2@52
   network: ws
   port: 80
@@ -354,13 +351,3 @@ proxies:
   ws-headers:
     Host: v001.v2dns.bar
   ws-path: /a11-dCeBnloadPy
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港_2_24@33_8@623
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c9a56865-edcc-4989-a601-c42ced94c8f8
