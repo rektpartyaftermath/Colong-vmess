@@ -1,33 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-051_2@51
+  name: _JP_日本->🇺🇸_US_美国_0@8
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  ws-headers:
-    Host: v116.v2dns.bar
-  ws-path: /v116-DtoEwAEX
+  udp: true
+  uuid: 10ea07e1-417a-4bb2-88e2-72a8a0f9fcd6
+  ws-opts:
+    headers:
+      Host: dedi2.1808.cf
+    path: 10ea07e1
 - alterId: 0
   cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-052_2@52
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  ws-headers:
-    Host: v001.v2dns.bar
-  ws-path: /a11-dCeBnloadPy
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】275_9@123
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】275_9@100
   network: ws
   port: 80
   server: 104.21.69.223
@@ -42,20 +31,33 @@ proxies:
     path: /i99LgvSaslbsPLLQQ7j6Z
 - alterId: 0
   cipher: auto
-  name: 🇳🇱NL-143.47.182.76-130_2@130
+  name: 🇰🇿KZ-146.59.94.89-133_2@133
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 17eef31e-f2af-47d2-baed-fffc14366ab6
+  uuid: e2feaff7-3ab3-4144-a31e-6bbce47bd353
   ws-headers:
-    Host: br-bp.rnikjeh.shop
-  ws-path: /kSY4KXcsBmCgJEEFo3fkt9y4
+    Host: p1.09vpn.com
+  ws-path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.64.87.134-151_2@151
+  name: 🏁RELAY-104.18.2.198-138_2@138
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b236aba4-7f35-4ef8-b978-ed451608b8b6
+  ws-headers:
+    Host: nusa1.hijinetwork.cloud
+  ws-path: /tunnelvmess
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.101.147-139_2@139
   network: ws
   port: 80
   server: 104.21.69.223
@@ -64,7 +66,7 @@ proxies:
   type: vmess
   uuid: a5756853-4a80-468a-af62-10565918f58f
   ws-headers:
-    Host: ssrsub.v02.ssrsub.com
+    Host: ssrsub.v03.ssrsub.com
   ws-path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
@@ -141,21 +143,6 @@ proxies:
   udp: false
   uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
   ws-path: /anti13.zingfast.vn
-- alterId: 0
-  cipher: auto
-  name: _JP_日本->🇺🇸_US_美国_0@44
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 10ea07e1-417a-4bb2-88e2-72a8a0f9fcd6
-  ws-opts:
-    headers:
-      Host: dedi2.1808.cf
-    path: 10ea07e1
 - alterId: 0
   cipher: auto
   name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1_2@3_8@86
@@ -330,6 +317,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-051_2@51
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  ws-headers:
+    Host: v116.v2dns.bar
+  ws-path: /v116-DtoEwAEX
+- alterId: 0
+  cipher: auto
   name: 🇭🇰_HK_香港_4_23@21_8@590
   network: ws
   port: 80
@@ -341,6 +341,19 @@ proxies:
   uuid: ed1e7cc5-e0cf-424a-8e28-70ca305f26d3
   ws-opts:
     path: /zh-cn/
+- alterId: 0
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-052_2@52
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  ws-headers:
+    Host: v001.v2dns.bar
+  ws-path: /a11-dCeBnloadPy
 - alterId: 0
   cipher: auto
   name: 🇭🇰_HK_香港_2_24@33_8@623
