@@ -1,7 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】275_9@167
+  name: 🇦🇶NOWHERE-0.0.0.0-051_2@51
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  ws-headers:
+    Host: v116.v2dns.bar
+  ws-path: /v116-DtoEwAEX
+- alterId: 0
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-052_2@52
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  ws-headers:
+    Host: v001.v2dns.bar
+  ws-path: /a11-dCeBnloadPy
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】275_9@123
   network: ws
   port: 80
   server: 104.21.69.223
@@ -16,7 +42,20 @@ proxies:
     path: /i99LgvSaslbsPLLQQ7j6Z
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.64.165.197-181_2@181
+  name: 🇳🇱NL-143.47.182.76-130_2@130
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 17eef31e-f2af-47d2-baed-fffc14366ab6
+  ws-headers:
+    Host: br-bp.rnikjeh.shop
+  ws-path: /kSY4KXcsBmCgJEEFo3fkt9y4
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.64.87.134-151_2@151
   network: ws
   port: 80
   server: 104.21.69.223
@@ -104,6 +143,21 @@ proxies:
   ws-path: /anti13.zingfast.vn
 - alterId: 0
   cipher: auto
+  name: _JP_日本->🇺🇸_US_美国_0@44
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 10ea07e1-417a-4bb2-88e2-72a8a0f9fcd6
+  ws-opts:
+    headers:
+      Host: dedi2.1808.cf
+    path: 10ea07e1
+- alterId: 0
+  cipher: auto
   name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1_2@3_8@86
   network: ws
   port: 80
@@ -124,21 +178,6 @@ proxies:
   uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
   ws-opts:
     path: /hahuutung
-- alterId: 0
-  cipher: auto
-  name: _JP_日本->🇺🇸_US_美国_0@44
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 10ea07e1-417a-4bb2-88e2-72a8a0f9fcd6
-  ws-opts:
-    headers:
-      Host: dedi2.1808.cf
-    path: 10ea07e1
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1_6@0_8@192
