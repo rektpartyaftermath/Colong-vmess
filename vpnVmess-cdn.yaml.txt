@@ -1,45 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.18.3.198-167_2@165
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国->🇮🇳_IN_印度_5@21
   network: ws
   port: 80
   server: 104.21.69.223
-  skip-cert-verify: true
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: b236aba4-7f35-4ef8-b978-ed451608b8b6
-  ws-headers:
-    Host: nusa1.hijinetwork.cloud
-  ws-path: /tunnelvmess
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯(油管:破解资源君2.0)_4@2
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  ws-headers:
-    Host: v116.v2dns.bar
-  ws-path: /v116-DtoEwAEX
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯(油管:破解资源君2.0) 2_4@3
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  ws-headers:
-    Host: v001.v2dns.bar
-  ws-path: /a11-dCeBnloadPy
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  ws-opts:
+    headers:
+      Host: in.sharecentrepro.com
+    path: /shirker
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -55,22 +30,6 @@ proxies:
   ws-opts:
     headers:
       Host: lv3.sharecentrepro.org
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇮🇳_IN_印度_5@21
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
-  ws-opts:
-    headers:
-      Host: in.sharecentrepro.com
     path: /shirker
 - alterId: 0
   cipher: auto

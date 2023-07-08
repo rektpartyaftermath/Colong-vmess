@@ -148,14 +148,14 @@ proxies:
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 🇦🇶NOWHERE-0.0.0.0-077_2@77
+- name: 🇮🇹IT-93.46.8.90-077_2@77
   password: f5f239fc-d21a-45ba-aeaf-b137d7d730a6
   port: 30130
   server: gzyd1.52147.top
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 🇦🇶NOWHERE-0.0.0.0-078_2@78
+- name: 🇮🇹IT-93.46.8.90-078_2@78
   password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca
   port: 20120
   server: gzyd1.52147.top
@@ -183,7 +183,7 @@ proxies:
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 🇦🇶NOWHERE-0.0.0.0-088_2@88
+- name: 🇮🇹IT-93.46.8.90-088_2@88
   password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca
   port: 20060
   server: gzyd1.52147.top
@@ -197,7 +197,7 @@ proxies:
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 🇦🇶NOWHERE-0.0.0.0-090_2@90
+- name: 🇮🇹IT-93.46.8.90-090_2@90
   password: f5f239fc-d21a-45ba-aeaf-b137d7d730a6
   port: 30080
   server: gzyd1.52147.top
@@ -260,243 +260,41 @@ proxies:
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 🇹🇼TW-36.228.246.52-114_2@114
+- name: 🇹🇼TW-36.228.246.52-113_2@113
   password: c32c56fb-64d9-33c4-b42a-af81b7a33fe7
   port: 23330
   server: hnm.xiaohouzi.club
   skip-cert-verify: true
   type: trojan
   sni: graph.facebook.com
-- name: 🇯🇵JP-104.46.228.83-120_2@120
+- name: 🇯🇵JP-104.46.228.83-117_2@117
   password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc
   port: 443
   server: esjs.stablize.top
   skip-cert-verify: true
   type: trojan
   sni: graph.facebook.com
-- name: 🇸🇬SG-20.212.111.51-121_2@121
+- name: 🇸🇬SG-20.212.111.51-118_2@118
   password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc
   port: 443
   server: uk.stablize.top
   skip-cert-verify: true
   type: trojan
   sni: graph.facebook.com
-- name: 🇯🇵JP-20.222.34.149-123_2@123
+- name: 🇯🇵JP-20.222.34.149-122_2@122
   password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc
   port: 443
   server: aujs.stablize.top
   skip-cert-verify: true
   type: trojan
   sni: graph.facebook.com
-- client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 9_0@19
-  password: m8krTirthj
-  port: 20458
-  server: 216.52.59.50
-  skip-cert-verify: false
-  tfo: false
-  type: trojan
-  sni: graph.facebook.com
-- name: 美国(油管:破解资源君2.0) 6_4@11
-  password: da777aae-defb-41d0-a183-2c27da2b4677
+- name: 🇺🇸US-163.123.192.60-139_2@139
+  password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d
   port: 443
-  server: jgwdj3.gaox.ml
+  server: 163.123.192.60
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-  udp: true
-- name: 美国(油管:破解资源君2.0) 8_4@14
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  port: 443
-  server: fhcamd2.gaox.ml
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 欧洲(油管:破解资源君2.0) 5_4@20
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  port: 443
-  server: jgwxn4.gaox.ml
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 美国(油管:破解资源君2.0) 9_4@21
-  password: 2aef06f4-6fa1-3fe4-9c08-8bdbd2cefe4e
-  port: 32333
-  server: us1.jjzgy.live
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 美国(油管:破解资源君2.0) 12_4@25
-  password: AglrNchEnS
-  port: 19568
-  server: bai-piao-wang-zhe.us.567568.ml
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 美国(油管:破解资源君2.0) 14_4@28
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  port: 443
-  server: jgwdb4.gaox.ml
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 香港(油管:破解资源君2.0) 2_4@29
-  password: 7688df6f-bf65-3368-b55e-d78efea6a582
-  port: 32000
-  server: pp1.zhengzhongfeizhu.xyz
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 美国(油管:破解资源君2.0) 17_4@35
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  port: 443
-  server: jgwdb2.gaox.ml
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 亚洲(油管:破解资源君2.0) 3_4@36
-  password: eb2f8154-ff58-3b99-b393-28c8eecdbe64
-  port: 32003
-  server: pp1.zhengzhongfeizhu.xyz
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 亚洲(油管:破解资源君2.0) 4_4@37
-  password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c
-  port: 34002
-  server: pp1.zhengzhongfeizhu.xyz
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 亚洲(油管:破解资源君2.0) 5_4@38
-  password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c
-  port: 34003
-  server: pp1.zhengzhongfeizhu.xyz
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 香港(油管:破解资源君2.0) 3_4@39
-  password: 7688df6f-bf65-3368-b55e-d78efea6a582
-  port: 32002
-  server: pp1.zhengzhongfeizhu.xyz
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 美国(油管:破解资源君2.0) 19_4@42
-  password: 685022af-2086-454c-8725-8ff6b6ab1d13
-  port: 48240
-  server: bai-piao-wang-zhe10.98848.xyz
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 香港(油管:破解资源君2.0) 4_4@43
-  password: 2971161c-46af-4ac3-b9c3-409b2750a751
-  port: 44609
-  server: hkt.node.qchwnd.moe
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 日本(油管:破解资源君2.0)_4@44
-  password: c09eb137-bf68-4658-84e0-102d94b74168
-  port: 443
-  server: jgwdj4.gaox.ml
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 欧洲(油管:破解资源君2.0) 9_4@45
-  password: 71b55a84-3fac-4458-abff-eaad79219c91
-  port: 443
-  server: jgwld3.gaox.ml
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 欧洲(油管:破解资源君2.0) 10_4@46
-  password: 58d32c66-43b1-4561-9951-d87c9123774e
-  port: 443
-  server: jgwld4.gaox.ml
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 美国(油管:破解资源君2.0) 22_4@55
-  password: 685022af-2086-454c-8725-8ff6b6ab1d13
-  port: 50858
-  server: bai-piao-wang-zhe10.98848.xyz
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 美国(油管:破解资源君2.0) 23_4@62
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  port: 443
-  server: jgwcc2.gaox.ml
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 美国(油管:破解资源君2.0) 24_4@63
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  port: 443
-  server: jgwcc3.gaox.ml
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 香港(油管:破解资源君2.0) 10_4@67
-  password: 7688df6f-bf65-3368-b55e-d78efea6a582
-  port: 34000
-  server: pp1.zhengzhongfeizhu.xyz
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 香港(油管:破解资源君2.0) 11_4@68
-  password: 7688df6f-bf65-3368-b55e-d78efea6a582
-  port: 32001
-  server: pp1.zhengzhongfeizhu.xyz
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 香港(油管:破解资源君2.0) 12_4@69
-  password: 7688df6f-bf65-3368-b55e-d78efea6a582
-  port: 34001
-  server: pp1.zhengzhongfeizhu.xyz
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 美国(油管:破解资源君2.0) 27_4@70
-  password: 7688df6f-bf65-3368-b55e-d78efea6a582
-  port: 33001
-  server: pp1.zhengzhongfeizhu.xyz
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
-- name: 美国(油管:破解资源君2.0) 28_4@71
-  password: 4863e1b2-ec2f-4c71-b862-ce533028e57e
-  port: 443
-  server: trus.moonfree.top
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   name: 🇺🇸 _US_美国 4_5@4
   password: 979d272e-48b8-488c-ac68-623d1430d67e
@@ -507,14 +305,14 @@ proxies:
   tfo: false
   type: trojan
 - client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 18_5@35
-  password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca
-  port: 443
-  server: 163.123.192.60
+  name: 🇺🇸 _US_美国 9_0@19
+  password: m8krTirthj
+  port: 20458
+  server: 216.52.59.50
   skip-cert-verify: false
-  sni: graph.facebook.com
   tfo: false
   type: trojan
+  sni: graph.facebook.com
 - client-fingerprint: chrome
   name: 🇺🇸 _US_美国 21_5@41
   password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca
@@ -641,15 +439,6 @@ proxies:
   sni: graph.facebook.com
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 🇮🇳 _IN_印度_0@37
-  password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
-  port: 443
-  server: 152.70.74.66
-  skip-cert-verify: false
-  tfo: false
-  type: trojan
-  sni: graph.facebook.com
 - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@39_8@39
   network: tcp
   password: a3278882-3614-39cf-a3d6-faefa8c910ab
@@ -695,15 +484,6 @@ proxies:
   sni: graph.facebook.com
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 23_0@40
-  password: 6f9d4a83-4682-48d5-a217-7938860b0070
-  port: 443
-  server: 163.123.192.146
-  skip-cert-verify: false
-  sni: graph.facebook.com
-  tfo: false
-  type: trojan
 - name: 🇹🇼_TW_台湾->🇺🇸_US_美国_2_2@1_8@84
   network: tcp
   password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf
@@ -794,6 +574,15 @@ proxies:
   sni: graph.facebook.com
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: 🇮🇳 _IN_印度_0@37
+  password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
+  port: 443
+  server: 152.70.74.66
+  skip-cert-verify: false
+  tfo: false
+  type: trojan
+  sni: graph.facebook.com
 - name: 🇨🇳_CN_中国->🇯🇵_JP_日本_2_3@9_8@121
   network: tcp
   password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5
@@ -830,6 +619,15 @@ proxies:
   sni: graph.facebook.com
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 23_0@40
+  password: 6f9d4a83-4682-48d5-a217-7938860b0070
+  port: 443
+  server: 163.123.192.146
+  skip-cert-verify: false
+  sni: graph.facebook.com
+  tfo: false
+  type: trojan
 - name: 🇹🇼_TW_台湾_5@0_8@166
   network: tcp
   password: 017cc98c-79b8-3459-b7c5-359cee8e2093
@@ -902,15 +700,6 @@ proxies:
   type: trojan
   udp: true
   sni: graph.facebook.com
-- client-fingerprint: chrome
-  name: 🇹🇼 _JP_日本->🇹🇼_TW_台湾_1@6
-  password: 0e40fe8c-23d2-4dee-a9a4-25006da2d0bf
-  port: 443
-  server: ovotw.ovogreat.com
-  skip-cert-verify: false
-  tfo: false
-  type: trojan
-  sni: graph.facebook.com
 - name: 🇰🇷_KR_韩国_2_7@18_8@223
   network: tcp
   password: 26188b3e-c28e-4230-8bee-53d77ff5ff49
@@ -965,6 +754,15 @@ proxies:
   sni: graph.facebook.com
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: 🇹🇼 _JP_日本->🇹🇼_TW_台湾_1@6
+  password: 0e40fe8c-23d2-4dee-a9a4-25006da2d0bf
+  port: 443
+  server: ovotw.ovogreat.com
+  skip-cert-verify: false
+  tfo: false
+  type: trojan
+  sni: graph.facebook.com
 - name: 🇨🇳_CN_中国_1_10@6_8@294
   network: tcp
   password: 21e10785-99c6-316e-a184-a03384ee06e5
@@ -1271,15 +1069,6 @@ proxies:
   type: trojan
   udp: true
   sni: graph.facebook.com
-- client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 12_1@32
-  password: b9684bbc-bbd5-4d37-9620-ed69c938b5ca
-  port: 22200
-  server: us.nfsq.me
-  skip-cert-verify: false
-  sni: graph.facebook.com
-  tfo: false
-  type: trojan
 - name: 🇯🇵_JP_日本_1_18@6_8@456
   network: tcp
   password: 26188b3e-c28e-4230-8bee-53d77ff5ff49
@@ -1433,6 +1222,15 @@ proxies:
   type: trojan
   udp: true
   sni: graph.facebook.com
+- client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 12_1@32
+  password: b9684bbc-bbd5-4d37-9620-ed69c938b5ca
+  port: 22200
+  server: us.nfsq.me
+  skip-cert-verify: false
+  sni: graph.facebook.com
+  tfo: false
+  type: trojan
 - name: 🇯🇵_JP_日本_3_21@26_8@526
   network: tcp
   password: 4d106bd6-5d63-475a-9986-21ad3de1cf40
