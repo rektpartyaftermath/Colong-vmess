@@ -50,20 +50,7 @@ proxies:
   ws-path: /v116-DtoEwAEX
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW-1.162.28.174-209_2@209
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 04daec61-d0bc-4a62-90ef-f7c62f271ed0
-  ws-headers:
-    Host: v08.jiedian.stream
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.31.16.31-220_2@220
+  name: 🏁RELAY-104.31.16.47-251_2@249
   network: ws
   port: 80
   server: 104.21.69.223
@@ -76,30 +63,17 @@ proxies:
   ws-path: /i99LgvSaslbsPLLQQ7j6Z
 - alterId: 0
   cipher: auto
-  name: 🇸🇬SG-18.142.246.84-248_2@248
+  name: 🏁RELAY-162.159.200.31-255_2@253
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: f9c46bfc-63f5-46d3-9c80-413e98bb9c5e
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-headers:
-    Host: dl.delivery.mp.microsoft.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.67.252.67-272_2@270
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a5756853-4a80-468a-af62-10565918f58f
-  ws-headers:
-    Host: ssrsub.v03.ssrsub.com
-  ws-path: /api/v3/download.getFile
+    Host: dp4.scproxy.top
+  ws-path: /shirker
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
