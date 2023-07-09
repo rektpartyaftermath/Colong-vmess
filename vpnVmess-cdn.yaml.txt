@@ -1,20 +1,65 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇮🇳_IN_印度_5@21
+  name: 🇸🇬_SG_新加坡_7_21@27_8@527
   network: ws
   port: 80
   server: 104.21.69.223
-  skip-cert-verify: false
-  tfo: false
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  uuid: fceab4b1-5abd-4015-a165-aa694327b462
   ws-opts:
-    headers:
-      Host: in.sharecentrepro.com
-    path: /shirker
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_HK_香港_4_23@21_8@590
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  servername: hk80.sanfen001.pics
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ed1e7cc5-e0cf-424a-8e28-70ca305f26d3
+  ws-opts:
+    path: /zh-cn/
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_HK_香港_2_24@33_8@623
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c9a56865-edcc-4989-a601-c42ced94c8f8
+- alterId: 0
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-127_2@127
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  ws-headers:
+    Host: YouTube-aweikeji
+  ws-path: /a11-dCeBnloadPy
+- alterId: 0
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-133_2@133
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  ws-headers:
+    Host: v116.v2dns.bar
+  ws-path: /v116-DtoEwAEX
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -30,6 +75,61 @@ proxies:
   ws-opts:
     headers:
       Host: lv3.sharecentrepro.org
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-148.59.74.213-211_2@211
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6696f5f7-3cb3-4d24-a208-3d0be580a3e3
+  ws-headers:
+    Host: dl.delivery.mp.microsoft.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG-18.143.146.48-224_2@224
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f9c46bfc-63f5-46d3-9c80-413e98bb9c5e
+  ws-headers:
+    Host: dl.delivery.mp.microsoft.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.31.16.50-244_2@244
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
+  ws-headers:
+    Host: de5.irteh.fun
+  ws-path: /i99LgvSaslbsPLLQQ7j6Z
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国->🇮🇳_IN_印度_5@21
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  ws-opts:
+    headers:
+      Host: in.sharecentrepro.com
     path: /shirker
 - alterId: 0
   cipher: auto
@@ -250,53 +350,3 @@ proxies:
   uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c
   ws-opts:
     path: /yfjc/jp1
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬_SG_新加坡_7_21@27_8@527
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fceab4b1-5abd-4015-a165-aa694327b462
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港_4_23@21_8@590
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  servername: hk80.sanfen001.pics
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ed1e7cc5-e0cf-424a-8e28-70ca305f26d3
-  ws-opts:
-    path: /zh-cn/
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港_2_24@33_8@623
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c9a56865-edcc-4989-a601-c42ced94c8f8
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】275_9@58
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
-  ws-opts:
-    headers:
-      Host: de5.irteh.fun
-    path: /i99LgvSaslbsPLLQQ7j6Z
