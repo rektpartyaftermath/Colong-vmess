@@ -1,18 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇸🇬_SG_新加坡_7_21@27_8@527
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fceab4b1-5abd-4015-a165-aa694327b462
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇭🇰_HK_香港_4_23@21_8@590
   network: ws
   port: 80
@@ -62,36 +50,33 @@ proxies:
   ws-path: /v116-DtoEwAEX
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 11_0@21
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: lv3.sharecentrepro.org
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US-148.59.74.213-211_2@211
+  name: 🇹🇼TW-1.162.28.174-209_2@209
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 6696f5f7-3cb3-4d24-a208-3d0be580a3e3
+  uuid: 04daec61-d0bc-4a62-90ef-f7c62f271ed0
   ws-headers:
-    Host: dl.delivery.mp.microsoft.com
+    Host: v08.jiedian.stream
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🇸🇬SG-18.143.146.48-224_2@224
+  name: 🏁RELAY-104.31.16.31-220_2@220
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
+  ws-headers:
+    Host: de5.irteh.fun
+  ws-path: /i99LgvSaslbsPLLQQ7j6Z
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG-18.142.246.84-248_2@248
   network: ws
   port: 80
   server: 104.21.69.223
@@ -104,17 +89,17 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.31.16.50-244_2@244
+  name: 🏁RELAY-172.67.252.67-272_2@270
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
+  uuid: a5756853-4a80-468a-af62-10565918f58f
   ws-headers:
-    Host: de5.irteh.fun
-  ws-path: /i99LgvSaslbsPLLQQ7j6Z
+    Host: ssrsub.v03.ssrsub.com
+  ws-path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -350,3 +335,15 @@ proxies:
   uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c
   ws-opts:
     path: /yfjc/jp1
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬_SG_新加坡_7_21@27_8@527
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fceab4b1-5abd-4015-a165-aa694327b462
+  ws-opts:
+    path: /
