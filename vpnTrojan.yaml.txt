@@ -44,13 +44,6 @@ proxies:
   sni: graph.facebook.com
   type: trojan
   udp: true
-- name: 🇦🇶NOWHERE-0.0.0.0-058_2@58
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  port: 443
-  server: jgwdj3.gaox.ml
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
 - name: 🇯🇵_JP_日本_8_23@40_8@597
   network: tcp
   password: 0e84ec99-7f8e-48a0-9c5b-f546f505e550
@@ -69,6 +62,13 @@ proxies:
   sni: graph.facebook.com
   type: trojan
   udp: true
+- name: 🇦🇶NOWHERE-0.0.0.0-058_2@58
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  port: 443
+  server: jgwdj3.gaox.ml
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
 - name: 🇺🇸US-158.101.112.137-061_2@61
   password: cb5e2135-4d64-4454-be98-5bae4f2618d1
   port: 32462
@@ -97,6 +97,14 @@ proxies:
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
+- name: _NL_荷兰_0@15
+  password: 7a0de033-5bc6-475a-95e0-15bbbeeb95b0
+  port: 443
+  server: bgd---nl-2xy---6jinm7--cx.xn--9kq476ja.com
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+  udp: true
 - name: 🇦🇶NOWHERE-0.0.0.0-140_2@140
   password: c09eb137-bf68-4658-84e0-102d94b74168
   port: 443
@@ -104,10 +112,10 @@ proxies:
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: _CN_中国->🇺🇸_US_美国_0@18
-  password: 97d557df-6f6a-5bad-9483-600aba02da3a
-  port: 7308
-  server: us-08-cz2dg2.ferryhwp8ebm.com
+- name: _ID_印度尼西亚_0@20
+  password: c0d9da22-2569-4bed-a395-607d9e7ae687
+  port: 80
+  server: 103.169.7.11
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
@@ -147,42 +155,41 @@ proxies:
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 🇸🇬SG-4.193.52.226-235_2@233
+- name: 🇺🇸US-163.123.192.57-222_2@222
+  password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d
+  port: 443
+  server: 163.123.192.57
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: 🇸🇬SG-4.194.19.40-226_2@224
   password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc
   port: 443
   server: aujs.stablize.top
   skip-cert-verify: true
   type: trojan
   sni: graph.facebook.com
-- name: 🇮🇳IN-152.70.74.66-237_2@235
+- name: 🇮🇳IN-152.70.74.66-228_2@226
   password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
   port: 443
   server: 152.70.74.66
   skip-cert-verify: true
   type: trojan
   sni: graph.facebook.com
-- name: 🇹🇼TW-1.171.59.85-243_2@241
+- name: 🇹🇼TW-1.171.59.85-234_2@232
   password: c32c56fb-64d9-33c4-b42a-af81b7a33fe7
   port: 23330
   server: hnm.xiaohouzi.club
   skip-cert-verify: true
   type: trojan
   sni: graph.facebook.com
-- name: 🇯🇵JP-20.89.19.69-250_2@248
+- name: 🇭🇰HK-104.208.105.169-241_2@239
   password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc
   port: 443
   server: uk.stablize.top
   skip-cert-verify: true
   type: trojan
   sni: graph.facebook.com
-- name: _US_美国 23_0@30
-  password: d51f8335-4f7d-4d3a-acae-d65467b46502
-  port: 443
-  server: 163.123.192.145
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   name: 🇺🇸 _US_美国 4_5@4
   password: 979d272e-48b8-488c-ac68-623d1430d67e
@@ -192,20 +199,19 @@ proxies:
   sni: graph.facebook.com
   tfo: false
   type: trojan
+- name: _DE_德国_0@39
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 54.93.167.215
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: 🇺🇸 _US_美国 18_5@35
   password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca
   port: 443
   server: 163.123.192.60
-  skip-cert-verify: false
-  sni: graph.facebook.com
-  tfo: false
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 21_5@41
-  password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca
-  port: 443
-  server: 163.123.192.57
   skip-cert-verify: false
   sni: graph.facebook.com
   tfo: false
@@ -687,6 +693,15 @@ proxies:
   type: trojan
   udp: true
   sni: graph.facebook.com
+- client-fingerprint: chrome
+  name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2_1@29
+  password: 97d557df-6f6a-5bad-9483-600aba02da3a
+  port: 7308
+  server: us-08-cz2dg2.ferryhwp8ebm.com
+  skip-cert-verify: false
+  sni: graph.facebook.com
+  tfo: false
+  type: trojan
 - name: 🇨🇳_CN_中国_3_11@22_8@322
   network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
