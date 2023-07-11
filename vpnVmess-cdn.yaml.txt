@@ -24,59 +24,20 @@ proxies:
   uuid: c9a56865-edcc-4989-a601-c42ced94c8f8
 - alterId: 0
   cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-063_2@63
+  name: 🏁RELAY-172.67.24.250-121_2@121
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  uuid: a5756853-4a80-468a-af62-10565918f58f
   ws-headers:
-    Host: v116.v2dns.bar
-  ws-path: /v116-DtoEwAEX
+    Host: ssrsub.v03.ssrsub.com
+  ws-path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-072_2@72
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
-  ws-headers:
-    Host: su4.chaoxn.top
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-074_2@74
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
-  ws-headers:
-    Host: su10.chaoxn.top
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.67.149.59-203_2@203
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-headers:
-    Host: nl.sharecentrepro.com
-  ws-path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.31.16.32-253_2@251
+  name: 🏁RELAY-104.31.16.25-153_2@151
   network: ws
   port: 80
   server: 104.21.69.223
@@ -87,6 +48,20 @@ proxies:
   ws-headers:
     Host: de5.irteh.fun
   ws-path: /i99LgvSaslbsPLLQQ7j6Z
+- alterId: 0
+  cipher: auto
+  name: 美国(油管:破解资源君2.0) 16_4@25
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
+  ws-headers:
+    Host: su10.chaoxn.top
+  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -200,6 +175,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-064_2@64
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
+  ws-headers:
+    Host: su4.chaoxn.top
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 🇻🇳_VN_越南_7@35_8@232
   network: ws
   port: 80
@@ -285,6 +273,32 @@ proxies:
   uuid: dcea7f3e-98ba-4ac8-a294-5092dc381a57
   ws-opts:
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-093_2@93
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  ws-headers:
+    Host: YouTube-aweikeji
+  ws-path: /a11-dCeBnloadPy
+- alterId: 0
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-094_2@94
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  ws-headers:
+    Host: v116.v2dns.bar
+  ws-path: /v116-DtoEwAEX
 - alterId: 0
   cipher: auto
   name: 🇳🇱_NL_荷兰_6_20@24_8@503
