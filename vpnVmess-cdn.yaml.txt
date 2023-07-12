@@ -1,20 +1,85 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-190.93.246.15-131_2@131
+  name: 🇦🇶NOWHERE-0.0.0.0-129_2@129
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
   ws-headers:
-    Host: dp3.scproxy.top
-  ws-path: /shirker
+    Host: su11.chaoxn.top
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.31.16.32-136_2@136
+  name: 🇦🇶NOWHERE-0.0.0.0-149_2@149
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  ws-headers:
+    Host: v116.v2dns.bar
+  ws-path: /v116-DtoEwAEX
+- alterId: 0
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-152_2@152
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
+  ws-headers:
+    Host: su4.chaoxn.top
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-166_2@166
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
+  ws-headers:
+    Host: su10.chaoxn.top
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-174_2@174
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  ws-headers:
+    Host: YouTube-aweikeji
+  ws-path: /a11-dCeBnloadPy
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-198.41.215.191-181_2@181
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a5756853-4a80-468a-af62-10565918f58f
+  ws-headers:
+    Host: ssrsub.v03.ssrsub.com
+  ws-path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.31.16.50-191_2@191
   network: ws
   port: 80
   server: 104.21.69.223
@@ -25,19 +90,6 @@ proxies:
   ws-headers:
     Host: de5.irteh.fun
   ws-path: /i99LgvSaslbsPLLQQ7j6Z
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷KR-13.124.164.156-148_2@148
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1180f539-dd5e-47fc-94ca-11069438c8a3
-  ws-headers:
-    Host: a26.2e5bf271.win
-  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -174,6 +226,19 @@ proxies:
     path: /zh-cn/
 - alterId: 0
   cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-064_2@64
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 542297e7-1070-48f6-a357-00cce33c6a36
+  ws-headers:
+    Host: aws.circloud123.com
+  ws-path: /sometimesnaive
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇬🇧_GB_英国_12@15_8@340
   network: ws
   port: 80
@@ -196,6 +261,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 799d4bec-7067-41b2-a17c-197e09ce7c15
+- alterId: 2
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-072_2@72
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    Host: 527hk1.fans8.xyz
+  ws-path: /ray
 - alterId: 0
   cipher: auto
   name: 🇮🇩_ID_印度尼西亚_2_15@30_8@411
@@ -236,19 +314,6 @@ proxies:
   uuid: dcea7f3e-98ba-4ac8-a294-5092dc381a57
   ws-opts:
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-064_2@64
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
-  ws-headers:
-    Host: su4.chaoxn.top
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 🇳🇱_NL_荷兰_6_20@24_8@503
@@ -321,29 +386,3 @@ proxies:
   tls: false
   type: vmess
   uuid: c9a56865-edcc-4989-a601-c42ced94c8f8
-- alterId: 0
-  cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-093_2@93
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  ws-headers:
-    Host: YouTube-aweikeji
-  ws-path: /a11-dCeBnloadPy
-- alterId: 0
-  cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-094_2@94
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  ws-headers:
-    Host: v116.v2dns.bar
-  ws-path: /v116-DtoEwAEX
