@@ -66,7 +66,20 @@ proxies:
   ws-path: /a11-dCeBnloadPy
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.31.16.50-210_2@210
+  name: 🏁RELAY-172.64.80.1-187_2@187
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ea382c86-60ec-47c0-86ba-4f74b53761b4
+  ws-headers:
+    Host: jp2.mlxg.org
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.31.16.38-202_2@202
   network: ws
   port: 80
   server: 104.21.69.223
@@ -154,6 +167,16 @@ proxies:
   ws-path: /anti13.zingfast.vn
 - alterId: 0
   cipher: auto
+  name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1_2@3_8@86
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
+- alterId: 0
+  cipher: auto
   name: _US_美国 23_0@37
   network: ws
   port: 80
@@ -167,16 +190,6 @@ proxies:
     headers:
       Host: dp3.scproxy.top
     path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1_2@3_8@86
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
 - alterId: 0
   cipher: auto
   name: 🇻🇳_VN_越南_2@45_8@112
@@ -228,19 +241,6 @@ proxies:
     path: /zh-cn/
 - alterId: 0
   cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-064_2@64
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 542297e7-1070-48f6-a357-00cce33c6a36
-  ws-headers:
-    Host: aws.circloud123.com
-  ws-path: /sometimesnaive
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国->🇬🇧_GB_英国_12@15_8@340
   network: ws
   port: 80
@@ -263,19 +263,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 799d4bec-7067-41b2-a17c-197e09ce7c15
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-072_2@72
+  name: 🇦🇶NOWHERE-0.0.0.0-064_2@64
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  uuid: 542297e7-1070-48f6-a357-00cce33c6a36
   ws-headers:
-    Host: 527hk1.fans8.xyz
-  ws-path: /ray
+    Host: aws.circloud123.com
+  ws-path: /sometimesnaive
 - alterId: 0
   cipher: auto
   name: 🇮🇩_ID_印度尼西亚_2_15@30_8@411
@@ -316,6 +316,19 @@ proxies:
   uuid: dcea7f3e-98ba-4ac8-a294-5092dc381a57
   ws-opts:
     path: /zh-cn
+- alterId: 2
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-072_2@72
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    Host: 527hk1.fans8.xyz
+  ws-path: /ray
 - alterId: 0
   cipher: auto
   name: 🇳🇱_NL_荷兰_6_20@24_8@503
