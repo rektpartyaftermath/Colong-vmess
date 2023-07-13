@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-129_2@129
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
-  ws-headers:
-    Host: su11.chaoxn.top
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-149_2@149
+  name: 🇦🇶NOWHERE-0.0.0.0-127_2@127
   network: ws
   port: 80
   server: 104.21.69.223
@@ -25,48 +12,22 @@ proxies:
   ws-headers:
     Host: v116.v2dns.bar
   ws-path: /v116-DtoEwAEX
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-152_2@152
+  name: 🇦🇶NOWHERE-0.0.0.0-140_2@140
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
   ws-headers:
-    Host: su4.chaoxn.top
-  ws-path: /
+    Host: 527hk1.fans8.xyz
+  ws-path: /ray
 - alterId: 0
   cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-166_2@166
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
-  ws-headers:
-    Host: su10.chaoxn.top
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-174_2@174
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  ws-headers:
-    Host: YouTube-aweikeji
-  ws-path: /a11-dCeBnloadPy
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.64.80.1-187_2@187
+  name: 🏁RELAY-172.67.172.71-179_2@179
   network: ws
   port: 80
   server: 104.21.69.223
@@ -79,17 +40,60 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.31.16.38-202_2@202
+  name: 新加坡(油管:破解资源君2.0)_4@15
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 542297e7-1070-48f6-a357-00cce33c6a36
+  ws-headers:
+    Host: aws.circloud123.com
+  ws-path: /sometimesnaive
+- alterId: 0
+  cipher: auto
+  name: 美国(油管:破解资源君2.0) 3_4@80
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
+  udp: true
+  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
   ws-headers:
-    Host: de5.irteh.fun
-  ws-path: /i99LgvSaslbsPLLQQ7j6Z
+    Host: su11.chaoxn.top
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 美国(油管:破解资源君2.0) 26_4@103
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
+  ws-headers:
+    Host: su4.chaoxn.top
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 美国(油管:破解资源君2.0) 40_4@117
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
+  ws-headers:
+    Host: su10.chaoxn.top
+  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -167,16 +171,6 @@ proxies:
   ws-path: /anti13.zingfast.vn
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1_2@3_8@86
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
-- alterId: 0
-  cipher: auto
   name: _US_美国 23_0@37
   network: ws
   port: 80
@@ -190,6 +184,16 @@ proxies:
     headers:
       Host: dp3.scproxy.top
     path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1_2@3_8@86
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
 - alterId: 0
   cipher: auto
   name: 🇻🇳_VN_越南_2@45_8@112
@@ -228,6 +232,19 @@ proxies:
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
 - alterId: 0
   cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-051_2@51
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  ws-headers:
+    Host: v001.v2dns.bar
+  ws-path: /a11-dCeBnloadPy
+- alterId: 0
+  cipher: auto
   name: 🇭🇰_HK_香港_4_9@33_8@286
   network: ws
   port: 80
@@ -263,19 +280,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 799d4bec-7067-41b2-a17c-197e09ce7c15
-- alterId: 0
-  cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-064_2@64
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 542297e7-1070-48f6-a357-00cce33c6a36
-  ws-headers:
-    Host: aws.circloud123.com
-  ws-path: /sometimesnaive
 - alterId: 0
   cipher: auto
   name: 🇮🇩_ID_印度尼西亚_2_15@30_8@411
@@ -316,19 +320,6 @@ proxies:
   uuid: dcea7f3e-98ba-4ac8-a294-5092dc381a57
   ws-opts:
     path: /zh-cn
-- alterId: 2
-  cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-072_2@72
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-  ws-headers:
-    Host: 527hk1.fans8.xyz
-  ws-path: /ray
 - alterId: 0
   cipher: auto
   name: 🇳🇱_NL_荷兰_6_20@24_8@503
