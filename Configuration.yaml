@@ -17,24 +17,6 @@ rule-providers:
     path: "./rule_personalads.yaml"
     url: https://raw.githubusercontent.com/rektpartyaftermath/Colong-vmess/main/rule_personalads.yaml
     interval: 86400
-  ProvTrojan:
-    type: http
-    behavior: classical
-    path: "./vpnTrojan.yaml"
-    url: https://raw.githubusercontent.com/rektpartyaftermath/Colong-vmess/main/vpnTrojan.yaml.txt
-    interval: 18000
-  ProvVmess:
-    type: http
-    behavior: classical
-    path: "./vpnVmess.yaml"
-    url: https://raw.githubusercontent.com/rektpartyaftermath/Colong-vmess/main/vpnVmess.yaml.txt
-    interval: 18000
-  ProvVmessCDN:
-    type: http
-    behavior: classical
-    path: "./vpnVmessCDN.yaml"
-    url: https://raw.githubusercontent.com/rektpartyaftermath/Colong-vmess/main/vpnVmess-cdn.yaml.txt
-    interval: 18000
 proxy-providers:
  Akun-VmessCDN:
     type: http
