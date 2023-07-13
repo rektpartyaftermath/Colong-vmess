@@ -37,21 +37,24 @@ rule-providers:
     interval: 18000
 proxy-providers:
  Akun-VmessCDN:
-    type: file
+    type: http
+    url: https://raw.githubusercontent.com/rektpartyaftermath/Colong-vmess/main/vpnVmess-cdn.yaml.txt
     path: "./vpnVmessCDN.yaml"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: '30'
  Akun-Vmess:
-    type: file
+    type: http
+    url: https://raw.githubusercontent.com/rektpartyaftermath/Colong-vmess/main/vpnVmess.yaml.txt
     path: "./vpnVmess.yaml"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: '30'
  Akun-Trojan:
-    type: file
+    type: http
+    url: https://raw.githubusercontent.com/rektpartyaftermath/Colong-vmess/main/vpnTrojan.yaml.txt
     path: "./vpnTrojan.yaml"
     health-check:
       enable: true
