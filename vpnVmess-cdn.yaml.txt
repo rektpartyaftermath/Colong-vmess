@@ -27,7 +27,20 @@ proxies:
   ws-path: /ray
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.172.71-179_2@179
+  name: 🏁RELAY-198.41.223.180-180_2@180
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-headers:
+    Host: dp3.scproxy.top
+  ws-path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.172.71-225_2@223
   network: ws
   port: 80
   server: 104.21.69.223
@@ -37,62 +50,6 @@ proxies:
   uuid: ea382c86-60ec-47c0-86ba-4f74b53761b4
   ws-headers:
     Host: jp2.mlxg.org
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡(油管:破解资源君2.0)_4@15
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 542297e7-1070-48f6-a357-00cce33c6a36
-  ws-headers:
-    Host: aws.circloud123.com
-  ws-path: /sometimesnaive
-- alterId: 0
-  cipher: auto
-  name: 美国(油管:破解资源君2.0) 3_4@80
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
-  ws-headers:
-    Host: su11.chaoxn.top
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 美国(油管:破解资源君2.0) 26_4@103
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
-  ws-headers:
-    Host: su4.chaoxn.top
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 美国(油管:破解资源君2.0) 40_4@117
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
-  ws-headers:
-    Host: su10.chaoxn.top
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -169,21 +126,6 @@ proxies:
   udp: false
   uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
   ws-path: /anti13.zingfast.vn
-- alterId: 0
-  cipher: auto
-  name: _US_美国 23_0@37
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: dp3.scproxy.top
-    path: /shirker
 - alterId: 0
   cipher: auto
   name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1_2@3_8@86
