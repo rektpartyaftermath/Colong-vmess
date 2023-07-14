@@ -14,6 +14,32 @@ proxies:
   ws-path: /a11-dCeBnloadPy
 - alterId: 0
   cipher: auto
+  name: 🏁RELAY-104.31.16.44-187_2@187
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
+  ws-headers:
+    Host: de5.irteh.fun
+  ws-path: /i99LgvSaslbsPLLQQ7j6Z
+- alterId: 0
+  cipher: auto
+  name: 🇦🇶CLOUDFRONT-18.154.207.30-214_2@214
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 15ffede6-52fc-4336-9a14-fadfd36f192f
+  ws-headers:
+    Host: dh6o13fm1a0bv.cloudfront.net
+  ws-path: /coco/15
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 🇺🇸 _US_美国->🇮🇳_IN_印度_5@21
   network: ws
