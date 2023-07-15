@@ -1,4 +1,17 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 🇦🇶NOWHERE-0.0.0.0-095_2@95
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    Host: 527hk1.fans8.xyz
+  ws-path: /ray
 - alterId: 0
   cipher: auto
   name: 🇦🇶NOWHERE-0.0.0.0-168_2@168
@@ -14,7 +27,7 @@ proxies:
   ws-path: /a11-dCeBnloadPy
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.31.16.44-187_2@187
+  name: 🏁RELAY-104.31.16.27-180_2@180
   network: ws
   port: 80
   server: 104.21.69.223
@@ -27,17 +40,19 @@ proxies:
   ws-path: /i99LgvSaslbsPLLQQ7j6Z
 - alterId: 0
   cipher: auto
-  name: 🇦🇶CLOUDFRONT-18.154.207.30-214_2@214
+  name: _US_美国 16_0@26
   network: ws
   port: 80
   server: 104.21.69.223
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 15ffede6-52fc-4336-9a14-fadfd36f192f
-  ws-headers:
-    Host: dh6o13fm1a0bv.cloudfront.net
-  ws-path: /coco/15
+  udp: true
+  uuid: 8216e1fd-7f67-440d-9a63-51d0f6c38b10
+  ws-opts:
+    headers:
+      Host: jp3.sanfencdn2.com
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -102,21 +117,6 @@ proxies:
     headers:
       Host: dp3.scproxy.top
     path: /shirker
-- alterId: 0
-  cipher: auto
-  name: _US_美国 16_0@26
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8216e1fd-7f67-440d-9a63-51d0f6c38b10
-  ws-opts:
-    headers:
-      Host: jp3.sanfencdn2.com
-    path: /zh-cn
 - alterId: 4
   cipher: auto
   name: 🇳🇴挪威-0-0-v2ray-sg4.zingfast.vn:80_7@12
@@ -145,16 +145,6 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1_2@3_8@86
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
-- alterId: 0
-  cipher: auto
   name: _US_美国 24_0@37
   network: ws
   port: 80
@@ -168,6 +158,16 @@ proxies:
     headers:
       Host: dp3.scproxy.top
     path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1_2@3_8@86
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2d221593-9af0-4391-ba40-9c88b501aa36
 - alterId: 0
   cipher: auto
   name: 🇻🇳_VN_越南_2@45_8@112
@@ -353,16 +353,3 @@ proxies:
   tls: false
   type: vmess
   uuid: c9a56865-edcc-4989-a601-c42ced94c8f8
-- alterId: 2
-  cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-095_2@95
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-  ws-headers:
-    Host: 527hk1.fans8.xyz
-  ws-path: /ray
