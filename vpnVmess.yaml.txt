@@ -1,7 +1,7 @@
 proxies:
 - alterId: 4
   cipher: auto
-  name: AU8_@-xx109
+  name: AU8_@-xx114
   network: ws
   port: 443
   server: 52.63.61.80
@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: RELAY98_@-xx110
+  name: RELAY98_@-xx115
   network: ws
   port: 443
   server: 198.41.212.3
@@ -33,7 +33,7 @@ proxies:
   udp: true
 - alterId: 4
   cipher: auto
-  name: AU_@-xx114
+  name: AU8_@8-xx119
   network: ws
   port: 443
   server: Ze9baeS5.com
@@ -49,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: RELAY98_@-xx115
+  name: RELAY988_@8-xx120
   network: ws
   port: 443
   server: 198.41.212.234
@@ -65,7 +65,7 @@ proxies:
   udp: true
 - alterId: 4
   cipher: auto
-  name: NOWHERE8_@8-xx116
+  name: NOWHERE8_@8-xx121
   network: ws
   port: 443
   server: usa-dallas.lvuft.com
@@ -81,7 +81,7 @@ proxies:
   udp: true
 - alterId: 4
   cipher: auto
-  name: NOWHERE9_@9-xx117
+  name: NOWHERE8_@8-xx122
   network: ws
   port: 443
   server: dax6ujai.com
@@ -97,7 +97,7 @@ proxies:
   udp: true
 - alterId: 4
   cipher: auto
-  name: US8_@-xx123
+  name: US89_@9-xx128
   network: ws
   port: 443
   server: 45.58.150.130
@@ -113,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: NOWHERE_@-xx155
+  name: NOWHERE_@-xx160
   network: ws
   port: 443
   server: sw.oracleusa.ml
@@ -129,7 +129,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: LU8_@-xx161
+  name: LU88_@8-xx166
   network: ws
   port: 443
   server: 202.78.162.5
@@ -145,7 +145,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: FASTLY_@-xx170
+  name: FASTLY99_@9-xx175
   network: ws
   port: 443
   server: gov.uk
@@ -161,7 +161,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: NOWHERE8_@8-xx177
+  name: NOWHERE_@-xx182
   network: ws
   port: 443
   server: aaaa.wxx.gay
@@ -177,7 +177,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: RELAY888_@8-xx179
+  name: RELAY98_@8-xx184
   network: ws
   port: 443
   server: hkd1.quickerlink.xyz
@@ -193,7 +193,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx254
+  name: _@-xx255
   network: ws
   port: 443
   server: 150.136.241.40
@@ -209,7 +209,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx262
+  name: _@-xx263
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -225,7 +225,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@-xx270
+  name: _@-xx271
   network: ws
   port: 443
   server: 142.171.79.130
@@ -241,7 +241,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx277
+  name: _@-xx278
   network: ws
   port: 443
   server: aliyunhk01.caliburnonline.work
@@ -257,7 +257,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx288
+  name: _@8-xx289
   network: ws
   port: 443
   server: wachk01.caliburnonline.work
@@ -271,9 +271,41 @@ proxies:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
+- alterId: 64
+  cipher: auto
+  name: _@9-xx298
+  network: ws
+  port: 443
+  server: 142.171.238.20
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/271624282113
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: _@9-xx300
+  network: ws
+  port: 443
+  server: 142.171.25.132
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/271624282113
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
 - alterId: 4
   cipher: auto
-  name: US_@-xx67
+  name: US_@-xx72
   network: ws
   port: 443
   server: 104.166.135.10
