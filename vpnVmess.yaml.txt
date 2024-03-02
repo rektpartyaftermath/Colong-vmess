@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: _@-xx175
+  name: _@-xx162
   network: ws
   port: 443
   server: 150.136.241.40
@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx183
+  name: _@-xx170
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -33,7 +33,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@-xx191
+  name: _@-xx178
   network: ws
   port: 443
   server: 142.171.79.130
@@ -49,10 +49,26 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx199
+  name: _@-xx186
   network: ws
   port: 443
   server: aliyunhk01.caliburnonline.work
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0e467df7-0ce8-45f3-8820-16af4451a079
+  ws-opts:
+    path: /oscarspy
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: _@8-xx198
+  network: ws
+  port: 443
+  server: wachk01.caliburnonline.work
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -79,25 +95,9 @@ proxies:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
-- alterId: 0
-  cipher: auto
-  name: _@8-xx211
-  network: ws
-  port: 443
-  server: wachk01.caliburnonline.work
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 0e467df7-0ce8-45f3-8820-16af4451a079
-  ws-opts:
-    path: /oscarspy
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
 - alterId: 64
   cipher: auto
-  name: _@9-xx221
+  name: _@9-xx207
   network: ws
   port: 443
   server: 142.171.238.20
@@ -113,7 +113,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@9-xx223
+  name: _@9-xx209
   network: ws
   port: 443
   server: 142.171.25.132
@@ -129,7 +129,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@-xx235
+  name: 8_@-xx221
   network: ws
   port: 443
   server: 198.41.212.234
@@ -145,7 +145,7 @@ proxies:
   udp: true
 - alterId: 4
   cipher: auto
-  name: _@8-xx236
+  name: _@8-xx222
   network: ws
   port: 443
   server: Ze9baeS5.com
@@ -161,7 +161,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx247
+  name: _@9-xx232
   network: ws
   port: 443
   server: 104.21.20.16
@@ -171,6 +171,38 @@ proxies:
   uuid: 802c1068-ee2b-4c87-b49d-e7f3043e75d2
   ws-opts:
     path: /vmess
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: _@-xx237
+  network: ws
+  port: 443
+  server: 104.156.141.99
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/271624282113
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 4
+  cipher: auto
+  name: _@-xx240
+  network: ws
+  port: 443
+  server: 192.96.204.250
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    path: /ws
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
@@ -225,7 +257,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: FASTLY9_@9-xx83
+  name: FASTLY89_@9-xx83
   network: ws
   port: 443
   server: gov.uk
