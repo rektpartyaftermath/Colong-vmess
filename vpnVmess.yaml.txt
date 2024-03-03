@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: _@-xx174
+  name: _@-xx169
   network: ws
   port: 443
   server: 150.136.241.40
@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx182
+  name: _@-xx177
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -33,7 +33,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@-xx190
+  name: _@-xx185
   network: ws
   port: 443
   server: 142.171.79.130
@@ -49,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx198
+  name: _@-xx193
   network: ws
   port: 443
   server: aliyunhk01.caliburnonline.work
@@ -65,7 +65,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx210
+  name: _@8-xx205
   network: ws
   port: 443
   server: wachk01.caliburnonline.work
@@ -81,7 +81,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@9-xx219
+  name: _@9-xx215
   network: ws
   port: 443
   server: 142.171.238.20
@@ -97,7 +97,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@9-xx221
+  name: _@9-xx217
   network: ws
   port: 443
   server: 142.171.25.132
@@ -113,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@-xx233
+  name: 8_@-xx229
   network: ws
   port: 443
   server: 198.41.212.234
@@ -129,7 +129,7 @@ proxies:
   udp: true
 - alterId: 4
   cipher: auto
-  name: _@8-xx234
+  name: _@8-xx230
   network: ws
   port: 443
   server: Ze9baeS5.com
@@ -145,7 +145,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx245
+  name: _@9-xx241
   network: ws
   port: 443
   server: 104.21.20.16
@@ -161,7 +161,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@-xx250
+  name: _@-xx245
   network: ws
   port: 443
   server: 104.156.141.99
@@ -177,7 +177,7 @@ proxies:
   udp: true
 - alterId: 4
   cipher: auto
-  name: _@-xx252
+  name: _@-xx248
   network: ws
   port: 443
   server: 192.96.204.250
@@ -193,7 +193,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx271
+  name: _@-xx267
   network: ws
   port: 443
   server: www.visa.com.sg
@@ -209,7 +209,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx273
+  name: _@9-xx268
   network: ws
   port: 443
   server: 104.31.16.136
@@ -219,6 +219,22 @@ proxies:
   uuid: 1b0e2ce3-0cc1-459f-9b13-101f29dbabed
   ws-opts:
     path: /elhm
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: _@-xx281
+  network: ws
+  port: 443
+  server: irene.lat
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
@@ -305,7 +321,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: FASTLY_@-xx85
+  name: FASTLY9_@-xx85
   network: ws
   port: 443
   server: gov.uk

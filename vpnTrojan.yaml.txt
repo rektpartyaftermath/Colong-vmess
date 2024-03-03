@@ -13,147 +13,98 @@ proxies:
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: RELAY889998_@8-xx101
-  password: a6292090-afe1-4640-97a7-4f1d1d877cf1
-  port: 443
-  server: 188.114.99.29
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: KZ9_@-xx103
-  password: 62011b3d-2706-4a97-98b7-9986003c5fe0
-  port: 443
-  server: 95.164.114.43
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: IE88_@-xx104
-  password: telegram-id-privatevpns
-  port: 443
-  server: 108.128.237.101
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: SE888_@8-xx108
+- name: US9_@-xx100
   password: telegram-id-directvpn
   port: 443
-  server: 13.48.76.18
+  server: 3.143.19.216
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: RU8_@-xx111
-  password: c2b601d3-6a75-499d-adfd-a7a4e57b2771
-  port: 443
-  server: 185.22.154.254
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: DE899_@-xx113
+- name: US99_@9-xx104
   password: telegram-id-directvpn
   port: 443
-  server: 3.77.84.199
+  server: 107.22.239.101
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: TW8_@-xx114
-  password: 645f0af0-dec8-48db-862f-82b6346408b4
+- name: GB_@-xx110
+  password: telegram-id-directvpn
   port: 443
-  server: 114.45.76.8
+  server: 13.43.246.34
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: IE_@-xx115
+- name: IE_@-xx111
   password: telegram-id-privatevpns
   port: 443
-  server: 63.33.75.225
+  server: 54.74.172.115
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: IT9_@-xx116
-  password: 31583130-de1f-44ce-a433-1dbb108e1846
+- name: ES9_@-xx115
+  password: e2486b91-71a6-421b-9d53-3c080fb0edb8
   port: 443
-  server: it-full.privateip.net
+  server: es-full.privateip.net
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: TW88_@-xx117
-  password: 645f0af0-dec8-48db-862f-82b6346408b4
-  port: 443
-  server: ty12t.twty.dynu.net
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: SE88_@-xx120
+- name: FR_@-xx120
   password: telegram-id-privatevpns
   port: 443
-  server: 13.48.157.138
+  server: 51.44.30.166
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: RELAY_@-xx121
-  password: 6a7f8f96-d8cb-41b9-a39b-dcc9e6981412
+- name: RELAY9_@-xx121
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 172.67.132.6
+  server: 104.16.192.146
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: TW8998_@-xx122
-  password: 645f0af0-dec8-48db-862f-82b6346408b4
-  port: 443
-  server: 61.228.179.198
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: FR89_@-xx124
+- name: FR89_@-xx122
   password: telegram-id-privatevpns
   port: 443
   server: 13.38.153.192
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: TW_@-xx126
-  password: 645f0af0-dec8-48db-862f-82b6346408b4
+- name: SE9_@8-xx126
+  password: telegram-id-directvpn
   port: 443
-  server: ty11t.twty.dynu.net
+  server: 51.21.114.201
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: RELAY_@-xx129
-  password: a6292090-afe1-4640-97a7-4f1d1d877cf1
-  port: 443
-  server: 104.25.255.254
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: _@-xx132
+- name: _@-xx127
   password: 2a9abeb7-6f97-4d33-9069-f6e009d88455
   port: 443
   server: 5.104.108.120
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: _@-xx133
+- name: _@-xx128
   password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   port: 443
   server: tw01.trojanyyds.xyz
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: _@-xx134
+- name: _@-xx129
   password: b59ee60f-9fa4-4770-b6a7-288620147f60
   port: 443
   server: 192.65.217.247
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: _@-xx136
+- name: _@-xx131
   password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
   port: 443
   server: 89.116.180.158
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: _@-xx137
+- name: _@-xx132
   password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
   port: 443
   server: 104.17.175.159
@@ -167,35 +118,28 @@ proxies:
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: _@-xx248
-  password: e2486b91-71a6-421b-9d53-3c080fb0edb8
-  port: 443
-  server: es-full.privateip.net
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: _@8-xx263
+- name: _@8-xx259
   password: 62011b3d-2706-4a97-98b7-9986003c5fe0
   port: 443
   server: kz-full.privateip.net
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: _IE__@-xx284
-  password: telegram-id-privatevpns
+- name: jdyviplink_9@-xx309
+  password: 31583130-de1f-44ce-a433-1dbb108e1846
   port: 443
-  server: 52.48.93.169
+  server: it-full.privateip.net
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: jdyviplink_9@-xx310
+- name: jdyviplink_9@-xx311
   password: 01f378e3-16fb-41ba-be7e-e23a7813275e
   port: 443
   server: tr-full.privateip.net
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: RELAY9_@-xx98
+- name: RELAY9_@-xx97
   password: e8105dfd24414268b6c7652c63731097
   port: 443
   server: 104.16.192.155
