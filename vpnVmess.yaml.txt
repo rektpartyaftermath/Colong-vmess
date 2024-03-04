@@ -1,7 +1,39 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: _@-xx169
+  name: RELAY_@-xx101
+  network: ws
+  port: 443
+  server: muriel.makeup
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US9_@-xx105
+  network: ws
+  port: 443
+  server: vir7.256709394.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c2f44a87-2af1-4e80-a307-8ff932e33e34
+  ws-opts:
+    path: /TB2omNq2eGZGgT
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: _@-xx161
   network: ws
   port: 443
   server: 150.136.241.40
@@ -17,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx177
+  name: _@-xx169
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -33,7 +65,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@-xx185
+  name: _@-xx177
   network: ws
   port: 443
   server: 142.171.79.130
@@ -49,7 +81,23 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx193
+  name: _US___@-xx18
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: _@-xx185
   network: ws
   port: 443
   server: aliyunhk01.caliburnonline.work
@@ -65,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx205
+  name: _@8-xx197
   network: ws
   port: 443
   server: wachk01.caliburnonline.work
@@ -81,7 +129,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@9-xx215
+  name: _@9-xx207
   network: ws
   port: 443
   server: 142.171.238.20
@@ -97,7 +145,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@9-xx217
+  name: _@9-xx209
   network: ws
   port: 443
   server: 142.171.25.132
@@ -113,7 +161,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@-xx229
+  name: 8_@-xx221
   network: ws
   port: 443
   server: 198.41.212.234
@@ -129,7 +177,7 @@ proxies:
   udp: true
 - alterId: 4
   cipher: auto
-  name: _@8-xx230
+  name: _@8-xx222
   network: ws
   port: 443
   server: Ze9baeS5.com
@@ -145,7 +193,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx241
+  name: _@9-xx233
   network: ws
   port: 443
   server: 104.21.20.16
@@ -161,7 +209,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@-xx245
+  name: _@-xx238
   network: ws
   port: 443
   server: 104.156.141.99
@@ -177,7 +225,7 @@ proxies:
   udp: true
 - alterId: 4
   cipher: auto
-  name: _@-xx248
+  name: _@-xx241
   network: ws
   port: 443
   server: 192.96.204.250
@@ -193,7 +241,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx267
+  name: _@-xx259
   network: ws
   port: 443
   server: www.visa.com.sg
@@ -207,9 +255,25 @@ proxies:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
+- alterId: 64
+  cipher: auto
+  name: NOWHERE8_@8-xx26
+  network: ws
+  port: 443
+  server: app.ssfree.ru
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9135bdb4-9b6f-11ec-a503-000017022008
+  ws-opts:
+    path: /getweather
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx268
+  name: _@9-xx260
   network: ws
   port: 443
   server: 104.31.16.136
@@ -225,7 +289,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx281
+  name: _@-xx273
   network: ws
   port: 443
   server: irene.lat
@@ -241,39 +305,7 @@ proxies:
   udp: true
 - alterId: 4
   cipher: auto
-  name: US8_@-xx46
-  network: ws
-  port: 443
-  server: 45.35.84.162
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    path: /ws
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: NOWHERE_@-xx57
-  network: ws
-  port: 443
-  server: cm.db-link.in
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8a410430-f1f7-3f98-8710-2412f4960bf8
-  ws-opts:
-    path: /db
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 4
-  cipher: auto
-  name: NOWHERE9_@9-xx59
+  name: NOWHERE_@-xx28
   network: ws
   port: 443
   server: usa-dallas.lvuft.com
@@ -289,10 +321,10 @@ proxies:
   udp: true
 - alterId: 4
   cipher: auto
-  name: US_@-xx64
+  name: US8_@-xx63
   network: ws
   port: 443
-  server: 104.166.135.10
+  server: 45.35.84.162
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -305,7 +337,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: LU889_@89-xx76
+  name: LU8_@-xx71
   network: ws
   port: 443
   server: 202.78.162.5
@@ -321,7 +353,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: FASTLY9_@-xx85
+  name: FASTLY8_@8-xx80
   network: ws
   port: 443
   server: gov.uk
@@ -337,7 +369,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: NOWHERE_@-xx92
+  name: NOWHERE88_@88-xx87
   network: ws
   port: 443
   server: aaaa.wxx.gay
@@ -353,7 +385,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: RELAY99_@9-xx94
+  name: RELAY889_@9-xx89
   network: ws
   port: 443
   server: hkd1.quickerlink.xyz
@@ -363,6 +395,22 @@ proxies:
   uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9
   ws-opts:
     path: /h6jr23x9h3lqiitg
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: RELAY89_@-xx98
+  network: ws
+  port: 443
+  server: kittiy.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
