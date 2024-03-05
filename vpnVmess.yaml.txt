@@ -1,23 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: _@-xx151
-  network: ws
-  port: 443
-  server: 104.20.39.186
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    path: /ivideos.sbs/linkws
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: _@-xx152
+  name: RELAY8_@9-xx116
   network: ws
   port: 443
   server: 185.221.160.163
@@ -33,14 +17,46 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: jdyviplink_9@-xx176
+  name: _@-xx142
   network: ws
   port: 443
-  server: 104.21.25.78
+  server: 104.20.39.186
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 1cbb309d-cf3f-464d-a61d-ebaa91983f24
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    path: /ivideos.sbs/linkws
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 8_@8-xx144
+  network: ws
+  port: 443
+  server: 142.171.61.222
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/271624282113
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: _@9-xx145
+  network: ws
+  port: 443
+  server: 188.114.99.150
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e4c7e0ce-ed93-40d9-8f38-90497cb83864
   ws-opts:
     path: /vmess
     headers:
@@ -129,7 +145,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: RELAY8_@-xx99
+  name: RELAY9_@-xx99
   network: ws
   port: 443
   server: hkd1.quickerlink.xyz
