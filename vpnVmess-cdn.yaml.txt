@@ -89,9 +89,9 @@ proxies:
     headers:
       Host: per-essex-patterns-bowling.trycloudflare.com
     path: e62899a7-438c-40ef-96d6-259cb26d6fdd-vm
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: RELAY8_@-xx100
+  name: SG999_@9-xx115
   network: ws
   port: 80
   server: 104.21.69.223
@@ -99,14 +99,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e9d23b60-6e44-45a2-b24f-c8521c04c310
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
   ws-opts:
     headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: e9d23b60-6e44-45a2-b24f-c8521c04c310-vm
+      Host: 159.223.94.156
+    path: /anti13.zingfast.vn
 - alterId: 0
   cipher: auto
-  name: RELAY8_@-xx101
+  name: FASTLY_@-xx118
   network: ws
   port: 80
   server: 104.21.69.223
@@ -114,71 +114,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
   ws-opts:
     headers:
-      Host: eu1.openxai.link
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: RELAY_@-xx102
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
-  ws-opts:
-    headers:
-      Host: us65.netfilx.live
-    path: /
-- alterId: 0
-  cipher: auto
-  name: RELAY8_@-xx106
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4a5ae806-ee72-473a-83b2-531808f454d5
-  ws-opts:
-    headers:
-      Host: championship-bidding-oxygen-brochure.trycloudflare.com
-    path: 4a5ae806-ee72-473a-83b2-531808f454d5-vm
-- alterId: 0
-  cipher: auto
-  name: RELAY98_@-xx110
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
-  ws-opts:
-    headers:
-      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
-    path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
-- alterId: 0
-  cipher: auto
-  name: RELAY_@-xx117
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.ywnouvbale.biz
-    path: /
+      Host: nmsl.kp
+    path: /aries?ed=2048
 - alterId: 0
   cipher: auto
   name: RELAY_@-xx119
@@ -189,11 +129,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
   ws-opts:
     headers:
-      Host: www.ywnouvbale.biz
-    path: /
+      Host: pq.kmoljklj.top
+    path: /qZTtpya?ed=2048
 - alterId: 0
   cipher: auto
   name: _NL__@-xx12
@@ -211,7 +151,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: _@-xx125
+  name: RELAY88_@-xx125
   network: ws
   port: 80
   server: 104.21.69.223
@@ -219,56 +159,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
   ws-opts:
     headers:
-      Host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: _@8-xx126
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: _@9-xx127
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
-  ws-opts:
-    headers:
-      Host: eu2.openxai.link
+      Host: eu3.openxai.link
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 8_@-xx128
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
 - alterId: 0
   cipher: auto
   name: _US_>_DE___@-xx13
@@ -286,6 +181,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: RELAY99_@9-xx133
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
+  ws-opts:
+    headers:
+      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
+- alterId: 0
+  cipher: auto
   name: _US__@-xx14
   network: ws
   port: 80
@@ -301,7 +211,142 @@ proxies:
     path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
 - alterId: 0
   cipher: auto
-  name: _@-xx147
+  name: RELAY8_@-xx140
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.ywnouvbale.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: RELAY_@9-xx142
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.ywnouvbale.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: _@-xx148
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: _@8-xx149
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: _CA_>_US___@-xx15
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
+  ws-opts:
+    headers:
+      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
+- alterId: 0
+  cipher: auto
+  name: _@9-xx150
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  ws-opts:
+    headers:
+      Host: eu2.openxai.link
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 8_@-xx151
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: _US___@-xx16
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
+  ws-opts:
+    headers:
+      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
+- alterId: 0
+  cipher: auto
+  name: _US___@-xx17
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: yhnsb3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: _@-xx170
   network: ws
   port: 80
   server: 104.21.69.223
@@ -316,7 +361,7 @@ proxies:
     path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
-  name: _@-xx148
+  name: _@-xx171
   network: ws
   port: 80
   server: 104.21.69.223
@@ -331,7 +376,52 @@ proxies:
     path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
-  name: jdyviplink_9@-xx169
+  name: _CA_>_US___@-xx18
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1a855748-ec07-408a-a3a2-7e1099a30616
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 1a855748-ec07-408a-a3a2-7e1099a30616-vm
+- alterId: 0
+  cipher: auto
+  name: _CA_>_US___@-xx19
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e9d23b60-6e44-45a2-b24f-c8521c04c310
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: e9d23b60-6e44-45a2-b24f-c8521c04c310-vm
+- alterId: 0
+  cipher: auto
+  name: jdyviplink_9@-xx196
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
+  ws-opts:
+    headers:
+      Host: eu1.openxai.link
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: jdyviplink_9@-xx197
   network: ws
   port: 80
   server: 104.21.69.223
@@ -346,127 +436,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: jdyviplink_9@-xx170
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
-  ws-opts:
-    headers:
-      Host: pq.kmoljklj.top
-    path: /qZTtpya?ed=2048
-- alterId: 0
-  cipher: auto
-  name: jdyviplink_9@-xx171
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ade73e62-7554-40a8-9314-195a372bae28
-  ws-opts:
-    headers:
-      Host: xentain.kmoljklj.top
-    path: /7bFcoRZS?ed=2048
-- alterId: 0
-  cipher: auto
-  name: jdyviplink_9@-xx172
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
-  ws-opts:
-    headers:
-      Host: eu3.openxai.link
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: jdyviplink_9@-xx173
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  ws-opts:
-    headers:
-      Host: de-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: jdyviplink_9@-xx174
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.coldstone.club
-    path: /
-- alterId: 0
-  cipher: auto
-  name: jdyviplink_9@-xx176
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.coldstone.club
-    path: /
-- alterId: 0
-  cipher: auto
-  name: jdyviplink_9@-xx177
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  ws-opts:
-    headers:
-      Host: nmsl.kp
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
-  name: jdyviplink_9@-xx178
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.coldstone.club
-    path: /
-- alterId: 0
-  cipher: auto
-  name: jdyviplink9_9@-xx179
+  name: jdyviplink_9@8-xx199
   network: ws
   port: 80
   server: 104.21.69.223
@@ -481,7 +451,97 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: jdyviplink8_9@-xx180
+  name: _US_>_DE___@8-xx20
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+  ws-opts:
+    headers:
+      Host: de-01.cloudlion.me
+    path: /
+- alterId: 0
+  cipher: auto
+  name: jdyviplink_9@-xx200
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ade73e62-7554-40a8-9314-195a372bae28
+  ws-opts:
+    headers:
+      Host: xentain.kmoljklj.top
+    path: /7bFcoRZS?ed=2048
+- alterId: 0
+  cipher: auto
+  name: jdyviplink_9@-xx201
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.coldstone.club
+    path: /
+- alterId: 0
+  cipher: auto
+  name: jdyviplink_9@-xx205
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.coldstone.club
+    path: /
+- alterId: 0
+  cipher: auto
+  name: jdyviplink_9@-xx206
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.coldstone.club
+    path: /
+- alterId: 0
+  cipher: auto
+  name: jdyviplink9_9@-xx207
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
+  ws-opts:
+    headers:
+      Host: us65.netfilx.live
+    path: /
+- alterId: 0
+  cipher: auto
+  name: jdyviplink8_9@-xx208
   network: ws
   port: 80
   server: 104.21.69.223
@@ -496,7 +556,22 @@ proxies:
     path: /aries?ed=2048
 - alterId: 0
   cipher: auto
-  name: JP98_@-xx74
+  name: _CA_>_US___@-xx21
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4a5ae806-ee72-473a-83b2-531808f454d5
+  ws-opts:
+    headers:
+      Host: championship-bidding-oxygen-brochure.trycloudflare.com
+    path: 4a5ae806-ee72-473a-83b2-531808f454d5-vm
+- alterId: 0
+  cipher: auto
+  name: JP988_@8-xx94
   network: ws
   port: 80
   server: 104.21.69.223
@@ -509,24 +584,9 @@ proxies:
     headers:
       Host: 172.105.222.98
     path: /
-- alterId: 2
-  cipher: auto
-  name: NOWHERE_@-xx75
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  ws-opts:
-    headers:
-      Host: 0222tw.fans8.xyz
-    path: /v2ray
 - alterId: 0
   cipher: auto
-  name: RELAY8_@8-xx82
+  name: RELAY89_@9-xx99
   network: ws
   port: 80
   server: 104.21.69.223
@@ -539,18 +599,3 @@ proxies:
     headers:
       Host: www.darkroom.lol
     path: /
-- alterId: 64
-  cipher: auto
-  name: SG9999_@99-xx98
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
-  ws-opts:
-    headers:
-      Host: 159.223.94.156
-    path: /anti13.zingfast.vn
