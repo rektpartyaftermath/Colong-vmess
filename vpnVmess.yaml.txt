@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: RELAY888_@8-xx107
+  name: RELAY98_@8-xx107
   network: ws
   port: 443
   server: hkd1.quickerlink.xyz
@@ -31,41 +31,9 @@ proxies:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
-- alterId: 64
-  cipher: auto
-  name: US9_@-xx130
-  network: ws
-  port: 443
-  server: 172.111.57.194
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/153428133302
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: US_@-xx133
-  network: ws
-  port: 443
-  server: 172.111.57.130
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/153428133302
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx164
+  name: _@-xx163
   network: ws
   port: 443
   server: 104.20.39.186
@@ -81,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx165
+  name: _@-xx164
   network: ws
   port: 443
   server: 185.221.160.163
@@ -97,7 +65,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 8_@8-xx167
+  name: 8_@8-xx166
   network: ws
   port: 443
   server: 142.171.61.222
@@ -113,7 +81,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx168
+  name: _@9-xx167
   network: ws
   port: 443
   server: 188.114.99.150
@@ -145,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx177
+  name: _@-xx178
   network: ws
   port: 443
   server: 104.16.217.241
@@ -161,7 +129,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx178
+  name: _@-xx179
   network: ws
   port: 443
   server: 172.67.196.110
@@ -241,7 +209,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: US8_@-xx77
+  name: US9_@-xx77
   network: ws
   port: 443
   server: cloudflare.xrenblog.com
@@ -273,7 +241,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: FASTLY99_@99-xx98
+  name: FASTLY899_@99-xx98
   network: ws
   port: 443
   server: gov.uk
