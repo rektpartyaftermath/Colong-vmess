@@ -49,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: FASTLY9_@-xx126
+  name: FASTLY_@-xx126
   network: ws
   port: 443
   server: gov.uk
@@ -113,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx226
+  name: _@-xx251
   network: ws
   port: 443
   server: 104.20.39.186
@@ -129,7 +129,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx227
+  name: _@-xx252
   network: ws
   port: 443
   server: 185.221.160.163
@@ -145,7 +145,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 8_@8-xx229
+  name: 8_@8-xx254
   network: ws
   port: 443
   server: 142.171.61.222
@@ -161,7 +161,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx230
+  name: _@9-xx255
   network: ws
   port: 443
   server: 188.114.99.150
@@ -177,7 +177,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx239
+  name: _@8-xx264
   network: ws
   port: 443
   server: 104.16.216.241
@@ -193,7 +193,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx240
+  name: _@-xx266
   network: ws
   port: 443
   server: 104.16.217.241
@@ -209,7 +209,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx241
+  name: _@-xx267
   network: ws
   port: 443
   server: 172.67.196.110
@@ -225,7 +225,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@-xx246
+  name: _@-xx272
   network: ws
   port: 443
   server: 142.171.61.138
@@ -241,7 +241,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx279
+  name: _@9-xx305
   network: ws
   port: 443
   server: 104.24.0.11
@@ -257,7 +257,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 9_@9-xx291
+  name: 9_@9-xx315
   network: ws
   port: 443
   server: 142.171.186.88
@@ -273,7 +273,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx292
+  name: _@9-xx316
   network: ws
   port: 443
   server: 104.21.25.94
@@ -289,7 +289,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx294
+  name: _@9-xx318
   network: ws
   port: 443
   server: 198.41.221.169
@@ -305,7 +305,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx296
+  name: _@9-xx320
   network: ws
   port: 443
   server: 152.32.190.239
@@ -321,7 +321,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx304
+  name: _@-xx328
   network: ws
   port: 443
   server: usa.sstank.top
@@ -337,7 +337,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx305
+  name: _@-xx329
   network: ws
   port: 443
   server: sgoracle3.sstank.top
@@ -353,7 +353,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx306
+  name: _@-xx330
   network: ws
   port: 443
   server: jp3.sstank.top
@@ -369,7 +369,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@-xx307
+  name: 8_@-xx331
   network: ws
   port: 443
   server: sgoracle1.sstank.top
@@ -385,7 +385,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx310
+  name: _@-xx334
   network: ws
   port: 443
   server: backcn.rmanluo.top
@@ -401,7 +401,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx311
+  name: _@-xx335
   network: ws
   port: 443
   server: mel.rmanluo.top
@@ -417,7 +417,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx312
+  name: _@-xx336
   network: ws
   port: 443
   server: sgoracle2.sstank.top
@@ -433,7 +433,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: _@-xx313
+  name: _@-xx337
   network: ws
   port: 443
   server: jp.sstank.top
@@ -449,7 +449,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 8_@-xx314
+  name: 8_@-xx338
   network: ws
   port: 443
   server: jp2.sstank.top
@@ -465,7 +465,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx315
+  name: _@-xx339
   network: ws
   port: 443
   server: usa4.sstank.top
@@ -481,7 +481,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: _@-xx316
+  name: _@-xx340
   network: ws
   port: 443
   server: kr.sstank.top
@@ -497,7 +497,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: _@-xx317
+  name: _@-xx341
   network: ws
   port: 443
   server: kr1.sstank.top
@@ -513,7 +513,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: _@8-xx318
+  name: _@8-xx342
   network: ws
   port: 443
   server: kr2.sstank.top
@@ -529,7 +529,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 8_@8-xx328
+  name: 8_@8-xx352
   network: ws
   port: 443
   server: 172.111.57.195
@@ -545,7 +545,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@-xx330
+  name: _@-xx354
   network: ws
   port: 443
   server: 172.111.57.163
@@ -561,7 +561,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@9-xx339
+  name: _@9-xx363
   network: ws
   port: 443
   server: 148.135.31.172
@@ -577,7 +577,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 8_@-xx340
+  name: 8_@-xx364
   network: ws
   port: 443
   server: 148.135.14.107
@@ -593,7 +593,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx357
+  name: _@-xx379
   network: ws
   port: 443
   server: 104.21.25.68
@@ -609,7 +609,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx358
+  name: _@8-xx380
   network: ws
   port: 443
   server: 104.21.31.87
@@ -625,7 +625,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@9-xx359
+  name: 8_@9-xx381
   network: ws
   port: 443
   server: 172.67.183.55
@@ -641,7 +641,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@-xx360
+  name: 8_@-xx382
   network: ws
   port: 443
   server: 23.227.38.100
@@ -651,22 +651,6 @@ proxies:
   uuid: 7b1b2fa3-e361-48cc-b73d-2c9636c76f4b
   ws-opts:
     path: /UMW36262
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: jdyviplink_9@-xx404
-  network: ws
-  port: 443
-  server: jader.fun
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
@@ -737,7 +721,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: NL89_@-xx90
+  name: US9_@-xx90
   network: ws
   port: 443
   server: cloudflare.xrenblog.com
