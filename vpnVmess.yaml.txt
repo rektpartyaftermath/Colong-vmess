@@ -49,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: FASTLY9_@-xx121
+  name: FASTLY_@-xx121
   network: ws
   port: 443
   server: gov.uk
@@ -81,7 +81,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: RELAY8_@-xx130
+  name: RELAY9_@-xx130
   network: ws
   port: 443
   server: hkd1.quickerlink.xyz
@@ -97,23 +97,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: RELAY99_@-xx148
-  network: ws
-  port: 443
-  server: simon.24wk.icu
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ac07c39f-db03-40c8-81e8-80318892a0a1
-  ws-opts:
-    path: /argox-vm?ed=2048
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: _@9-xx236
+  name: _@9-xx250
   network: ws
   port: 443
   server: zula.ir
@@ -129,7 +113,23 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx244
+  name: _@-xx251
+  network: ws
+  port: 443
+  server: simon.24wk.icu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ac07c39f-db03-40c8-81e8-80318892a0a1
+  ws-opts:
+    path: /argox-vm?ed=2048
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: _@8-xx259
   network: ws
   port: 443
   server: 188.114.97.53
@@ -145,7 +145,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@-xx251
+  name: _@-xx267
   network: ws
   port: 443
   server: 142.171.61.222
@@ -161,7 +161,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: _@9-xx254
+  name: _@9-xx270
   network: ws
   port: 443
   server: 92.223.30.132
@@ -177,7 +177,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@-xx255
+  name: 8_@-xx271
   network: ws
   port: 443
   server: cf.dalazhi.eu.org
@@ -193,7 +193,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@-xx259
+  name: 8_@-xx275
   network: ws
   port: 443
   server: 104.21.21.35
@@ -209,16 +209,16 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: jdyviplink_9@-xx356
+  name: _@-xx332
   network: ws
   port: 443
-  server: 188.114.97.43
+  server: 141.101.115.120
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 0e4d17ea-1332-481a-aae2-ef9b790201cf
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   ws-opts:
-    path: /vmess
+    path: /dongtaiwang.com
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
@@ -273,7 +273,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: NL8_@-xx43
+  name: US_@-xx43
   network: ws
   port: 443
   server: cloudflare.xrenblog.com
