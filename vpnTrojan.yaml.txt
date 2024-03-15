@@ -13,70 +13,35 @@ proxies:
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: SE8_@-xx146
-  password: telegram-id-directvpn
-  port: 443
-  server: 13.50.83.42
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: DE8998_@-xx167
-  password: telegram-id-privatevpns
-  port: 443
-  server: 18.199.138.33
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: CA_@-xx168
-  password: telegram-id-directvpn
-  port: 443
-  server: 15.156.133.220
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: SE889_@9-xx172
-  password: telegram-id-privatevpns
-  port: 443
-  server: 13.48.87.223
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: SE98_@8-xx176
-  password: telegram-id-directvpn
-  port: 443
-  server: 51.21.49.202
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: RELAY9_@-xx196
-  password: telegram--daily-configs--
-  port: 443
-  server: 162.159.152.2
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: RELAY_@9-xx215
+- name: RELAY9_@9-xx167
   password: 24f10d2e-5c81-4606-b124-6aa830a55dbf
   port: 443
   server: 104.21.4.113
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: SE89_@8-xx229
+- name: IE999_@99-xx196
   password: telegram-id-privatevpns
   port: 443
-  server: 13.53.183.175
+  server: 54.77.90.122
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: CA_@9-xx233
-  password: telegram-id-directvpn
+- name: SE98_@9-xx250
+  password: telegram-id-privatevpns
   port: 443
-  server: 52.60.211.111
+  server: 51.21.119.48
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: _@-xx276
+- name: RELAY8_@-xx256
+  password: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2
+  port: 443
+  server: flixeon.me
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: _@-xx270
   password: 0453eb8b-8b3a-42c5-9040-cb1495279898
   port: 443
   server: de2.trojanvpn.de

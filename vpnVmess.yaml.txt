@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: FASTLY8_@-xx125
+  name: FASTLY_@-xx125
   network: ws
   port: 443
   server: gov.uk
@@ -65,39 +65,23 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: RELAY_@-xx145
+  name: RELAY_@-xx229
   network: ws
   port: 443
-  server: 104.24.0.11
+  server: www.qdjljy.com
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: da8954a5-9c03-4fe5-be6a-d90f3f01b881
   ws-opts:
-    path: /linkvws
+    path: /D26xvdqUdCpvvPTz4R
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
 - alterId: 0
   cipher: auto
-  name: RELAY8_@-xx246
-  network: ws
-  port: 443
-  server: auth.speedtest.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: _@9-xx279
+  name: _@9-xx273
   network: ws
   port: 443
   server: zula.ir
@@ -113,7 +97,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx280
+  name: _@-xx274
   network: ws
   port: 443
   server: simon.24wk.icu
@@ -129,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx288
+  name: _@8-xx282
   network: ws
   port: 443
   server: 188.114.97.53
@@ -145,7 +129,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@-xx296
+  name: _@-xx290
   network: ws
   port: 443
   server: 142.171.61.222
@@ -161,7 +145,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@-xx299
+  name: 8_@-xx293
   network: ws
   port: 443
   server: cf.dalazhi.eu.org
@@ -177,7 +161,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@-xx303
+  name: 8_@-xx296
   network: ws
   port: 443
   server: 104.21.21.35
@@ -225,7 +209,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx356
+  name: _@-xx353
   network: ws
   port: 443
   server: 141.101.115.120
@@ -241,7 +225,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx364
+  name: _@-xx361
   network: ws
   port: 443
   server: v2.kdanmmgmasz.xyz
@@ -257,7 +241,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx365
+  name: _@-xx362
   network: ws
   port: 443
   server: suzhihan.eu.org
@@ -273,7 +257,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx366
+  name: _@8-xx363
   network: ws
   port: 443
   server: 141.101.115.2
@@ -289,7 +273,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx367
+  name: _@9-xx364
   network: ws
   port: 443
   server: dm-us03-direct14.dm-us03.lc-node.com
@@ -305,7 +289,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx368
+  name: _@-xx365
   network: ws
   port: 443
   server: 141.101.114.102
@@ -321,7 +305,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx369
+  name: _@-xx366
   network: ws
   port: 443
   server: 141.101.114.133
@@ -337,7 +321,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx370
+  name: _@-xx367
   network: ws
   port: 443
   server: cf-lt-dns.sharecentre.online
@@ -353,7 +337,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx371
+  name: _@-xx368
   network: ws
   port: 443
   server: 162.159.130.234
@@ -369,23 +353,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx387
-  network: ws
-  port: 443
-  server: www.qdjljy.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: da8954a5-9c03-4fe5-be6a-d90f3f01b881
-  ws-opts:
-    path: /D26xvdqUdCpvvPTz4R
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: _@-xx397
+  name: _@-xx393
   network: ws
   port: 443
   server: achk.cloudflarest.link
@@ -401,7 +369,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: _@-xx400
+  name: _@-xx396
   network: ws
   port: 443
   server: lc-kr02-direct01.lc-kr02.lc-node.com
@@ -417,7 +385,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx402
+  name: _@-xx398
   network: ws
   port: 443
   server: cf-dx-dns.sharecentre.online
@@ -433,7 +401,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 9_@-xx404
+  name: 9_@-xx400
   network: ws
   port: 443
   server: 148.135.31.174
@@ -449,7 +417,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx412
+  name: _@-xx408
   network: ws
   port: 443
   server: 47.76.92.191
@@ -465,7 +433,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 8_@-xx413
+  name: 8_@-xx409
   network: ws
   port: 443
   server: lc-hk01-direct01.lc-hk01.lc-node.com
@@ -481,7 +449,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx416
+  name: _@9-xx412
   network: ws
   port: 443
   server: series-v1.samanehha.co
@@ -497,7 +465,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx417
+  name: _@-xx413
   network: ws
   port: 443
   server: nestle.ir
