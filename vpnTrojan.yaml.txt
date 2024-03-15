@@ -1,113 +1,106 @@
 proxies:
-- name: US898_@98-xx109
-  password: DHQ7G8SC858VE245
-  port: 443
-  server: mokuba.ssss.monster
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: US9_@-xx113
-  password: DHQ7G8SC858VE245
-  port: 443
-  server: usugaki.ssss.monster
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: RELAY_@-xx180
-  password: 24f10d2e-5c81-4606-b124-6aa830a55dbf
-  port: 443
-  server: 104.21.4.113
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: SE8_@-xx181
-  password: telegram-id-privatevpns
-  port: 443
-  server: 13.53.183.175
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: GB8_@-xx182
-  password: telegram-id-privatevpns
-  port: 443
-  server: 18.130.51.207
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: trojan _US_>_RU__@8-xx19
-  password: qj1Dz1CJmFQRhWr1SP80aA
-  port: 443
-  server: 172.67.204.84
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: SE898_@98-xx202
-  password: telegram-id-directvpn
-  port: 443
-  server: 13.50.83.42
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: FR8_@-xx206
-  password: telegram-id-privatevpns
-  port: 443
-  server: 35.181.33.34
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: CA_@-xx207
-  password: telegram-id-directvpn
-  port: 443
-  server: 15.156.133.220
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: RELAY_@-xx209
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 104.17.147.1
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: SE9_@-xx214
-  password: 0b1371aa-649d-41dc-9126-338c87936500
-  port: 443
-  server: 95.164.33.62
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: _@-xx285
-  password: 0453eb8b-8b3a-42c5-9040-cb1495279898
-  port: 443
-  server: de2.trojanvpn.de
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: _US___@-xx35
-  password: 7e5f9c76-bda8-4f0c-8113-36078efec3c9
-  port: 443
-  server: 2usmax01.170203.xyz
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: _CA_>_US___@-xx36
+- name: _CA_>_US__@-xx07
   password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
   port: 443
   server: 23.227.38.11
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: _GB__@-xx40
+- name: _GB__@-xx08
   password: telegram-id-privatevpns
   port: 443
   server: 18.135.242.0
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: AU_@-xx55
+- name: SE8_@-xx146
+  password: telegram-id-directvpn
+  port: 443
+  server: 13.50.83.42
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: DE8998_@-xx167
+  password: telegram-id-privatevpns
+  port: 443
+  server: 18.199.138.33
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: CA_@-xx168
+  password: telegram-id-directvpn
+  port: 443
+  server: 15.156.133.220
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: SE889_@9-xx172
+  password: telegram-id-privatevpns
+  port: 443
+  server: 13.48.87.223
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: SE98_@8-xx176
+  password: telegram-id-directvpn
+  port: 443
+  server: 51.21.49.202
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: RELAY9_@-xx196
+  password: telegram--daily-configs--
+  port: 443
+  server: 162.159.152.2
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: RELAY_@9-xx215
+  password: 24f10d2e-5c81-4606-b124-6aa830a55dbf
+  port: 443
+  server: 104.21.4.113
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: SE89_@8-xx229
+  password: telegram-id-privatevpns
+  port: 443
+  server: 13.53.183.175
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: CA_@9-xx233
+  password: telegram-id-directvpn
+  port: 443
+  server: 52.60.211.111
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: _@-xx276
+  password: 0453eb8b-8b3a-42c5-9040-cb1495279898
+  port: 443
+  server: de2.trojanvpn.de
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: AU_@-xx35
   password: d3db7e32-3466-49e1-96bb-421222e0b36f
   port: 443
   server: ocld.vproxy.us
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: US888_@88-xx89
+  password: DHQ7G8SC858VE245
+  port: 443
+  server: mokuba.ssss.monster
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: US99_@9-xx93
+  password: DHQ7G8SC858VE245
+  port: 443
+  server: usugaki.ssss.monster
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
