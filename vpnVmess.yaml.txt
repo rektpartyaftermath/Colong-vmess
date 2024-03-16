@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: FASTLY9_@9-xx108
+  name: FASTLY89_@9-xx108
   network: ws
   port: 443
   server: gov.uk
@@ -65,39 +65,39 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: RELAY_@-xx133
+  name: JP8_@-xx131
   network: ws
   port: 443
-  server: cf.335570.xyz
+  server: 02.appleid.bf
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: bfef2469-9d59-4111-b54b-4d58e819a808
   ws-opts:
-    path: /ws?ed=2048
+    path: /CAT
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
 - alterId: 0
   cipher: auto
-  name: RELAY8_@-xx202
+  name: RELAY8_@-xx213
   network: ws
   port: 443
-  server: 104.21.28.62
+  server: blog.clean100.ir
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 0d9776dd-e12e-4a5e-9bf2-8cceb1b502f1
+  uuid: 88a7e6c1-d4cc-412e-a584-e15e1b83fbcc
   ws-opts:
-    path: /vmess
+    path: /M0BOgOW7W2xZntbQPuBi62
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx265
+  name: _@9-xx236
   network: ws
   port: 443
   server: zula.ir
@@ -113,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx266
+  name: _@-xx237
   network: ws
   port: 443
   server: simon.24wk.icu
@@ -129,7 +129,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx274
+  name: _@8-xx245
   network: ws
   port: 443
   server: 188.114.97.53
@@ -145,7 +145,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@-xx282
+  name: _@-xx253
   network: ws
   port: 443
   server: 142.171.61.222
@@ -161,7 +161,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: _@9-xx285
+  name: _@9-xx256
   network: ws
   port: 443
   server: 92.223.30.132
@@ -177,7 +177,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@-xx286
+  name: 8_@-xx257
   network: ws
   port: 443
   server: cf.dalazhi.eu.org
@@ -187,6 +187,22 @@ proxies:
   uuid: 64480f4c-61c2-4d88-89c3-fc0045229bfc
   ws-opts:
     path: /kplxvws
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 8_@-xx261
+  network: ws
+  port: 443
+  server: 104.21.21.35
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 757dc1d3-c0fd-456e-9426-2e9221584d40
+  ws-opts:
+    path: /vmess
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
@@ -209,23 +225,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@-xx290
-  network: ws
-  port: 443
-  server: 104.21.21.35
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 757dc1d3-c0fd-456e-9426-2e9221584d40
-  ws-opts:
-    path: /vmess
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: _@-xx346
+  name: _@-xx315
   network: ws
   port: 443
   server: 141.101.115.120
@@ -241,7 +241,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx354
+  name: _@-xx323
   network: ws
   port: 443
   server: v2.kdanmmgmasz.xyz
@@ -257,7 +257,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx355
+  name: _@-xx324
   network: ws
   port: 443
   server: suzhihan.eu.org
@@ -273,7 +273,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx356
+  name: _@8-xx325
   network: ws
   port: 443
   server: 141.101.115.2
@@ -289,7 +289,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx357
+  name: _@9-xx326
   network: ws
   port: 443
   server: dm-us03-direct14.dm-us03.lc-node.com
@@ -305,7 +305,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx358
+  name: _@-xx327
   network: ws
   port: 443
   server: 141.101.114.102
@@ -321,7 +321,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx359
+  name: _@-xx328
   network: ws
   port: 443
   server: 141.101.114.133
@@ -331,6 +331,70 @@ proxies:
   uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
   ws-opts:
     path: /ray
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: _@-xx329
+  network: ws
+  port: 443
+  server: cf-lt-dns.sharecentre.online
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    path: /shirker
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: _@-xx330
+  network: ws
+  port: 443
+  server: 162.159.130.234
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: linkvws
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: _@-xx347
+  network: ws
+  port: 443
+  server: www.qdjljy.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: da8954a5-9c03-4fe5-be6a-d90f3f01b881
+  ws-opts:
+    path: /D26xvdqUdCpvvPTz4R
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: _@-xx357
+  network: ws
+  port: 443
+  server: achk.cloudflarest.link
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 36146255-3fec-45fe-aa53-e0c63c6c7ee1
+  ws-opts:
+    path: /a3
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
@@ -351,12 +415,28 @@ proxies:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
-- alterId: 0
+- alterId: 2
   cipher: auto
   name: _@-xx360
   network: ws
   port: 443
-  server: cf-lt-dns.sharecentre.online
+  server: lc-kr02-direct01.lc-kr02.lc-node.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ec736482-173e-3eff-9114-b49df8056e7d
+  ws-opts:
+    path: /
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: _@-xx362
+  network: ws
+  port: 443
+  server: cf-dx-dns.sharecentre.online
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -367,25 +447,25 @@ proxies:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: _@-xx361
+  name: 9_@-xx364
   network: ws
   port: 443
-  server: 162.159.130.234
+  server: 148.135.31.174
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
-    path: linkvws
+    path: /path/153428133302
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
 - alterId: 0
   cipher: auto
-  name: RELAY_@-xx37
+  name: RELAY989_@-xx37
   network: ws
   port: 443
   server: test.0dc.cn
@@ -401,16 +481,64 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx377
+  name: _@-xx372
   network: ws
   port: 443
-  server: www.qdjljy.com
+  server: 47.76.92.191
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: da8954a5-9c03-4fe5-be6a-d90f3f01b881
+  uuid: a3aeff37-7a5d-4e2b-82fc-8daf44b216c2
   ws-opts:
-    path: /D26xvdqUdCpvvPTz4R
+    path: /oscarspy
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 8_@-xx373
+  network: ws
+  port: 443
+  server: lc-hk01-direct01.lc-hk01.lc-node.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ec736482-173e-3eff-9114-b49df8056e7d
+  ws-opts:
+    path: /
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: _@9-xx376
+  network: ws
+  port: 443
+  server: series-v1.samanehha.co
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0b65bb06-6b28-487a-8e3c-820dda51e977
+  ws-opts:
+    path: /dT9s3HqgZeD3eApzDAfhOHq
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: _@-xx377
+  network: ws
+  port: 443
+  server: nestle.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+  ws-opts:
+    path: /wss51068
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
@@ -433,22 +561,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx387
-  network: ws
-  port: 443
-  server: achk.cloudflarest.link
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 36146255-3fec-45fe-aa53-e0c63c6c7ee1
-  ws-opts:
-    path: /a3
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
   name: RELAY88_@8-xx39
   network: ws
   port: 443
@@ -463,121 +575,9 @@ proxies:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
-- alterId: 2
-  cipher: auto
-  name: _@-xx390
-  network: ws
-  port: 443
-  server: lc-kr02-direct01.lc-kr02.lc-node.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ec736482-173e-3eff-9114-b49df8056e7d
-  ws-opts:
-    path: /
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx392
-  network: ws
-  port: 443
-  server: cf-dx-dns.sharecentre.online
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  ws-opts:
-    path: /shirker
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 9_@-xx394
-  network: ws
-  port: 443
-  server: 148.135.31.174
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/153428133302
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: _@-xx402
-  network: ws
-  port: 443
-  server: 47.76.92.191
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a3aeff37-7a5d-4e2b-82fc-8daf44b216c2
-  ws-opts:
-    path: /oscarspy
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 8_@-xx403
-  network: ws
-  port: 443
-  server: lc-hk01-direct01.lc-hk01.lc-node.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ec736482-173e-3eff-9114-b49df8056e7d
-  ws-opts:
-    path: /
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: _@9-xx406
-  network: ws
-  port: 443
-  server: series-v1.samanehha.co
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 0b65bb06-6b28-487a-8e3c-820dda51e977
-  ws-opts:
-    path: /dT9s3HqgZeD3eApzDAfhOHq
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: _@-xx407
-  network: ws
-  port: 443
-  server: nestle.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
-  ws-opts:
-    path: /wss51068
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 8_@88-xx424
+  name: 8_@88-xx393
   network: ws
   port: 443
   server: vjp3.0bad.com
@@ -593,7 +593,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@89-xx425
+  name: _@89-xx394
   network: ws
   port: 443
   server: surongwei.eu.org
@@ -609,7 +609,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@9-xx426
+  name: 8_@9-xx395
   network: ws
   port: 443
   server: 66.235.200.21
@@ -625,7 +625,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@9-xx427
+  name: 8_@9-xx396
   network: ws
   port: 443
   server: 23.227.38.40
@@ -641,7 +641,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 88_@9-xx429
+  name: 88_@9-xx398
   network: ws
   port: 443
   server: hohm.microsoft.com
@@ -657,7 +657,7 @@ proxies:
   udp: true
 - alterId: 4
   cipher: auto
-  name: 9_@9-xx431
+  name: 9_@9-xx400
   network: ws
   port: 443
   server: 154.31.41.10
@@ -673,7 +673,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@98-xx433
+  name: _@98-xx402
   network: ws
   port: 443
   server: vip2323.cfd
@@ -689,7 +689,23 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9_@-xx434
+  name: 8_@99-xx403
+  network: ws
+  port: 443
+  server: cf.335570.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bfef2469-9d59-4111-b54b-4d58e819a808
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9_@-xx404
   network: ws
   port: 443
   server: cf.iepl1.me
@@ -705,7 +721,39 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: NL898_@8-xx83
+  name: _@-xx420
+  network: ws
+  port: 443
+  server: wap.appleid.bf
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bfef2469-9d59-4111-b54b-4d58e819a808
+  ws-opts:
+    path: /CAT
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: _@8-xx422
+  network: ws
+  port: 443
+  server: 195.85.59.154
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /meroiy.icu/linkvws
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US998_@8-xx83
   network: ws
   port: 443
   server: cloudflare.xrenblog.com
