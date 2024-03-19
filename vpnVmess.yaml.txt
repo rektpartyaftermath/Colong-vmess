@@ -33,7 +33,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: FASTLY_@-xx110
+  name: FASTLY8_@-xx110
   network: ws
   port: 443
   server: gov.uk
@@ -81,32 +81,16 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: US89898_@98-xx186
+  name: GOOGLE_@-xx162
   network: ws
   port: 443
-  server: us-full.privateip.net
+  server: 35.201.203.106
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 99d533a8-5a3a-407f-8497-82d9be7c0d9b
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
   ws-opts:
-    path: /RACEVPN
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: RELAY8_@-xx197
-  network: ws
-  port: 443
-  server: cf.iepl1.me
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
-  ws-opts:
-    path: /ws?ed=2048
+    path: /
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
@@ -241,7 +225,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx339
+  name: _@-xx340
   network: ws
   port: 443
   server: v2.kdanmmgmasz.xyz
@@ -257,7 +241,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx340
+  name: _@-xx341
   network: ws
   port: 443
   server: suzhihan.eu.org
@@ -273,7 +257,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx341
+  name: _@8-xx342
   network: ws
   port: 443
   server: 141.101.115.2
@@ -289,7 +273,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx342
+  name: _@9-xx343
   network: ws
   port: 443
   server: dm-us03-direct14.dm-us03.lc-node.com
@@ -305,7 +289,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx343
+  name: _@-xx344
   network: ws
   port: 443
   server: 141.101.114.102
@@ -321,7 +305,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx344
+  name: _@-xx345
   network: ws
   port: 443
   server: 141.101.114.133
@@ -337,7 +321,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx345
+  name: _@-xx346
   network: ws
   port: 443
   server: cf-lt-dns.sharecentre.online
@@ -353,7 +337,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx346
+  name: _@-xx347
   network: ws
   port: 443
   server: 162.159.130.234
@@ -369,7 +353,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx362
+  name: _@-xx363
   network: ws
   port: 443
   server: www.qdjljy.com
@@ -385,7 +369,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx372
+  name: _@-xx373
   network: ws
   port: 443
   server: achk.cloudflarest.link
@@ -401,7 +385,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: _@-xx375
+  name: _@-xx376
   network: ws
   port: 443
   server: lc-kr02-direct01.lc-kr02.lc-node.com
@@ -417,7 +401,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx377
+  name: _@-xx378
   network: ws
   port: 443
   server: cf-dx-dns.sharecentre.online
@@ -433,7 +417,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 9_@-xx379
+  name: 9_@-xx380
   network: ws
   port: 443
   server: 148.135.31.174
@@ -449,7 +433,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx387
+  name: _@-xx388
   network: ws
   port: 443
   server: 47.76.92.191
@@ -465,7 +449,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 8_@-xx388
+  name: 8_@-xx389
   network: ws
   port: 443
   server: lc-hk01-direct01.lc-hk01.lc-node.com
@@ -481,7 +465,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx391
+  name: _@9-xx392
   network: ws
   port: 443
   server: series-v1.samanehha.co
@@ -497,7 +481,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx392
+  name: _@-xx393
   network: ws
   port: 443
   server: nestle.ir
@@ -609,7 +593,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@98-xx420
+  name: _@98-xx419
   network: ws
   port: 443
   server: vip2323.cfd
@@ -625,10 +609,26 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@99-xx421
+  name: 8_@99-xx420
   network: ws
   port: 443
   server: cf.335570.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bfef2469-9d59-4111-b54b-4d58e819a808
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9_@-xx421
+  network: ws
+  port: 443
+  server: cf.iepl1.me
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -753,7 +753,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx451
+  name: _@-xx449
   network: ws
   port: 443
   server: 198.41.203.6
@@ -769,7 +769,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx452
+  name: _@-xx450
   network: ws
   port: 443
   server: 203.30.188.188
@@ -785,7 +785,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx453
+  name: _@-xx451
   network: ws
   port: 443
   server: 190.93.244.2
@@ -801,7 +801,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@-xx454
+  name: 8_@-xx452
   network: ws
   port: 443
   server: canva.com
@@ -817,7 +817,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx455
+  name: _@-xx453
   network: ws
   port: 443
   server: aws.appleid.bf
@@ -833,7 +833,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx456
+  name: _@-xx454
   network: ws
   port: 443
   server: hk01.cao.gay
@@ -849,7 +849,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx457
+  name: _@8-xx455
   network: ws
   port: 443
   server: vus2.0bad.com
@@ -865,7 +865,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx458
+  name: _@9-xx456
   network: ws
   port: 443
   server: vuk1.0bad.com
@@ -881,7 +881,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx459
+  name: _@-xx457
   network: ws
   port: 443
   server: 203.30.189.190
@@ -897,7 +897,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx460
+  name: _@-xx458
   network: ws
   port: 443
   server: vin1.0bad.com
@@ -913,7 +913,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx461
+  name: _@-xx459
   network: ws
   port: 443
   server: vde2.0bad.com
@@ -929,7 +929,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx462
+  name: _@-xx460
   network: ws
   port: 443
   server: 188.114.99.10
@@ -945,7 +945,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx463
+  name: _@-xx461
   network: ws
   port: 443
   server: vus3.0bad.com
@@ -961,7 +961,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@-xx464
+  name: 8_@-xx462
   network: ws
   port: 443
   server: 23.227.38.39
@@ -977,7 +977,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx465
+  name: _@-xx463
   network: ws
   port: 443
   server: 203.24.108.8
@@ -993,7 +993,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9_@-xx466
+  name: 9_@-xx464
   network: ws
   port: 443
   server: 141.101.114.32
@@ -1009,7 +1009,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx467
+  name: _@8-xx465
   network: ws
   port: 443
   server: vus4.0bad.com
@@ -1025,7 +1025,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx468
+  name: _@9-xx466
   network: ws
   port: 443
   server: 203.30.191.193
@@ -1041,7 +1041,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9_@-xx482
+  name: 9_@-xx479
   network: ws
   port: 443
   server: 172.66.44.197
@@ -1057,7 +1057,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx484
+  name: _@-xx481
   network: ws
   port: 443
   server: jsm-hk.lovehuawei.top
@@ -1073,7 +1073,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9_@-xx489
+  name: 9_@-xx486
   network: ws
   port: 443
   server: 500.outline-vpn.cloud
@@ -1089,7 +1089,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@-xx490
+  name: 8_@-xx487
   network: ws
   port: 443
   server: 188.114.97.20
@@ -1105,7 +1105,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx494
+  name: _@8-xx492
   network: ws
   port: 443
   server: vau1.0bad.com
@@ -1121,7 +1121,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 99_@8-xx496
+  name: 99_@8-xx494
   network: ws
   port: 443
   server: test.0dc.cn
@@ -1137,7 +1137,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx497
+  name: _@8-xx495
   network: ws
   port: 443
   server: 104.20.231.21
@@ -1153,7 +1153,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx507
+  name: _@9-xx504
   network: ws
   port: 443
   server: tw.appleid.bf
@@ -1169,7 +1169,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx508
+  name: _@9-xx506
   network: ws
   port: 443
   server: lb.vhax.net
@@ -1185,7 +1185,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@99-xx510
+  name: _@99-xx508
   network: ws
   port: 443
   server: 104.21.46.63
@@ -1201,7 +1201,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8_@-xx518
+  name: 8_@-xx516
   network: ws
   port: 443
   server: 185.135.9.247
@@ -1217,7 +1217,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@9-xx520
+  name: _@9-xx518
   network: ws
   port: 443
   server: 104.21.91.254
@@ -1233,7 +1233,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx521
+  name: _@-xx519
   network: ws
   port: 443
   server: hexsen.com
@@ -1249,7 +1249,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: _@-xx523
+  name: _@-xx521
   network: ws
   port: 443
   server: 172.67.207.114
@@ -1265,7 +1265,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx524
+  name: _@-xx522
   network: ws
   port: 443
   server: www.wto.org
@@ -1281,7 +1281,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx525
+  name: _@-xx523
   network: ws
   port: 443
   server: 172.67.206.124
@@ -1297,7 +1297,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: _@-xx526
+  name: _@-xx524
   network: ws
   port: 443
   server: 172.67.131.150
@@ -1313,7 +1313,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9_@8-xx529
+  name: 9_@8-xx527
   network: ws
   port: 443
   server: 188.114.96.58
@@ -1329,7 +1329,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx556
+  name: _@-xx549
   network: ws
   port: 443
   server: 104.21.91.73
@@ -1345,7 +1345,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: _@-xx557
+  name: _@-xx550
   network: ws
   port: 443
   server: hms082.gwdef.sbs
@@ -1361,7 +1361,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx562
+  name: _@-xx554
   network: ws
   port: 443
   server: 198.41.212.2
@@ -1377,7 +1377,39 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: jdyviplink_9@-xx601
+  name: _@-xx561
+  network: ws
+  port: 443
+  server: 104.21.16.62
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: _@8-xx568
+  network: ws
+  port: 443
+  server: 148.135.14.108
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/153428133302
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: jdyviplink_9@-xx620
   network: ws
   port: 443
   server: hkcft01.xqc.best
@@ -1393,7 +1425,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: jdyviplink_9@8-xx604
+  name: jdyviplink_9@8-xx625
   network: ws
   port: 443
   server: changupmecca.com
@@ -1409,7 +1441,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: NL89_@-xx63
+  name: US99_@-xx63
   network: ws
   port: 443
   server: cloudflare.xrenblog.com
