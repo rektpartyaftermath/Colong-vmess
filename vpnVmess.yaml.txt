@@ -49,7 +49,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: RELAY88_@-xx110
+  name: RELAY8_@-xx110
   network: ws
   port: 443
   server: hkd1.quickerlink.xyz
@@ -65,7 +65,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@8-xx247
+  name: _@8-xx217
   network: ws
   port: 443
   server: 104.21.16.62
@@ -81,7 +81,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@-xx253
+  name: _@-xx225
   network: ws
   port: 443
   server: 148.135.14.108
@@ -97,7 +97,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: _@-xx277
+  name: _@-xx249
   network: ws
   port: 443
   server: 2876be99-f.3nvx.com
@@ -113,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _@-xx278
+  name: _@-xx250
   network: ws
   port: 443
   server: ginson.efnten.top
@@ -129,7 +129,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: _@-xx281
+  name: _@-xx253
   network: ws
   port: 443
   server: 37.120.236.251
@@ -145,7 +145,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: _@-xx282
+  name: _@-xx254
   network: ws
   port: 443
   server: e691d61a-f.3nvx.com
@@ -161,7 +161,23 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: _US___@9-xx342
+  name: _@-xx322
+  network: ws
+  port: 443
+  server: 104.21.66.23
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: _US___@9-xx328
   network: ws
   port: 443
   server: hms082.gwdef.sbs
