@@ -16,22 +16,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: -xx104
-  network: ws
-  port: 80
-  server: 104.18.23.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c3572b9c-db66-4656-91b2-853750a422ef
-  ws-opts:
-    headers:
-      Host: xianggang.mojc.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: -xx137
+  name: -xx124
   network: ws
   port: 80
   server: 104.18.23.136
@@ -46,7 +31,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx138
+  name: -xx125
   network: ws
   port: 80
   server: 104.18.23.136
@@ -61,7 +46,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx139
+  name: -xx126
   network: ws
   port: 80
   server: 104.18.23.136
@@ -76,7 +61,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx142
+  name: -xx129
   network: ws
   port: 80
   server: 104.18.23.136
@@ -91,7 +76,7 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: -xx158
+  name: -xx135
   network: ws
   port: 80
   server: 104.18.23.136
@@ -106,7 +91,67 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx36
+  name: -xx137
+  network: ws
+  port: 80
+  server: 104.18.23.136
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: -xx139
+  network: ws
+  port: 80
+  server: 104.18.23.136
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: -xx140
+  network: ws
+  port: 80
+  server: 104.18.23.136
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: -xx141
+  network: ws
+  port: 80
+  server: 104.18.23.136
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
+  ws-opts:
+    headers:
+      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
+- alterId: 0
+  cipher: auto
+  name: -xx32
   network: ws
   port: 80
   server: 104.18.23.136
@@ -121,7 +166,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx38
+  name: -xx34
   network: ws
   port: 80
   server: 104.18.23.136
@@ -136,7 +181,7 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: -xx39
+  name: -xx35
   network: ws
   port: 80
   server: 104.18.23.136
@@ -151,7 +196,7 @@ proxies:
     path: /linde06.indiavideo.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: -xx56
+  name: -xx50
   network: ws
   port: 80
   server: 104.18.23.136
@@ -166,7 +211,7 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  name: -xx57
+  name: -xx51
   network: ws
   port: 80
   server: 104.18.23.136
@@ -181,7 +226,7 @@ proxies:
     path: /jahfkjha.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx73
+  name: -xx67
   network: ws
   port: 80
   server: 104.18.23.136
@@ -196,7 +241,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx77
+  name: 9-xx71
   network: ws
   port: 80
   server: 104.18.23.136
@@ -211,22 +256,7 @@ proxies:
     path: /9aqOiXD2/
 - alterId: 0
   cipher: auto
-  name: -xx78
-  network: ws
-  port: 80
-  server: 104.18.23.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ae7d77c3-77bf-4f15-a1a1-4df168eb8447
-  ws-opts:
-    headers:
-      Host: seyyedmt.digikala.com.seyyedmtaparat.com2.mooz.bloG
-    path: /V2ray.SeyyedMT
-- alterId: 0
-  cipher: auto
-  name: -xx89
+  name: -xx80
   network: ws
   port: 80
   server: 104.18.23.136
@@ -238,4 +268,19 @@ proxies:
   ws-opts:
     headers:
       Host: riben.mojc.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: -xx95
+  network: ws
+  port: 80
+  server: 104.18.23.136
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c3572b9c-db66-4656-91b2-853750a422ef
+  ws-opts:
+    headers:
+      Host: xianggang.mojc.xyz
     path: /?ed=2048
