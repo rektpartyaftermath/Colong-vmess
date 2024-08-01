@@ -1,29 +1,15 @@
 proxies:
-- name: -xx145
+- name: -xx127
   password: moist
   port: 443
   server: 154.197.121.253
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 9-xx155
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+- name: -xx174
+  password: telegram-id-privatevpns
   port: 443
-  server: 104.16.192.146
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx165
-  password: 669d0ac7b5b64ebbb1abb75d5d540a5c
-  port: 443
-  server: 188.114.99.0
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx182
-  password: auto
-  port: 443
-  server: 15.222.245.142
+  server: 52.214.235.216
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
