@@ -46,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx159
+  name: -xx158
   network: ws
   port: 80
   server: 104.22.28.102
@@ -61,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx161
+  name: 9-xx159
   network: ws
   port: 80
   server: 104.22.28.102
@@ -76,7 +76,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx162
+  name: -xx160
   network: ws
   port: 80
   server: 104.22.28.102

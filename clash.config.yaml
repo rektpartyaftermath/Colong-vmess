@@ -2310,19 +2310,6 @@ proxies:
     headers:
       Host: jr.ylks01.eu.org
     path: /?proxyip=proxyip.sg.fxxk.dedyn.io
-- name: 美国 027
-  type: vless
-  network: ws
-  server: 47.236.180.51
-  port: 8443
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  servername: vr.ylks.xyz
-  tls: true
-  delay: 1736
-  ws-opts:
-    headers:
-      Host: vr.ylks.xyz
-    path: /?proxyip=proxyip.sg.fxxk.dedyn.io
 - name: 美国 029
   type: vless
   network: ws
@@ -2350,20 +2337,6 @@ proxies:
     headers:
       Host: ip001.freegradely.xyz
     path: /
-- name: 加拿大 006
-  type: vmess
-  network: ws
-  server: 104.19.32.226
-  port: 2052
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  servername: cdn3.freegradely.xyz
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: cdn3.freegradely.xyz
-    path: github.com/Alvin9999
 - name: 加拿大 009
   type: vmess
   network: ws
@@ -2460,26 +2433,6 @@ proxies:
     headers:
       Host: vr.ylks.xyz
     path: /
-- name: 新加坡 007
-  type: vmess
-  network: tcp
-  server: 206.189.89.26
-  port: 21422
-  uuid: edd98617-e8dc-4305-83ca-6afa38ff42e8
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  delay: 2051
-- name: 新加坡 008
-  type: vmess
-  network: tcp
-  server: 167.172.65.242
-  port: 21817
-  uuid: 8fe0970b-3907-4591-c61f-1ab11065ca4c
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  delay: 1769
 - name: 韩国 002
   type: vless
   network: ws
@@ -2534,15 +2487,50 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: /tg
-- name: 爱尔兰 001
-  type: trojan
-  network: tcp
-  server: 52.214.235.216
-  port: 22222
-  password: telegram-id-privatevpns
+- name: 美国 012
+  type: vless
+  network: grpc
+  server: 104.168.43.162
+  port: 14821
+  uuid: 089723ba-0ac0-469f-99a9-cd4465f66ae6
+  servername: gateway.icloud.com
+  tls: true
   udp: true
-  sni: trojan.burgerip.co.uk
-  delay: 911
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: c9dv7BAp3MtNH8SuaE-yBIKteVxefVO7LB9fbVKq2Ww
+    short-id: 6ba85179e30d4fc2
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 加拿大 006
+  type: vmess
+  network: ws
+  server: 104.19.47.45
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: /
+- name: 加拿大 030
+  type: vmess
+  network: ws
+  server: 104.26.5.32
+  port: 2082
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  servername: ybr.redbullplus.xyz
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ybr.redbullplus.xyz
+    path: /
 proxy-groups:
 - name: PROXY
   type: select
@@ -2710,10 +2698,8 @@ proxy-groups:
   - 新加坡 001
   - 美国 025
   - 美国 026
-  - 美国 027
   - 美国 029
   - 加拿大 005
-  - 加拿大 006
   - 加拿大 009
   - 加拿大 022
   - 新加坡 004
@@ -2721,13 +2707,13 @@ proxy-groups:
   - 新加坡 005
   - 美国 011
   - 新加坡 006
-  - 新加坡 007
-  - 新加坡 008
   - 韩国 002
   - 新加坡 010
   - 韩国 003
   - 韩国 007
-  - 爱尔兰 001
+  - 美国 012
+  - 加拿大 006
+  - 加拿大 030
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
