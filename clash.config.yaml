@@ -664,19 +664,6 @@ proxies:
     headers:
       Host: 936a99B4.Vde5-MlX81LANeo.pAgES.dEv
     path: /KkhHL0gsSoZ7M6id/ZGU1Lm1lcmxpbm56Lmxpbms=?ed=2560
-- name: 加拿大 074
-  type: vless
-  network: ws
-  server: 172.67.130.185
-  port: 2053
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  servername: vi.ylks.xyz
-  tls: true
-  delay: 1456
-  ws-opts:
-    headers:
-      Host: vi.ylks.xyz
-    path: /yi4alpg8tfbnhaxq?ed=2560
 - name: 加拿大 087
   type: vless
   network: ws
@@ -1474,19 +1461,6 @@ proxies:
     headers:
       Host: vn.ylks.xyz
     path: /lvml5vtqt8sgq8a8?ed=2560
-- name: 加拿大 114
-  type: vless
-  network: ws
-  server: 172.67.130.185
-  port: 2083
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  servername: vn.ylks.xyz
-  tls: true
-  delay: 1406
-  ws-opts:
-    headers:
-      Host: vn.ylks.xyz
-    path: /u2e6k5dgtzcis0lv?ed=2560
 - name: 爱沙尼亚 009
   type: vless
   network: ws
@@ -1682,22 +1656,6 @@ proxies:
     headers:
       Host: ip1.1789034.xyz
     path: github.com/Alvin9999
-- name: 加拿大 041
-  type: vmess
-  network: ws
-  server: nmsl.rnmcnm.com
-  port: 443
-  uuid: 089e06da-2b50-46a3-9f57-6d05f4e68a28
-  servername: nmsl.rnmcnm.com
-  skip-cert-verify: true
-  tls: true
-  alterId: 0
-  cipher: auto
-  delay: 1930
-  ws-opts:
-    headers:
-      Host: nmsl.rnmcnm.com
-    path: /
 - name: 加拿大 048
   type: vmess
   network: ws
@@ -2026,19 +1984,6 @@ proxies:
     headers:
       Host: nina.bond
     path: /linkvws
-- name: 美国 004
-  type: vless
-  network: ws
-  server: 47.236.130.95
-  port: 443
-  uuid: bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c
-  servername: page-us-qg0.pages.dev
-  tls: true
-  delay: 2109
-  ws-opts:
-    headers:
-      Host: page-us-qg0.pages.dev
-    path: /
 - name: 加拿大 035
   type: vmess
   network: ws
@@ -2531,6 +2476,88 @@ proxies:
     headers:
       Host: ybr.redbullplus.xyz
     path: /
+- name: 加拿大 031
+  type: vmess
+  network: ws
+  server: 104.19.45.83
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- name: 阿联酋 001
+  type: vmess
+  network: ws
+  server: 94.140.0.110
+  port: 8880
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: food.zhaal.ir
+    path: /
+- name: 加拿大 036
+  type: vmess
+  network: ws
+  server: 23.227.38.23
+  port: 8080
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- name: 加拿大 041
+  type: vmess
+  network: ws
+  server: 104.19.38.18
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  servername: cdn3.freegradely.xyz
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 053
+  type: vmess
+  network: ws
+  server: 104.19.21.81
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  servername: cdn3.freegradely.xyz
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 066
+  type: vmess
+  network: ws
+  server: 104.19.32.226
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  servername: cdn3.freegradely.xyz
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
 proxy-groups:
 - name: PROXY
   type: select
@@ -2581,7 +2608,6 @@ proxy-groups:
   - 加拿大 021
   - 加拿大 033
   - 加拿大 042
-  - 加拿大 074
   - 加拿大 087
   - 加拿大 088
   - 加拿大 089
@@ -2639,7 +2665,6 @@ proxy-groups:
   - 加拿大 106
   - 加拿大 107
   - 加拿大 112
-  - 加拿大 114
   - 爱沙尼亚 009
   - 加拿大 121
   - 澳大利亚 001
@@ -2654,7 +2679,6 @@ proxy-groups:
   - 加拿大 024
   - 瑞典 002
   - 加拿大 040
-  - 加拿大 041
   - 加拿大 048
   - 加拿大 049
   - 俄罗斯 002
@@ -2678,7 +2702,6 @@ proxy-groups:
   - 加拿大 012
   - 俄罗斯 004
   - 加拿大 016
-  - 美国 004
   - 加拿大 035
   - 加拿大 045
   - 美国 001
@@ -2714,6 +2737,12 @@ proxy-groups:
   - 美国 012
   - 加拿大 006
   - 加拿大 030
+  - 加拿大 031
+  - 阿联酋 001
+  - 加拿大 036
+  - 加拿大 041
+  - 加拿大 053
+  - 加拿大 066
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204

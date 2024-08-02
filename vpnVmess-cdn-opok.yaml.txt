@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx110
+  name: -xx108
   network: ws
   port: 80
   server: 104.22.28.102
@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx124
+  name: -xx121
   network: ws
   port: 80
   server: 104.22.28.102
@@ -31,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx126
+  name: -xx123
   network: ws
   port: 80
   server: 104.22.28.102
@@ -46,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx158
+  name: -xx154
   network: ws
   port: 80
   server: 104.22.28.102
@@ -61,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx159
+  name: 9-xx155
   network: ws
   port: 80
   server: 104.22.28.102
@@ -76,7 +76,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx160
+  name: -xx156
   network: ws
   port: 80
   server: 104.22.28.102
@@ -91,7 +91,22 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx47
+  name: -xx171
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: -xx46
   network: ws
   port: 80
   server: 104.22.28.102
@@ -106,7 +121,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx72
+  name: 9-xx71
   network: ws
   port: 80
   server: 104.22.28.102
@@ -121,7 +136,7 @@ proxies:
     path: /jahfkjha.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx76
+  name: -xx75
   network: ws
   port: 80
   server: 104.22.28.102

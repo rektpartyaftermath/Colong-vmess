@@ -1,5 +1,5 @@
 proxies:
-- name: -xx127
+- name: -xx124
   password: moist
   port: 443
   server: 154.197.121.253
