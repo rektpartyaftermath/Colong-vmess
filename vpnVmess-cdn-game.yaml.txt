@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx108
+  name: -xx106
   network: ws
   port: 80
   server: 104.18.23.136
@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx121
+  name: -xx118
   network: ws
   port: 80
   server: 104.18.23.136
@@ -31,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx123
+  name: -xx120
   network: ws
   port: 80
   server: 104.18.23.136
@@ -46,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx154
+  name: -xx150
   network: ws
   port: 80
   server: 104.18.23.136
@@ -61,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx155
+  name: -xx162
   network: ws
   port: 80
   server: 104.18.23.136
@@ -69,44 +69,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 936d5022-5bdf-41af-b1b8-f4ef1f0ee38f
+  uuid: 1dbf5c96-31cb-4fd7-8f63-ba8d2bdace34
   ws-opts:
     headers:
-      Host: jpaaddda5dd.ludou.us.kg
-    path: /?ed=2048
+      Host: agzbjszujp4.yofnhkfc.xyz
+    path: /video/ibCT6z55
 - alterId: 0
   cipher: auto
-  name: -xx156
-  network: ws
-  port: 80
-  server: 104.18.23.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 56760672-5925-45c8-8e87-0d53c781709e
-  ws-opts:
-    headers:
-      Host: er3.visaapp.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx171
-  network: ws
-  port: 80
-  server: 104.18.23.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- alterId: 0
-  cipher: auto
-  name: -xx46
+  name: -xx45
   network: ws
   port: 80
   server: 104.18.23.136
@@ -121,7 +91,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx71
+  name: 9-xx70
   network: ws
   port: 80
   server: 104.18.23.136
@@ -136,7 +106,7 @@ proxies:
     path: /jahfkjha.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx75
+  name: -xx74
   network: ws
   port: 80
   server: 104.18.23.136
