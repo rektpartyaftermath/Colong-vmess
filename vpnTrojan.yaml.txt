@@ -1,1 +1,15 @@
 proxies:
+- name: 8-xx164
+  password: 50e10abd-3920-42a6-ad0c-6ec731d8c826
+  port: 443
+  server: 104.20.19.168
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx172
+  password: auto
+  port: 443
+  server: 172.66.44.249
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan

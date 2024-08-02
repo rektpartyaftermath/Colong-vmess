@@ -650,19 +650,6 @@ proxies:
     headers:
       Host: 936a99B4.Vde5-MlX81LANeo.pAgES.dEv
     path: /KkhHL0gsSoZ7M6id/ZGU1Lm1lcmxpbm56Lmxpbms=?ed=2560
-- name: 加拿大 087
-  type: vless
-  network: ws
-  server: 104.21.3.131
-  port: 443
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  servername: vi.ylks.xyz
-  tls: true
-  delay: 1350
-  ws-opts:
-    headers:
-      Host: vi.ylks.xyz
-    path: /0kefnfkyroozcd0k?ed=2560
 - name: 加拿大 088
   type: vless
   network: ws
@@ -2013,20 +2000,6 @@ proxies:
     headers:
       Host: cdn1.freegradely.xyz
     path: /
-- name: 加拿大 018
-  type: vmess
-  network: ws
-  server: 104.19.47.65
-  port: 2052
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: /
 - name: 加拿大 046
   type: vmess
   network: ws
@@ -2435,6 +2408,176 @@ proxies:
     headers:
       Host: kr.ylks.xyz
     path: /?proxyip=proxyip.sg.fxxk.dedyn.io
+- name: 加拿大 018
+  type: trojan
+  network: ws
+  server: 104.20.19.168
+  port: 443
+  password: 50e10abd-3920-42a6-ad0c-6ec731d8c826
+  udp: true
+  sni: golinkwuxian.top
+  delay: 1987
+  ws-opts:
+    headers:
+      Host: 555.golinkwuxian.top
+    path: /apple
+- name: 加拿大 022
+  type: vmess
+  network: ws
+  server: pandor.boats
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  servername: aveiror.com
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: aveiror.com
+    path: /
+- name: 加拿大 031
+  type: vmess
+  network: ws
+  server: www.parspack.com
+  port: 80
+  uuid: fd43c7a9-19f7-4c3a-88e2-eaac77e08d42
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: Www.speEdtest.net.WP.zUla.Ir.Debian.oRG.iSVpHp.iR.
+    path: /
+- name: 美国 016
+  type: vless
+  network: ws
+  server: 172.66.44.123
+  port: 443
+  uuid: 22cecc0f-4ad2-4cc0-80e7-e5d6fb375803
+  servername: pardazeshvpn-tg87.pages.dev
+  tls: true
+  client-fingerprint: chrome
+  delay: 2203
+  ws-opts:
+    headers:
+      Host: pardazeshvpn-tg87.pages.dev
+    path: '/Telegram:'
+- name: 加拿大 036
+  type: vless
+  network: ws
+  server: 172.66.46.224
+  port: 443
+  uuid: a8a09765-7681-47ba-9ea0-e0ae79d51088
+  servername: t-netplus-4vx.pages.dev
+  tls: true
+  client-fingerprint: chrome
+  delay: 2488
+  ws-opts:
+    headers:
+      Host: t-netplus-4vx.pages.dev
+    path: /
+- name: 加拿大 048
+  type: vless
+  network: ws
+  server: 172.67.212.190
+  port: 443
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  servername: mmdv2.pages.dev
+  tls: true
+  client-fingerprint: chrome
+  delay: 2100
+  ws-opts:
+    headers:
+      Host: mmdv2.pages.dev
+    path: /
+- name: 加拿大 052
+  type: vless
+  network: ws
+  server: 104.18.13.229
+  port: 8443
+  uuid: 68abcacf-4d6c-4b40-a9ff-1b68c9721230
+  servername: pardazeshvpn-tg75.pages.dev
+  tls: true
+  client-fingerprint: random
+  delay: 1803
+  ws-opts:
+    headers:
+      Host: pardazeshvpn-tg75.pages.dev
+    path: '/Telegram:'
+- name: 加拿大 070
+  type: vless
+  network: ws
+  server: 172.67.181.121
+  port: 443
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  servername: mmdv2.pages.dev
+  tls: true
+  client-fingerprint: chrome
+  delay: 1265
+  ws-opts:
+    headers:
+      Host: mmdv2.pages.dev
+    path: /
+- name: 加拿大 072
+  type: trojan
+  network: ws
+  server: 172.66.44.249
+  port: 443
+  password: auto
+  udp: true
+  sni: fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org
+  delay: 2949
+  fingerprint: randomized
+  ws-opts:
+    headers:
+      Host: fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org
+    path: /worker-polished-glade-fe47.tahajadidi2022.workers.dev/?ed=2560
+- name: 加拿大 073
+  type: vless
+  network: ws
+  server: 172.66.46.220
+  port: 2083
+  uuid: 34208027-101c-4e79-a0e3-87f62ef214e6
+  servername: MoRtEzA865.paGES.DEV
+  tls: true
+  client-fingerprint: chrome
+  delay: 2140
+  ws-opts:
+    headers:
+      Host: MoRtEzA865.paGES.DEV
+    path: /v3mqqmhkvvozmhv5?ed=2560
+- name: 加拿大 074
+  type: vmess
+  network: ws
+  server: 162.159.136.98
+  port: 80
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  servername: rn2.hostmjj.com
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  delay: 1464
+  ws-opts:
+    headers:
+      Host: rn2.hostmjj.com
+    path: /
+- name: 加拿大 075
+  type: vmess
+  network: ws
+  server: 104.19.45.3
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  servername: onea.flha.ru
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  delay: 2787
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
 proxy-groups:
 - name: PROXY
   type: select
@@ -2484,7 +2627,6 @@ proxy-groups:
   - 加拿大 021
   - 加拿大 033
   - 加拿大 042
-  - 加拿大 087
   - 加拿大 088
   - 加拿大 089
   - 加拿大 096
@@ -2581,7 +2723,6 @@ proxy-groups:
   - 美国 007
   - 俄罗斯 006
   - 美国 014
-  - 加拿大 018
   - 加拿大 046
   - 加拿大 047
   - 加拿大 051
@@ -2611,6 +2752,18 @@ proxy-groups:
   - 美国 004
   - 加拿大 009
   - 美国 013
+  - 加拿大 018
+  - 加拿大 022
+  - 加拿大 031
+  - 美国 016
+  - 加拿大 036
+  - 加拿大 048
+  - 加拿大 052
+  - 加拿大 070
+  - 加拿大 072
+  - 加拿大 073
+  - 加拿大 074
+  - 加拿大 075
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
