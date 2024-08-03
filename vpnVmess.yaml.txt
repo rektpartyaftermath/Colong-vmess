@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx124
+  name: -xx114
   network: ws
   port: 443
   server: 104.17.147.22
@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx128
+  name: -xx118
   network: ws
   port: 443
   server: 23.162.200.94
@@ -33,7 +33,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx139
+  name: -xx129
   network: ws
   port: 443
   server: 141.724064.xyz
@@ -49,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx140
+  name: -xx130
   network: ws
   port: 443
   server: 145.724064.xyz
@@ -65,7 +65,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx165
+  name: -xx155
   network: ws
   port: 443
   server: pandor.boats
@@ -75,6 +75,22 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: /
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx170
+  network: ws
+  port: 443
+  server: dk1.connecton.surf
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a808defb-a600-4abc-a489-f3f500c3b901
+  ws-opts:
+    path: vmess
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
