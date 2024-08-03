@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx109
+  name: -xx105
   network: ws
   port: 80
   server: 104.18.23.136
@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx110
+  name: -xx106
   network: ws
   port: 80
   server: 104.18.23.136
@@ -31,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx138
+  name: -xx134
   network: ws
   port: 80
   server: 104.18.23.136
@@ -46,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx150
+  name: -xx146
   network: ws
   port: 80
   server: 104.18.23.136
@@ -61,7 +61,37 @@ proxies:
     path: /video/ibCT6z55
 - alterId: 0
   cipher: auto
-  name: -xx162
+  name: -xx158
+  network: ws
+  port: 80
+  server: 104.18.23.136
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      Host: rn2.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9-xx181
+  network: ws
+  port: 80
+  server: 104.18.23.136
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5662718f-e3e6-4a96-ca43-2394219cfb47
+  ws-opts:
+    headers:
+      Host: jp.rnmcnm.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8-xx183
   network: ws
   port: 80
   server: 104.18.23.136
@@ -121,7 +151,7 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  name: -xx98
+  name: -xx95
   network: ws
   port: 80
   server: 104.18.23.136
