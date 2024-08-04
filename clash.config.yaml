@@ -773,21 +773,6 @@ proxies:
     headers:
       Host: edtunnel-csc.pages.dev
     path: /?ed=2048
-- name: 美国 002
-  type: vmess
-  network: ws
-  server: 172.64.175.213
-  port: 2052
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  servername: cdn1.freegradely.xyz
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  delay: 2724
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
 - name: 加拿大 050
   type: vmess
   network: ws
@@ -1818,21 +1803,6 @@ proxies:
     headers:
       Host: 145.724064.xyz
     path: /zrqrvws
-- name: 美国 023
-  type: vmess
-  network: ws
-  server: 172.64.150.8
-  port: 2082
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  servername: ybr.redbullplus.xyz
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  delay: 2304
-  ws-opts:
-    headers:
-      Host: ybr.redbullplus.xyz
-    path: /
 - name: 加拿大 068
   type: vmess
   network: ws
@@ -2058,20 +2028,6 @@ proxies:
   type: vmess
   network: ws
   server: 104.19.21.81
-  port: 2052
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  servername: cdn3.freegradely.xyz
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: cdn3.freegradely.xyz
-    path: github.com/Alvin9999
-- name: 加拿大 066
-  type: vmess
-  network: ws
-  server: 104.19.32.226
   port: 2052
   uuid: d6b6d982-d52f-465a-b988-85670b23f64a
   servername: cdn3.freegradely.xyz
@@ -3442,20 +3398,6 @@ proxies:
     headers:
       Host: cdn1.freegradely.xyz
     path: github.com/Alvin9999
-- name: 加拿大 131
-  type: vmess
-  network: ws
-  server: www.visa.com
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  tls: false
-  alterId: 0
-  cipher: auto
-  delay: 1207
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
 - name: 加拿大 133
   type: vmess
   network: ws
@@ -3501,6 +3443,120 @@ proxies:
     headers:
       Host: cdn1.freegradely.xyz
     path: github.com/Alvin9999
+- name: 加拿大 066
+  type: vmess
+  network: ws
+  server: cm4-cdn.kfcvme50.life
+  port: 80
+  uuid: 4e26bc93-18eb-41d4-9d12-0bc27d30869e
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: hinet3.kfcvme50.life
+    path: /
+- name: 加拿大 131
+  type: vmess
+  network: ws
+  server: sc.yydspp.cc
+  port: 80
+  uuid: 4929f0ca-2793-4aa3-b2d0-7445447097f6
+  skip-cert-verify: false
+  tls: false
+  tfo: false
+  alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: oiicjp.yydsii.com
+    path: /
+- name: 加拿大 135
+  type: trojan
+  network: ws
+  server: jp1-july.88888802.xyz
+  port: 443
+  password: f2191442-1436-3d79-801e-80d8de896c73
+  skip-cert-verify: false
+  sni: jp1-july.88888802.xyz
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: jp1-july.88888802.xyz
+    path: /91838f3b905c42c7aa5b664b27d8193b
+- name: 加拿大 136
+  type: trojan
+  network: ws
+  server: jp2-july.88888802.xyz
+  port: 443
+  password: f2191442-1436-3d79-801e-80d8de896c73
+  skip-cert-verify: false
+  sni: jp2-july.88888802.xyz
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: jp2-july.88888802.xyz
+    path: /91838f3b905c42c7aa5b664b27d8193b
+- name: 加拿大 137
+  type: trojan
+  network: ws
+  server: us3-july.88888802.xyz
+  port: 443
+  password: f2191442-1436-3d79-801e-80d8de896c73
+  skip-cert-verify: false
+  sni: us3-july.88888802.xyz
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: us3-july.88888802.xyz
+    path: /91838f3b905c42c7aa5b664b27d8193b
+- name: 加拿大 139
+  type: vmess
+  network: ws
+  server: 104.19.45.7
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- name: 加拿大 141
+  type: vmess
+  network: ws
+  server: 104.19.45.246
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- name: 加拿大 144
+  type: vmess
+  network: ws
+  server: 104.19.45.88
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
 proxy-groups:
 - name: PROXY
   type: select
@@ -3559,7 +3615,6 @@ proxy-groups:
   - 加拿大 142
   - 加拿大 143
   - 加拿大 147
-  - 美国 002
   - 加拿大 050
   - 加拿大 058
   - 加拿大 017
@@ -3633,7 +3688,6 @@ proxy-groups:
   - 美国 021
   - 加拿大 064
   - 加拿大 067
-  - 美国 023
   - 加拿大 068
   - 美国 024
   - 新加坡 001
@@ -3651,7 +3705,6 @@ proxy-groups:
   - 加拿大 030
   - 加拿大 041
   - 加拿大 053
-  - 加拿大 066
   - 加拿大 007
   - 加拿大 009
   - 美国 013
@@ -3749,10 +3802,17 @@ proxy-groups:
   - 加拿大 128
   - 加拿大 130
   - 美国 039
-  - 加拿大 131
   - 加拿大 133
   - 美国 040
   - 加拿大 134
+  - 加拿大 066
+  - 加拿大 131
+  - 加拿大 135
+  - 加拿大 136
+  - 加拿大 137
+  - 加拿大 139
+  - 加拿大 141
+  - 加拿大 144
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
