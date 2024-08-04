@@ -1,37 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx100
-  network: ws
-  port: 80
-  server: 104.18.23.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
-  ws-opts:
-    headers:
-      Host: nlch.blueberrynetwork.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx101
-  network: ws
-  port: 80
-  server: 104.18.23.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
-  ws-opts:
-    headers:
-      Host: nlch.blueberrynetwork.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx127
+  name: -xx125
   network: ws
   port: 80
   server: 104.18.23.136
@@ -46,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx138
+  name: -xx136
   network: ws
   port: 80
   server: 104.18.23.136
@@ -61,7 +31,7 @@ proxies:
     path: /video/ibCT6z55
 - alterId: 0
   cipher: auto
-  name: -xx148
+  name: -xx146
   network: ws
   port: 80
   server: 104.18.23.136
@@ -76,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx170
+  name: 9-xx168
   network: ws
   port: 80
   server: 104.18.23.136
@@ -91,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx172
+  name: 8-xx170
   network: ws
   port: 80
   server: 104.18.23.136
@@ -106,7 +76,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx179
+  name: 8-xx177
   network: ws
   port: 80
   server: 104.18.23.136
@@ -121,7 +91,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx207
+  name: -xx205
   network: ws
   port: 80
   server: 104.18.23.136
@@ -136,7 +106,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx232
+  name: 8-xx230
   network: ws
   port: 80
   server: 104.18.23.136
@@ -151,22 +121,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx238
-  network: ws
-  port: 80
-  server: 104.18.23.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4e26bc93-18eb-41d4-9d12-0bc27d30869e
-  ws-opts:
-    headers:
-      Host: hinet3.kfcvme50.life
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx239
+  name: -xx236
   network: ws
   port: 80
   server: 104.18.23.136
@@ -181,7 +136,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx42
+  name: -xx41
   network: ws
   port: 80
   server: 104.18.23.136
@@ -196,7 +151,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx64
+  name: 9-xx62
   network: ws
   port: 80
   server: 104.18.23.136
@@ -211,7 +166,7 @@ proxies:
     path: /jahfkjha.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx68
+  name: -xx66
   network: ws
   port: 80
   server: 104.18.23.136
@@ -226,7 +181,37 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  name: -xx91
+  name: -xx89
+  network: ws
+  port: 80
+  server: 104.18.23.136
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
+  ws-opts:
+    headers:
+      Host: nlch.blueberrynetwork.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx98
+  network: ws
+  port: 80
+  server: 104.18.23.136
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
+  ws-opts:
+    headers:
+      Host: nlch.blueberrynetwork.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx99
   network: ws
   port: 80
   server: 104.18.23.136

@@ -488,19 +488,6 @@ proxies:
     headers:
       Host: cdn1.freegradely.xyz
     path: github.com/Alvin9999
-- name: 爱沙尼亚 005
-  type: vless
-  network: ws
-  server: 45.80.110.230
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  tls: true
-  delay: 2074
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
 - name: 加拿大 060
   type: vless
   network: ws
@@ -845,19 +832,6 @@ proxies:
     headers:
       Host: de1.vless.site
     path: /M_Buy
-- name: 美国 009
-  type: vless
-  network: ws
-  server: 47.236.145.85
-  port: 2087
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  servername: kkfk.ylks.xyz
-  tls: true
-  delay: 1564
-  ws-opts:
-    headers:
-      Host: kkfk.ylks.xyz
-    path: /blue
 - name: 加拿大 077
   type: vmess
   network: ws
@@ -3443,20 +3417,6 @@ proxies:
     headers:
       Host: cdn1.freegradely.xyz
     path: github.com/Alvin9999
-- name: 加拿大 066
-  type: vmess
-  network: ws
-  server: cm4-cdn.kfcvme50.life
-  port: 80
-  uuid: 4e26bc93-18eb-41d4-9d12-0bc27d30869e
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: hinet3.kfcvme50.life
-    path: /
 - name: 加拿大 131
   type: vmess
   network: ws
@@ -3557,6 +3517,20 @@ proxies:
     headers:
       Host: onea.flha.ru
     path: /
+- name: 加拿大 066
+  type: vmess
+  network: ws
+  server: 104.19.32.226
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  servername: cdn3.freegradely.xyz
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
 proxy-groups:
 - name: PROXY
   type: select
@@ -3594,7 +3568,6 @@ proxy-groups:
   - 加拿大 001
   - 美国 015
   - 加拿大 027
-  - 爱沙尼亚 005
   - 加拿大 060
   - 加拿大 062
   - 加拿大 063
@@ -3620,7 +3593,6 @@ proxy-groups:
   - 加拿大 017
   - 加拿大 103
   - 加拿大 104
-  - 美国 009
   - 加拿大 077
   - 加拿大 110
   - 加拿大 117
@@ -3805,7 +3777,6 @@ proxy-groups:
   - 加拿大 133
   - 美国 040
   - 加拿大 134
-  - 加拿大 066
   - 加拿大 131
   - 加拿大 135
   - 加拿大 136
@@ -3813,6 +3784,7 @@ proxy-groups:
   - 加拿大 139
   - 加拿大 141
   - 加拿大 144
+  - 加拿大 066
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
