@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx149
+  name: 8-xx148
   network: ws
   port: 80
   server: 104.22.28.102

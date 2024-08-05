@@ -4,7 +4,7 @@ proxies:
   name: -xx116
   network: ws
   port: 80
-  server: 104.18.23.136
+  server: 104.18.24.176
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -16,10 +16,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx149
+  name: 8-xx148
   network: ws
   port: 80
-  server: 104.18.23.136
+  server: 104.18.24.176
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -34,7 +34,7 @@ proxies:
   name: -xx41
   network: ws
   port: 80
-  server: 104.18.23.136
+  server: 104.18.24.176
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -49,7 +49,7 @@ proxies:
   name: 9-xx61
   network: ws
   port: 80
-  server: 104.18.23.136
+  server: 104.18.24.176
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -64,7 +64,7 @@ proxies:
   name: -xx65
   network: ws
   port: 80
-  server: 104.18.23.136
+  server: 104.18.24.176
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -79,7 +79,7 @@ proxies:
   name: -xx87
   network: ws
   port: 80
-  server: 104.18.23.136
+  server: 104.18.24.176
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -94,7 +94,7 @@ proxies:
   name: -xx96
   network: ws
   port: 80
-  server: 104.18.23.136
+  server: 104.18.24.176
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -109,7 +109,7 @@ proxies:
   name: -xx97
   network: ws
   port: 80
-  server: 104.18.23.136
+  server: 104.18.24.176
   skip-cert-verify: true
   tls: false
   type: vmess
