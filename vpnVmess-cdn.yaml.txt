@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx125
+  name: -xx118
   network: ws
   port: 80
   server: 104.21.69.223
@@ -16,67 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx136
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1dbf5c96-31cb-4fd7-8f63-ba8d2bdace34
-  ws-opts:
-    headers:
-      Host: agzbjszujp4.yofnhkfc.xyz
-    path: /video/ibCT6z55
-- alterId: 0
-  cipher: auto
-  name: -xx146
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
-  ws-opts:
-    headers:
-      Host: rn2.hostmjj.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9-xx168
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5662718f-e3e6-4a96-ca43-2394219cfb47
-  ws-opts:
-    headers:
-      Host: jp.rnmcnm.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8-xx170
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
-  ws-opts:
-    headers:
-      Host: rn2.hostmjj.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8-xx177
+  name: 8-xx151
   network: ws
   port: 80
   server: 104.21.69.223
@@ -88,51 +28,6 @@ proxies:
   ws-opts:
     headers:
       Host: nlch.blueberrynetwork.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx205
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4929f0ca-2793-4aa3-b2d0-7445447097f6
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8-xx230
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
-  ws-opts:
-    headers:
-      Host: rn2.hostmjj.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx236
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4929f0ca-2793-4aa3-b2d0-7445447097f6
-  ws-opts:
-    headers:
-      Host: oiicjp.yydsii.com
     path: /
 - alterId: 0
   cipher: auto
@@ -181,7 +76,22 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  name: -xx89
+  name: -xx88
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
+  ws-opts:
+    headers:
+      Host: nlch.blueberrynetwork.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx97
   network: ws
   port: 80
   server: 104.21.69.223
@@ -197,21 +107,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: -xx98
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
-  ws-opts:
-    headers:
-      Host: nlch.blueberrynetwork.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx99
   network: ws
   port: 80
   server: 104.21.69.223
