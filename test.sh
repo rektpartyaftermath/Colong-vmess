@@ -2,7 +2,7 @@
 curl https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml > clash.config.yaml || exit 1
 BUGSNI="graph.facebook.com"
 #BUGCDNOPOK="104.26.4.192"  #bug opok
-BUGCDNGAME="104.18.23.136"
+BUGCDNGAME="104.18.24.176"
 BUGCDNOPOK="104.22.28.102"  #bug opok
 BUGCDN="104.21.69.223"  #bug sushiroll
 sed '/^proxy\-groups/,$d' clash.config.yaml > cutted
