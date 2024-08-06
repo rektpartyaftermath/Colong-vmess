@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx116
+  name: -xx113
   network: ws
   port: 80
   server: 104.21.69.223
@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx148
+  name: 8-xx144
   network: ws
   port: 80
   server: 104.21.69.223
@@ -31,7 +31,37 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx41
+  name: -xx220
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fddfab81-22bb-4d33-8e95-933c8c81b2ad
+  ws-opts:
+    headers:
+      Host: kr02.thomasina.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx228
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
+  ws-opts:
+    headers:
+      Host: 25716247887416.tw.chibaba.filegear-sg.me
+    path: /mls.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: -xx39
   network: ws
   port: 80
   server: 104.21.69.223
@@ -46,7 +76,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx61
+  name: 9-xx59
   network: ws
   port: 80
   server: 104.21.69.223
@@ -61,7 +91,7 @@ proxies:
     path: /jahfkjha.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx65
+  name: -xx63
   network: ws
   port: 80
   server: 104.21.69.223
@@ -76,7 +106,7 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  name: -xx87
+  name: -xx85
   network: ws
   port: 80
   server: 104.21.69.223
@@ -91,7 +121,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx96
+  name: -xx94
   network: ws
   port: 80
   server: 104.21.69.223
@@ -106,7 +136,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx97
+  name: -xx95
   network: ws
   port: 80
   server: 104.21.69.223
