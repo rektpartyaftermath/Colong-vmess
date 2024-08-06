@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx112
+  name: -xx102
   network: ws
   port: 80
   server: 104.18.24.176
@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx143
+  name: 8-xx132
   network: ws
   port: 80
   server: 104.18.24.176
@@ -31,37 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx218
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fddfab81-22bb-4d33-8e95-933c8c81b2ad
-  ws-opts:
-    headers:
-      Host: kr02.thomasina.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx224
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
-  ws-opts:
-    headers:
-      Host: 25716247887416.tw.chibaba.filegear-sg.me
-    path: /mls.html?ed=2048
-- alterId: 0
-  cipher: auto
-  name: -xx235
+  name: -xx198
   network: ws
   port: 80
   server: 104.18.24.176
@@ -76,7 +46,22 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx39
+  name: -xx204
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fddfab81-22bb-4d33-8e95-933c8c81b2ad
+  ws-opts:
+    headers:
+      Host: de01.thomasina.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx32
   network: ws
   port: 80
   server: 104.18.24.176
@@ -91,7 +76,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx59
+  name: 9-xx52
   network: ws
   port: 80
   server: 104.18.24.176
@@ -106,7 +91,7 @@ proxies:
     path: /jahfkjha.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx63
+  name: -xx55
   network: ws
   port: 80
   server: 104.18.24.176
@@ -121,7 +106,7 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  name: -xx85
+  name: -xx77
   network: ws
   port: 80
   server: 104.18.24.176
@@ -136,7 +121,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx94
+  name: -xx86
   network: ws
   port: 80
   server: 104.18.24.176
@@ -151,7 +136,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx95
+  name: -xx87
   network: ws
   port: 80
   server: 104.18.24.176
