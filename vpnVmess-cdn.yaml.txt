@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx113
+  name: -xx112
   network: ws
   port: 80
   server: 104.21.69.223
@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx144
+  name: 8-xx143
   network: ws
   port: 80
   server: 104.21.69.223
@@ -31,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx220
+  name: -xx218
   network: ws
   port: 80
   server: 104.21.69.223
@@ -46,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx228
+  name: -xx224
   network: ws
   port: 80
   server: 104.21.69.223
@@ -59,6 +59,21 @@ proxies:
     headers:
       Host: 25716247887416.tw.chibaba.filegear-sg.me
     path: /mls.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: -xx235
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: d396-flower-d396.megare7260.workers.dev
+    path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
   name: -xx39

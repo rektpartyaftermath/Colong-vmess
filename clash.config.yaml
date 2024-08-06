@@ -1614,21 +1614,6 @@ proxies:
     headers:
       Host: hk-xinjiapoddnsjuhefuzaiyyds.ddnsos.site
     path: /?ed=2048
-- name: 加拿大 068
-  type: vmess
-  network: ws
-  server: 104.21.69.44
-  port: 2052
-  uuid: 6dbb6c48-ff95-502a-a92d-4ca8189308f0
-  servername: De1.vmess.site.
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  delay: 1591
-  ws-opts:
-    headers:
-      Host: De1.vmess.site.
-    path: /vmess
 - name: 美国 024
   type: vmess
   network: ws
@@ -2859,20 +2844,6 @@ proxies:
     headers:
       Host: cdn3.freegradely.xyz
     path: /
-- name: 加拿大 020
-  type: vmess
-  network: ws
-  server: 104.19.32.226
-  port: 2052
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  servername: cdn3.freegradely.xyz
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: cdn3.freegradely.xyz
-    path: github.com/Alvin9999
 - name: 加拿大 022
   type: vmess
   network: ws
@@ -3223,21 +3194,6 @@ proxies:
     headers:
       Host: onea.flha.ru
     path: /
-- name: 加拿大 128
-  type: vmess
-  network: ws
-  server: 104.19.123.11
-  port: 2052
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
 - name: 台湾 001
   type: vless
   network: ws
@@ -3266,21 +3222,6 @@ proxies:
   type: vmess
   network: ws
   server: 104.19.45.2
-  port: 2095
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- name: 加拿大 136
-  type: vmess
-  network: ws
-  server: 104.19.45.161
   port: 2095
   uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   skip-cert-verify: true
@@ -3416,6 +3357,154 @@ proxies:
   alterId: 0
   cipher: auto
   delay: 1354
+- name: 芬兰 001
+  type: vmess
+  network: ws
+  server: fi3.connecton.surf
+  port: 443
+  uuid: 5b38505e-c09a-483c-a60e-6a6a3f2dc152
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: fi3.connecton.surf
+    path: vmess
+- name: 瑞典 001
+  type: vmess
+  network: ws
+  server: Back.MsV2ray.online
+  port: 80
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: d396-flower-d396.megare7260.workers.dev
+    path: /obdii.cfd/linkws
+- name: 加拿大 020
+  type: vmess
+  network: ws
+  server: 104.19.45.80
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- name: 美国 020
+  type: vmess
+  network: ws
+  server: AZARBAYJAB1.Ca.8.PAGES.DEV
+  port: 2095
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: sany0116.donovan-a79.workers.dev
+    path: /max.mankadmu.com/linkvws
+- name: 加拿大 068
+  type: vmess
+  network: ws
+  server: 104.19.45.19
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- name: 美国 021
+  type: vmess
+  network: ws
+  server: sv2.fastfast80.ir
+  port: 443
+  uuid: 6a99725d-2af8-d27c-cef5-302fbbe54c07
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: uk.fastfast80.ir
+    path: /IVApi/UK/7
+- name: 加拿大 128
+  type: vmess
+  network: ws
+  server: 104.19.45.114
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- name: 加拿大 136
+  type: trojan
+  network: ws
+  server: 104.17.61.2
+  port: 443
+  password: dba20dcb635e430fa4d3bfc303a149d2
+  skip-cert-verify: true
+  udp: true
+  sni: jobscareerforstudent.com
+  ws-opts:
+    headers:
+      Host: jobscareerforstudent.com
+    path: /6b777a91
+- name: 美国 023
+  type: vmess
+  network: ws
+  server: 172.64.194.76
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 139
+  type: vmess
+  network: ws
+  server: 104.19.45.32
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
 proxy-groups:
 - name: PROXY
   type: select
@@ -3534,7 +3623,6 @@ proxy-groups:
   - 加拿大 046
   - 加拿大 047
   - 加拿大 051
-  - 加拿大 068
   - 美国 024
   - 美国 025
   - 新加坡 001
@@ -3624,7 +3712,6 @@ proxy-groups:
   - 香港 001
   - 美国 009
   - 加拿大 018
-  - 加拿大 020
   - 加拿大 022
   - 加拿大 049
   - 加拿大 059
@@ -3649,11 +3736,9 @@ proxy-groups:
   - 韩国 002
   - 加拿大 110
   - 加拿大 113
-  - 加拿大 128
   - 台湾 001
   - 美国 042
   - 加拿大 131
-  - 加拿大 136
   - 加拿大 137
   - 香港 004
   - 美国 001
@@ -3664,6 +3749,16 @@ proxy-groups:
   - 香港 008
   - 美国 015
   - 美国 018
+  - 芬兰 001
+  - 瑞典 001
+  - 加拿大 020
+  - 美国 020
+  - 加拿大 068
+  - 美国 021
+  - 加拿大 128
+  - 加拿大 136
+  - 美国 023
+  - 加拿大 139
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
