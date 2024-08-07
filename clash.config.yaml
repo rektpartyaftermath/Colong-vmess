@@ -1596,21 +1596,6 @@ proxies:
     headers:
       Host: dns68.putata.eu.org
     path: /
-- name: 美国 012
-  type: vless
-  network: grpc
-  server: 104.168.43.162
-  port: 14821
-  uuid: 089723ba-0ac0-469f-99a9-cd4465f66ae6
-  servername: gateway.icloud.com
-  tls: true
-  udp: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: c9dv7BAp3MtNH8SuaE-yBIKteVxefVO7LB9fbVKq2Ww
-    short-id: 6ba85179e30d4fc2
-  grpc-opts:
-    grpc-service-name: grpc
 - name: 加拿大 006
   type: vmess
   network: ws
@@ -1682,19 +1667,6 @@ proxies:
     headers:
       Host: bpb-worker-panel-h5f.pages.dev
     path: /
-- name: 美国 013
-  type: vless
-  network: ws
-  server: 47.236.180.51
-  port: 8443
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  servername: kr.ylks.xyz
-  tls: true
-  delay: 1901
-  ws-opts:
-    headers:
-      Host: kr.ylks.xyz
-    path: /?proxyip=proxyip.sg.fxxk.dedyn.io
 - name: 美国 016
   type: vless
   network: ws
@@ -2974,6 +2946,123 @@ proxies:
     headers:
       Host: de01.thomasina.buzz
     path: /
+- name: 加拿大 013
+  type: vmess
+  network: ws
+  server: 23.227.38.3
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip1.1457230.xyz
+    path: /
+- name: 美国 012
+  type: vmess
+  network: ws
+  server: 172.64.198.249
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: /
+- name: 加拿大 016
+  type: vmess
+  network: ws
+  server: 104.19.47.27
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip1.1457230.xyz
+    path: /
+- name: 美国 013
+  type: vmess
+  network: ws
+  server: 172.64.166.32
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 022
+  type: vmess
+  network: ws
+  server: skk.moe
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- name: 美国 020
+  type: vmess
+  network: ws
+  server: 104.19.45.226
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- name: 加拿大 049
+  type: vmess
+  network: ws
+  server: 104.19.45.237
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- name: 哈萨克斯坦 001
+  type: vmess
+  network: ws
+  server: 3h-kazakhstan1.09vpn.com
+  port: 80
+  uuid: 61c3f270-34e8-4345-b6d9-1268528f99f2
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: 3h-kazakhstan1.09vpn.com
+    path: /vmess/
 proxy-groups:
 - name: PROXY
   type: select
@@ -3091,13 +3180,11 @@ proxy-groups:
   - 美国 011
   - 新加坡 006
   - 韩国 003
-  - 美国 012
   - 加拿大 006
   - 加拿大 030
   - 加拿大 041
   - 加拿大 053
   - 加拿大 009
-  - 美国 013
   - 美国 016
   - 加拿大 036
   - 加拿大 070
@@ -3189,6 +3276,14 @@ proxy-groups:
   - 加拿大 007
   - 美国 009
   - 德国 001
+  - 加拿大 013
+  - 美国 012
+  - 加拿大 016
+  - 美国 013
+  - 加拿大 022
+  - 美国 020
+  - 加拿大 049
+  - 哈萨克斯坦 001
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204

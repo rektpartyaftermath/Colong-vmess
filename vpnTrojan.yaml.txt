@@ -1,5 +1,5 @@
 proxies:
-- name: -xx175
+- name: -xx173
   password: f2191442-1436-3d79-801e-80d8de896c73
   port: 443
   server: jp1-july.88888802.xyz

@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx132
+  name: 8-xx130
   network: ws
   port: 80
   server: 104.21.69.223
@@ -31,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx198
+  name: -xx196
   network: ws
   port: 80
   server: 104.21.69.223
@@ -46,7 +46,7 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx204
+  name: -xx202
   network: ws
   port: 80
   server: 104.21.69.223
@@ -59,6 +59,21 @@ proxies:
     headers:
       Host: de01.thomasina.buzz
     path: /
+- alterId: 0
+  cipher: auto
+  name: -xx210
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 61c3f270-34e8-4345-b6d9-1268528f99f2
+  ws-opts:
+    headers:
+      Host: 3h-kazakhstan1.09vpn.com
+    path: /vmess/
 - alterId: 0
   cipher: auto
   name: -xx32
