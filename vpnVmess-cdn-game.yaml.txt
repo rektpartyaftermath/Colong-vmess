@@ -1,22 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx102
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de
-  ws-opts:
-    headers:
-      Host: ip001.freegradely.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8-xx130
+  name: 8-xx125
   network: ws
   port: 80
   server: 104.18.24.176
@@ -31,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx196
+  name: -xx187
   network: ws
   port: 80
   server: 104.18.24.176
@@ -46,37 +31,7 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx202
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fddfab81-22bb-4d33-8e95-933c8c81b2ad
-  ws-opts:
-    headers:
-      Host: de01.thomasina.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx210
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 61c3f270-34e8-4345-b6d9-1268528f99f2
-  ws-opts:
-    headers:
-      Host: 3h-kazakhstan1.09vpn.com
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: -xx32
+  name: -xx31
   network: ws
   port: 80
   server: 104.18.24.176
@@ -91,7 +46,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx52
+  name: 9-xx51
   network: ws
   port: 80
   server: 104.18.24.176
@@ -106,7 +61,7 @@ proxies:
     path: /jahfkjha.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx55
+  name: -xx54
   network: ws
   port: 80
   server: 104.18.24.176
@@ -121,7 +76,7 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  name: -xx77
+  name: -xx76
   network: ws
   port: 80
   server: 104.18.24.176
@@ -136,7 +91,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx86
+  name: -xx98
   network: ws
   port: 80
   server: 104.18.24.176
@@ -144,23 +99,8 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
+  uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de
   ws-opts:
     headers:
-      Host: nlch.blueberrynetwork.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx87
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
-  ws-opts:
-    headers:
-      Host: nlch.blueberrynetwork.store
+      Host: ip001.freegradely.xyz
     path: /
