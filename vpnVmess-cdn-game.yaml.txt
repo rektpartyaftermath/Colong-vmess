@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 8-xx124
+  name: 8-xx122
   network: ws
   port: 80
   server: 104.18.24.176
@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx186
+  name: -xx181
   network: ws
   port: 80
   server: 104.18.24.176
@@ -31,22 +31,7 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx197
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8490225a-eee4-4b08-983c-2a6726e263d6
-  ws-opts:
-    headers:
-      Host: b3.ludou.us.kg
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx198
+  name: -xx191
   network: ws
   port: 80
   server: 104.18.24.176
@@ -61,7 +46,7 @@ proxies:
     path: /IVApi/NL/7
 - alterId: 0
   cipher: auto
-  name: -xx199
+  name: -xx192
   network: ws
   port: 80
   server: 104.18.24.176
@@ -76,7 +61,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: -xx205
+  name: -xx195
   network: ws
   port: 80
   server: 104.18.24.176
@@ -91,37 +76,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx206
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fddfab81-22bb-4d33-8e95-933c8c81b2ad
-  ws-opts:
-    headers:
-      Host: de02.thomasina.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx210
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fddfab81-22bb-4d33-8e95-933c8c81b2ad
-  ws-opts:
-    headers:
-      Host: jp01.thomasina.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx31
+  name: -xx30
   network: ws
   port: 80
   server: 104.18.24.176
@@ -136,7 +91,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx51
+  name: 9-xx50
   network: ws
   port: 80
   server: 104.18.24.176
@@ -151,7 +106,7 @@ proxies:
     path: /jahfkjha.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx54
+  name: -xx53
   network: ws
   port: 80
   server: 104.18.24.176
@@ -166,7 +121,7 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  name: -xx76
+  name: -xx75
   network: ws
   port: 80
   server: 104.18.24.176
@@ -181,7 +136,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx98
+  name: -xx96
   network: ws
   port: 80
   server: 104.18.24.176

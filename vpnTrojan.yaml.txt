@@ -1,12 +1,5 @@
 proxies:
-- name: -xx202
-  password: CMLiu
-  port: 443
-  server: 116.206.93.237
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx204
+- name: -xx194
   password: moist
   port: 443
   server: 152.70.239.134
