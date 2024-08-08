@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9-xx188
+  name: 9-xx186
   network: ws
   port: 443
   server: 162.159.129.129
@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: -xx189
+  name: -xx187
   network: ws
   port: 443
   server: 103.212.98.234
@@ -33,7 +33,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx87
+  name: -xx85
   network: ws
   port: 443
   server: 104.17.147.22
