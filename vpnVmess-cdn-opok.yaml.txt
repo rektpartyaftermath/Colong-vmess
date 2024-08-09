@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 8-xx117
+  name: 8-xx116
   network: ws
   port: 80
   server: 104.22.28.102
@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx175
+  name: -xx173
   network: ws
   port: 80
   server: 104.22.28.102
@@ -31,7 +31,7 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx184
+  name: -xx182
   network: ws
   port: 80
   server: 104.22.28.102
@@ -46,7 +46,7 @@ proxies:
     path: /IVApi/NL/7
 - alterId: 0
   cipher: auto
-  name: -xx185
+  name: -xx183
   network: ws
   port: 80
   server: 104.22.28.102
@@ -61,7 +61,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: -xx191
+  name: -xx189
   network: ws
   port: 80
   server: 104.22.28.102
@@ -76,7 +76,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx192
+  name: 8-xx190
   network: ws
   port: 80
   server: 104.22.28.102
@@ -91,7 +91,22 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx29
+  name: -xx215
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ced7332-31d2-4b62-b098-fb31ea120359
+  ws-opts:
+    headers:
+      Host: 5e1ace082c1f1632.5e1ace082c1f1632knock.hihi.5e1ace082c1f1632.dE-DaRGAh.oFFdARSAd.iR.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx28
   network: ws
   port: 80
   server: 104.22.28.102
@@ -106,7 +121,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx48
+  name: 9-xx47
   network: ws
   port: 80
   server: 104.22.28.102
@@ -121,7 +136,7 @@ proxies:
     path: /jahfkjha.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx51
+  name: -xx50
   network: ws
   port: 80
   server: 104.22.28.102
@@ -136,7 +151,7 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  name: -xx73
+  name: -xx72
   network: ws
   port: 80
   server: 104.22.28.102
@@ -151,7 +166,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx94
+  name: -xx93
   network: ws
   port: 80
   server: 104.22.28.102
