@@ -2569,21 +2569,6 @@ proxies:
     headers:
       Host: onea.flha.ru
     path: /
-- name: 美国 009
-  type: vmess
-  network: ws
-  server: 172.64.99.22
-  port: 2052
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
 - name: 加拿大 013
   type: vmess
   network: ws
@@ -3025,19 +3010,6 @@ proxies:
     headers:
       Host: cdn1.freegradely.xyz
     path: github.com/Alvin9999
-- name: 美国 027
-  type: vless
-  network: ws
-  server: 47.236.130.95
-  port: 443
-  uuid: bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c
-  servername: page-us-qg0.pages.dev
-  tls: true
-  delay: 1505
-  ws-opts:
-    headers:
-      Host: page-us-qg0.pages.dev
-    path: /
 - name: 新加坡 001
   type: vmess
   network: ws
@@ -3151,6 +3123,58 @@ proxies:
   ws-opts:
     headers:
       Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 美国 009
+  type: vless
+  network: ws
+  server: 47.236.144.208
+  port: 2052
+  uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9
+  servername: vless1.xiaomayi0804.workers.dev
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: vless1.xiaomayi0804.workers.dev
+    path: /?ed=2048
+- name: 香港 006
+  type: vless
+  network: ws
+  server: 8.218.211.17
+  port: 2052
+  uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9
+  servername: vless1.xiaomayi0804.workers.dev
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: vless1.xiaomayi0804.workers.dev
+    path: /?ed=2048
+- name: 日本 002
+  type: vless
+  network: ws
+  server: bestproxy.onecf.eu.org
+  port: 2052
+  uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9
+  servername: vless1.xiaomayi0804.workers.dev
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: vless1.xiaomayi0804.workers.dev
+    path: /?ed=2048
+- name: 加拿大 004
+  type: vless
+  network: ws
+  server: q.achen.link
+  port: 80
+  uuid: 05fc5a1e-d306-4e14-9781-ba563fa3aca9
+  servername: vless1.xiaomayi0804.workers.dev
+  tls: false
+  udp: true
+  ws-opts:
+    headers:
+      Host: vless1.xiaomayi0804.workers.dev
     path: /?ed=2048
 proxy-groups:
 - name: PROXY
@@ -3338,7 +3362,6 @@ proxy-groups:
   - 瑞典 001
   - 加拿大 068
   - 加拿大 007
-  - 美国 009
   - 加拿大 013
   - 美国 013
   - 美国 012
@@ -3370,7 +3393,6 @@ proxy-groups:
   - 美国 025
   - 加拿大 067
   - 加拿大 081
-  - 美国 027
   - 新加坡 001
   - 新加坡 003
   - 美国 023
@@ -3379,6 +3401,10 @@ proxy-groups:
   - 加拿大 009
   - 瑞典 003
   - 韩国 005
+  - 美国 009
+  - 香港 006
+  - 日本 002
+  - 加拿大 004
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204

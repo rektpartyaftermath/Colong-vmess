@@ -31,7 +31,7 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx182
+  name: -xx181
   network: ws
   port: 80
   server: 104.18.24.176
@@ -46,7 +46,7 @@ proxies:
     path: /IVApi/NL/7
 - alterId: 0
   cipher: auto
-  name: -xx183
+  name: -xx182
   network: ws
   port: 80
   server: 104.18.24.176
@@ -61,7 +61,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: -xx189
+  name: -xx188
   network: ws
   port: 80
   server: 104.18.24.176
@@ -76,7 +76,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx190
+  name: 8-xx189
   network: ws
   port: 80
   server: 104.18.24.176
@@ -91,7 +91,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx215
+  name: -xx213
   network: ws
   port: 80
   server: 104.18.24.176
