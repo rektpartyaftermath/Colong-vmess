@@ -1444,20 +1444,6 @@ proxies:
     headers:
       Host: xr.ylks.xyz
     path: /?proxyip=proxyip.sg.fxxk.dedyn.io
-- name: 韩国 003
-  type: vless
-  network: ws
-  server: 146.56.171.182
-  port: 11659
-  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
-  servername: dns68.putata.eu.org
-  tls: true
-  client-fingerprint: chrome
-  delay: 2188
-  ws-opts:
-    headers:
-      Host: dns68.putata.eu.org
-    path: /
 - name: 加拿大 006
   type: vmess
   network: ws
@@ -3138,6 +3124,34 @@ proxies:
     headers:
       Host: hk01.xfxnode.top
     path: /hk01
+- name: 韩国 003
+  type: vmess
+  network: ws
+  server: usd8.uuuuu.fn-node.shop
+  port: 30058
+  uuid: 87a3ec4e-9000-4ab1-b2a4-aa28f25db530
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: us08.fnnoda.shop
+    path: /
+- name: 加拿大 009
+  type: vmess
+  network: ws
+  server: 104.19.45.15
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: /
 proxy-groups:
 - name: PROXY
   type: select
@@ -3244,7 +3258,6 @@ proxy-groups:
   - 美国 029
   - 加拿大 005
   - 美国 010
-  - 韩国 003
   - 加拿大 006
   - 加拿大 030
   - 加拿大 041
@@ -3364,6 +3377,8 @@ proxy-groups:
   - 新加坡 003
   - 美国 023
   - 香港 003
+  - 韩国 003
+  - 加拿大 009
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
