@@ -1,5 +1,5 @@
 proxies:
-- name: -xx101
+- name: -xx100
   password: E-Graphic
   port: 443
   server: 104.17.147.22
