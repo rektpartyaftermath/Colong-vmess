@@ -61,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx127
+  name: -xx126
   network: ws
   port: 80
   server: 104.22.28.102
@@ -76,7 +76,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx129
+  name: 8-xx128
   network: ws
   port: 80
   server: 104.22.28.102
@@ -91,7 +91,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx160
+  name: -xx157
   network: ws
   port: 80
   server: 104.22.28.102
@@ -106,7 +106,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx164
+  name: -xx161
   network: ws
   port: 80
   server: 104.22.28.102
@@ -121,7 +121,7 @@ proxies:
     path: /us2ekjds3nay
 - alterId: 0
   cipher: auto
-  name: -xx208
+  name: -xx204
   network: ws
   port: 80
   server: 104.22.28.102
@@ -136,7 +136,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx212
+  name: 9-xx208
   network: ws
   port: 80
   server: 104.22.28.102
@@ -149,3 +149,63 @@ proxies:
     headers:
       Host: kr.freegpt.filegear-sg.me
     path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: -xx220
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e2c91ac8-1805-43d8-aede-80af4957aa6f
+  ws-opts:
+    headers:
+      Host: hk1.netcar.live
+    path: /proxy
+- alterId: 0
+  cipher: auto
+  name: 8-xx221
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7c3f777e-42cb-448b-bc7f-7928ed6ec304
+  ws-opts:
+    headers:
+      Host: hk1.netcar.live
+    path: /proxy
+- alterId: 0
+  cipher: auto
+  name: -xx222
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8ecbd879-6ef0-431a-a3c4-3ad0b9f9e159
+  ws-opts:
+    headers:
+      Host: singapore2.netcar.live
+    path: /proxy
+- alterId: 0
+  cipher: auto
+  name: 8-xx223
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f1fb28e5-e5b6-450c-972c-13235c94285c
+  ws-opts:
+    headers:
+      Host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
