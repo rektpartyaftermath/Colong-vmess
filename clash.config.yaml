@@ -2137,21 +2137,6 @@ proxies:
     headers:
       Host: sgdo.vipcasper.com
     path: /vmess
-- name: 韩国 003
-  type: vmess
-  network: ws
-  server: 11.v2-ray.cyou
-  port: 23611
-  uuid: 8dd05086-bb85-3ae5-91ff-231510969d73
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  alterId: 2
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: 11.v2-ray.cyou
-    path: /
 - name: 美国 001
   type: vless
   network: ws
@@ -3450,7 +3435,6 @@ proxy-groups:
   - 加拿大 007
   - 加拿大 006
   - 德国 004
-  - 韩国 003
   - 美国 001
   - 加拿大 011
   - 美国 003
