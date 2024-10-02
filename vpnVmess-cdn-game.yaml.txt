@@ -91,7 +91,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx157
+  name: -xx156
   network: ws
   port: 80
   server: 104.18.24.176
@@ -106,7 +106,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx161
+  name: -xx160
   network: ws
   port: 80
   server: 104.18.24.176
@@ -121,7 +121,7 @@ proxies:
     path: /us2ekjds3nay
 - alterId: 0
   cipher: auto
-  name: -xx204
+  name: -xx203
   network: ws
   port: 80
   server: 104.18.24.176
@@ -136,7 +136,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx208
+  name: 9-xx207
   network: ws
   port: 80
   server: 104.18.24.176
@@ -151,7 +151,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx220
+  name: -xx219
   network: ws
   port: 80
   server: 104.18.24.176
@@ -166,7 +166,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx221
+  name: 8-xx220
   network: ws
   port: 80
   server: 104.18.24.176
@@ -181,7 +181,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: -xx222
+  name: -xx221
   network: ws
   port: 80
   server: 104.18.24.176
@@ -196,7 +196,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx223
+  name: 8-xx222
   network: ws
   port: 80
   server: 104.18.24.176

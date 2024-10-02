@@ -2046,22 +2046,6 @@ proxies:
     headers:
       Host: server18.aibox.tv
     path: /TG-AiLuMao/
-- name: 加拿大 068
-  type: vmess
-  network: ws
-  server: www.speedtest.net
-  port: 2095
-  uuid: e4ce2e2e-98a9-4cfd-b89e-8d322837edcb
-  servername: 22d.irvn.debian.🤣6.6.1b🫡71.8.fxp.debian.org.speedtshest.net.列列男事的事列上赛男.boland-sho-tokhm-sag.cyou.
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: www.speedtest.net
-    path: /
 - name: 加拿大 007
   type: vless
   network: ws
@@ -3305,6 +3289,21 @@ proxies:
     headers:
       Host: e10c0e4b.oodaeq2.pages.dev
     path: TELEGRAM-PROXY_MTM/?ed=2048
+- name: 加拿大 068
+  type: vless
+  network: ws
+  server: www.visa.com
+  port: 8443
+  uuid: 500e1c54-c2b5-49fe-a70a-792970f8c8e8
+  servername: server20.aibox.tv
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: server20.aibox.tv
+    path: /TG-AiLuMao/
 proxy-groups:
 - name: PROXY
   type: select
@@ -3451,7 +3450,6 @@ proxy-groups:
   - 美国 009
   - 加拿大 062
   - 加拿大 067
-  - 加拿大 068
   - 加拿大 007
   - 加拿大 006
   - 德国 004
@@ -3540,6 +3538,7 @@ proxy-groups:
   - 加拿大 070
   - 加拿大 084
   - 荷兰 004
+  - 加拿大 068
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
