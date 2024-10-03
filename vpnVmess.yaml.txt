@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx135
+  name: -xx132
   network: ws
   port: 443
   server: sgdo.vipcasper.com
@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx188
+  name: -xx185
   network: ws
   port: 443
   server: sg1.1vpn.sbs
