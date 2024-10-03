@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx105
+  name: -xx104
   network: ws
   port: 80
   server: 104.21.69.223
@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx120
+  name: -xx119
   network: ws
   port: 80
   server: 104.21.69.223
@@ -31,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx124
+  name: -xx123
   network: ws
   port: 80
   server: 104.21.69.223
@@ -46,7 +46,7 @@ proxies:
     path: /af323d
 - alterId: 0
   cipher: auto
-  name: -xx125
+  name: -xx124
   network: ws
   port: 80
   server: 104.21.69.223
@@ -61,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx126
+  name: -xx125
   network: ws
   port: 80
   server: 104.21.69.223
@@ -76,22 +76,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx128
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: vmess.taxar71054.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx156
+  name: -xx153
   network: ws
   port: 80
   server: 104.21.69.223
@@ -106,7 +91,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx160
+  name: -xx156
   network: ws
   port: 80
   server: 104.21.69.223
@@ -121,7 +106,7 @@ proxies:
     path: /us2ekjds3nay
 - alterId: 0
   cipher: auto
-  name: -xx203
+  name: -xx197
   network: ws
   port: 80
   server: 104.21.69.223
@@ -136,7 +121,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx207
+  name: 9-xx201
   network: ws
   port: 80
   server: 104.21.69.223
@@ -151,7 +136,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx219
+  name: -xx213
   network: ws
   port: 80
   server: 104.21.69.223
@@ -166,7 +151,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx220
+  name: 8-xx214
   network: ws
   port: 80
   server: 104.21.69.223
@@ -181,7 +166,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: -xx221
+  name: -xx215
   network: ws
   port: 80
   server: 104.21.69.223
@@ -196,7 +181,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx222
+  name: 8-xx216
   network: ws
   port: 80
   server: 104.21.69.223

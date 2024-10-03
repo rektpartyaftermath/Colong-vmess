@@ -1,11 +1,4 @@
 proxies:
-- name: -xx100
-  password: E-Graphic
-  port: 443
-  server: 104.17.147.22
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
 - name: -xx21
   password: CMLiu
   port: 443
@@ -24,6 +17,13 @@ proxies:
   password: CMLiu
   port: 443
   server: 43.153.80.208
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx99
+  password: E-Graphic
+  port: 443
+  server: 104.17.147.22
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
