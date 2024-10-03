@@ -136,7 +136,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx213
+  name: 8-xx212
   network: ws
   port: 80
   server: 104.21.69.223
@@ -151,7 +151,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx214
+  name: 8-xx213
   network: ws
   port: 80
   server: 104.21.69.223
@@ -166,7 +166,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: -xx215
+  name: -xx214
   network: ws
   port: 80
   server: 104.21.69.223
@@ -181,7 +181,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx216
+  name: 8-xx215
   network: ws
   port: 80
   server: 104.21.69.223
