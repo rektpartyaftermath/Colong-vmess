@@ -983,19 +983,6 @@ proxies:
     headers:
       Host: 2d9f64A5.V2rAYyNgVpn.Pages.dEV
     path: /0T9qPYzuL57BlVtJ?ed=2560
-- name: 美国 074
-  type: vless
-  network: ws
-  server: 34.36.183.121
-  port: 80
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  skip-cert-verify: false
-  udp: true
-  delay: 872
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳
 - name: 美国 075
   type: vless
   network: ws
@@ -2630,22 +2617,6 @@ proxies:
     public-key: XfkuAyN_XfbUJ8qwmp5ILy4rfXcafsie9C-SYxdyKhQ
     short-id: 0ab19147
   flow: xtls-rprx-vision
-- name: 美国 025
-  type: vless
-  network: tcp
-  server: us3.maple.icu
-  port: 24021
-  uuid: 83512b4a-64a9-4058-80df-53d95e2fbaa0
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: safari
-  reality-opts:
-    public-key: kKB-jjAA58dRdROFi4JrB5i0ETHIOyHK1HwYbff8lnk
-    short-id: afb60060
-  flow: xtls-rprx-vision
 - name: 加拿大 066
   type: vless
   network: ws
@@ -3293,7 +3264,6 @@ proxy-groups:
   - 爱沙尼亚 013
   - 加拿大 282
   - 加拿大 288
-  - 美国 074
   - 美国 075
   - 保加利亚 004
   - 爱沙尼亚 014
@@ -3411,7 +3381,6 @@ proxy-groups:
   - 加拿大 059
   - 美国 019
   - 韩国 004
-  - 美国 025
   - 加拿大 066
   - 加拿大 069
   - 加拿大 071
