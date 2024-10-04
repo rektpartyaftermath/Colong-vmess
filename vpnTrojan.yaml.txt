@@ -20,7 +20,7 @@ proxies:
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx97
+- name: -xx96
   password: E-Graphic
   port: 443
   server: 104.17.147.22

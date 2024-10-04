@@ -517,20 +517,6 @@ proxies:
     headers:
       Host: ip13.freegradely.xyz
     path: /
-- name: 加拿大 099
-  type: vmess
-  network: ws
-  server: 104.19.45.17
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip13.freegradely.xyz
-    path: /
 - name: 爱沙尼亚 002
   type: vless
   network: ws
@@ -3232,7 +3218,6 @@ proxy-groups:
   - 加拿大 026
   - 加拿大 028
   - 加拿大 050
-  - 加拿大 099
   - 爱沙尼亚 002
   - 俄罗斯 001
   - 德国 001
