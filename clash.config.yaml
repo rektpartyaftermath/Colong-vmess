@@ -2883,21 +2883,6 @@ proxies:
     headers:
       Host: ip2.1457230.xyz
     path: github.com/Alvin9999
-- name: 美国 028
-  type: vless
-  network: ws
-  server: SpeedTest.net
-  port: 80
-  uuid: 349ece52-713d-4955-b8c7-5874b4906235
-  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v14.com
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v14.com
-    path: /
 - name: 加拿大 077
   type: vless
   network: ws
@@ -3341,7 +3326,6 @@ proxy-groups:
   - 加拿大 076
   - 加拿大 065
   - 美国 004
-  - 美国 028
   - 加拿大 077
   - 加拿大 078
   - 加拿大 079
