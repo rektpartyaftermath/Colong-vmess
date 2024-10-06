@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx113
+  name: -xx112
   network: ws
   port: 80
   server: 104.21.69.223
@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx117
+  name: -xx116
   network: ws
   port: 80
   server: 104.21.69.223
@@ -31,7 +31,7 @@ proxies:
     path: /af323d
 - alterId: 0
   cipher: auto
-  name: -xx118
+  name: -xx117
   network: ws
   port: 80
   server: 104.21.69.223
@@ -46,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx119
+  name: -xx118
   network: ws
   port: 80
   server: 104.21.69.223
@@ -61,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx147
+  name: -xx146
   network: ws
   port: 80
   server: 104.21.69.223
@@ -76,7 +76,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx150
+  name: -xx149
   network: ws
   port: 80
   server: 104.21.69.223
@@ -91,7 +91,7 @@ proxies:
     path: /us2ekjds3nay
 - alterId: 0
   cipher: auto
-  name: -xx190
+  name: -xx189
   network: ws
   port: 80
   server: 104.21.69.223
@@ -106,7 +106,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx194
+  name: 9-xx193
   network: ws
   port: 80
   server: 104.21.69.223
@@ -121,7 +121,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8-xx205
+  name: 8-xx203
   network: ws
   port: 80
   server: 104.21.69.223
@@ -136,7 +136,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx206
+  name: 8-xx204
   network: ws
   port: 80
   server: 104.21.69.223
@@ -151,7 +151,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: -xx207
+  name: -xx205
   network: ws
   port: 80
   server: 104.21.69.223
@@ -166,7 +166,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx208
+  name: 8-xx206
   network: ws
   port: 80
   server: 104.21.69.223
@@ -181,7 +181,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx99
+  name: -xx98
   network: ws
   port: 80
   server: 104.21.69.223

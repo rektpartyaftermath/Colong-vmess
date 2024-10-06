@@ -434,19 +434,6 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /
-- name: 奥地利 001
-  type: vless
-  network: ws
-  server: 94.177.8.26
-  port: 443
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  servername: kk.ylks.xyz
-  tls: true
-  delay: 1798
-  ws-opts:
-    headers:
-      Host: kk.ylks.xyz
-    path: /blue
 - name: 加拿大 015
   type: vmess
   network: ws
@@ -2896,22 +2883,6 @@ proxies:
     headers:
       Host: ip2.1457230.xyz
     path: github.com/Alvin9999
-- name: 美国 027
-  type: vless
-  network: ws
-  server: speedtest.net
-  port: 443
-  uuid: telegram-id-ArV2ray
-  servername: aloy5.ir
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: aloy5.ir
-    path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
 - name: 美国 028
   type: vless
   network: ws
@@ -3197,7 +3168,6 @@ proxy-groups:
   - 韩国 002
   - 拉脱维亚 001
   - 澳大利亚 003
-  - 奥地利 001
   - 加拿大 015
   - 加拿大 018
   - 加拿大 026
@@ -3371,7 +3341,6 @@ proxy-groups:
   - 加拿大 076
   - 加拿大 065
   - 美国 004
-  - 美国 027
   - 美国 028
   - 加拿大 077
   - 加拿大 078
