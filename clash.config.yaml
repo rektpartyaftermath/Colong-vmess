@@ -1495,21 +1495,6 @@ proxies:
     headers:
       Host: gcnwoegp2rjvyl7qmmy3ltqtaf3q22.pages.dev
     path: /proxyip=62.3.12.185
-- name: 韩国 011
-  type: vless
-  network: ws
-  server: 117.123.72.132
-  port: 21979
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  delay: 862
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /?ed=2048
 - name: 韩国 022
   type: vless
   network: ws
@@ -3285,7 +3270,6 @@ proxy-groups:
   - 爱沙尼亚 029
   - 英国 013
   - 加拿大 054
-  - 韩国 011
   - 韩国 022
   - 加拿大 074
   - 加拿大 005

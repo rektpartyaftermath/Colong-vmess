@@ -1,22 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx100
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: us3e-mmnnfr9dop0.v2freevpn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx114
+  name: -xx113
   network: ws
   port: 80
   server: 104.22.28.102
@@ -31,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx118
+  name: -xx117
   network: ws
   port: 80
   server: 104.22.28.102
@@ -46,7 +31,7 @@ proxies:
     path: /af323d
 - alterId: 0
   cipher: auto
-  name: -xx119
+  name: -xx118
   network: ws
   port: 80
   server: 104.22.28.102
@@ -61,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx120
+  name: -xx119
   network: ws
   port: 80
   server: 104.22.28.102
@@ -76,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx148
+  name: -xx147
   network: ws
   port: 80
   server: 104.22.28.102
@@ -91,7 +76,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx151
+  name: -xx150
   network: ws
   port: 80
   server: 104.22.28.102
@@ -106,7 +91,7 @@ proxies:
     path: /us2ekjds3nay
 - alterId: 0
   cipher: auto
-  name: -xx191
+  name: -xx190
   network: ws
   port: 80
   server: 104.22.28.102
@@ -121,7 +106,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx195
+  name: 9-xx194
   network: ws
   port: 80
   server: 104.22.28.102
@@ -136,7 +121,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8-xx206
+  name: 8-xx205
   network: ws
   port: 80
   server: 104.22.28.102
@@ -151,7 +136,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx207
+  name: 8-xx206
   network: ws
   port: 80
   server: 104.22.28.102
@@ -166,7 +151,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: -xx208
+  name: -xx207
   network: ws
   port: 80
   server: 104.22.28.102
@@ -181,7 +166,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx209
+  name: 8-xx208
   network: ws
   port: 80
   server: 104.22.28.102
@@ -194,3 +179,18 @@ proxies:
     headers:
       Host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
+  name: -xx99
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: us3e-mmnnfr9dop0.v2freevpn.com
+    path: /
