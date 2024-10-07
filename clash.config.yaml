@@ -476,20 +476,6 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: /
-- name: 加拿大 028
-  type: vmess
-  network: ws
-  server: 104.19.38.8
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: /
 - name: 加拿大 050
   type: vmess
   network: ws
@@ -3119,6 +3105,21 @@ proxies:
     headers:
       Host: server20.aibox.tv
     path: /TG-AiLuMao/
+- name: 美国 002
+  type: vmess
+  network: ws
+  server: 172.64.167.25
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
 proxy-groups:
 - name: PROXY
   type: select
@@ -3156,7 +3157,6 @@ proxy-groups:
   - 加拿大 015
   - 加拿大 018
   - 加拿大 026
-  - 加拿大 028
   - 加拿大 050
   - 爱沙尼亚 002
   - 俄罗斯 001
@@ -3341,6 +3341,7 @@ proxy-groups:
   - 加拿大 044
   - 加拿大 083
   - 加拿大 064
+  - 美国 002
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
