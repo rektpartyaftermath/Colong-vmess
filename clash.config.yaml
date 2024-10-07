@@ -1861,21 +1861,6 @@ proxies:
     headers:
       Host: server20.aibox.tv
     path: /TG-AiLuMao/
-- name: 加拿大 062
-  type: vless
-  network: ws
-  server: shopify.com
-  port: 2096
-  uuid: 67caf0a6-2cab-4f2e-81f5-1664e4813709
-  servername: server18.aibox.tv
-  skip-cert-verify: false
-  tls: true
-  tfo: false
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: server18.aibox.tv
-    path: /TG-AiLuMao/
 - name: 加拿大 067
   type: vless
   network: ws
@@ -3239,7 +3224,6 @@ proxy-groups:
   - 加拿大 039
   - 加拿大 043
   - 加拿大 001
-  - 加拿大 062
   - 加拿大 067
   - 加拿大 007
   - 德国 004
