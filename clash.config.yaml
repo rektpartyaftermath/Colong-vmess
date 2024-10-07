@@ -1684,20 +1684,6 @@ proxies:
     headers:
       Host: private-codmhttp.teqqlzdw.workers.dev
     path: /?ed=2048
-- name: 瑞典 003
-  type: vless
-  network: ws
-  server: 185.146.173.94
-  port: 2053
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  client-fingerprint: chrome
-  delay: 1551
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /?ed
 - name: 加拿大 103
   type: vmess
   network: ws
@@ -3240,7 +3226,6 @@ proxy-groups:
   - 爱沙尼亚 030
   - 英国 006
   - 加拿大 080
-  - 瑞典 003
   - 加拿大 103
   - 加拿大 120
   - 韩国 001
