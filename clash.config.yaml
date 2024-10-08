@@ -649,7 +649,7 @@ proxies:
     headers:
       Host: ep-sunset-9b11.kekic13319.workers.dev
     path: /
-- name: 加拿大 032
+- name: 美国 001
   type: vmess
   network: ws
   server: 104.19.47.36
@@ -1483,7 +1483,7 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: /?ed=2048
-- name: 加拿大 074
+- name: 美国 002
   type: vmess
   network: ws
   server: 104.19.45.13
@@ -1807,19 +1807,6 @@ proxies:
     headers:
       Host: ip1.1789034.xyz
     path: github.com/Alvin9999
-- name: 加拿大 003
-  type: vmess
-  network: ws
-  server: russia.com
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
 - name: 加拿大 039
   type: vmess
   network: ws
@@ -1907,7 +1894,7 @@ proxies:
     headers:
       Host: sgdo.vipcasper.com
     path: /vmess
-- name: 美国 001
+- name: 美国 003
   type: vless
   network: ws
   server: speedtest.net
@@ -1932,7 +1919,7 @@ proxies:
   tls: true
   udp: true
   tfo: false
-- name: 美国 003
+- name: 美国 004
   type: vless
   network: ws
   server: SpeedTest.net
@@ -2810,7 +2797,7 @@ proxies:
     headers:
       Host: server20.aibox.tv
     path: /TG-AiLuMao/
-- name: 美国 004
+- name: 美国 009
   type: vmess
   network: ws
   server: 172.64.166.16
@@ -3061,7 +3048,7 @@ proxies:
     headers:
       Host: server20.aibox.tv
     path: /TG-AiLuMao/
-- name: 美国 002
+- name: 美国 014
   type: vmess
   network: ws
   server: 172.64.167.25
@@ -3091,6 +3078,21 @@ proxies:
     headers:
       Host: server18.aibox.tv
     path: /TG-AiLuMao/
+- name: 美国 016
+  type: vmess
+  network: ws
+  server: 172.64.198.249
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
 proxy-groups:
 - name: PROXY
   type: select
@@ -3140,7 +3142,7 @@ proxy-groups:
   - 加拿大 012
   - 加拿大 149
   - 加拿大 016
-  - 加拿大 032
+  - 美国 001
   - 加拿大 085
   - 加拿大 157
   - 爱沙尼亚 003
@@ -3197,7 +3199,7 @@ proxy-groups:
   - 英国 013
   - 加拿大 054
   - 韩国 022
-  - 加拿大 074
+  - 美国 002
   - 加拿大 005
   - 加拿大 036
   - 俄罗斯 002
@@ -3220,16 +3222,15 @@ proxy-groups:
   - 加拿大 004
   - 加拿大 017
   - 加拿大 014
-  - 加拿大 003
   - 加拿大 039
   - 加拿大 043
   - 加拿大 001
   - 加拿大 067
   - 加拿大 007
   - 德国 004
-  - 美国 001
-  - 加拿大 011
   - 美国 003
+  - 加拿大 011
+  - 美国 004
   - 瑞典 002
   - 加拿大 019
   - 瑞典 004
@@ -3293,7 +3294,7 @@ proxy-groups:
   - 加拿大 009
   - 加拿大 076
   - 加拿大 065
-  - 美国 004
+  - 美国 009
   - 加拿大 077
   - 加拿大 078
   - 加拿大 079
@@ -3309,8 +3310,9 @@ proxy-groups:
   - 加拿大 044
   - 加拿大 083
   - 加拿大 064
-  - 美国 002
+  - 美国 014
   - 加拿大 028
+  - 美国 016
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
