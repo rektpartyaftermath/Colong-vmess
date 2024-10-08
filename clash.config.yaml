@@ -1498,20 +1498,6 @@ proxies:
     headers:
       Host: onea.flha.ru
     path: /
-- name: 加拿大 005
-  type: vmess
-  network: ws
-  server: 104.16.67.38
-  port: 80
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: us3e-mmnnfr9dop0.v2freevpn.com
-    path: /
 - name: 加拿大 036
   type: vmess
   network: ws
@@ -3200,7 +3186,6 @@ proxy-groups:
   - 加拿大 054
   - 韩国 022
   - 美国 002
-  - 加拿大 005
   - 加拿大 036
   - 俄罗斯 002
   - 德国 003
