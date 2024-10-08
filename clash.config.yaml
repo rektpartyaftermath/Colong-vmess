@@ -2676,21 +2676,6 @@ proxies:
   tls: true
   udp: true
   tfo: false
-- name: 美国 014
-  type: vless
-  network: ws
-  server: 151.101.66.219
-  port: 443
-  uuid: '%33%64%63%30%30%66%66%34%2d%61%63%34%62%2d%34%35%37%36%2d%62%31%65%63%2d%66%33%34%31%38%65%34%33%38%38%34%34'
-  servername: barkatc3.ir
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: barkatc3.ir
-    path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
 - name: 加拿大 002
   type: vless
   network: ws
@@ -3091,6 +3076,21 @@ proxies:
     headers:
       Host: ip2.1457230.xyz
     path: github.com/Alvin9999
+- name: 加拿大 028
+  type: vless
+  network: ws
+  server: shopify.com
+  port: 2096
+  uuid: 67caf0a6-2cab-4f2e-81f5-1664e4813709
+  servername: server18.aibox.tv
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: server18.aibox.tv
+    path: /TG-AiLuMao/
 proxy-groups:
 - name: PROXY
   type: select
@@ -3284,7 +3284,6 @@ proxy-groups:
   - 加拿大 031
   - 加拿大 075
   - 美国 023
-  - 美国 014
   - 加拿大 002
   - 越南 001
   - 加拿大 006
@@ -3311,6 +3310,7 @@ proxy-groups:
   - 加拿大 083
   - 加拿大 064
   - 美国 002
+  - 加拿大 028
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
