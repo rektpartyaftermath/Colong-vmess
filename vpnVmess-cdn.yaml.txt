@@ -91,7 +91,7 @@ proxies:
     path: /us2ekjds3nay
 - alterId: 0
   cipher: auto
-  name: -xx182
+  name: -xx181
   network: ws
   port: 80
   server: 104.21.69.223
@@ -106,7 +106,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx186
+  name: 9-xx185
   network: ws
   port: 80
   server: 104.21.69.223
@@ -121,7 +121,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8-xx195
+  name: 8-xx194
   network: ws
   port: 80
   server: 104.21.69.223
@@ -136,7 +136,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx196
+  name: 8-xx195
   network: ws
   port: 80
   server: 104.21.69.223
@@ -151,7 +151,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: -xx197
+  name: -xx196
   network: ws
   port: 80
   server: 104.21.69.223
@@ -166,7 +166,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx198
+  name: 8-xx197
   network: ws
   port: 80
   server: 104.21.69.223
