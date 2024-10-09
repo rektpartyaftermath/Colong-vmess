@@ -734,21 +734,6 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳
-- name: 美国 067
-  type: vless
-  network: ws
-  server: 34.135.226.181
-  port: 80
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  skip-cert-verify: false
-  tls: false
-  tfo: false
-  client-fingerprint: chrome
-  delay: 941
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳
 - name: 爱沙尼亚 005
   type: vless
   network: ws
@@ -3134,7 +3119,6 @@ proxy-groups:
   - 爱沙尼亚 003
   - 荷兰 001
   - 美国 065
-  - 美国 067
   - 爱沙尼亚 005
   - 爱沙尼亚 006
   - 爱沙尼亚 009
