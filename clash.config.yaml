@@ -2576,21 +2576,6 @@ proxies:
   tls: true
   udp: true
   tfo: false
-- name: 加拿大 002
-  type: vless
-  network: ws
-  server: ip.sb
-  port: 2096
-  uuid: 67caf0a6-2cab-4f2e-81f5-1664e4813709
-  servername: server18.aibox.tv
-  skip-cert-verify: false
-  tls: true
-  tfo: false
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: server18.aibox.tv
-    path: /TG-AiLuMao/
 - name: 越南 001
   type: vmess
   network: grpc
@@ -3189,7 +3174,6 @@ proxy-groups:
   - 加拿大 031
   - 加拿大 075
   - 美国 023
-  - 加拿大 002
   - 越南 001
   - 加拿大 006
   - 美国 021
