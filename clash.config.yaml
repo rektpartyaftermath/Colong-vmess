@@ -1119,20 +1119,6 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /
-- name: 加拿大 025
-  type: vless
-  network: ws
-  server: fbi.gov
-  port: 443
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  servername: B458ab02.caa-chANel-WoRkER-PAge-freE-jhUihNUjhPHjkl-nIhgKjn.paGeS.DeV
-  tls: true
-  client-fingerprint: randomized
-  delay: 1082
-  ws-opts:
-    headers:
-      Host: B458ab02.caa-chANel-WoRkER-PAge-freE-jhUihNUjhPHjkl-nIhgKjn.paGeS.DeV
-    path: /AJIJ0ioGDhNXcifL?ed=2560
 - name: 英国 001
   type: vless
   network: ws
@@ -1695,20 +1681,6 @@ proxies:
     headers:
       Host: worker-damp-duadwans.jevesoj131.workers.dev
     path: /
-- name: 加拿大 146
-  type: vmess
-  network: ws
-  server: cf.hy2.one
-  port: 80
-  uuid: 90934f88-2465-4384-8f75-22eeef208fd8
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: tw02.hy2.one
-    path: /af323d
 - name: 加拿大 151
   type: vmess
   network: ws
@@ -3016,22 +2988,21 @@ proxies:
     headers:
       Host: ip2.1457230.xyz
     path: github.com/Alvin9999
-- name: 法国 006
-  type: vmess
+- name: 加拿大 003
+  type: vless
   network: ws
-  server: 51.77.20.132
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
+  server: icook.tw
+  port: 8443
+  uuid: 500e1c54-c2b5-49fe-a70a-792970f8c8e8
+  servername: server20.aibox.tv
+  skip-cert-verify: false
   tls: true
-  udp: true
-  alterId: 0
-  cipher: auto
+  tfo: false
+  client-fingerprint: chrome
   ws-opts:
     headers:
-      Host: a.baradiha.com
-    path: /linkvws
+      Host: server20.aibox.tv
+    path: /TG-AiLuMao/
 proxy-groups:
 - name: PROXY
   type: select
@@ -3113,7 +3084,6 @@ proxy-groups:
   - 法国 005
   - 爱沙尼亚 021
   - 哈萨克斯坦 005
-  - 加拿大 025
   - 英国 001
   - 爱沙尼亚 022
   - 德国 006
@@ -3153,7 +3123,6 @@ proxy-groups:
   - 加拿大 103
   - 加拿大 120
   - 加拿大 143
-  - 加拿大 146
   - 加拿大 151
   - 加拿大 004
   - 加拿大 017
@@ -3247,7 +3216,7 @@ proxy-groups:
   - 加拿大 028
   - 美国 016
   - 美国 025
-  - 法国 006
+  - 加拿大 003
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
