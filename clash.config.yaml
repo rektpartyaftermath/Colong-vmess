@@ -2422,15 +2422,6 @@ proxies:
   tls: true
   udp: true
   tfo: false
-- name: 美国 019
-  type: vless
-  server: 151.101.130.219
-  port: 80
-  uuid: 25102a1a-e0ea-4a0d-a40d-c68f74d2fe9f
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
 - name: 韩国 004
   type: vless
   network: tcp
@@ -3258,7 +3249,6 @@ proxy-groups:
   - 德国 005
   - 加拿大 058
   - 加拿大 059
-  - 美国 019
   - 韩国 004
   - 加拿大 066
   - 加拿大 069
