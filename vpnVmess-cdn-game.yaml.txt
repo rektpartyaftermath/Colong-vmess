@@ -1,6 +1,36 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: -xx103
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: square-snowflake-486a.beshir-beisel.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx106
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6149b865-0d3c-4472-bf9c-3c61bfafa61a
+  ws-opts:
+    headers:
+      Host: 99806388192980142300309475767578.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /
+- alterId: 0
+  cipher: auto
   name: -xx107
   network: ws
   port: 80
@@ -16,37 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx110
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6149b865-0d3c-4472-bf9c-3c61bfafa61a
-  ws-opts:
-    headers:
-      Host: 99806388192980142300309475767578.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx111
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: square-snowflake-486a.beshir-beisel.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx137
+  name: -xx132
   network: ws
   port: 80
   server: 104.18.24.176
@@ -61,7 +61,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx140
+  name: -xx135
   network: ws
   port: 80
   server: 104.18.24.176
@@ -76,7 +76,7 @@ proxies:
     path: /us2ekjds3nay
 - alterId: 0
   cipher: auto
-  name: -xx175
+  name: -xx170
   network: ws
   port: 80
   server: 104.18.24.176
@@ -91,7 +91,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx179
+  name: 9-xx174
   network: ws
   port: 80
   server: 104.18.24.176
@@ -106,7 +106,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8-xx188
+  name: 8-xx183
   network: ws
   port: 80
   server: 104.18.24.176
@@ -121,7 +121,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx189
+  name: 8-xx184
   network: ws
   port: 80
   server: 104.18.24.176
@@ -136,7 +136,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx190
+  name: 8-xx185
   network: ws
   port: 80
   server: 104.18.24.176
@@ -151,7 +151,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx201
+  name: -xx196
   network: ws
   port: 80
   server: 104.18.24.176
@@ -164,3 +164,63 @@ proxies:
     headers:
       Host: jp.ggbycf.ggff.net
     path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: -xx203
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: Back.MsV2ray.online
+    path: /obdii.cfd/linkws
+- alterId: 0
+  cipher: auto
+  name: 9-xx204
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2e40fe91-ce8c-4864-b128-7b9a260ecaa7
+  ws-opts:
+    headers:
+      Host: lzg9j.cuc8mwl3.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx209
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  ws-opts:
+    headers:
+      Host: blog.sushiroll.co.id
+    path: /sshkit/1828396894/66cf268530688/
+- alterId: 0
+  cipher: auto
+  name: -xx210
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  ws-opts:
+    headers:
+      Host: account.pmang.game.naver.com
+    path: /sshkit/1828396894/66cf268530688/
