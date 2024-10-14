@@ -151,7 +151,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx193
+  name: -xx192
   network: ws
   port: 80
   server: 104.18.24.176
@@ -166,7 +166,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx200
+  name: -xx199
   network: ws
   port: 80
   server: 104.18.24.176
@@ -181,7 +181,7 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 9-xx201
+  name: 9-xx200
   network: ws
   port: 80
   server: 104.18.24.176
@@ -196,7 +196,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx205
+  name: -xx204
   network: ws
   port: 80
   server: 104.18.24.176
@@ -211,7 +211,7 @@ proxies:
     path: /sshkit/1828396894/66cf268530688/
 - alterId: 0
   cipher: auto
-  name: -xx206
+  name: -xx205
   network: ws
   port: 80
   server: 104.18.24.176
@@ -226,7 +226,7 @@ proxies:
     path: /sshkit/1828396894/66cf268530688/
 - alterId: 0
   cipher: auto
-  name: -xx211
+  name: -xx210
   network: ws
   port: 80
   server: 104.18.24.176

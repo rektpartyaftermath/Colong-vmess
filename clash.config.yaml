@@ -2836,21 +2836,6 @@ proxies:
     headers:
       Host: ip2.1457230.xyz
     path: github.com/Alvin9999
-- name: 加拿大 003
-  type: vless
-  network: ws
-  server: icook.tw
-  port: 8443
-  uuid: 500e1c54-c2b5-49fe-a70a-792970f8c8e8
-  servername: server20.aibox.tv
-  skip-cert-verify: false
-  tls: true
-  tfo: false
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: server20.aibox.tv
-    path: /TG-AiLuMao/
 - name: 美国 027
   type: vmess
   network: ws
@@ -3354,7 +3339,6 @@ proxy-groups:
   - 加拿大 028
   - 美国 016
   - 美国 025
-  - 加拿大 003
   - 美国 027
   - 美国 028
   - 美国 029
