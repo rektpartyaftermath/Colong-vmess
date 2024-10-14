@@ -46,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx129
+  name: -xx128
   network: ws
   port: 80
   server: 104.18.24.176
@@ -61,7 +61,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx132
+  name: -xx131
   network: ws
   port: 80
   server: 104.18.24.176
@@ -76,7 +76,7 @@ proxies:
     path: /us2ekjds3nay
 - alterId: 0
   cipher: auto
-  name: -xx167
+  name: -xx165
   network: ws
   port: 80
   server: 104.18.24.176
@@ -91,7 +91,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx171
+  name: 9-xx169
   network: ws
   port: 80
   server: 104.18.24.176
@@ -106,7 +106,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8-xx180
+  name: 8-xx178
   network: ws
   port: 80
   server: 104.18.24.176
@@ -121,7 +121,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx181
+  name: 8-xx179
   network: ws
   port: 80
   server: 104.18.24.176
@@ -136,7 +136,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx182
+  name: 8-xx180
   network: ws
   port: 80
   server: 104.18.24.176
@@ -151,7 +151,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx192
+  name: -xx190
   network: ws
   port: 80
   server: 104.18.24.176
@@ -166,7 +166,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx199
+  name: -xx197
   network: ws
   port: 80
   server: 104.18.24.176
@@ -181,7 +181,7 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 9-xx200
+  name: 9-xx198
   network: ws
   port: 80
   server: 104.18.24.176
@@ -196,7 +196,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx204
+  name: -xx202
   network: ws
   port: 80
   server: 104.18.24.176
@@ -211,7 +211,7 @@ proxies:
     path: /sshkit/1828396894/66cf268530688/
 - alterId: 0
   cipher: auto
-  name: -xx205
+  name: -xx203
   network: ws
   port: 80
   server: 104.18.24.176
@@ -226,7 +226,7 @@ proxies:
     path: /sshkit/1828396894/66cf268530688/
 - alterId: 0
   cipher: auto
-  name: -xx210
+  name: -xx208
   network: ws
   port: 80
   server: 104.18.24.176
