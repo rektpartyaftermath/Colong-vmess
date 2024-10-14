@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx103
+  name: -xx101
   network: ws
   port: 80
   server: 104.21.69.223
@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx106
+  name: -xx104
   network: ws
   port: 80
   server: 104.21.69.223
@@ -31,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx107
+  name: -xx105
   network: ws
   port: 80
   server: 104.21.69.223
@@ -46,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx131
+  name: -xx129
   network: ws
   port: 80
   server: 104.21.69.223
@@ -61,7 +61,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx134
+  name: -xx132
   network: ws
   port: 80
   server: 104.21.69.223
@@ -76,7 +76,7 @@ proxies:
     path: /us2ekjds3nay
 - alterId: 0
   cipher: auto
-  name: -xx169
+  name: -xx167
   network: ws
   port: 80
   server: 104.21.69.223
@@ -91,7 +91,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx173
+  name: 9-xx171
   network: ws
   port: 80
   server: 104.21.69.223
@@ -106,7 +106,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8-xx182
+  name: 8-xx180
   network: ws
   port: 80
   server: 104.21.69.223
@@ -121,7 +121,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx183
+  name: 8-xx181
   network: ws
   port: 80
   server: 104.21.69.223
@@ -136,7 +136,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx184
+  name: 8-xx182
   network: ws
   port: 80
   server: 104.21.69.223
@@ -151,7 +151,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx195
+  name: -xx193
   network: ws
   port: 80
   server: 104.21.69.223
@@ -166,7 +166,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx202
+  name: -xx200
   network: ws
   port: 80
   server: 104.21.69.223
@@ -181,7 +181,7 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 9-xx203
+  name: 9-xx201
   network: ws
   port: 80
   server: 104.21.69.223
@@ -196,7 +196,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx207
+  name: -xx205
   network: ws
   port: 80
   server: 104.21.69.223
@@ -211,7 +211,7 @@ proxies:
     path: /sshkit/1828396894/66cf268530688/
 - alterId: 0
   cipher: auto
-  name: -xx208
+  name: -xx206
   network: ws
   port: 80
   server: 104.21.69.223
@@ -224,3 +224,18 @@ proxies:
     headers:
       Host: account.pmang.game.naver.com
     path: /sshkit/1828396894/66cf268530688/
+- alterId: 0
+  cipher: auto
+  name: -xx211
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb1d03f1-693a-42dc-9dd2-0369a413fe55
+  ws-opts:
+    headers:
+      Host: sshsg1.cloudtik.biz.id
+    path: /vmess-ntls

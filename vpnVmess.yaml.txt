@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx114
+  name: -xx112
   network: ws
   port: 443
   server: sgdo.vipcasper.com
@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx164
+  name: -xx162
   network: ws
   port: 443
   server: sg1.1vpn.sbs
@@ -33,7 +33,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx196
+  name: 8-xx194
   network: ws
   port: 443
   server: 104.18.112.107
@@ -49,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx197
+  name: 9-xx195
   network: ws
   port: 443
   server: 104.24.59.213
@@ -65,7 +65,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx198
+  name: -xx196
   network: ws
   port: 443
   server: 104.25.127.240
@@ -81,7 +81,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx199
+  name: -xx197
   network: ws
   port: 443
   server: 104.25.112.185
@@ -97,7 +97,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx200
+  name: -xx198
   network: ws
   port: 443
   server: 141.101.122.109
@@ -113,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx209
+  name: -xx207
   network: ws
   port: 443
   server: profit-server.aken.my.id
@@ -129,7 +129,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx210
+  name: -xx208
   network: ws
   port: 443
   server: api.fastworldpay.com
@@ -145,7 +145,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx211
+  name: -xx209
   network: ws
   port: 443
   server: quiz.vidio.com

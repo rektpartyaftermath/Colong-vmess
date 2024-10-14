@@ -632,20 +632,6 @@ proxies:
     headers:
       Host: worker-divine-hat-02d6.savofir317.workers.dev
     path: /
-- name: 加拿大 157
-  type: vless
-  network: ws
-  server: 104.18.15.19
-  port: 443
-  uuid: c1978266-958c-4aa3-ba34-7eacac75aca1
-  servername: bpb-worker-panel3.pages.dev
-  tls: true
-  client-fingerprint: chrome
-  delay: 1520
-  ws-opts:
-    headers:
-      Host: bpb-worker-panel3.pages.dev
-    path: /
 - name: 爱沙尼亚 003
   type: vless
   network: ws
@@ -1380,21 +1366,6 @@ proxies:
     headers:
       Host: gcnwoegp2rjvyl7qmmy3ltqtaf3q22.pages.dev
     path: /proxyip=62.3.12.185
-- name: 韩国 022
-  type: vless
-  network: ws
-  server: 124.80.75.68
-  port: 35810
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  delay: 1575
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /?ed=2048
 - name: 美国 002
   type: vmess
   network: ws
@@ -3166,6 +3137,21 @@ proxies:
     headers:
       Host: vpnsupportfast.vpnsuortfast.workers.dev
     path: /afrhms07.xfixedfloat.cfd/linkws
+- name: 美国 035
+  type: vmess
+  network: ws
+  server: 104.18.3.2
+  port: 80
+  uuid: cb1d03f1-693a-42dc-9dd2-0369a413fe55
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: sshsg1.cloudtik.biz.id
+    path: /vmess-ntls
 proxy-groups:
 - name: PROXY
   type: select
@@ -3214,7 +3200,6 @@ proxy-groups:
   - 加拿大 149
   - 美国 001
   - 加拿大 085
-  - 加拿大 157
   - 爱沙尼亚 003
   - 荷兰 001
   - 美国 065
@@ -3265,7 +3250,6 @@ proxy-groups:
   - 爱沙尼亚 029
   - 英国 013
   - 加拿大 054
-  - 韩国 022
   - 美国 002
   - 加拿大 036
   - 俄罗斯 002
@@ -3389,6 +3373,7 @@ proxy-groups:
   - 加拿大 016
   - 美国 034
   - 美国 023
+  - 美国 035
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
