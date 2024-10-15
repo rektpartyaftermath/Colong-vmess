@@ -3415,21 +3415,6 @@ proxies:
     headers:
       Host: live.theworldwidewolf.com
     path: ws/?ed=2048
-- name: 日本 001
-  type: vmess
-  network: ws
-  server: tls.94.node-for-bigairport.win
-  port: 443
-  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: tls.94.node-for-bigairport.win
-    path: /
 - name: 日本 002
   type: vmess
   network: ws
@@ -3459,21 +3444,6 @@ proxies:
   ws-opts:
     headers:
       Host: tls.95.node-for-bigairport.win
-    path: /
-- name: 日本 004
-  type: vmess
-  network: ws
-  server: tls.90.node-for-bigairport.win
-  port: 443
-  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: tls.90.node-for-bigairport.win
     path: /
 - name: 加拿大 025
   type: vmess
@@ -3522,21 +3492,6 @@ proxies:
     headers:
       Host: eedp257bubu2wefy3.lovebaipiao.net
     path: /iphone
-- name: 新加坡 005
-  type: vmess
-  network: ws
-  server: v2-sg-1.v2ray.cc
-  port: 443
-  uuid: 7772bb24-976a-45ca-aa76-f4f1b7f50923
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: mobilelegends.com
-    path: /anything/freevpn.us-lqzrd885/vmess
 - name: 加拿大 029
   type: vmess
   network: ws
@@ -3584,6 +3539,72 @@ proxies:
     headers:
       Host: twcdn2.fask511.cfd
     path: /?ed=512
+- name: 日本 001
+  type: vmess
+  network: ws
+  server: tls.85.node-for-bigairport.win
+  port: 443
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  servername: tls.85.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: tls.85.node-for-bigairport.win
+    path: /
+- name: 加拿大 062
+  type: vmess
+  network: ws
+  server: ipdb.030101.xyz
+  port: 80
+  uuid: 086fd76f-88f8-42a5-e7ae-d8053593aace
+  servername: osg1.841130.xyz
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ipdb.030101.xyz
+    path: /
+- name: 香港 002
+  type: vmess
+  network: http
+  server: 143.92.42.65
+  port: 2902
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    method: GET
+    path:
+    - /
+- name: 加拿大 064
+  type: vmess
+  network: ws
+  server: cdnip.6565.eu.org
+  port: 443
+  uuid: 98271b65-72f4-438c-9c9e-7f0d225d99ea
+  servername: proxy-rn-dc2.6565.eu.org
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: cdnip.6565.eu.org
+    path: /4f8228
 proxy-groups:
 - name: PROXY
   type: select
@@ -3822,17 +3843,18 @@ proxy-groups:
   - 香港 001
   - 新加坡 004
   - 美国 045
-  - 日本 001
   - 日本 002
   - 日本 003
-  - 日本 004
   - 加拿大 025
   - 俄罗斯 007
   - 俄罗斯 008
-  - 新加坡 005
   - 加拿大 029
   - 加拿大 032
   - 加拿大 047
+  - 日本 001
+  - 加拿大 062
+  - 香港 002
+  - 加拿大 064
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
