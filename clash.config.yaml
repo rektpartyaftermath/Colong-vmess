@@ -2757,21 +2757,6 @@ proxies:
     headers:
       Host: server18.aibox.tv
     path: /TG-AiLuMao/
-- name: 美国 014
-  type: vmess
-  network: ws
-  server: 172.64.167.25
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
 - name: 加拿大 028
   type: vless
   network: ws
@@ -3314,7 +3299,6 @@ proxy-groups:
   - 加拿大 041
   - 加拿大 044
   - 加拿大 083
-  - 美国 014
   - 加拿大 028
   - 美国 016
   - 美国 025
