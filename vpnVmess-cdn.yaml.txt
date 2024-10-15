@@ -239,3 +239,138 @@ proxies:
     headers:
       Host: sshsg1.cloudtik.biz.id
     path: /vmess-ntls
+- alterId: 0
+  cipher: auto
+  name: -xx209
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6501b611-f242-3d90-91d6-030b193ca11c
+  ws-opts:
+    headers:
+      Host: 100-100-17-154.db-link02.top
+    path: /dabai.in104.19.223.188
+- alterId: 0
+  cipher: auto
+  name: -xx210
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a0fd3429-e62a-499f-a6ba-b026be770222
+  ws-opts:
+    headers:
+      Host: hk2.ddwdadk.xyz
+    path: /xx
+- alterId: 0
+  cipher: auto
+  name: -xx212
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 98fd18b6-0831-4f77-8819-747284800611
+  ws-opts:
+    headers:
+      Host: de-new01.daluquan.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9-xx217
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: be9cf152-7cf1-46f9-88ed-a55b343c927b
+  ws-opts:
+    headers:
+      Host: luodi.5468936.xyz
+    path: /linuxdo
+- alterId: 0
+  cipher: auto
+  name: -xx222
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8b45d379-702f-41b3-a6b2-9c87a01dcd5c
+  ws-opts:
+    headers:
+      Host: csgo.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx223
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5b9a6438-84d3-419e-bc32-43acc74b1c3c
+  ws-opts:
+    headers:
+      Host: cdn1.bpcdn.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx225
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a361d210-35fd-4ea7-95fa-11f15c893d93
+  ws-opts:
+    headers:
+      Host: cdn2.bpcdn.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx233
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5b9a6438-84d3-419e-bc32-43acc74b1c3c
+  ws-opts:
+    headers:
+      Host: eedp257bubu2wefy1.lovebaipiao.net
+    path: /iphone
+- alterId: 0
+  cipher: auto
+  name: 8-xx234
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5b9a6438-84d3-419e-bc32-43acc74b1c3c
+  ws-opts:
+    headers:
+      Host: eedp257bubu2wefy3.lovebaipiao.net
+    path: /iphone
