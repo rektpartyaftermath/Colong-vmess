@@ -159,3 +159,19 @@ proxies:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx208
+  network: ws
+  port: 443
+  server: 172.64.33.206
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6501b611-f242-3d90-91d6-030b193ca11c
+  ws-opts:
+    path: /dabai.in
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true

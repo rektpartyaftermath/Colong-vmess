@@ -3103,6 +3103,21 @@ proxies:
     headers:
       Host: sshsg1.cloudtik.biz.id
     path: /vmess-ntls
+- name: 加拿大 003
+  type: vmess
+  network: ws
+  server: 172.64.33.206
+  port: 443
+  uuid: 6501b611-f242-3d90-91d6-030b193ca11c
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: 100-100-17-497.db-link01.top
+    path: /dabai.in
 proxy-groups:
 - name: PROXY
   type: select
@@ -3321,6 +3336,7 @@ proxy-groups:
   - 美国 034
   - 美国 023
   - 美国 035
+  - 加拿大 003
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
