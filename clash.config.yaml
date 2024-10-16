@@ -3590,22 +3590,6 @@ proxies:
     headers:
       Host: cdnip.6565.eu.org
     path: /4f8228
-- name: 美国 046
-  type: vmess
-  network: ws
-  server: download.osgrid.org
-  port: 443
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-  servername: yelan.eula.cloudns.org
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: download.osgrid.org
-    path: /linkws/linja05.hwcar.sbs
 proxy-groups:
 - name: PROXY
   type: select
@@ -3855,7 +3839,6 @@ proxy-groups:
   - 加拿大 062
   - 香港 002
   - 加拿大 064
-  - 美国 046
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204

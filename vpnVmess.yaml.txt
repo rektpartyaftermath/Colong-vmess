@@ -415,19 +415,3 @@ proxies:
       host: graph.facebook.com
   servername: graph.facebook.com
   udp: true
-- alterId: 0
-  cipher: auto
-  name: -xx239
-  network: ws
-  port: 443
-  server: download.osgrid.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-  ws-opts:
-    path: /linkws/linja05.hwcar.sbs
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
