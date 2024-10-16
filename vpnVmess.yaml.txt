@@ -33,7 +33,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx190
+  name: 8-xx189
   network: ws
   port: 443
   server: 104.18.112.107
@@ -49,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx191
+  name: 9-xx190
   network: ws
   port: 443
   server: 104.24.59.213
@@ -65,7 +65,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx192
+  name: -xx191
   network: ws
   port: 443
   server: 104.25.127.240
@@ -81,7 +81,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx193
+  name: -xx192
   network: ws
   port: 443
   server: 104.25.112.185
@@ -97,7 +97,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx194
+  name: -xx193
   network: ws
   port: 443
   server: 141.101.122.109
@@ -113,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx203
+  name: -xx202
   network: ws
   port: 443
   server: profit-server.aken.my.id
@@ -129,7 +129,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx204
+  name: -xx203
   network: ws
   port: 443
   server: api.fastworldpay.com
@@ -145,7 +145,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx205
+  name: -xx204
   network: ws
   port: 443
   server: quiz.vidio.com
@@ -161,7 +161,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx208
+  name: -xx207
   network: ws
   port: 443
   server: 172.64.33.206
@@ -177,7 +177,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx213
+  name: 8-xx212
   network: ws
   port: 443
   server: ddd.zbb07.US.kG
@@ -193,7 +193,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx214
+  name: -xx213
   network: ws
   port: 443
   server: www.enefit.lt
@@ -209,7 +209,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx218
+  name: -xx217
   network: ws
   port: 443
   server: lc.org
@@ -225,7 +225,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx219
+  name: -xx218
   network: ws
   port: 443
   server: ddd.zcr07.DNS-DYNAMic.neT
@@ -241,7 +241,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx220
+  name: -xx219
   network: ws
   port: 443
   server: ddd.zcr07.cloudns.biz
@@ -257,7 +257,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx221
+  name: -xx220
   network: ws
   port: 443
   server: ddd.zcr07.uS.KG
@@ -273,7 +273,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx224
+  name: -xx223
   network: ws
   port: 443
   server: hkcft01.xqc.best
@@ -289,7 +289,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx226
+  name: -xx225
   network: ws
   port: 443
   server: jpcft01.xqc.best
@@ -305,7 +305,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx227
+  name: -xx226
   network: ws
   port: 443
   server: live.theworldwidewolf.com
@@ -321,7 +321,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx228
+  name: -xx227
   network: ws
   port: 443
   server: tls.98.node-for-bigairport.win
@@ -337,7 +337,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx229
+  name: -xx228
   network: ws
   port: 443
   server: tls.95.node-for-bigairport.win
@@ -353,7 +353,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx233
+  name: 9-xx232
   network: ws
   port: 443
   server: 3.clarity168.com
@@ -369,7 +369,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx234
+  name: -xx233
   network: ws
   port: 443
   server: space.byu.id
@@ -385,7 +385,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx236
+  name: -xx235
   network: ws
   port: 443
   server: tls.85.node-for-bigairport.win
@@ -401,7 +401,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx239
+  name: -xx238
   network: ws
   port: 443
   server: cdnip.6565.eu.org
@@ -411,6 +411,22 @@ proxies:
   uuid: 98271b65-72f4-438c-9c9e-7f0d225d99ea
   ws-opts:
     path: /4f8228
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx239
+  network: ws
+  port: 443
+  server: download.osgrid.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
+  ws-opts:
+    path: /linkws/linja05.hwcar.sbs
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
