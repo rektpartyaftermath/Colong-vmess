@@ -3590,6 +3590,54 @@ proxies:
     headers:
       Host: cdnip.6565.eu.org
     path: /4f8228
+- name: 加拿大 068
+  type: vmess
+  network: ws
+  server: yx.niubi.site
+  port: 2053
+  uuid: e7aec9f3-ab8f-4fe2-a4f6-23ab17f3d6ae
+  servername: kr.niubi.site
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: yx.niubi.site
+    path: /niu?ed=2560
+- name: 美国 046
+  type: vmess
+  network: ws
+  server: yx2.niubi.site
+  port: 2053
+  uuid: e7aec9f3-ab8f-4fe2-a4f6-23ab17f3d6ae
+  servername: sg3.niubi.site
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: yx2.niubi.site
+    path: /niu?ed=2560
+- name: 加拿大 070
+  type: vmess
+  network: ws
+  server: redplanetchina.com
+  port: 443
+  uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
+  servername: yelan.thelastronin.cloudns.org
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: redplanetchina.com
+    path: /linkws/adenc36v.xtooltech.cfd
 proxy-groups:
 - name: PROXY
   type: select
@@ -3839,6 +3887,9 @@ proxy-groups:
   - 加拿大 062
   - 香港 002
   - 加拿大 064
+  - 加拿大 068
+  - 美国 046
+  - 加拿大 070
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
