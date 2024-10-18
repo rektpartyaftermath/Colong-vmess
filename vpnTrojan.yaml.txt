@@ -13,6 +13,20 @@ proxies:
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
+- name: 9-xx389
+  password: bpb-trojan
+  port: 443
+  server: 172.66.47.117
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: 9-xx390
+  password: bpb-trojan
+  port: 443
+  server: 172.66.44.139
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
 - name: -xx86
   password: E-Graphic
   port: 443
