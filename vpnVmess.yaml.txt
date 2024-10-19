@@ -945,23 +945,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx340
-  network: ws
-  port: 443
-  server: speedtest.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
-  ws-opts:
-    path: /m28jcoZZUhkqg6pk11
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 9-xx341
+  name: 9-xx340
   network: ws
   port: 443
   server: 172.67.71.160
@@ -977,7 +961,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx342
+  name: -xx341
   network: ws
   port: 443
   server: gov.uk
@@ -993,7 +977,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx352
+  name: -xx351
   network: ws
   port: 443
   server: b.halon.homes
@@ -1009,7 +993,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx381
+  name: 9-xx380
   network: ws
   port: 443
   server: 104.17.213.57
@@ -1025,7 +1009,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx431
+  name: -xx430
   network: ws
   port: 443
   server: 172.67.216.29
@@ -1041,7 +1025,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx432
+  name: -xx431
   network: ws
   port: 443
   server: 172.67.131.108
@@ -1057,7 +1041,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx434
+  name: -xx433
   network: ws
   port: 443
   server: 104.21.28.62
@@ -1073,7 +1057,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx435
+  name: -xx434
   network: ws
   port: 443
   server: 104.21.53.183
@@ -1089,7 +1073,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx437
+  name: -xx436
   network: ws
   port: 443
   server: glweidf.cfd
@@ -1105,7 +1089,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx438
+  name: -xx437
   network: ws
   port: 443
   server: 188.114.97.6
@@ -1121,7 +1105,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx440
+  name: 9-xx439
   network: ws
   port: 443
   server: c.halon.homes
@@ -1137,7 +1121,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx474
+  name: -xx473
   network: ws
   port: 443
   server: d.bukitk.homes
@@ -1153,7 +1137,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx483
+  name: -xx482
   network: ws
   port: 443
   server: bwdraper.faculty.ucdavis.edu
@@ -1169,7 +1153,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx493
+  name: -xx492
   network: ws
   port: 443
   server: 172.67.204.19
@@ -1185,7 +1169,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx497
+  name: -xx496
   network: ws
   port: 443
   server: 23.157.88.6
@@ -1201,7 +1185,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx502
+  name: -xx501
   network: ws
   port: 443
   server: 188.114.99.134
@@ -1217,7 +1201,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx566
+  name: -xx565
   network: ws
   port: 443
   server: an.kalavryta.org
@@ -1227,6 +1211,118 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: linkvws
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: -xx621
+  network: ws
+  port: 443
+  server: e.jembat.homes
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: linkvws
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx623
+  network: ws
+  port: 443
+  server: plex.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
+  ws-opts:
+    path: /racevpn
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: -xx625
+  network: ws
+  port: 443
+  server: c.kandap.homes
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: linkvws
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx626
+  network: ws
+  port: 443
+  server: jp1.119.buzz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 34e951fa-89f6-434f-88ae-c2a2c3f84b8a
+  ws-opts:
+    path: /JFjmIXA
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: -xx632
+  network: ws
+  port: 443
+  server: d.jembat.homes
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: linkvws
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 9-xx635
+  network: ws
+  port: 443
+  server: b.kandap.homes
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: linkvws
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx650
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
