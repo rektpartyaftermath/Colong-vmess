@@ -331,7 +331,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx217
+  name: -xx216
   network: ws
   port: 80
   server: 104.18.24.176
@@ -346,7 +346,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx223
+  name: -xx221
   network: ws
   port: 80
   server: 104.18.24.176
@@ -361,7 +361,7 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  name: 8-xx224
+  name: 8-xx222
   network: ws
   port: 80
   server: 104.18.24.176
@@ -376,7 +376,7 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  name: -xx229
+  name: -xx227
   network: ws
   port: 80
   server: 104.18.24.176
@@ -391,7 +391,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx240
+  name: 8-xx238
   network: ws
   port: 80
   server: 104.18.24.176
@@ -406,7 +406,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx244
+  name: 9-xx242
   network: ws
   port: 80
   server: 104.18.24.176
@@ -421,7 +421,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx266
+  name: 9-xx264
   network: ws
   port: 80
   server: 104.18.24.176
@@ -436,7 +436,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx327
+  name: -xx324
   network: ws
   port: 80
   server: 104.18.24.176
@@ -451,7 +451,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx329
+  name: -xx326
   network: ws
   port: 80
   server: 104.18.24.176
@@ -466,7 +466,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: 8-xx331
+  name: 8-xx328
   network: ws
   port: 80
   server: 104.18.24.176
@@ -481,7 +481,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 9-xx332
+  name: 9-xx329
   network: ws
   port: 80
   server: 104.18.24.176
@@ -496,7 +496,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - alterId: 0
   cipher: auto
-  name: -xx336
+  name: -xx333
   network: ws
   port: 80
   server: 104.18.24.176
@@ -511,7 +511,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: -xx338
+  name: -xx335
   network: ws
   port: 80
   server: 104.18.24.176
@@ -526,7 +526,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx348
+  name: -xx345
   network: ws
   port: 80
   server: 104.18.24.176
@@ -541,7 +541,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx350
+  name: -xx347
   network: ws
   port: 80
   server: 104.18.24.176
@@ -556,7 +556,7 @@ proxies:
     path: /aries?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx362
+  name: -xx359
   network: ws
   port: 80
   server: 104.18.24.176
@@ -571,7 +571,7 @@ proxies:
     path: /aries?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8-xx367
+  name: 8-xx363
   network: ws
   port: 80
   server: 104.18.24.176
@@ -586,7 +586,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx382
+  name: 9-xx378
   network: ws
   port: 80
   server: 104.18.24.176
@@ -599,3 +599,33 @@ proxies:
     headers:
       Host: 6c47-butterfly-6c47.yexoji3749.workers.dev
     path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: 9-xx479
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7f3e901c-76eb-4480-8803-947e4674ecaa
+  ws-opts:
+    headers:
+      Host: bRItISh.ovH.55.ISVvpn.UK.
+    path: /RACEVPN?telegram-
+- alterId: 0
+  cipher: auto
+  name: 9-xx490
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5302e8a3-9514-41b9-bf15-f2a2575653fb
+  ws-opts:
+    headers:
+      Host: 58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
