@@ -46,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx125
+  name: -xx124
   network: ws
   port: 80
   server: 104.22.28.102
@@ -61,7 +61,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx128
+  name: -xx127
   network: ws
   port: 80
   server: 104.22.28.102
@@ -76,7 +76,7 @@ proxies:
     path: /us2ekjds3nay
 - alterId: 0
   cipher: auto
-  name: -xx158
+  name: -xx157
   network: ws
   port: 80
   server: 104.22.28.102
@@ -91,7 +91,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx162
+  name: 9-xx161
   network: ws
   port: 80
   server: 104.22.28.102
@@ -106,7 +106,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8-xx171
+  name: 8-xx170
   network: ws
   port: 80
   server: 104.22.28.102
@@ -121,7 +121,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx172
+  name: 8-xx171
   network: ws
   port: 80
   server: 104.22.28.102
@@ -136,7 +136,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx173
+  name: 8-xx172
   network: ws
   port: 80
   server: 104.22.28.102
@@ -151,7 +151,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx181
+  name: -xx180
   network: ws
   port: 80
   server: 104.22.28.102
@@ -166,7 +166,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx188
+  name: -xx187
   network: ws
   port: 80
   server: 104.22.28.102
@@ -181,7 +181,7 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 9-xx189
+  name: 9-xx188
   network: ws
   port: 80
   server: 104.22.28.102
@@ -196,7 +196,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx193
+  name: -xx192
   network: ws
   port: 80
   server: 104.22.28.102
@@ -211,7 +211,7 @@ proxies:
     path: /sshkit/1828396894/66cf268530688/
 - alterId: 0
   cipher: auto
-  name: -xx194
+  name: -xx193
   network: ws
   port: 80
   server: 104.22.28.102
@@ -226,7 +226,7 @@ proxies:
     path: /sshkit/1828396894/66cf268530688/
 - alterId: 0
   cipher: auto
-  name: -xx199
+  name: -xx198
   network: ws
   port: 80
   server: 104.22.28.102
@@ -241,7 +241,7 @@ proxies:
     path: /vmess-ntls
 - alterId: 0
   cipher: auto
-  name: -xx201
+  name: -xx200
   network: ws
   port: 80
   server: 104.22.28.102
@@ -256,7 +256,7 @@ proxies:
     path: /dabai.in104.19.223.188
 - alterId: 0
   cipher: auto
-  name: -xx202
+  name: -xx201
   network: ws
   port: 80
   server: 104.22.28.102
@@ -271,7 +271,7 @@ proxies:
     path: /xx
 - alterId: 0
   cipher: auto
-  name: -xx204
+  name: -xx203
   network: ws
   port: 80
   server: 104.22.28.102
@@ -286,7 +286,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx209
+  name: 9-xx208
   network: ws
   port: 80
   server: 104.22.28.102
@@ -301,7 +301,7 @@ proxies:
     path: /linuxdo
 - alterId: 0
   cipher: auto
-  name: -xx214
+  name: -xx213
   network: ws
   port: 80
   server: 104.22.28.102
@@ -316,7 +316,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx215
+  name: -xx214
   network: ws
   port: 80
   server: 104.22.28.102
@@ -331,7 +331,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx216
+  name: -xx215
   network: ws
   port: 80
   server: 104.22.28.102
@@ -346,7 +346,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx221
+  name: -xx220
   network: ws
   port: 80
   server: 104.22.28.102
@@ -361,7 +361,7 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  name: 8-xx222
+  name: 8-xx221
   network: ws
   port: 80
   server: 104.22.28.102
@@ -376,7 +376,7 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  name: -xx227
+  name: -xx226
   network: ws
   port: 80
   server: 104.22.28.102
@@ -391,7 +391,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx238
+  name: 8-xx237
   network: ws
   port: 80
   server: 104.22.28.102
@@ -406,7 +406,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx242
+  name: 9-xx241
   network: ws
   port: 80
   server: 104.22.28.102
@@ -421,7 +421,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx264
+  name: 9-xx263
   network: ws
   port: 80
   server: 104.22.28.102
@@ -436,7 +436,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx324
+  name: -xx323
   network: ws
   port: 80
   server: 104.22.28.102
@@ -451,7 +451,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx326
+  name: -xx325
   network: ws
   port: 80
   server: 104.22.28.102
@@ -466,7 +466,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: 8-xx328
+  name: 8-xx327
   network: ws
   port: 80
   server: 104.22.28.102
@@ -481,7 +481,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 9-xx329
+  name: 9-xx328
   network: ws
   port: 80
   server: 104.22.28.102
@@ -496,7 +496,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - alterId: 0
   cipher: auto
-  name: -xx333
+  name: -xx332
   network: ws
   port: 80
   server: 104.22.28.102
@@ -511,7 +511,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: -xx335
+  name: -xx334
   network: ws
   port: 80
   server: 104.22.28.102
@@ -526,7 +526,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx345
+  name: -xx344
   network: ws
   port: 80
   server: 104.22.28.102
@@ -541,7 +541,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx347
+  name: -xx346
   network: ws
   port: 80
   server: 104.22.28.102
@@ -556,7 +556,7 @@ proxies:
     path: /aries?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx359
+  name: -xx358
   network: ws
   port: 80
   server: 104.22.28.102
@@ -571,7 +571,7 @@ proxies:
     path: /aries?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8-xx363
+  name: 8-xx362
   network: ws
   port: 80
   server: 104.22.28.102
@@ -586,7 +586,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx378
+  name: 9-xx377
   network: ws
   port: 80
   server: 104.22.28.102
@@ -601,7 +601,7 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: 9-xx479
+  name: 9-xx477
   network: ws
   port: 80
   server: 104.22.28.102
@@ -616,7 +616,7 @@ proxies:
     path: /RACEVPN?telegram-
 - alterId: 0
   cipher: auto
-  name: 9-xx490
+  name: 9-xx488
   network: ws
   port: 80
   server: 104.22.28.102
