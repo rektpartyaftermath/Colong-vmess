@@ -4170,20 +4170,6 @@ proxies:
     headers:
       Host: ip2.6016725.xyz
     path: /
-- name: 加拿大 124
-  type: vmess
-  network: ws
-  server: icook.tw
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
 - name: 美国 058
   type: vmess
   network: ws
@@ -6514,20 +6500,6 @@ proxies:
     headers:
       Host: ip3.6929198.xyz
     path: /
-- name: 加拿大 217
-  type: vmess
-  network: ws
-  server: 104.18.57.111
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
 - name: 美国 129
   type: vmess
   network: ws
@@ -6806,19 +6778,6 @@ proxies:
     headers:
       Host: d.bukitk.homes
     path: linkvws
-- name: 美国 138
-  type: vmess
-  network: ws
-  server: 172.64.166.20
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
 - name: 伊朗 001
   type: vmess
   network: tcp
@@ -10334,20 +10293,6 @@ proxies:
     headers:
       Host: gwdef.sbs
     path: /
-- name: 英国 014
-  type: vmess
-  network: ws
-  server: 149.7.16.248
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  skip-cert-verify: false
-  tls: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: 149.7.16.248
-    path: /
 - name: 美国 284
   type: vmess
   network: ws
@@ -10418,30 +10363,6 @@ proxies:
     headers:
       Host: ip16.6929198.xyz
     path: /
-- name: 日本 003
-  type: vmess
-  network: tcp
-  server: 45.159.50.136
-  port: 27900
-  uuid: 9ec8f8eb-b6d9-459f-9dbe-fc7fffce7a28
-  tls: false
-  alterId: 0
-  cipher: auto
-- name: 香港 012
-  type: vless
-  network: ws
-  server: 47.238.223.197
-  port: 587
-  uuid: 113dd109-540e-4497-9d47-eed30315260f
-  servername: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
-  skip-cert-verify: false
-  tls: true
-  tfo: false
-  client-fingerprint: random
-  ws-opts:
-    headers:
-      Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
-    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=47.238.223.197:587
 - name: 台湾 004
   type: vless
   network: ws
@@ -10645,6 +10566,550 @@ proxies:
     headers:
       Host: edgetunnel.2424014450.workers.dev
     path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- name: 美国 138
+  type: vmess
+  network: ws
+  server: 104.21.238.100
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 124
+  type: vmess
+  network: ws
+  server: b.jannah.homes
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  servername: b.jannah.homes
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  alterId: 1
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: b.jannah.homes
+    path: linkvws
+- name: 加拿大 217
+  type: vmess
+  network: ws
+  server: 104.16.68.38
+  port: 2095
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: late-wave-1d0a.lesijo3430.workers.dev
+    path: /ivideos.sbs/linkws
+- name: 美国 296
+  type: vmess
+  network: ws
+  server: c.jannah.homes
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  servername: c.jannah.homes
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  alterId: 1
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: c.jannah.homes
+    path: linkvws
+- name: 加拿大 290
+  type: vmess
+  network: ws
+  server: 104.26.5.66
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 291
+  type: vmess
+  network: ws
+  server: malaysia.com
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 292
+  type: vmess
+  network: ws
+  server: 104.19.45.70
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- name: 美国 297
+  type: vmess
+  network: ws
+  server: e.sanglar.homes
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  servername: e.sanglar.homes
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  alterId: 1
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: e.sanglar.homes
+    path: linkvws
+- name: 美国 298
+  type: vmess
+  network: ws
+  server: speedtest.net
+  port: 443
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
+- name: 韩国 013
+  type: vless
+  network: ws
+  server: 140.238.31.153
+  port: 15914
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  servername: e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=140.238.31.153:15914
+- name: 日本 003
+  type: vless
+  network: ws
+  server: 62.106.70.39
+  port: 139
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  servername: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=62.106.70.39:139
+- name: 德国 013
+  type: vless
+  network: ws
+  server: 185.103.253.35
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: lr.ylks.us.kg
+  tls: true
+  ws-opts:
+    headers:
+      Host: lr.ylks.us.kg
+    path: /?ed=2560
+- name: 美国 299
+  type: vmess
+  network: ws
+  server: 172.64.167.5
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip12.6016725.xyz
+    path: /github.com/Alvin9999
+- name: 德国 014
+  type: vless
+  network: ws
+  server: 5.104.75.12
+  port: 2053
+  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  servername: SB-1U6.PAgEs.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: SB-1U6.PAgEs.dev
+    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
+- name: 日本 004
+  type: vless
+  network: ws
+  server: 154.92.9.2
+  port: 443
+  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
+  servername: BPb005.pAgeS.Dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: BPb005.pAgeS.Dev
+    path: /81eqvt6gwdd8gwo8/mtuyljy3ljiznc40oq
+- name: 俄罗斯 026
+  type: vless
+  network: ws
+  server: 45.67.215.161
+  port: 443
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  servername: aq.ylks.xyz
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: aq.ylks.xyz
+    path: /freecodes
+- name: 菲律宾 001
+  type: vless
+  network: ws
+  server: 154.83.2.54
+  port: 2096
+  uuid: fe962226-fe1c-4391-a5ba-7b7c62adda19
+  servername: am-tunnel-6fs.pages.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: am-tunnel-6fs.pages.dev
+    path: /
+- name: 菲律宾 002
+  type: vless
+  network: ws
+  server: 154.83.2.200
+  port: 443
+  uuid: fe962226-fe1c-4391-a5ba-7b7c62adda19
+  servername: am-tunnel-6fs.pages.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: am-tunnel-6fs.pages.dev
+    path: /
+- name: 美国 300
+  type: vless
+  network: ws
+  server: 69.84.182.177
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: lp.ylka.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: lp.ylka.us.kg
+    path: /?ed=2560
+- name: 美国 301
+  type: vless
+  network: ws
+  server: 199.34.228.182
+  port: 2053
+  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  servername: SB-1U6.PAgEs.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: SB-1U6.PAgEs.dev
+    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
+- name: 美国 302
+  type: vless
+  network: ws
+  server: 192.0.54.6
+  port: 2087
+  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  servername: Sb-1u6.paGEs.dEv
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: Sb-1u6.paGEs.dEv
+    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
+- name: 美国 303
+  type: vless
+  network: ws
+  server: 199.34.228.184
+  port: 2087
+  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  servername: Sb-1u6.paGEs.dEv
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: Sb-1u6.paGEs.dEv
+    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
+- name: 美国 304
+  type: vless
+  network: ws
+  server: 199.34.228.182
+  port: 2087
+  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  servername: Sb-1u6.paGEs.dEv
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: Sb-1u6.paGEs.dEv
+    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
+- name: 美国 305
+  type: vless
+  network: ws
+  server: 69.84.182.116
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: lq.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: lq.ylks.us.kg
+    path: /?ed=2560
+- name: 美国 306
+  type: vless
+  network: ws
+  server: 199.34.228.184
+  port: 443
+  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
+  servername: BPb005.pAgeS.Dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: BPb005.pAgeS.Dev
+    path: /81eqvt6gwdd8gwo8/mtuyljy3ljiznc40oq
+- name: 美国 307
+  type: vless
+  network: ws
+  server: 199.34.228.65
+  port: 443
+  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
+  servername: BPb005.pAgeS.Dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: BPb005.pAgeS.Dev
+    path: /81eqvt6gwdd8gwo8/mtuyljy3ljiznc40oq
+- name: 加拿大 293
+  type: vless
+  network: ws
+  server: 162.159.152.228
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: lr.ylka.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: lr.ylka.us.kg
+    path: /?ed=2560
+- name: 美国 308
+  type: vless
+  network: ws
+  server: 199.34.228.162
+  port: 443
+  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
+  servername: BPb005.pAgeS.Dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: BPb005.pAgeS.Dev
+    path: /81eqvt6gwdd8gwo8/mtuyljy3ljiznc40oq
+- name: 美国 309
+  type: vless
+  network: ws
+  server: 69.84.182.71
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: lq.ylks01.eu.org
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: lq.ylks01.eu.org
+    path: /freecodes
+- name: 美国 310
+  type: vless
+  network: ws
+  server: 192.200.160.19
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: lr.kpcloud.eu.org
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: lr.kpcloud.eu.org
+    path: /freecodes
+- name: 加拿大 294
+  type: vless
+  network: ws
+  server: 162.159.153.46
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: dr.ylks.xyz
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dr.ylks.xyz
+    path: /freecodes
+- name: 美国 311
+  type: vless
+  network: ws
+  server: 198.62.62.151
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: lq.ylks01.eu.org
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: lq.ylks01.eu.org
+    path: /freecodes
+- name: 美国 312
+  type: vless
+  network: ws
+  server: 69.84.182.88
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: cq.ylks.xyz
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: cq.ylks.xyz
+    path: /freecodes
+- name: 美国 313
+  type: vless
+  network: ws
+  server: 192.200.160.33
+  port: 443
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  servername: ar.ylks.xyz
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: ar.ylks.xyz
+    path: /freecodes
+- name: 加拿大 295
+  type: vless
+  network: ws
+  server: 162.159.153.17
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: lr.ylks01.eu.org
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: lr.ylks01.eu.org
+    path: /freecodes
+- name: 美国 314
+  type: vless
+  network: ws
+  server: 69.84.182.236
+  port: 443
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  servername: aq.ylks.xyz
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: aq.ylks.xyz
+    path: /freecodes
+- name: 美国 315
+  type: vless
+  network: ws
+  server: 69.84.182.218
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: lq.ylks01.eu.org
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: lq.ylks01.eu.org
+    path: /freecodes
+- name: 美国 316
+  type: vmess
+  network: ws
+  server: usbk.cfip.top
+  port: 8443
+  uuid: 36f71b02-04bf-4ab6-8f17-850a002b448d
+  servername: usbk.cfip.top
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: usbk.cfip.top
+    path: /cctv13/hd.m3u8
 proxy-groups:
 - name: PROXY
   type: select
@@ -10935,7 +11400,6 @@ proxy-groups:
   - 加拿大 121
   - 加拿大 122
   - 加拿大 123
-  - 加拿大 124
   - 美国 058
   - 美国 059
   - 加拿大 125
@@ -11106,7 +11570,6 @@ proxy-groups:
   - 加拿大 215
   - 加拿大 216
   - 美国 128
-  - 加拿大 217
   - 美国 129
   - 加拿大 218
   - 美国 130
@@ -11127,7 +11590,6 @@ proxy-groups:
   - 美国 136
   - 加拿大 229
   - 美国 137
-  - 美国 138
   - 伊朗 001
   - 美国 139
   - 加拿大 230
@@ -11376,14 +11838,11 @@ proxy-groups:
   - 美国 267
   - 加拿大 276
   - 加拿大 285
-  - 英国 014
   - 美国 284
   - 加拿大 286
   - 加拿大 287
   - 美国 285
   - 加拿大 289
-  - 日本 003
-  - 香港 012
   - 台湾 004
   - 韩国 009
   - 韩国 010
@@ -11399,6 +11858,44 @@ proxy-groups:
   - 美国 293
   - 美国 294
   - 美国 295
+  - 美国 138
+  - 加拿大 124
+  - 加拿大 217
+  - 美国 296
+  - 加拿大 290
+  - 加拿大 291
+  - 加拿大 292
+  - 美国 297
+  - 美国 298
+  - 韩国 013
+  - 日本 003
+  - 德国 013
+  - 美国 299
+  - 德国 014
+  - 日本 004
+  - 俄罗斯 026
+  - 菲律宾 001
+  - 菲律宾 002
+  - 美国 300
+  - 美国 301
+  - 美国 302
+  - 美国 303
+  - 美国 304
+  - 美国 305
+  - 美国 306
+  - 美国 307
+  - 加拿大 293
+  - 美国 308
+  - 美国 309
+  - 美国 310
+  - 加拿大 294
+  - 美国 311
+  - 美国 312
+  - 美国 313
+  - 加拿大 295
+  - 美国 314
+  - 美国 315
+  - 美国 316
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204

@@ -13,56 +13,56 @@ proxies:
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 9-xx381
+- name: 9-xx380
   password: bpb-trojan
   port: 443
   server: 172.66.47.117
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 9-xx382
+- name: 9-xx381
   password: bpb-trojan
   port: 443
   server: 172.66.44.139
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx630
+- name: -xx627
   password: 669d0ac7b5b64ebbb1abb75d5d540a5c
   port: 443
   server: 104.17.215.2
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx649
+- name: -xx646
   password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
   port: 443
   server: 23.227.38.11
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 8-xx653
+- name: 8-xx650
   password: 2cba4104747d49d18319e5ade1b93ab5
   port: 443
   server: 198.41.220.18
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 9-xx654
+- name: 9-xx651
   password: b0b861c2c85346a389b9e95769c3cba4
   port: 443
   server: 198.41.220.16
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx655
+- name: -xx652
   password: 4732adfa16c6450bbef87264e41332db
   port: 443
   server: 104.17.215.18
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx716
+- name: -xx713
   password: 2aa1581d-bfc9-4d3a-84f3-742674fb5d3a
   port: 443
   server: jp007.421421.xyz
