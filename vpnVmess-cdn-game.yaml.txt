@@ -91,22 +91,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx161
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ebace182-ad9a-4044-92fd-ad48adf52779
-  ws-opts:
-    headers:
-      Host: kr.freegpt.filegear-sg.me
-    path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 8-xx170
+  name: 8-xx169
   network: ws
   port: 80
   server: 104.18.24.176
@@ -121,7 +106,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx171
+  name: 8-xx170
   network: ws
   port: 80
   server: 104.18.24.176
@@ -136,7 +121,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx172
+  name: 8-xx171
   network: ws
   port: 80
   server: 104.18.24.176
@@ -151,7 +136,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx180
+  name: -xx179
   network: ws
   port: 80
   server: 104.18.24.176
@@ -166,7 +151,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx187
+  name: -xx186
   network: ws
   port: 80
   server: 104.18.24.176
@@ -181,7 +166,7 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 9-xx188
+  name: 9-xx187
   network: ws
   port: 80
   server: 104.18.24.176
@@ -196,7 +181,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx192
+  name: -xx191
   network: ws
   port: 80
   server: 104.18.24.176
@@ -211,7 +196,7 @@ proxies:
     path: /sshkit/1828396894/66cf268530688/
 - alterId: 0
   cipher: auto
-  name: -xx193
+  name: -xx192
   network: ws
   port: 80
   server: 104.18.24.176
@@ -226,7 +211,7 @@ proxies:
     path: /sshkit/1828396894/66cf268530688/
 - alterId: 0
   cipher: auto
-  name: -xx198
+  name: -xx197
   network: ws
   port: 80
   server: 104.18.24.176
@@ -241,7 +226,7 @@ proxies:
     path: /vmess-ntls
 - alterId: 0
   cipher: auto
-  name: -xx200
+  name: -xx199
   network: ws
   port: 80
   server: 104.18.24.176
@@ -256,7 +241,7 @@ proxies:
     path: /dabai.in104.19.223.188
 - alterId: 0
   cipher: auto
-  name: -xx201
+  name: -xx200
   network: ws
   port: 80
   server: 104.18.24.176
@@ -271,7 +256,7 @@ proxies:
     path: /xx
 - alterId: 0
   cipher: auto
-  name: -xx203
+  name: -xx202
   network: ws
   port: 80
   server: 104.18.24.176
@@ -286,7 +271,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx208
+  name: 9-xx207
   network: ws
   port: 80
   server: 104.18.24.176
@@ -301,7 +286,7 @@ proxies:
     path: /linuxdo
 - alterId: 0
   cipher: auto
-  name: -xx213
+  name: -xx212
   network: ws
   port: 80
   server: 104.18.24.176
@@ -316,7 +301,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx214
+  name: -xx213
   network: ws
   port: 80
   server: 104.18.24.176
@@ -331,7 +316,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx215
+  name: -xx214
   network: ws
   port: 80
   server: 104.18.24.176
@@ -346,7 +331,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx220
+  name: -xx219
   network: ws
   port: 80
   server: 104.18.24.176
@@ -361,7 +346,7 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  name: 8-xx221
+  name: 8-xx220
   network: ws
   port: 80
   server: 104.18.24.176
@@ -376,7 +361,7 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  name: -xx226
+  name: -xx224
   network: ws
   port: 80
   server: 104.18.24.176
@@ -391,7 +376,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx237
+  name: 8-xx235
   network: ws
   port: 80
   server: 104.18.24.176
@@ -406,7 +391,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx241
+  name: 9-xx239
   network: ws
   port: 80
   server: 104.18.24.176
@@ -421,7 +406,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx263
+  name: 9-xx261
   network: ws
   port: 80
   server: 104.18.24.176
@@ -436,7 +421,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx323
+  name: -xx321
   network: ws
   port: 80
   server: 104.18.24.176
@@ -451,7 +436,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx325
+  name: -xx323
   network: ws
   port: 80
   server: 104.18.24.176
@@ -466,7 +451,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: 8-xx327
+  name: 8-xx325
   network: ws
   port: 80
   server: 104.18.24.176
@@ -481,7 +466,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 9-xx328
+  name: 9-xx326
   network: ws
   port: 80
   server: 104.18.24.176
@@ -496,7 +481,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - alterId: 0
   cipher: auto
-  name: -xx332
+  name: -xx330
   network: ws
   port: 80
   server: 104.18.24.176
@@ -511,7 +496,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: -xx334
+  name: -xx332
   network: ws
   port: 80
   server: 104.18.24.176
@@ -526,7 +511,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx343
+  name: -xx341
   network: ws
   port: 80
   server: 104.18.24.176
@@ -541,7 +526,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx345
+  name: -xx343
   network: ws
   port: 80
   server: 104.18.24.176
@@ -556,7 +541,7 @@ proxies:
     path: /aries?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx357
+  name: -xx355
   network: ws
   port: 80
   server: 104.18.24.176
@@ -571,7 +556,7 @@ proxies:
     path: /aries?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8-xx361
+  name: 8-xx359
   network: ws
   port: 80
   server: 104.18.24.176
@@ -586,7 +571,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx376
+  name: 9-xx374
   network: ws
   port: 80
   server: 104.18.24.176
@@ -601,7 +586,7 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: 9-xx476
+  name: 9-xx474
   network: ws
   port: 80
   server: 104.18.24.176
@@ -616,7 +601,7 @@ proxies:
     path: /RACEVPN?telegram-
 - alterId: 0
   cipher: auto
-  name: 9-xx487
+  name: 9-xx485
   network: ws
   port: 80
   server: 104.18.24.176
@@ -631,7 +616,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx622
+  name: -xx620
   network: ws
   port: 80
   server: 104.18.24.176
@@ -646,7 +631,7 @@ proxies:
     path: /jahfkjha.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx636
+  name: -xx633
   network: ws
   port: 80
   server: 104.18.24.176
@@ -661,7 +646,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: -xx637
+  name: -xx634
   network: ws
   port: 80
   server: 104.18.24.176
@@ -676,7 +661,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: -xx638
+  name: -xx635
   network: ws
   port: 80
   server: 104.18.24.176
@@ -691,7 +676,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: -xx649
+  name: -xx644
   network: ws
   port: 80
   server: 104.18.24.176
@@ -706,7 +691,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: -xx651
+  name: -xx646
   network: ws
   port: 80
   server: 104.18.24.176
@@ -721,7 +706,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: -xx652
+  name: -xx647
   network: ws
   port: 80
   server: 104.18.24.176
@@ -736,7 +721,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: -xx653
+  name: -xx648
   network: ws
   port: 80
   server: 104.18.24.176
@@ -751,7 +736,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: -xx656
+  name: -xx651
   network: ws
   port: 80
   server: 104.18.24.176
@@ -764,3 +749,18 @@ proxies:
     headers:
       Host: widescreen-instruction-breakdown-postage.trycloudflare.com
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
+- alterId: 0
+  cipher: auto
+  name: -xx682
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e2b683fe-5b91-5f62-906a-e720ba96cf97
+  ws-opts:
+    headers:
+      Host: fr2.vmess.site.
+    path: /
