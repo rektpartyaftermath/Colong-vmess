@@ -1966,21 +1966,6 @@ proxies:
   tls: true
   udp: true
   tfo: false
-- name: 美国 018
-  type: vless
-  network: ws
-  server: Speedtest.net
-  port: 443
-  uuid: a486d915-3956-4628-be6b-28b75f3f2a2a
-  servername: monvip.com
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: monvip.com
-    path: /telegram-
 - name: 加拿大 048
   type: vmess
   network: httpupgrade
@@ -2152,15 +2137,6 @@ proxies:
   tls: true
   udp: true
   tfo: false
-- name: 德国 005
-  type: vless
-  server: 49.12.193.246
-  port: 443
-  uuid: 46286ed2-9abf-420b-b510-c9e663cdbadc
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
 - name: 加拿大 058
   type: vless
   server: 104.17.148.22
@@ -2179,22 +2155,6 @@ proxies:
   tls: true
   udp: true
   tfo: false
-- name: 韩国 004
-  type: vless
-  network: tcp
-  server: kr.maple.icu
-  port: 24021
-  uuid: 83512b4a-64a9-4058-80df-53d95e2fbaa0
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: qq
-  reality-opts:
-    public-key: XfkuAyN_XfbUJ8qwmp5ILy4rfXcafsie9C-SYxdyKhQ
-    short-id: 0ab19147
-  flow: xtls-rprx-vision
 - name: 加拿大 066
   type: vless
   network: ws
@@ -10704,21 +10664,6 @@ proxies:
     headers:
       Host: mehrjavan.ir
     path: /m28jcoZZUhkqg6pk11
-- name: 韩国 013
-  type: vless
-  network: ws
-  server: 140.238.31.153
-  port: 15914
-  uuid: 113dd109-540e-4497-9d47-eed30315260f
-  servername: e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com
-  skip-cert-verify: false
-  tls: true
-  tfo: false
-  client-fingerprint: random
-  ws-opts:
-    headers:
-      Host: e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com
-    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=140.238.31.153:15914
 - name: 日本 003
   type: vless
   network: ws
@@ -10758,20 +10703,6 @@ proxies:
     headers:
       Host: ip12.6016725.xyz
     path: /github.com/Alvin9999
-- name: 德国 014
-  type: vless
-  network: ws
-  server: 5.104.75.12
-  port: 2053
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  servername: SB-1U6.PAgEs.dev
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgEs.dev
-    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
 - name: 日本 004
   type: vless
   network: ws
@@ -11110,6 +11041,21 @@ proxies:
     headers:
       Host: usbk.cfip.top
     path: /cctv13/hd.m3u8
+- name: 英国 014
+  type: vmess
+  network: ws
+  server: xr004.louwangzhiyu.xyz
+  port: 30000
+  uuid: a00c654c-3362-4c2d-b5a7-89d4215eda69
+  servername: xr001.louwangzhiyu.xyz
+  tls: true
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: www.louwangzhiyu.xyz
+    path: /xyz
 proxy-groups:
 - name: PROXY
   type: select
@@ -11250,7 +11196,6 @@ proxy-groups:
   - 加拿大 042
   - 加拿大 045
   - 加拿大 046
-  - 美国 018
   - 加拿大 048
   - 加拿大 049
   - 加拿大 051
@@ -11264,10 +11209,8 @@ proxy-groups:
   - 加拿大 020
   - 哥斯达黎加 001
   - 瑞典 001
-  - 德国 005
   - 加拿大 058
   - 加拿大 059
-  - 韩国 004
   - 加拿大 066
   - 加拿大 069
   - 加拿大 071
@@ -11867,11 +11810,9 @@ proxy-groups:
   - 加拿大 292
   - 美国 297
   - 美国 298
-  - 韩国 013
   - 日本 003
   - 德国 013
   - 美国 299
-  - 德国 014
   - 日本 004
   - 俄罗斯 026
   - 菲律宾 001
@@ -11896,6 +11837,7 @@ proxy-groups:
   - 美国 314
   - 美国 315
   - 美国 316
+  - 英国 014
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
