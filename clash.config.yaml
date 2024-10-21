@@ -168,19 +168,6 @@ proxies:
     headers:
       Host: vi.ylks.xyz
     path: /9nnczaa7prwby3nu?ed=2560
-- name: 加拿大 097
-  type: vless
-  network: ws
-  server: 104.20.119.243
-  port: 2087
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  servername: vi.ylks.xyz
-  tls: true
-  delay: 1518
-  ws-opts:
-    headers:
-      Host: vi.ylks.xyz
-    path: /ovijj9b8yz0ghou0?ed=2560
 - name: 捷克 001
   type: vless
   network: ws
@@ -697,22 +684,6 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: twitterfreecodessecurityfp=chrome
-- name: 爱沙尼亚 009
-  type: vless
-  network: ws
-  server: 45.80.110.161
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tls: true
-  tfo: false
-  client-fingerprint: chrome
-  delay: 1318
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: twitterfreecodesfp=chromefp=chromefp=chrome
 - name: 美国 069
   type: vless
   network: ws
@@ -1622,19 +1593,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- name: 加拿大 014
-  type: vmess
-  network: ws
-  server: fbi.gov
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
     path: github.com/Alvin9999
 - name: 加拿大 039
   type: vmess
@@ -6684,20 +6642,6 @@ proxies:
     headers:
       Host: ip2.6016725.xyz
     path: /
-- name: 美国 135
-  type: vmess
-  network: ws
-  server: 172.64.99.22
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
 - name: 美国 136
   type: vmess
   network: ws
@@ -6760,19 +6704,6 @@ proxies:
     headers:
       Host: bRItISh.ovH.55.ISVvpn.UK.
     path: /RACEVPN?telegram-
-- name: 加拿大 230
-  type: vmess
-  network: ws
-  server: russia.com
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
 - name: 加拿大 231
   type: vmess
   network: ws
@@ -10603,21 +10534,6 @@ proxies:
     headers:
       Host: ip3.6929198.xyz
     path: github.com/Alvin9999
-- name: 加拿大 291
-  type: vmess
-  network: ws
-  server: malaysia.com
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
 - name: 加拿大 292
   type: vmess
   network: ws
@@ -11056,6 +10972,988 @@ proxies:
     headers:
       Host: www.louwangzhiyu.xyz
     path: /xyz
+- name: 美国 018
+  type: vmess
+  network: ws
+  server: 104.21.18.227
+  port: 443
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: jahfkjha.cfd
+    path: /
+- name: 加拿大 014
+  type: vmess
+  network: ws
+  server: e.seribus.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  servername: e.seribus.org
+  skip-cert-verify: false
+  tls: true
+  alterId: 1
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: e.seribus.org
+    path: /
+- name: 加拿大 097
+  type: vmess
+  network: ws
+  server: d.seribus.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  servername: d.seribus.org
+  skip-cert-verify: false
+  tls: true
+  alterId: 1
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: d.seribus.org
+    path: /
+- name: 加拿大 230
+  type: vmess
+  network: ws
+  server: www.speedtest.net
+  port: 80
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: telegram----cassiusvpn----2.ranob36907.workers.dev
+    path: /
+- name: 加拿大 291
+  type: vmess
+  network: ws
+  server: yichueng.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  skip-cert-verify: false
+  tls: true
+  alterId: 1
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: yichueng.org
+    path: /
+- name: 加拿大 296
+  type: vmess
+  network: ws
+  server: seribus.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  servername: seribus.org
+  skip-cert-verify: false
+  tls: true
+  alterId: 1
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: seribus.org
+    path: /
+- name: 加拿大 297
+  type: vmess
+  network: ws
+  server: 104.19.45.47
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- name: 美国 135
+  type: vmess
+  network: ws
+  server: 104.21.238.101
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip3.6016725.xyz
+    path: /
+- name: 加拿大 298
+  type: vmess
+  network: ws
+  server: cdn.cngfw.online
+  port: 443
+  uuid: cab438c4-9c5a-43fd-a623-ce81cb93085c
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: eu3.kunkunbuku.me
+    path: /
+- name: 美国 317
+  type: vmess
+  network: ws
+  server: 172.64.166.8
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- name: 加拿大 299
+  type: vmess
+  network: ws
+  server: 172.67.70.92
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- name: 加拿大 300
+  type: vmess
+  network: ws
+  server: 1229VM6.nnaotexiongditkgroup.top
+  port: 2053
+  uuid: 23de7970-038f-403f-f979-28124f3be02a
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: 1229VM6.nnaotexiongditkgroup.top
+    path: /
+- name: 加拿大 301
+  type: vmess
+  network: ws
+  server: 104.19.47.65
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- name: 香港 012
+  type: vmess
+  network: tcp
+  server: 15073.kuaiyin02.top
+  port: 15073
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+  tls: false
+  alterId: 0
+  cipher: auto
+- name: 美国 318
+  type: vmess
+  network: ws
+  server: zmaoz.faculty.ucdavis.edu
+  port: 443
+  uuid: 587eeb1a-9d5e-4407-886f-9e9492e42273
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: icomedbackbitches.com
+    path: /express_v2ray?ed=2560
+- name: 加拿大 302
+  type: vmess
+  network: ws
+  server: 104.19.45.66
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- name: 韩国 004
+  type: vmess
+  network: tcp
+  server: 45.94.68.186
+  port: 43819
+  uuid: 3403fbbf-dc52-4fb6-84b3-97c6dcde6388
+  tls: false
+  alterId: 0
+  cipher: auto
+- name: 意大利 001
+  type: vmess
+  network: http
+  server: f41.maryam1500.top
+  port: 2098
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  alterId: 0
+  cipher: auto
+  delay: 1348
+  http-opts:
+    headers:
+      Host:
+      - f41.maryam1500.top
+    method: GET
+    path:
+    - /
+- name: 美国 319
+  type: trojan
+  network: ws
+  server: 104.21.90.210
+  port: 443
+  password: auto
+  udp: true
+  sni: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
+  delay: 1599
+  ws-opts:
+    headers:
+      Host: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
+    path: /abbas.ab841vpn.workers.dev/?ed=2560.Telegram-
+- name: 荷兰 009
+  type: vless
+  network: ws
+  server: 188.42.88.78
+  port: 443
+  uuid: f3fcb0be-c785-4791-bd88-335dd20f0c1e
+  servername: g1.youyuan.us.kg
+  tls: true
+  udp: true
+  delay: 1481
+  ws-opts:
+    headers:
+      Host: g1.youyuan.us.kg
+    path: /
+- name: 巴西 001
+  type: vless
+  network: ws
+  server: 185.133.35.144
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: cq.ylks.xyz
+  tls: true
+  udp: true
+  delay: 1441
+  ws-opts:
+    headers:
+      Host: cq.ylks.xyz
+    path: /freecodes
+- name: 奥地利 002
+  type: vless
+  network: ws
+  server: 212.183.88.242
+  port: 443
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  servername: ar.ylks.xyz
+  tls: true
+  udp: true
+  delay: 1513
+  ws-opts:
+    headers:
+      Host: ar.ylks.xyz
+    path: /freecodes
+- name: 美国 320
+  type: vless
+  network: ws
+  server: 216.24.57.250
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: lr.ylks01.eu.org
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  delay: 1129
+  ws-opts:
+    headers:
+      Host: lr.ylks01.eu.org
+    path: /freecodes
+- name: 美国 321
+  type: vless
+  network: ws
+  server: 216.24.57.69
+  port: 443
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  servername: ar.ylks.xyz
+  tls: true
+  udp: true
+  delay: 1510
+  ws-opts:
+    headers:
+      Host: ar.ylks.xyz
+    path: /freecodes
+- name: 哈萨克斯坦 001
+  type: vless
+  network: ws
+  server: 194.76.18.129
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: cr.ylks.xyz
+  tls: true
+  udp: true
+  delay: 1582
+  ws-opts:
+    headers:
+      Host: cr.ylks.xyz
+    path: /freecodes
+- name: 美国 322
+  type: vless
+  network: ws
+  server: 198.62.62.170
+  port: 443
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  servername: aq.ylks.xyz
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  delay: 1377
+  ws-opts:
+    headers:
+      Host: aq.ylks.xyz
+    path: /freecodes
+- name: 巴西 002
+  type: vless
+  network: ws
+  server: 185.133.35.96
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: lq.kpcloud.eu.org
+  tls: true
+  udp: true
+  delay: 1298
+  ws-opts:
+    headers:
+      Host: lq.kpcloud.eu.org
+    path: /freecodes
+- name: 奥地利 003
+  type: vless
+  network: ws
+  server: 212.183.88.29
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: lr.kpcloud.eu.org
+  tls: true
+  udp: true
+  delay: 1242
+  ws-opts:
+    headers:
+      Host: lr.kpcloud.eu.org
+    path: /freecodes
+- name: 荷兰 010
+  type: vless
+  network: ws
+  server: 192.236.249.102
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: cq.ylks.xyz
+  tls: true
+  udp: true
+  delay: 1600
+  ws-opts:
+    headers:
+      Host: cq.ylks.xyz
+    path: /freecodes
+- name: 香港 013
+  type: vless
+  network: ws
+  server: 112.120.127.246
+  port: 19
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  servername: 547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: 547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=112.120.127.246:19
+- name: 香港 014
+  type: vless
+  network: ws
+  server: 112.120.127.246
+  port: 119
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  servername: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=112.120.127.246:19
+- name: 韩国 013
+  type: vless
+  network: ws
+  server: 125.136.53.240
+  port: 12391
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  servername: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=125.136.53.240:12391
+- name: 美国 323
+  type: vless
+  network: ws
+  server: 104.17.212.83
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 哈萨克斯坦 002
+  type: vless
+  network: ws
+  server: 31.43.179.49
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 美国 324
+  type: vless
+  network: ws
+  server: cfip.xxxxxxxx.tk
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 美国 325
+  type: vless
+  network: ws
+  server: 104.16.197.78
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 美国 326
+  type: vless
+  network: ws
+  server: 170.114.46.235
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 美国 327
+  type: vless
+  network: ws
+  server: 160.79.105.133
+  port: 443
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  servername: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=160.79.105.133:443
+- name: 英国 015
+  type: vless
+  network: ws
+  server: 194.36.55.16
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 西班牙 002
+  type: vless
+  network: ws
+  server: 185.18.250.200
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 美国 328
+  type: vless
+  network: ws
+  server: 104.19.32.12
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: ls.ylks.us.kg
+  tls: true
+  ws-opts:
+    headers:
+      Host: ls.ylks.us.kg
+    path: /?ed=2560
+- name: 英国 016
+  type: vless
+  network: ws
+  server: 164.38.155.56
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 美国 329
+  type: vless
+  network: ws
+  server: 104.17.81.44
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 加拿大 303
+  type: vless
+  network: ws
+  server: Join.my.Telegram.channel.CMLiussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  port: 443
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  servername: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=proxyip.us.fxxk.dedyn.io
+- name: 美国 330
+  type: vless
+  network: ws
+  server: 108.162.198.34
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- name: 美国 331
+  type: vless
+  network: ws
+  server: 104.17.10.192
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 美国 332
+  type: vless
+  network: ws
+  server: 104.19.32.24
+  port: 443
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  servername: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=proxyip.oracle.fxxk.dedyn.io
+- name: 英国 017
+  type: vless
+  network: ws
+  server: 164.38.155.113
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 美国 333
+  type: vless
+  network: ws
+  server: 104.17.46.20
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 哈萨克斯坦 003
+  type: vless
+  network: ws
+  server: 31.43.179.32
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 美国 334
+  type: vless
+  network: ws
+  server: 104.19.35.245
+  port: 443
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  servername: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=proxyip.oracle.fxxk.dedyn.io
+- name: 美国 335
+  type: vless
+  network: ws
+  server: 192.200.160.214
+  port: 443
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  servername: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=192.200.160.214:443
+- name: 英国 018
+  type: vless
+  network: ws
+  server: 194.36.55.67
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 哥斯达黎加 002
+  type: vless
+  network: ws
+  server: 190.93.245.245
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 俄罗斯 027
+  type: vless
+  network: ws
+  server: 185.59.218.232
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 西班牙 003
+  type: vless
+  network: ws
+  server: 185.18.250.126
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 美国 336
+  type: vless
+  network: ws
+  server: 170.114.45.206
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 美国 337
+  type: vless
+  network: ws
+  server: 104.17.26.104
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- name: 荷兰 011
+  type: vless
+  network: ws
+  server: 188.42.89.163
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 美国 338
+  type: vless
+  network: ws
+  server: 104.16.192.62
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 美国 339
+  type: vless
+  network: ws
+  server: 104.19.35.145
+  port: 443
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  servername: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=proxyip.oracle.fxxk.dedyn.io
+- name: 美国 340
+  type: vless
+  network: ws
+  server: 192.200.160.44
+  port: 443
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  servername: fc071d49-af91-42d6-a20e-5a64e24a53bc.71a45835-dd0c-4d51-8bd4-9ccf9f223662.casacam.net
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: fc071d49-af91-42d6-a20e-5a64e24a53bc.71a45835-dd0c-4d51-8bd4-9ccf9f223662.casacam.net
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=192.200.160.44:443
+- name: 加拿大 304
+  type: vless
+  network: ws
+  server: 162.159.153.219
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: ls.ylks.us.kg
+  tls: true
+  ws-opts:
+    headers:
+      Host: ls.ylks.us.kg
+    path: /?ed=2560
+- name: 美国 341
+  type: vless
+  network: ws
+  server: 216.24.57.30
+  port: 443
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  servername: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=216.24.57.30:443
+- name: 美国 342
+  type: vless
+  network: ws
+  server: 104.19.50.68
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: cs.ylks.xyz
+  tls: true
+  ws-opts:
+    headers:
+      Host: cs.ylks.xyz
+    path: /blue
+- name: 美国 343
+  type: vless
+  network: ws
+  server: 104.19.39.50
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: ls.ylks01.eu.org
+  tls: true
+  ws-opts:
+    headers:
+      Host: ls.ylks01.eu.org
+    path: /blue
+- name: 加拿大 305
+  type: vless
+  network: ws
+  server: ls.ylks.xyz
+  port: 2053
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  servername: ls.ylKs.Xyz
+  tls: true
+  ws-opts:
+    headers:
+      Host: ls.ylKs.Xyz
+    path: /2yznpcosqwbwx5iz?ed=2560
+- name: 美国 344
+  type: vless
+  network: ws
+  server: 104.18.126.133
+  port: 80
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  skip-cert-verify: false
+  tls: false
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- name: 库拉索岛 001
+  type: vless
+  network: ws
+  server: 62.72.166.67
+  port: 2096
+  uuid: 775213ac-3976-439a-8977-3277c0e4735d
+  servername: fq521.6789.cloudns.be
+  tls: true
+  ws-opts:
+    headers:
+      Host: fq521.6789.cloudns.be
+    path: Twitter苏小柠
 proxy-groups:
 - name: PROXY
   type: select
@@ -11070,7 +11968,6 @@ proxy-groups:
   - 加拿大 140
   - 加拿大 060
   - 加拿大 088
-  - 加拿大 097
   - 捷克 001
   - 美国 006
   - 爱沙尼亚 001
@@ -11108,7 +12005,6 @@ proxy-groups:
   - 美国 065
   - 爱沙尼亚 005
   - 爱沙尼亚 006
-  - 爱沙尼亚 009
   - 美国 069
   - 英国 004
   - 法国 002
@@ -11172,7 +12068,6 @@ proxy-groups:
   - 加拿大 151
   - 加拿大 004
   - 加拿大 017
-  - 加拿大 014
   - 加拿大 039
   - 加拿大 043
   - 加拿大 067
@@ -11529,13 +12424,11 @@ proxy-groups:
   - 加拿大 228
   - 美国 133
   - 美国 134
-  - 美国 135
   - 美国 136
   - 加拿大 229
   - 美国 137
   - 伊朗 001
   - 美国 139
-  - 加拿大 230
   - 加拿大 231
   - 加拿大 232
   - 加拿大 233
@@ -11806,7 +12699,6 @@ proxy-groups:
   - 加拿大 217
   - 美国 296
   - 加拿大 290
-  - 加拿大 291
   - 加拿大 292
   - 美国 297
   - 美国 298
@@ -11838,6 +12730,75 @@ proxy-groups:
   - 美国 315
   - 美国 316
   - 英国 014
+  - 美国 018
+  - 加拿大 014
+  - 加拿大 097
+  - 加拿大 230
+  - 加拿大 291
+  - 加拿大 296
+  - 加拿大 297
+  - 美国 135
+  - 加拿大 298
+  - 美国 317
+  - 加拿大 299
+  - 加拿大 300
+  - 加拿大 301
+  - 香港 012
+  - 美国 318
+  - 加拿大 302
+  - 韩国 004
+  - 意大利 001
+  - 美国 319
+  - 荷兰 009
+  - 巴西 001
+  - 奥地利 002
+  - 美国 320
+  - 美国 321
+  - 哈萨克斯坦 001
+  - 美国 322
+  - 巴西 002
+  - 奥地利 003
+  - 荷兰 010
+  - 香港 013
+  - 香港 014
+  - 韩国 013
+  - 美国 323
+  - 哈萨克斯坦 002
+  - 美国 324
+  - 美国 325
+  - 美国 326
+  - 美国 327
+  - 英国 015
+  - 西班牙 002
+  - 美国 328
+  - 英国 016
+  - 美国 329
+  - 加拿大 303
+  - 美国 330
+  - 美国 331
+  - 美国 332
+  - 英国 017
+  - 美国 333
+  - 哈萨克斯坦 003
+  - 美国 334
+  - 美国 335
+  - 英国 018
+  - 哥斯达黎加 002
+  - 俄罗斯 027
+  - 西班牙 003
+  - 美国 336
+  - 美国 337
+  - 荷兰 011
+  - 美国 338
+  - 美国 339
+  - 美国 340
+  - 加拿大 304
+  - 美国 341
+  - 美国 342
+  - 美国 343
+  - 加拿大 305
+  - 美国 344
+  - 库拉索岛 001
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
