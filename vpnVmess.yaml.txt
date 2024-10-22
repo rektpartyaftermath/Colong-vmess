@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx107
+  name: -xx105
   network: ws
   port: 443
   server: sgdo.vipcasper.com
@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx146
+  name: -xx144
   network: ws
   port: 443
   server: sg1.1vpn.sbs
@@ -33,7 +33,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx174
+  name: 8-xx172
   network: ws
   port: 443
   server: 104.18.112.107
@@ -49,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx175
+  name: 9-xx173
   network: ws
   port: 443
   server: 104.24.59.213
@@ -65,7 +65,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx176
+  name: -xx174
   network: ws
   port: 443
   server: 104.25.127.240
@@ -81,7 +81,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx177
+  name: -xx175
   network: ws
   port: 443
   server: 104.25.112.185
@@ -97,7 +97,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx178
+  name: -xx176
   network: ws
   port: 443
   server: 141.101.122.109
@@ -113,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx187
+  name: -xx185
   network: ws
   port: 443
   server: profit-server.aken.my.id
@@ -129,7 +129,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx188
+  name: -xx186
   network: ws
   port: 443
   server: api.fastworldpay.com
@@ -145,7 +145,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx189
+  name: -xx187
   network: ws
   port: 443
   server: quiz.vidio.com
@@ -161,7 +161,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx192
+  name: -xx190
   network: ws
   port: 443
   server: 172.64.33.206
@@ -177,7 +177,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx197
+  name: 8-xx195
   network: ws
   port: 443
   server: ddd.zbb07.US.kG
@@ -193,7 +193,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx198
+  name: -xx196
   network: ws
   port: 443
   server: www.enefit.lt
@@ -209,7 +209,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx202
+  name: -xx200
   network: ws
   port: 443
   server: lc.org
@@ -225,7 +225,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx203
+  name: -xx201
   network: ws
   port: 443
   server: ddd.zcr07.DNS-DYNAMic.neT
@@ -241,7 +241,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx204
+  name: -xx202
   network: ws
   port: 443
   server: ddd.zcr07.cloudns.biz
@@ -257,7 +257,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx205
+  name: -xx203
   network: ws
   port: 443
   server: ddd.zcr07.uS.KG
@@ -273,7 +273,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx209
+  name: -xx207
   network: ws
   port: 443
   server: jpcft01.xqc.best
@@ -289,7 +289,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx210
+  name: -xx208
   network: ws
   port: 443
   server: live.theworldwidewolf.com
@@ -305,7 +305,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx211
+  name: -xx209
   network: ws
   port: 443
   server: tls.98.node-for-bigairport.win
@@ -321,7 +321,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx215
+  name: 9-xx213
   network: ws
   port: 443
   server: 3.clarity168.com
@@ -337,7 +337,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx216
+  name: -xx214
   network: ws
   port: 443
   server: space.byu.id
@@ -353,7 +353,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx220
+  name: -xx218
   network: ws
   port: 443
   server: cdnip.6565.eu.org
@@ -369,7 +369,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx223
+  name: -xx221
   network: ws
   port: 443
   server: redplanetchina.com
@@ -385,7 +385,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx224
+  name: -xx222
   network: ws
   port: 443
   server: www.csgo.com
@@ -401,7 +401,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx234
+  name: 9-xx232
   network: ws
   port: 443
   server: 172.67.219.194
@@ -417,7 +417,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx235
+  name: 9-xx233
   network: ws
   port: 443
   server: 104.21.24.170
@@ -433,7 +433,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx236
+  name: 9-xx234
   network: ws
   port: 443
   server: 188.114.97.8
@@ -449,7 +449,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx237
+  name: -xx235
   network: ws
   port: 443
   server: 188.114.96.2
@@ -465,7 +465,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx238
+  name: 9-xx236
   network: ws
   port: 443
   server: 172.67.181.241
@@ -481,7 +481,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx239
+  name: -xx237
   network: ws
   port: 443
   server: 173.245.58.5
@@ -497,7 +497,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx240
+  name: 9-xx238
   network: ws
   port: 443
   server: 104.21.83.208
@@ -513,7 +513,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 98-xx241
+  name: 98-xx239
   network: ws
   port: 443
   server: 188.114.97.21
@@ -529,7 +529,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 99-xx242
+  name: 99-xx240
   network: ws
   port: 443
   server: hms19.best-tizi.top
@@ -545,7 +545,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx243
+  name: -xx241
   network: ws
   port: 443
   server: 162.159.8.120
@@ -561,7 +561,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx244
+  name: 8-xx242
   network: ws
   port: 443
   server: 172.67.175.56
@@ -577,7 +577,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx245
+  name: -xx243
   network: ws
   port: 443
   server: denc36.xtooltech.cfd
@@ -593,7 +593,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx246
+  name: -xx244
   network: ws
   port: 443
   server: 188.114.97.2
@@ -609,7 +609,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx247
+  name: -xx245
   network: ws
   port: 443
   server: 104.26.0.95
@@ -625,7 +625,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx248
+  name: -xx246
   network: ws
   port: 443
   server: 104.18.206.97
@@ -641,7 +641,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx249
+  name: -xx247
   network: ws
   port: 443
   server: 172.67.223.119
@@ -657,7 +657,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx250
+  name: -xx248
   network: ws
   port: 443
   server: 188.114.96.3
@@ -673,7 +673,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx251
+  name: -xx249
   network: ws
   port: 443
   server: 185.148.104.118
@@ -689,7 +689,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx252
+  name: -xx250
   network: ws
   port: 443
   server: 172.67.131.17
@@ -705,7 +705,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 8-xx253
+  name: 8-xx251
   network: ws
   port: 443
   server: e.darat.homes
@@ -721,7 +721,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx255
+  name: -xx253
   network: ws
   port: 443
   server: 172.67.136.233
@@ -737,7 +737,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx256
+  name: -xx254
   network: ws
   port: 443
   server: 162.159.1.94
@@ -753,7 +753,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx257
+  name: -xx255
   network: ws
   port: 443
   server: 172.67.196.112
@@ -769,7 +769,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx259
+  name: -xx257
   network: ws
   port: 443
   server: linde06.indiavideo.sbs
@@ -785,7 +785,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx260
+  name: -xx258
   network: ws
   port: 443
   server: 172.67.170.13
@@ -801,7 +801,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx261
+  name: -xx259
   network: ws
   port: 443
   server: 172.67.156.210
@@ -817,7 +817,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx262
+  name: -xx260
   network: ws
   port: 443
   server: 172.67.170.11
@@ -833,7 +833,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx264
+  name: 8-xx262
   network: ws
   port: 443
   server: hms182.glweidf.sbs
@@ -849,7 +849,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx282
+  name: -xx280
   network: ws
   port: 443
   server: 172.66.213.38
@@ -865,7 +865,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx321
+  name: -xx318
   network: ws
   port: 443
   server: hms082.gwdef.sbs
@@ -881,7 +881,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx323
+  name: 9-xx320
   network: ws
   port: 443
   server: 185.221.160.163
@@ -897,7 +897,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx326
+  name: -xx323
   network: ws
   port: 443
   server: 202.78.162.5
@@ -913,7 +913,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx328
+  name: 9-xx325
   network: ws
   port: 443
   server: 172.67.71.160
@@ -929,7 +929,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx329
+  name: -xx326
   network: ws
   port: 443
   server: gov.uk
@@ -945,7 +945,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx339
+  name: -xx336
   network: ws
   port: 443
   server: b.halon.homes
@@ -961,7 +961,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx417
+  name: -xx413
   network: ws
   port: 443
   server: 172.67.216.29
@@ -977,7 +977,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx418
+  name: -xx414
   network: ws
   port: 443
   server: 172.67.131.108
@@ -993,7 +993,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx420
+  name: -xx416
   network: ws
   port: 443
   server: 104.21.28.62
@@ -1009,7 +1009,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx421
+  name: -xx417
   network: ws
   port: 443
   server: 104.21.53.183
@@ -1025,7 +1025,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx423
+  name: -xx419
   network: ws
   port: 443
   server: glweidf.cfd
@@ -1041,7 +1041,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx424
+  name: -xx420
   network: ws
   port: 443
   server: 188.114.97.6
@@ -1057,7 +1057,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx426
+  name: 9-xx422
   network: ws
   port: 443
   server: c.halon.homes
@@ -1073,7 +1073,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx454
+  name: -xx450
   network: ws
   port: 443
   server: d.bukitk.homes
@@ -1089,7 +1089,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx461
+  name: -xx457
   network: ws
   port: 443
   server: bwdraper.faculty.ucdavis.edu
@@ -1105,7 +1105,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx471
+  name: -xx467
   network: ws
   port: 443
   server: 172.67.204.19
@@ -1121,7 +1121,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx475
+  name: -xx471
   network: ws
   port: 443
   server: 23.157.88.6
@@ -1137,7 +1137,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx480
+  name: -xx476
   network: ws
   port: 443
   server: 188.114.99.134
@@ -1153,7 +1153,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx544
+  name: -xx540
   network: ws
   port: 443
   server: an.kalavryta.org
@@ -1169,7 +1169,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx600
+  name: -xx596
   network: ws
   port: 443
   server: e.jembat.homes
@@ -1185,7 +1185,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx602
+  name: -xx598
   network: ws
   port: 443
   server: plex.com
@@ -1201,7 +1201,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx604
+  name: -xx600
   network: ws
   port: 443
   server: c.kandap.homes
@@ -1217,7 +1217,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx610
+  name: -xx606
   network: ws
   port: 443
   server: d.jembat.homes
@@ -1233,7 +1233,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx613
+  name: 9-xx609
   network: ws
   port: 443
   server: b.kandap.homes
@@ -1249,7 +1249,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx626
+  name: -xx622
   network: ws
   port: 443
   server: cold-dawn-9246.fly.dev
@@ -1265,7 +1265,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx660
+  name: 9-xx656
   network: ws
   port: 443
   server: p1.v2raybrasil.xyz
@@ -1281,7 +1281,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx661
+  name: -xx657
   network: ws
   port: 443
   server: jembat.homes
@@ -1297,7 +1297,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx664
+  name: 9-xx660
   network: ws
   port: 443
   server: e.bukitk.homes
@@ -1313,7 +1313,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx666
+  name: -xx662
   network: ws
   port: 443
   server: 172.64.103.211
@@ -1329,7 +1329,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx671
+  name: -xx667
   network: ws
   port: 443
   server: 186.190.215.75
@@ -1345,7 +1345,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx679
+  name: 9-xx675
   network: ws
   port: 443
   server: 151.101.194.133
@@ -1361,7 +1361,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx701
+  name: 8-xx697
   network: ws
   port: 443
   server: 172.67.174.42
@@ -1377,7 +1377,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx702
+  name: 8-xx698
   network: ws
   port: 443
   server: 173.245.58.37
@@ -1393,7 +1393,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx703
+  name: 8-xx699
   network: ws
   port: 443
   server: 173.245.59.8
@@ -1409,7 +1409,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx722
+  name: -xx718
   network: ws
   port: 443
   server: b.jannah.homes
@@ -1425,7 +1425,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx724
+  name: 9-xx720
   network: ws
   port: 443
   server: c.jannah.homes
@@ -1441,7 +1441,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx726
+  name: 9-xx722
   network: ws
   port: 443
   server: e.sanglar.homes
@@ -1457,7 +1457,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 98-xx727
+  name: 98-xx723
   network: ws
   port: 443
   server: speedtest.net
@@ -1473,7 +1473,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx756
+  name: -xx752
   network: ws
   port: 443
   server: 104.21.18.227
@@ -1489,7 +1489,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx757
+  name: 9-xx753
   network: ws
   port: 443
   server: d.seribus.org
@@ -1505,7 +1505,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx759
+  name: 9-xx755
   network: ws
   port: 443
   server: seribus.org
@@ -1521,7 +1521,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 98-xx762
+  name: 98-xx758
   network: ws
   port: 443
   server: cdn.cngfw.online
@@ -1537,7 +1537,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx767
+  name: 8-xx763
   network: ws
   port: 443
   server: zmaoz.faculty.ucdavis.edu
@@ -1553,7 +1553,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx825
+  name: -xx821
   network: ws
   port: 443
   server: 104.21.1.32
@@ -1569,7 +1569,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx826
+  name: -xx822
   network: ws
   port: 443
   server: 172.67.244.191
@@ -1585,7 +1585,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx828
+  name: 9-xx824
   network: ws
   port: 443
   server: 23.162.152.177
@@ -1601,7 +1601,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx829
+  name: 9-xx825
   network: ws
   port: 443
   server: v.valkinin.org
@@ -1617,7 +1617,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx830
+  name: -xx826
   network: ws
   port: 443
   server: c.dermaga.homes
@@ -1633,7 +1633,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx831
+  name: 9-xx827
   network: ws
   port: 443
   server: b.dermaga.homes
@@ -1649,7 +1649,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx833
+  name: -xx829
   network: ws
   port: 443
   server: b.pelang.org
@@ -1665,7 +1665,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx835
+  name: -xx831
   network: ws
   port: 443
   server: d.usaha.homes
@@ -1681,7 +1681,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx846
+  name: 9-xx842
   network: ws
   port: 443
   server: 149.7.16.188
@@ -1697,7 +1697,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx847
+  name: -xx843
   network: ws
   port: 443
   server: cf.fovi.tk
@@ -1713,7 +1713,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx851
+  name: -xx847
   network: ws
   port: 443
   server: masjidd.homes

@@ -142,20 +142,7 @@ proxies:
     headers:
       Host: cdn1.freegradely.xyz
     path: github.com/Alvin9999
-- name: 加拿大 060
-  type: vless
-  network: ws
-  server: russia.com
-  port: 8443
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  servername: jpi.ylks01.eu.org
-  tls: true
-  delay: 2047
-  ws-opts:
-    headers:
-      Host: jpi.ylks01.eu.org
-    path: /blue
-- name: 加拿大 088
+- name: 美国 001
   type: vless
   network: ws
   server: 104.20.119.243
@@ -223,7 +210,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed
-- name: 加拿大 106
+- name: 美国 002
   type: vless
   network: ws
   server: 104.20.119.243
@@ -581,7 +568,7 @@ proxies:
     headers:
       Host: rough-wildflower-0b5e.zemel-yesenia1720.workers.dev
     path: /glweidf.sbs/linkws
-- name: 美国 001
+- name: 美国 003
   type: vmess
   network: ws
   server: 104.19.47.36
@@ -1326,7 +1313,7 @@ proxies:
     headers:
       Host: gcnwoegp2rjvyl7qmmy3ltqtaf3q22.pages.dev
     path: /proxyip=62.3.12.185
-- name: 美国 002
+- name: 美国 004
   type: vmess
   network: ws
   server: 104.19.45.13
@@ -1553,20 +1540,6 @@ proxies:
     headers:
       Host: worker-damp-duadwans.jevesoj131.workers.dev
     path: /
-- name: 加拿大 151
-  type: vmess
-  network: ws
-  server: 104.17.148.22
-  port: 80
-  uuid: 6149b865-0d3c-4472-bf9c-3c61bfafa61a
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: 99806388192980142300309475767578.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    path: /
 - name: 加拿大 004
   type: vmess
   network: ws
@@ -1651,7 +1624,7 @@ proxies:
     headers:
       Host: sgdo.vipcasper.com
     path: /vmess
-- name: 美国 003
+- name: 美国 005
   type: vless
   network: ws
   server: speedtest.net
@@ -1692,7 +1665,7 @@ proxies:
     headers:
       Host: specxtech.pages.dev
     path: /SPEEDTEST,up2x-down2x,up2x-down2x,up2x-down2x,up2x-down2x,up2x-down2x,up2x-down2x,up2x-down2x,up2x-down2x?ed=2048
-- name: 美国 005
+- name: 美国 009
   type: vless
   network: ws
   server: 151.101.2.219
@@ -2336,7 +2309,7 @@ proxies:
     headers:
       Host: server20.aibox.tv
     path: /TG-AiLuMao/
-- name: 美国 009
+- name: 美国 014
   type: vmess
   network: ws
   server: 172.64.166.16
@@ -2900,7 +2873,7 @@ proxies:
     headers:
       Host: 100-100-17-497.db-link01.top
     path: /dabai.in
-- name: 美国 014
+- name: 美国 018
   type: vmess
   network: ws
   server: 104.19.223.188
@@ -3488,7 +3461,7 @@ proxies:
     headers:
       Host: mgcdn4.fask511.cfd
     path: /?ed=512
-- name: 美国 004
+- name: 美国 022
   type: vmess
   network: ws
   server: 23.170.40.116
@@ -3599,7 +3572,7 @@ proxies:
     headers:
       Host: afrhms16v.bestxray.buzz
     path: /
-- name: 美国 022
+- name: 美国 047
   type: vmess
   network: ws
   server: 173.245.58.5
@@ -3669,7 +3642,7 @@ proxies:
     headers:
       Host: hms19.best-tizi.top
     path: /
-- name: 美国 047
+- name: 美国 048
   type: vmess
   network: ws
   server: 172.67.175.56
@@ -3725,7 +3698,7 @@ proxies:
     headers:
       Host: obdii.cfd
     path: /
-- name: 美国 048
+- name: 美国 051
   type: vmess
   network: ws
   server: 104.18.206.97
@@ -3767,7 +3740,7 @@ proxies:
     headers:
       Host: obdii.cfd
     path: /
-- name: 美国 051
+- name: 美国 052
   type: vmess
   network: ws
   server: 185.148.104.118
@@ -4397,20 +4370,6 @@ proxies:
     headers:
       Host: ip3.6929198.xyz
     path: /
-- name: 加拿大 144
-  type: vmess
-  network: ws
-  server: 23.227.38.3
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: /
 - name: 加拿大 145
   type: vmess
   network: ws
@@ -4993,19 +4952,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- name: 加拿大 177
-  type: vmess
-  network: ws
-  server: 104.19.45.90
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
     path: github.com/Alvin9999
 - name: 加拿大 178
   type: vmess
@@ -5998,7 +5944,7 @@ proxies:
     headers:
       Host: dm.ylks.xyz
     path: /blue
-- name: 美国 052
+- name: 美国 074
   type: vmess
   network: ws
   server: us-new01.daluquan.top
@@ -8677,7 +8623,7 @@ proxies:
     headers:
       Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
     path: /jahfkjha.cfd/linkws
-- name: 美国 074
+- name: 美国 130
   type: vmess
   network: ws
   server: plex.com
@@ -10831,7 +10777,7 @@ proxies:
     headers:
       Host: www.louwangzhiyu.xyz
     path: /xyz
-- name: 美国 018
+- name: 美国 131
   type: vmess
   network: ws
   server: 104.21.18.227
@@ -11787,7 +11733,7 @@ proxies:
     headers:
       Host: ip2.6016725.xyz
     path: github.com/Alvin9999
-- name: 美国 130
+- name: 美国 345
   type: vmess
   network: ws
   server: lol.ps
@@ -11813,7 +11759,7 @@ proxies:
     headers:
       Host: 82uple-bird-b087.pemed58443.workers.dev
     path: /ivideos.sbs/linkws
-- name: 美国 131
+- name: 美国 346
   type: vmess
   network: ws
   server: 104.21.1.32
@@ -11882,7 +11828,7 @@ proxies:
     headers:
       Host: v.valkinin.org
     path: linkvws
-- name: 美国 345
+- name: 美国 347
   type: vmess
   network: ws
   server: c.dermaga.homes
@@ -11940,7 +11886,7 @@ proxies:
     headers:
       Host: b.pelang.org
     path: linkvws
-- name: 美国 346
+- name: 美国 348
   type: trojan
   network: ws
   server: 104.21.7.50
@@ -12013,7 +11959,7 @@ proxies:
     headers:
       Host: ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org
     path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=14.39.254.65:50000
-- name: 美国 347
+- name: 美国 349
   type: vless
   network: ws
   server: 104.21.78.221
@@ -12025,7 +11971,7 @@ proxies:
     headers:
       Host: kir-too-kos-o-koon-maman-arzeshi-begoo-jooooooon.pages.dev
     path: /
-- name: 美国 348
+- name: 美国 350
   type: vless
   network: ws
   server: www.wto.org
@@ -12040,7 +11986,7 @@ proxies:
     headers:
       Host: edgetunnel.2424014450.workers.dev
     path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
-- name: 美国 349
+- name: 美国 351
   type: trojan
   network: ws
   server: 104.18.37.111
@@ -12066,7 +12012,7 @@ proxies:
     headers:
       Host: bpB-worKER-paneL1-e4p.pAGes.dEV
     path: /trEjWhhuRjwiMwSbDN/ZGUucmFkaWNhbGx5LnBybw==
-- name: 美国 350
+- name: 美国 352
   type: vmess
   network: ws
   server: xr006.louwangzhiyu.xyz
@@ -12096,7 +12042,7 @@ proxies:
     headers:
       Host: www.louwangzhiyu.xyz
     path: /xyz
-- name: 美国 351
+- name: 美国 353
   type: vmess
   network: ws
   server: xr007.louwangzhiyu.xyz
@@ -12125,7 +12071,7 @@ proxies:
     headers:
       Host: 149.7.16.188
     path: /
-- name: 美国 352
+- name: 美国 354
   type: vmess
   network: ws
   server: cf.fovi.tk
@@ -12151,7 +12097,7 @@ proxies:
     headers:
       Host: ip2.6016725.xyz
     path: github.com/Alvin9999
-- name: 美国 353
+- name: 美国 355
   type: vmess
   network: ws
   server: 104.26.4.60
@@ -12177,7 +12123,7 @@ proxies:
     headers:
       Host: ip2.6016725.xyz
     path: github.com/Alvin9999
-- name: 美国 354
+- name: 美国 356
   type: vmess
   network: ws
   server: masjidd.homes
@@ -12216,22 +12162,6 @@ proxies:
     headers:
       Host: ip2.6016725.xyz
     path: github.com/Alvin9999
-- name: 美国 355
-  type: vmess
-  network: ws
-  server: 82.117.87.127
-  port: 30000
-  uuid: 806505d1-847f-4b15-a5ae-4f2318676d3f
-  servername: xr001.louwangzhiyu.xyz
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
 - name: 加拿大 311
   type: vmess
   network: ws
@@ -12262,6 +12192,111 @@ proxies:
     headers:
       Host: ip3.6929198.xyz
     path: github.com/Alvin9999
+- name: 加拿大 060
+  type: vmess
+  network: ws
+  server: 104.19.21.71
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- name: 加拿大 088
+  type: vmess
+  network: ws
+  server: malaysia.com
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- name: 加拿大 106
+  type: vmess
+  network: ws
+  server: 104.26.5.66
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- name: 韩国 015
+  type: vmess
+  network: tcp
+  server: 45.94.68.210
+  port: 24463
+  uuid: be4d5bca-0551-4a51-a965-25eaba7ac811
+  tls: false
+  alterId: 0
+  cipher: auto
+- name: 加拿大 144
+  type: vmess
+  network: ws
+  server: 104.16.60.8
+  port: 80
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: 4868-poetry-4868.napora7003.workers.dev
+    path: /obdii.cfd/linkws
+- name: 加拿大 151
+  type: vmess
+  network: ws
+  server: 104.19.21.63
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- name: 日本 005
+  type: trojan
+  network: tcp
+  server: jp008.421421.xyz
+  port: 20230
+  password: 2aa1581d-bfc9-4d3a-84f3-742674fb5d3a
+  skip-cert-verify: true
+  udp: true
+  sni: 421421.xyz
+- name: 香港 015
+  type: vless
+  network: ws
+  server: 112.120.127.195
+  port: 28
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  servername: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560&proxyip=112.120.127.195:28
 proxy-groups:
 - name: PROXY
   type: select
@@ -12274,13 +12309,12 @@ proxy-groups:
   type: select
   proxies: &id001
   - 加拿大 140
-  - 加拿大 060
-  - 加拿大 088
+  - 美国 001
   - 捷克 001
   - 美国 006
   - 爱沙尼亚 001
   - 俄罗斯 003
-  - 加拿大 106
+  - 美国 002
   - 澳大利亚 001
   - 法国 001
   - 保加利亚 002
@@ -12306,7 +12340,7 @@ proxy-groups:
   - 加拿大 136
   - 加拿大 012
   - 加拿大 149
-  - 美国 001
+  - 美国 003
   - 加拿大 085
   - 爱沙尼亚 003
   - 荷兰 001
@@ -12357,7 +12391,7 @@ proxy-groups:
   - 爱沙尼亚 029
   - 英国 013
   - 加拿大 054
-  - 美国 002
+  - 美国 004
   - 加拿大 036
   - 俄罗斯 002
   - 德国 003
@@ -12373,17 +12407,16 @@ proxy-groups:
   - 加拿大 103
   - 加拿大 120
   - 加拿大 143
-  - 加拿大 151
   - 加拿大 004
   - 加拿大 017
   - 加拿大 039
   - 加拿大 043
   - 加拿大 067
   - 德国 004
-  - 美国 003
+  - 美国 005
   - 瑞典 002
   - 加拿大 019
-  - 美国 005
+  - 美国 009
   - 加拿大 021
   - 加拿大 022
   - 美国 010
@@ -12429,7 +12462,7 @@ proxy-groups:
   - 美国 026
   - 加拿大 076
   - 加拿大 065
-  - 美国 009
+  - 美国 014
   - 加拿大 077
   - 加拿大 078
   - 加拿大 079
@@ -12465,7 +12498,7 @@ proxy-groups:
   - 美国 023
   - 美国 035
   - 加拿大 003
-  - 美国 014
+  - 美国 018
   - 美国 036
   - 加拿大 007
   - 美国 037
@@ -12503,7 +12536,7 @@ proxy-groups:
   - 加拿大 086
   - 加拿大 087
   - 加拿大 089
-  - 美国 004
+  - 美国 022
   - 加拿大 090
   - 加拿大 091
   - 加拿大 092
@@ -12511,19 +12544,19 @@ proxy-groups:
   - 加拿大 094
   - 荷兰 005
   - 加拿大 095
-  - 美国 022
+  - 美国 047
   - 加拿大 096
   - 加拿大 098
   - 加拿大 099
   - 加拿大 100
-  - 美国 047
+  - 美国 048
   - 加拿大 101
   - 加拿大 102
   - 加拿大 104
-  - 美国 048
+  - 美国 051
   - 加拿大 105
   - 荷兰 006
-  - 美国 051
+  - 美国 052
   - 加拿大 107
   - 加拿大 108
   - 加拿大 109
@@ -12568,7 +12601,6 @@ proxy-groups:
   - 美国 064
   - 加拿大 142
   - 美国 066
-  - 加拿大 144
   - 加拿大 145
   - 美国 067
   - 加拿大 146
@@ -12613,7 +12645,6 @@ proxy-groups:
   - 加拿大 175
   - 加拿大 176
   - 美国 079
-  - 加拿大 177
   - 加拿大 178
   - 加拿大 179
   - 加拿大 180
@@ -12686,7 +12717,7 @@ proxy-groups:
   - 美国 119
   - 美国 120
   - 美国 121
-  - 美国 052
+  - 美国 074
   - 加拿大 199
   - 加拿大 200
   - 加拿大 201
@@ -12874,7 +12905,7 @@ proxy-groups:
   - 韩国 005
   - 加拿大 251
   - 加拿大 252
-  - 美国 074
+  - 美国 130
   - 加拿大 253
   - 美国 241
   - 美国 242
@@ -13028,7 +13059,7 @@ proxy-groups:
   - 美国 315
   - 美国 316
   - 英国 014
-  - 美国 018
+  - 美国 131
   - 加拿大 097
   - 加拿大 230
   - 加拿大 296
@@ -13095,40 +13126,47 @@ proxy-groups:
   - 库拉索岛 001
   - 加拿大 014
   - 加拿大 139
-  - 美国 130
+  - 美国 345
   - 加拿大 152
-  - 美国 131
+  - 美国 346
   - 加拿大 226
   - 加拿大 287
   - 法国 009
   - 加拿大 290
-  - 美国 345
+  - 美国 347
   - 加拿大 291
   - 加拿大 303
   - 加拿大 306
-  - 美国 346
+  - 美国 348
   - 加拿大 307
   - 奥地利 004
   - 香港 012
   - 韩国 014
-  - 美国 347
-  - 美国 348
   - 美国 349
-  - 加拿大 308
   - 美国 350
-  - 瑞士 002
   - 美国 351
-  - 英国 019
+  - 加拿大 308
   - 美国 352
-  - 加拿大 195
+  - 瑞士 002
   - 美国 353
-  - 加拿大 213
+  - 英国 019
   - 美国 354
+  - 加拿大 195
+  - 美国 355
+  - 加拿大 213
+  - 美国 356
   - 加拿大 309
   - 加拿大 310
-  - 美国 355
   - 加拿大 311
   - 加拿大 312
+  - 加拿大 060
+  - 加拿大 088
+  - 加拿大 106
+  - 韩国 015
+  - 加拿大 144
+  - 加拿大 151
+  - 日本 005
+  - 香港 015
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
