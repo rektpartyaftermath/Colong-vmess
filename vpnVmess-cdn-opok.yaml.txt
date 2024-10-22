@@ -376,7 +376,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx233
+  name: 9-xx232
   network: ws
   port: 80
   server: 104.22.28.102
@@ -391,7 +391,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx255
+  name: 9-xx254
   network: ws
   port: 80
   server: 104.22.28.102
@@ -406,7 +406,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx312
+  name: -xx311
   network: ws
   port: 80
   server: 104.22.28.102
@@ -421,7 +421,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx314
+  name: -xx313
   network: ws
   port: 80
   server: 104.22.28.102
@@ -436,7 +436,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: 8-xx316
+  name: 8-xx315
   network: ws
   port: 80
   server: 104.22.28.102
@@ -451,7 +451,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 9-xx317
+  name: 9-xx316
   network: ws
   port: 80
   server: 104.22.28.102
@@ -466,7 +466,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - alterId: 0
   cipher: auto
-  name: -xx321
+  name: -xx320
   network: ws
   port: 80
   server: 104.22.28.102
@@ -481,7 +481,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: -xx323
+  name: -xx322
   network: ws
   port: 80
   server: 104.22.28.102
@@ -496,7 +496,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx332
+  name: -xx331
   network: ws
   port: 80
   server: 104.22.28.102
@@ -511,7 +511,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx334
+  name: -xx333
   network: ws
   port: 80
   server: 104.22.28.102
@@ -526,7 +526,7 @@ proxies:
     path: /aries?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx346
+  name: -xx345
   network: ws
   port: 80
   server: 104.22.28.102
@@ -541,7 +541,7 @@ proxies:
     path: /aries?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8-xx350
+  name: 8-xx349
   network: ws
   port: 80
   server: 104.22.28.102
@@ -556,7 +556,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx365
+  name: 9-xx364
   network: ws
   port: 80
   server: 104.22.28.102
@@ -571,7 +571,7 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: 9-xx459
+  name: 9-xx456
   network: ws
   port: 80
   server: 104.22.28.102
@@ -586,7 +586,7 @@ proxies:
     path: /RACEVPN?telegram-
 - alterId: 0
   cipher: auto
-  name: 9-xx469
+  name: 9-xx466
   network: ws
   port: 80
   server: 104.22.28.102
@@ -601,7 +601,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx604
+  name: -xx601
   network: ws
   port: 80
   server: 104.22.28.102
@@ -616,7 +616,7 @@ proxies:
     path: /jahfkjha.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: -xx617
+  name: -xx614
   network: ws
   port: 80
   server: 104.22.28.102
@@ -631,7 +631,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: -xx618
+  name: -xx615
   network: ws
   port: 80
   server: 104.22.28.102
@@ -646,7 +646,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: -xx619
+  name: -xx616
   network: ws
   port: 80
   server: 104.22.28.102
@@ -661,7 +661,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: -xx628
+  name: -xx625
   network: ws
   port: 80
   server: 104.22.28.102
@@ -676,7 +676,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: -xx630
+  name: -xx627
   network: ws
   port: 80
   server: 104.22.28.102
@@ -691,7 +691,22 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: -xx631
+  name: -xx628
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: -xx629
   network: ws
   port: 80
   server: 104.22.28.102
@@ -714,21 +729,6 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: -xx635
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
   uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
   ws-opts:
     headers:
@@ -736,7 +736,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: -xx666
+  name: -xx663
   network: ws
   port: 80
   server: 104.22.28.102
@@ -751,7 +751,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx761
+  name: -xx758
   network: ws
   port: 80
   server: 104.22.28.102
