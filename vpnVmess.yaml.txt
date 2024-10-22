@@ -1473,7 +1473,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx752
+  name: -xx750
   network: ws
   port: 443
   server: 104.21.18.227
@@ -1489,7 +1489,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx753
+  name: 9-xx751
   network: ws
   port: 443
   server: d.seribus.org
@@ -1505,7 +1505,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx755
+  name: 9-xx753
   network: ws
   port: 443
   server: seribus.org
@@ -1521,7 +1521,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 98-xx758
+  name: 98-xx756
   network: ws
   port: 443
   server: cdn.cngfw.online
@@ -1537,7 +1537,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx763
+  name: 8-xx761
   network: ws
   port: 443
   server: zmaoz.faculty.ucdavis.edu
@@ -1553,7 +1553,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx821
+  name: -xx819
   network: ws
   port: 443
   server: 104.21.1.32
@@ -1569,7 +1569,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx822
+  name: -xx820
   network: ws
   port: 443
   server: 172.67.244.191
@@ -1585,7 +1585,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx824
+  name: 9-xx822
   network: ws
   port: 443
   server: 23.162.152.177
@@ -1601,7 +1601,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx825
+  name: 9-xx823
   network: ws
   port: 443
   server: v.valkinin.org
@@ -1617,7 +1617,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx826
+  name: -xx824
   network: ws
   port: 443
   server: c.dermaga.homes
@@ -1633,7 +1633,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 9-xx827
+  name: 9-xx825
   network: ws
   port: 443
   server: b.dermaga.homes
@@ -1649,7 +1649,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx829
+  name: -xx827
   network: ws
   port: 443
   server: b.pelang.org
@@ -1665,7 +1665,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx831
+  name: -xx829
   network: ws
   port: 443
   server: d.usaha.homes
@@ -1681,7 +1681,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx842
+  name: 9-xx840
   network: ws
   port: 443
   server: 149.7.16.188
@@ -1697,7 +1697,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx843
+  name: -xx841
   network: ws
   port: 443
   server: cf.fovi.tk
@@ -1713,7 +1713,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx847
+  name: -xx844
   network: ws
   port: 443
   server: masjidd.homes

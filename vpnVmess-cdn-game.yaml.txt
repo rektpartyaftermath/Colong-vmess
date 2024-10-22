@@ -736,7 +736,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx754
+  name: -xx752
   network: ws
   port: 80
   server: 104.18.24.176
@@ -751,7 +751,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx856
+  name: -xx853
   network: ws
   port: 80
   server: 104.18.24.176
