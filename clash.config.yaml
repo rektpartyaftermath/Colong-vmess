@@ -3237,20 +3237,6 @@ proxies:
     headers:
       Host: ip12.6016725.xyz
     path: /
-- name: 加拿大 251
-  type: vmess
-  network: ws
-  server: 104.16.148.244
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: /
 - name: 美国 221
   type: vmess
   network: ws
@@ -4514,21 +4500,6 @@ proxies:
     headers:
       Host: ip2.6016725.xyz
     path: /
-- name: 加拿大 003
-  type: vmess
-  network: ws
-  server: russia.com
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  servername: ip18.6929198.xyz
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /
 - name: 加拿大 005
   type: vmess
   network: ws
@@ -4948,6 +4919,372 @@ proxies:
     headers:
       Host: ds.ylks.xyz
     path: /blue
+- name: 美国 038
+  type: vless
+  network: ws
+  server: 199.34.228.182
+  port: 2096
+  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  servername: Sb-1U6.paGES.deV
+  tls: true
+  delay: 1156
+  ws-opts:
+    headers:
+      Host: Sb-1U6.paGES.deV
+    path: /s6rb9yyj3qaak606/mtu4ljewms4ymdmumti3?ed=2560
+- name: 美国 039
+  type: vless
+  network: ws
+  server: 198.62.62.27
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: ls.ylks.us.kg
+  tls: true
+  delay: 1454
+  ws-opts:
+    headers:
+      Host: ls.ylks.us.kg
+    path: /?ed=2560
+- name: 奥地利 001
+  type: vless
+  network: ws
+  server: 212.183.88.185
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: ds.ylks.xyz
+  tls: true
+  delay: 1667
+  ws-opts:
+    headers:
+      Host: ds.ylks.xyz
+    path: /blue
+- name: 美国 040
+  type: vless
+  network: ws
+  server: 199.34.228.186
+  port: 2053
+  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  servername: SB-1U6.PAgEs.dev
+  tls: true
+  delay: 1566
+  ws-opts:
+    headers:
+      Host: SB-1U6.PAgEs.dev
+    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
+- name: 美国 041
+  type: vless
+  network: ws
+  server: 103.116.7.67
+  port: 2083
+  uuid: 0d89a36e-36bc-41d2-8bd3-bbd639991f29
+  servername: nicorobin.eula.cloudns.org
+  tls: true
+  delay: 1550
+  ws-opts:
+    headers:
+      Host: nicorobin.eula.cloudns.org
+    path: /telegram
+- name: 美国 042
+  type: vless
+  network: ws
+  server: 199.34.228.191
+  port: 2083
+  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  servername: SB-1U6.PAgeS.dEv
+  tls: true
+  delay: 1671
+  ws-opts:
+    headers:
+      Host: SB-1U6.PAgeS.dEv
+    path: /urenftuu3z1kqryb/mtu4ljewms4ymdmumti3?ed=2560
+- name: 日本 006
+  type: vless
+  network: ws
+  server: 154.92.9.1
+  port: 2087
+  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  servername: Sb-1u6.paGEs.dEv
+  tls: true
+  delay: 1522
+  ws-opts:
+    headers:
+      Host: Sb-1u6.paGEs.dEv
+    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
+- name: 美国 043
+  type: vless
+  network: ws
+  server: 199.34.228.168
+  port: 443
+  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
+  servername: bpB005.paGeS.DEv
+  tls: true
+  delay: 1521
+  ws-opts:
+    headers:
+      Host: bpB005.paGeS.DEv
+    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
+- name: 美国 045
+  type: vless
+  network: ws
+  server: 69.84.182.59
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: ls.ylks.us.kg
+  tls: true
+  delay: 1467
+  ws-opts:
+    headers:
+      Host: ls.ylks.us.kg
+    path: /?ed=2560
+- name: 美国 046
+  type: vless
+  network: ws
+  server: 199.34.228.135
+  port: 443
+  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
+  servername: bpB005.paGeS.DEv
+  tls: true
+  delay: 1337
+  ws-opts:
+    headers:
+      Host: bpB005.paGeS.DEv
+    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
+- name: 美国 047
+  type: vless
+  network: ws
+  server: 69.84.182.138
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: ls.ylks01.eu.org
+  tls: true
+  delay: 1747
+  ws-opts:
+    headers:
+      Host: ls.ylks01.eu.org
+    path: /blue
+- name: 英国 011
+  type: vless
+  network: ws
+  server: 217.163.76.60
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: ls.ylks.us.kg
+  tls: true
+  delay: 1790
+  ws-opts:
+    headers:
+      Host: ls.ylks.us.kg
+    path: /?ed=2560
+- name: 菲律宾 001
+  type: vless
+  network: ws
+  server: 154.83.2.54
+  port: 2096
+  uuid: fe962226-fe1c-4391-a5ba-7b7c62adda19
+  servername: am-tunnel-6fs.pages.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  delay: 1518
+  ws-opts:
+    headers:
+      Host: am-tunnel-6fs.pages.dev
+    path: /
+- name: 美国 048
+  type: vless
+  network: ws
+  server: 69.84.182.212
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: ds.ylks.xyz
+  tls: true
+  delay: 1377
+  ws-opts:
+    headers:
+      Host: ds.ylks.xyz
+    path: /?proxyip=proxyis.us.fxxs.dedys.io
+- name: 美国 051
+  type: vless
+  network: ws
+  server: 69.84.182.141
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: ds.ylks.xyz
+  tls: true
+  delay: 1427
+  ws-opts:
+    headers:
+      Host: ds.ylks.xyz
+    path: /blue
+- name: 美国 052
+  type: vless
+  network: ws
+  server: 192.200.160.211
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: cs.ylks.xyz
+  tls: true
+  delay: 1592
+  ws-opts:
+    headers:
+      Host: cs.ylks.xyz
+    path: /blue
+- name: 美国 068
+  type: vless
+  network: ws
+  server: 198.62.62.174
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: ls.ylks.us.kg
+  tls: true
+  delay: 1369
+  ws-opts:
+    headers:
+      Host: ls.ylks.us.kg
+    path: /?ed=2560
+- name: 英国 014
+  type: vless
+  network: ws
+  server: 217.163.76.84
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: ds.ylks.xyz
+  tls: true
+  delay: 1416
+  ws-opts:
+    headers:
+      Host: ds.ylks.xyz
+    path: /?proxyip=proxyis.oracls.fxxs.dedys.io
+- name: 俄罗斯 008
+  type: vless
+  network: ws
+  server: 45.67.215.167
+  port: 443
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  servername: as.ylks.xyz
+  tls: true
+  delay: 1487
+  ws-opts:
+    headers:
+      Host: as.ylks.xyz
+    path: /blue
+- name: 美国 072
+  type: vless
+  network: ws
+  server: 69.84.182.16
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: cs.ylks.xyz
+  tls: true
+  delay: 1032
+  ws-opts:
+    headers:
+      Host: cs.ylks.xyz
+    path: /blue
+- name: 菲律宾 002
+  type: vless
+  network: ws
+  server: 154.83.2.200
+  port: 443
+  uuid: fe962226-fe1c-4391-a5ba-7b7c62adda19
+  servername: am-tunnel-6fs.pages.dev
+  tls: true
+  delay: 1117
+  ws-opts:
+    headers:
+      Host: am-tunnel-6fs.pages.dev
+    path: /
+- name: 美国 073
+  type: vless
+  network: ws
+  server: 69.84.182.236
+  port: 443
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  servername: as.ylks.xyz
+  tls: true
+  delay: 1311
+  ws-opts:
+    headers:
+      Host: as.ylks.xyz
+    path: /blue
+- name: 奥地利 004
+  type: vless
+  network: ws
+  server: 212.183.88.29
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: ls.ylks01.eu.org
+  tls: true
+  delay: 1287
+  ws-opts:
+    headers:
+      Host: ls.ylks01.eu.org
+    path: /blue
+- name: 库拉索岛 001
+  type: vless
+  network: ws
+  server: 62.72.166.67
+  port: 2096
+  uuid: 775213ac-3976-439a-8977-3277c0e4735d
+  servername: fq521.6789.cloudns.be
+  tls: true
+  delay: 1268
+  ws-opts:
+    headers:
+      Host: fq521.6789.cloudns.be
+    path: Twitter苏小柠
+- name: 美国 074
+  type: vless
+  network: ws
+  server: 192.0.54.28
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: lt.ylks.us.kg
+  tls: true
+  delay: 1072
+  ws-opts:
+    headers:
+      Host: lt.ylks.us.kg
+    path: /?ed=2560
+- name: 美国 076
+  type: vless
+  network: ws
+  server: 216.24.57.57
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: lt.ylks.us.kg
+  tls: true
+  delay: 1052
+  ws-opts:
+    headers:
+      Host: lt.ylks.us.kg
+    path: /?ed=2560
+- name: 美国 078
+  type: vless
+  network: ws
+  server: 192.0.54.172
+  port: 443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: lt.ylks.us.kg
+  tls: true
+  delay: 1262
+  ws-opts:
+    headers:
+      Host: lt.ylks.us.kg
+    path: /?ed=2560
+- name: 俄罗斯 009
+  type: vless
+  network: ws
+  server: 185.174.138.141
+  port: 8443
+  uuid: 775213ac-3976-439a-8977-3277c0e4735d
+  servername: fq521.6789.cloudns.be
+  tls: true
+  delay: 966
+  ws-opts:
+    headers:
+      Host: fq521.6789.cloudns.be
+    path: Twitter苏小柠
 proxy-groups:
 - name: PROXY
   type: select
@@ -5178,7 +5515,6 @@ proxy-groups:
   - 加拿大 226
   - 加拿大 230
   - 美国 219
-  - 加拿大 251
   - 美国 221
   - 加拿大 252
   - 加拿大 253
@@ -5269,7 +5605,6 @@ proxy-groups:
   - 英国 007
   - 加拿大 001
   - 加拿大 002
-  - 加拿大 003
   - 加拿大 005
   - 美国 001
   - 美国 003
@@ -5302,6 +5637,34 @@ proxy-groups:
   - 美国 036
   - 美国 037
   - 英国 008
+  - 美国 038
+  - 美国 039
+  - 奥地利 001
+  - 美国 040
+  - 美国 041
+  - 美国 042
+  - 日本 006
+  - 美国 043
+  - 美国 045
+  - 美国 046
+  - 美国 047
+  - 英国 011
+  - 菲律宾 001
+  - 美国 048
+  - 美国 051
+  - 美国 052
+  - 美国 068
+  - 英国 014
+  - 俄罗斯 008
+  - 美国 072
+  - 菲律宾 002
+  - 美国 073
+  - 奥地利 004
+  - 库拉索岛 001
+  - 美国 074
+  - 美国 076
+  - 美国 078
+  - 俄罗斯 009
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204

@@ -31,7 +31,7 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: -xx232
+  name: -xx231
   network: ws
   port: 80
   server: 104.22.28.102
@@ -46,7 +46,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: -xx246
+  name: -xx245
   network: ws
   port: 80
   server: 104.22.28.102
