@@ -46,7 +46,7 @@ proxies:
     path: /us2ekjds3nay
 - alterId: 0
   cipher: auto
-  name: -xx149
+  name: -xx148
   network: ws
   port: 80
   server: 104.22.28.102
@@ -61,7 +61,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8-xx161
+  name: 8-xx159
   network: ws
   port: 80
   server: 104.22.28.102
@@ -76,7 +76,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx162
+  name: 8-xx160
   network: ws
   port: 80
   server: 104.22.28.102
@@ -91,7 +91,7 @@ proxies:
     path: /proxy
 - alterId: 0
   cipher: auto
-  name: 8-xx163
+  name: 8-xx161
   network: ws
   port: 80
   server: 104.22.28.102
@@ -106,7 +106,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx171
+  name: -xx168
   network: ws
   port: 80
   server: 104.22.28.102
@@ -121,7 +121,7 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx178
+  name: -xx175
   network: ws
   port: 80
   server: 104.22.28.102
@@ -136,7 +136,7 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 9-xx179
+  name: 9-xx176
   network: ws
   port: 80
   server: 104.22.28.102
@@ -151,7 +151,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx183
+  name: -xx180
   network: ws
   port: 80
   server: 104.22.28.102
@@ -166,7 +166,7 @@ proxies:
     path: /sshkit/1828396894/66cf268530688/
 - alterId: 0
   cipher: auto
-  name: -xx184
+  name: -xx181
   network: ws
   port: 80
   server: 104.22.28.102
@@ -181,7 +181,7 @@ proxies:
     path: /sshkit/1828396894/66cf268530688/
 - alterId: 0
   cipher: auto
-  name: -xx189
+  name: -xx186
   network: ws
   port: 80
   server: 104.22.28.102
@@ -196,7 +196,7 @@ proxies:
     path: /vmess-ntls
 - alterId: 0
   cipher: auto
-  name: 8-xx191
+  name: 8-xx188
   network: ws
   port: 80
   server: 104.22.28.102
@@ -211,7 +211,7 @@ proxies:
     path: /dabai.in104.19.223.188
 - alterId: 0
   cipher: auto
-  name: -xx192
+  name: -xx189
   network: ws
   port: 80
   server: 104.22.28.102
@@ -226,7 +226,7 @@ proxies:
     path: /xx
 - alterId: 0
   cipher: auto
-  name: -xx194
+  name: -xx191
   network: ws
   port: 80
   server: 104.22.28.102
@@ -241,7 +241,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx199
+  name: 9-xx196
   network: ws
   port: 80
   server: 104.22.28.102
@@ -256,7 +256,7 @@ proxies:
     path: /linuxdo
 - alterId: 0
   cipher: auto
-  name: -xx204
+  name: -xx201
   network: ws
   port: 80
   server: 104.22.28.102
@@ -271,22 +271,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx205
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5b9a6438-84d3-419e-bc32-43acc74b1c3c
-  ws-opts:
-    headers:
-      Host: cdn1.bpcdn.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx206
+  name: -xx202
   network: ws
   port: 80
   server: 104.22.28.102
@@ -301,7 +286,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx211
+  name: -xx204
   network: ws
   port: 80
   server: 104.22.28.102
@@ -316,7 +301,7 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  name: 8-xx212
+  name: 8-xx205
   network: ws
   port: 80
   server: 104.22.28.102
@@ -331,7 +316,7 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  name: -xx216
+  name: -xx209
   network: ws
   port: 80
   server: 104.22.28.102
@@ -346,7 +331,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx227
+  name: 8-xx220
   network: ws
   port: 80
   server: 104.22.28.102
@@ -361,7 +346,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx230
+  name: 9-xx222
   network: ws
   port: 80
   server: 104.22.28.102
@@ -376,7 +361,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx252
+  name: 9-xx244
   network: ws
   port: 80
   server: 104.22.28.102
@@ -391,7 +376,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx308
+  name: -xx300
   network: ws
   port: 80
   server: 104.22.28.102
@@ -406,7 +391,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx310
+  name: -xx302
   network: ws
   port: 80
   server: 104.22.28.102
@@ -421,7 +406,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: 8-xx312
+  name: 8-xx304
   network: ws
   port: 80
   server: 104.22.28.102
@@ -436,7 +421,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 9-xx313
+  name: 9-xx305
   network: ws
   port: 80
   server: 104.22.28.102
@@ -451,7 +436,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - alterId: 0
   cipher: auto
-  name: -xx317
+  name: -xx309
   network: ws
   port: 80
   server: 104.22.28.102
@@ -466,7 +451,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: -xx319
+  name: -xx311
   network: ws
   port: 80
   server: 104.22.28.102
@@ -481,7 +466,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx328
+  name: -xx320
   network: ws
   port: 80
   server: 104.22.28.102
@@ -496,7 +481,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx330
+  name: -xx322
   network: ws
   port: 80
   server: 104.22.28.102
@@ -511,7 +496,7 @@ proxies:
     path: /aries?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx341
+  name: -xx333
   network: ws
   port: 80
   server: 104.22.28.102
@@ -526,7 +511,7 @@ proxies:
     path: /aries?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8-xx345
+  name: 8-xx337
   network: ws
   port: 80
   server: 104.22.28.102
@@ -541,7 +526,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx360
+  name: 9-xx351
   network: ws
   port: 80
   server: 104.22.28.102
@@ -556,7 +541,7 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: 9-xx452
+  name: 9-xx441
   network: ws
   port: 80
   server: 104.22.28.102
@@ -571,7 +556,7 @@ proxies:
     path: /RACEVPN?telegram-
 - alterId: 0
   cipher: auto
-  name: 9-xx462
+  name: 9-xx450
   network: ws
   port: 80
   server: 104.22.28.102
@@ -584,186 +569,6 @@ proxies:
     headers:
       Host: 58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- alterId: 0
-  cipher: auto
-  name: -xx597
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /jahfkjha.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: -xx610
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
-  ws-opts:
-    headers:
-      Host: gerMAnyISvP.iR
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  name: -xx611
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
-  ws-opts:
-    headers:
-      Host: gerMAnyISvP.iR
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  name: -xx612
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
-  ws-opts:
-    headers:
-      Host: gerMAnyISvP.iR
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  name: -xx621
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  ws-opts:
-    headers:
-      Host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-- alterId: 0
-  cipher: auto
-  name: -xx623
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  ws-opts:
-    headers:
-      Host: nest-emily-healing-h.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- alterId: 0
-  cipher: auto
-  name: -xx624
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: -xx625
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: -xx628
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
-  ws-opts:
-    headers:
-      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
-    path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
-- alterId: 0
-  cipher: auto
-  name: -xx659
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e2b683fe-5b91-5f62-906a-e720ba96cf97
-  ws-opts:
-    headers:
-      Host: fr2.vmess.site.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx752
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      Host: telegram----cassiusvpn----2.ranob36907.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx853
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 4868-poetry-4868.napora7003.workers.dev
-    path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
   name: -xx97
