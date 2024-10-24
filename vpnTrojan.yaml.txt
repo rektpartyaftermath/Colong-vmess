@@ -13,6 +13,20 @@ proxies:
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
+- name: -xx378
+  password: telegram-id-privatevpns
+  port: 443
+  server: 99.81.243.187
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: 88-xx381
+  password: auto
+  port: 443
+  server: 104.16.134.27
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
 - name: -xx71
   password: E-Graphic
   port: 443
