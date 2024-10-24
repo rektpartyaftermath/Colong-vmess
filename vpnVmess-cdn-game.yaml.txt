@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx144
+  name: -xx142
   network: ws
   port: 80
   server: 104.18.24.176
@@ -16,7 +16,7 @@ proxies:
     path: /aries?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9-xx157
+  name: 9-xx155
   network: ws
   port: 80
   server: 104.18.24.176
@@ -31,7 +31,7 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: -xx226
+  name: -xx222
   network: ws
   port: 80
   server: 104.18.24.176
@@ -46,7 +46,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: -xx240
+  name: -xx236
   network: ws
   port: 80
   server: 104.18.24.176

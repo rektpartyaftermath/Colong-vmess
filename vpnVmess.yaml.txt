@@ -1,7 +1,7 @@
 proxies:
 - alterId: 1
   cipher: auto
-  name: -xx196
+  name: -xx194
   network: ws
   port: 443
   server: 23.157.88.6
@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx204
+  name: -xx202
   network: ws
   port: 443
   server: sgcft01.xqc.best
@@ -33,7 +33,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx227
+  name: -xx223
   network: ws
   port: 443
   server: 23.162.152.177
@@ -49,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx239
+  name: -xx235
   network: ws
   port: 443
   server: 151.101.194.133
@@ -65,7 +65,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx241
+  name: 8-xx237
   network: ws
   port: 443
   server: 104.21.29.88
@@ -81,7 +81,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx243
+  name: -xx239
   network: ws
   port: 443
   server: 186.190.215.32
@@ -97,7 +97,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx300
+  name: -xx296
   network: ws
   port: 443
   server: 172.99.190.50
@@ -113,7 +113,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx363
+  name: -xx358
   network: ws
   port: 443
   server: ritchier.info
@@ -129,7 +129,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 8-xx368
+  name: 8-xx363
   network: ws
   port: 443
   server: d.ritchier.info
@@ -145,7 +145,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: -xx369
+  name: -xx364
   network: ws
   port: 443
   server: e.ritchier.info
@@ -161,7 +161,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx370
+  name: 8-xx365
   network: ws
   port: 443
   server: p3.v2raybrasil.xyz
@@ -177,7 +177,7 @@ proxies:
   udp: true
 - alterId: 1
   cipher: auto
-  name: 8-xx371
+  name: 8-xx366
   network: ws
   port: 443
   server: b.tampay.info
@@ -193,7 +193,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx373
+  name: 8-xx368
   network: ws
   port: 443
   server: plex.com
@@ -209,23 +209,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx374
-  network: ws
-  port: 443
-  server: 51.77.20.137
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 8-xx375
+  name: 8-xx369
   network: ws
   port: 443
   server: speedtest.net
