@@ -1,0 +1,8 @@
+proxies:
+- name: 8-xx66
+  password: bpb-trojan
+  port: 443
+  server: visa.cn
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan

@@ -1,0 +1,127 @@
+rule-providers:
+  Direct:
+    type: http
+    behavior: classical
+    path: "./direct.yaml"
+    url: https://raw.githubusercontent.com/rektpartyaftermath/Colong-vmess/main/direct.yaml
+    interval: 86400
+  Reject:
+    type: http
+    behavior: classical
+    path: "./reject.yaml"
+    url: https://raw.githubusercontent.com/rektpartyaftermath/Colong-vmess/main/reject.yaml
+    interval: 86400
+  Personalads:
+    type: http
+    behavior: classical
+    path: "./rule_personalads.yaml"
+    url: https://raw.githubusercontent.com/rektpartyaftermath/Colong-vmess/main/rule_personalads.yaml
+    interval: 86400
+proxy-providers:
+ Akun-VmessCDN:
+    type: http
+    url: https://raw.githubusercontent.com/rektpartyaftermath/Colong-vmess/main/vpnVmess-cdn.yaml.txt
+    path: "./vpnVmessCDN.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: '30'
+ Akun-Vmess:
+    type: http
+    url: https://raw.githubusercontent.com/rektpartyaftermath/Colong-vmess/main/vpnVmess.yaml.txt
+    path: "./vpnVmess.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: '30'
+ Akun-Trojan:
+    type: http
+    url: https://raw.githubusercontent.com/rektpartyaftermath/Colong-vmess/main/vpnTrojan.yaml.txt
+    path: "./vpnTrojan.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: '30'
+proxy-groups:
+- name: MAIN
+  type: select
+  proxies:
+  - AUTO-FALLBACK
+  - VPN
+  - DIRECT
+- name: AUTO-FALLBACK
+  type: fallback
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - BEST-PING
+  - VPN
+  - LOAD-BALANCE
+- name: BEST-PING
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 200
+  use:
+  - Akun-VmessCDN
+  - Akun-Vmess
+#  - Akun-Trojan
+- name: VPN
+  type: select
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - Akun-VmessCDN
+  - Akun-Vmess
+  - Akun-Trojan
+  url: http://www.gstatic.com/generate_204
+  interval: '30'
+  proxies:
+  - LOAD-BALANCE
+  - DIRECT
+- name: LOAD-BALANCE
+  type: load-balance
+  disable-udp: false
+  use:
+  - Akun-VmessCDN
+  - Akun-Vmess
+  - Akun-Trojan
+  url: http://www.gstatic.com/generate_204
+  interval: '30'
+rules:
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- IP-CIDR,168.235.204.0/28,REJECT
+- DOMAIN-SUFFIX,googlesyndication.com,VPN
+- DOMAIN-KEYWORD,axis,DIRECT
+- DOMAIN-KEYWORD,axiata,DIRECT
+- DOMAIN-KEYWORD,hentai,REJECT
+- DOMAIN-KEYWORD,sukebe,REJECT
+- DOMAIN-KEYWORD,yuki,REJECT
+- DOMAIN-KEYWORD,kimochi,REJECT
+- DOMAIN-KEYWORD,porn,REJECT
+- DOMAIN-KEYWORD,xnxx,REJECT
+- DOMAIN-KEYWORD,xvideos,REJECT
+- DOMAIN-KEYWORD,xhamster,REJECT
+- DOMAIN-KEYWORD,nekopoi,REJECT
+- DOMAIN-KEYWORD,hitomi,REJECT
+- DOMAIN-KEYWORD,booru,REJECT
+- DOMAIN-KEYWORD,borwap,REJECT
+- DOMAIN-KEYWORD,luscious,REJECT
+- DOMAIN-KEYWORD,tbib,REJECT
+- DOMAIN-KEYWORD,rule34,REJECT
+- DOMAIN-KEYWORD,ucweb,REJECT
+- DOMAIN-KEYWORD,manga,REJECT
+- DOMAIN-KEYWORD,donmai,REJECT
+- DOMAIN-KEYWORD,manhwa,REJECT
+- DOMAIN-KEYWORD,konachan,REJECT
+- DOMAIN-KEYWORD,manhua,REJECT
+- DOMAIN-KEYWORD,4chan,REJECT
+- DOMAIN-KEYWORD,sonohara,REJECT
+- DOMAIN-KEYWORD,monsnode,REJECT
+- DOMAIN-KEYWORD,nozomi,REJECT
+- DOMAIN-SUFFIX,ksk.moe,REJECT
+- DOMAIN-SUFFIX,yande.re,REJECT
+- RULE-SET,Personalads,REJECT
+- RULE-SET,Direct,DIRECT
+- RULE-SET,Reject,REJECT
+- MATCH,MAIN
