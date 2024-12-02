@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx20
+  name: -xx19
   network: ws
   port: 80
   server: 104.22.28.102
@@ -31,7 +31,7 @@ proxies:
     path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL
 - alterId: 0
   cipher: auto
-  name: 98-xx27
+  name: 98-xx26
   network: ws
   port: 80
   server: 104.22.28.102
@@ -46,7 +46,7 @@ proxies:
     path: /af323d
 - alterId: 0
   cipher: auto
-  name: -xx43
+  name: -xx42
   network: ws
   port: 80
   server: 104.22.28.102
@@ -61,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx60
+  name: -xx59
   network: ws
   port: 80
   server: 104.22.28.102
