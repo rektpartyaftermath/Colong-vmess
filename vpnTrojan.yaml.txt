@@ -1,5 +1,5 @@
 proxies:
-- name: 8-xx55
+- name: 8-xx53
   password: bpb-trojan
   port: 443
   server: visa.cn

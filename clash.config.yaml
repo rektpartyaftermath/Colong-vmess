@@ -417,21 +417,6 @@ proxies:
     headers:
       Host: free.fnet00.workers.dev
     path: /glweidf.sbs/linkws
-- name: 加拿大 143
-  type: vmess
-  network: ws
-  server: 104.19.21.230
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
 - name: 美国 016
   type: vmess
   network: ws
@@ -875,21 +860,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- name: 加拿大 035
-  type: vmess
-  network: ws
-  server: 104.26.5.56
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
     path: github.com/Alvin9999
 - name: 加拿大 038
   type: trojan
@@ -1399,20 +1369,6 @@ proxies:
     headers:
       Host: m1.106778.xyz
     path: github.com/Alvin9999
-- name: 加拿大 034
-  type: vmess
-  network: ws
-  server: 104.19.42.49
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
 - name: 加拿大 037
   type: vmess
   network: ws
@@ -1937,19 +1893,6 @@ proxies:
     headers:
       Host: ip3.6929198.xyz
     path: github.com/Alvin9999
-- name: 加拿大 011
-  type: vmess
-  network: ws
-  server: 104.19.57.4
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
 - name: 美国 019
   type: vmess
   network: ws
@@ -2109,6 +2052,60 @@ proxies:
     headers:
       Host: us5.sulink.one
     path: /
+- name: 美国 057
+  type: vmess
+  network: ws
+  server: 66.81.247.47
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- name: 美国 088
+  type: vmess
+  network: ws
+  server: 205.233.181.63
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- name: 美国 089
+  type: vmess
+  network: ws
+  server: jp2.1vpn.sbs
+  port: 80
+  uuid: df4a2a93-6717-4f90-9856-36d7a44639cc
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: jp2.1vpn.sbs
+    path: /kiulujunuqs
+- name: 美国 090
+  type: vless
+  network: tcp
+  server: node-us-2.sudatech.store
+  port: 50002
+  uuid: 1671ecb9-1242-487b-99ea-27054874c27f
+  servername: www.douyin.com
+  tls: true
+  udp: true
+  client-fingerprint: ios
+  reality-opts:
+    public-key: Yn0atGB5uY5DZbhh2G1cOfeoNRDoRQ_v0pvyBZcx2w4
+    short-id: 6b6dbc62
+  flow: xtls-rprx-vision
 proxy-groups:
 - name: PROXY
   type: select
@@ -2141,7 +2138,6 @@ proxy-groups:
   - 美国 106
   - 加拿大 141
   - 加拿大 142
-  - 加拿大 143
   - 美国 016
   - 美国 126
   - 美国 018
@@ -2173,7 +2169,6 @@ proxy-groups:
   - 加拿大 129
   - 美国 033
   - 美国 046
-  - 加拿大 035
   - 加拿大 038
   - 美国 007
   - 美国 009
@@ -2213,7 +2208,6 @@ proxy-groups:
   - 美国 085
   - 美国 086
   - 美国 087
-  - 加拿大 034
   - 加拿大 037
   - 美国 079
   - 美国 100
@@ -2253,7 +2247,6 @@ proxy-groups:
   - 美国 031
   - 加拿大 009
   - 加拿大 010
-  - 加拿大 011
   - 美国 019
   - 美国 021
   - 美国 023
@@ -2266,6 +2259,10 @@ proxy-groups:
   - 美国 055
   - 加拿大 014
   - 加拿大 015
+  - 美国 057
+  - 美国 088
+  - 美国 089
+  - 美国 090
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
