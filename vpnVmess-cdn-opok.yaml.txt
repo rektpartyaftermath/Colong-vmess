@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx145
+  name: -xx129
   network: ws
   port: 80
   server: 104.22.28.102
@@ -28,6 +28,36 @@ proxies:
   ws-opts:
     headers:
       Host: rn2.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx143
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 441e10f0-4c76-4d6c-97b9-83bbefcbc602
+  ws-opts:
+    headers:
+      Host: 39238319310964543920519489701900.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
+  name: -xx146
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5aa4e545-cfd6-41f4-802d-89893fdbbcf2
+  ws-opts:
+    headers:
+      Host: us5.sulink.one
     path: /
 - alterId: 0
   cipher: auto
@@ -61,7 +91,7 @@ proxies:
     path: /af323d
 - alterId: 0
   cipher: auto
-  name: -xx42
+  name: -xx37
   network: ws
   port: 80
   server: 104.22.28.102
@@ -76,7 +106,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx59
+  name: -xx52
   network: ws
   port: 80
   server: 104.22.28.102
