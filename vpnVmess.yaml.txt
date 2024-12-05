@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx116
+  name: -xx115
   network: ws
   port: 443
   server: visa.com
@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx124
+  name: 9-xx123
   network: ws
   port: 443
   server: 69.48.218.58
@@ -33,7 +33,55 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx18
+  name: -xx146
+  network: ws
+  port: 443
+  server: sgcft01.xqc.best
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 04da9c6c-509e-4d9b-ac97-a5d595db9f9b
+  ws-opts:
+    path: /stream
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9-xx149
+  network: ws
+  port: 443
+  server: 104.21.83.115
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    path: /
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9-xx150
+  network: ws
+  port: 443
+  server: 104.21.83.108
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    path: /
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx17
   network: ws
   port: 443
   server: speedtest.net
