@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx125
+  name: -xx123
   network: ws
   port: 80
   server: 104.22.28.102
@@ -31,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx138
+  name: -xx136
   network: ws
   port: 80
   server: 104.22.28.102
@@ -46,7 +46,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx141
+  name: -xx139
   network: ws
   port: 80
   server: 104.22.28.102
@@ -61,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 89-xx144
+  name: 89-xx142
   network: ws
   port: 80
   server: 104.22.28.102
@@ -76,7 +76,7 @@ proxies:
     path: /kiulujunuqs
 - alterId: 0
   cipher: auto
-  name: 8-xx148
+  name: 8-xx146
   network: ws
   port: 80
   server: 104.22.28.102
@@ -88,6 +88,111 @@ proxies:
   ws-opts:
     headers:
       Host: mg01.jixingwangluo.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9-xx150
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 75254130-d819-49f3-b5ce-9543b3b47056
+  ws-opts:
+    headers:
+      Host: it2.127414.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx151
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 75254130-d819-49f3-b5ce-9543b3b47056
+  ws-opts:
+    headers:
+      Host: au2.127414.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9-xx152
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 75254130-d819-49f3-b5ce-9543b3b47056
+  ws-opts:
+    headers:
+      Host: ae2.127414.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9-xx153
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 75254130-d819-49f3-b5ce-9543b3b47056
+  ws-opts:
+    headers:
+      Host: de2.127414.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9-xx154
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 302fe943-4bbe-4cd6-bdbd-4446aeb72b1e
+  ws-opts:
+    headers:
+      Host: de-new01.daluquan.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 98-xx155
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 75254130-d819-49f3-b5ce-9543b3b47056
+  ws-opts:
+    headers:
+      Host: in2.127414.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9-xx156
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 75254130-d819-49f3-b5ce-9543b3b47056
+  ws-opts:
+    headers:
+      Host: jp2.127414.xyz
     path: /
 - alterId: 0
   cipher: auto
