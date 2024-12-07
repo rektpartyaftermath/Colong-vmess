@@ -759,21 +759,6 @@ proxies:
     headers:
       Host: ip16.6929198.xyz
     path: /github.com/Alvin9999
-- name: 美国 142
-  type: vmess
-  network: ws
-  server: 172.64.167.29
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
 - name: 加拿大 071
   type: vmess
   network: ws
@@ -1439,21 +1424,6 @@ proxies:
     headers:
       Host: e4.6929198.xyz
     path: github.com/Alvin9999
-- name: 美国 207
-  type: vmess
-  network: ws
-  server: 104.18.114.63
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: e4.6929198.xyz
-    path: github.com/Alvin9999
 - name: 美国 216
   type: vmess
   network: ws
@@ -1851,19 +1821,6 @@ proxies:
     headers:
       Host: ip2.6016725.xyz
     path: github.com/Alvin9999
-- name: 美国 021
-  type: vmess
-  network: ws
-  server: 104.26.5.145
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
 - name: 美国 023
   type: vmess
   network: ws
@@ -1969,19 +1926,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- name: 加拿大 014
-  type: vmess
-  network: ws
-  server: 104.26.5.103
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
     path: github.com/Alvin9999
 - name: 加拿大 015
   type: vmess
@@ -2433,21 +2377,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /ynhN8EYG1IwflCqC?ed=2560
-- name: 加拿大 031
-  type: vless
-  network: ws
-  server: 104.17.72.44
-  port: 80
-  uuid: 35323594-9ee2-4f06-ae14-3148b6950621
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: ooao14004.74gwenneth.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /
 - name: 加拿大 032
   type: vless
   network: ws
@@ -2757,24 +2686,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /
-- name: 加拿大 050
-  type: vless
-  network: ws
-  server: 162.159.153.208
-  port: 443
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  servername: 1-79u.pages.dev
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  client-fingerprint: chrome
-  xudp: true
-  ws-opts:
-    headers:
-      Host: 1-79u.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: ?ed=2851
 - name: 加拿大 051
   type: vless
   network: ws
@@ -3497,6 +3408,19 @@ proxies:
     headers:
       Host: p1.613055.xyz
     path: github.com/Alvin9999
+- name: 美国 021
+  type: vmess
+  network: ws
+  server: 159.112.235.35
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
 proxy-groups:
 - name: PROXY
   type: select
@@ -3553,7 +3477,6 @@ proxy-groups:
   - 美国 131
   - 美国 004
   - 美国 006
-  - 美国 142
   - 加拿大 071
   - 加拿大 129
   - 美国 033
@@ -3604,7 +3527,6 @@ proxy-groups:
   - 美国 093
   - 美国 201
   - 美国 203
-  - 美国 207
   - 美国 216
   - 美国 231
   - 美国 008
@@ -3635,7 +3557,6 @@ proxy-groups:
   - 加拿大 009
   - 加拿大 010
   - 美国 019
-  - 美国 021
   - 美国 023
   - 美国 042
   - 美国 044
@@ -3644,7 +3565,6 @@ proxy-groups:
   - 美国 054
   - 加拿大 013
   - 美国 055
-  - 加拿大 014
   - 加拿大 015
   - 美国 057
   - 美国 088
@@ -3676,7 +3596,6 @@ proxy-groups:
   - 加拿大 029
   - 加拿大 030
   - 美国 103
-  - 加拿大 031
   - 加拿大 032
   - 加拿大 033
   - 加拿大 034
@@ -3697,7 +3616,6 @@ proxy-groups:
   - 加拿大 047
   - 加拿大 048
   - 加拿大 049
-  - 加拿大 050
   - 加拿大 051
   - 加拿大 052
   - 加拿大 053
@@ -3746,6 +3664,7 @@ proxy-groups:
   - 美国 143
   - 美国 144
   - 美国 145
+  - 美国 021
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
