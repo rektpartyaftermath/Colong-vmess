@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx120
+  name: -xx114
   network: ws
   port: 80
   server: 104.18.24.176
@@ -31,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx132
+  name: -xx126
   network: ws
   port: 80
   server: 104.18.24.176
@@ -46,7 +46,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx134
+  name: -xx128
   network: ws
   port: 80
   server: 104.18.24.176
@@ -61,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 89-xx137
+  name: 89-xx131
   network: ws
   port: 80
   server: 104.18.24.176
@@ -76,7 +76,7 @@ proxies:
     path: /kiulujunuqs
 - alterId: 0
   cipher: auto
-  name: 8-xx141
+  name: 8-xx135
   network: ws
   port: 80
   server: 104.18.24.176
@@ -91,7 +91,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx145
+  name: 9-xx139
   network: ws
   port: 80
   server: 104.18.24.176
@@ -106,7 +106,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx146
+  name: -xx140
   network: ws
   port: 80
   server: 104.18.24.176
@@ -121,7 +121,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx147
+  name: 9-xx141
   network: ws
   port: 80
   server: 104.18.24.176
@@ -136,7 +136,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx148
+  name: 9-xx142
   network: ws
   port: 80
   server: 104.18.24.176
@@ -151,7 +151,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx149
+  name: 9-xx143
   network: ws
   port: 80
   server: 104.18.24.176
@@ -166,7 +166,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 98-xx150
+  name: 98-xx144
   network: ws
   port: 80
   server: 104.18.24.176
@@ -181,7 +181,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx151
+  name: 9-xx145
   network: ws
   port: 80
   server: 104.18.24.176
@@ -196,7 +196,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx17
+  name: -xx15
   network: ws
   port: 80
   server: 104.18.24.176
@@ -211,7 +211,7 @@ proxies:
     path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL
 - alterId: 0
   cipher: auto
-  name: 98-xx23
+  name: 98-xx21
   network: ws
   port: 80
   server: 104.18.24.176
@@ -226,7 +226,37 @@ proxies:
     path: /af323d
 - alterId: 0
   cipher: auto
-  name: -xx34
+  name: -xx231
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      Host: rn2.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx234
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
+  ws-opts:
+    headers:
+      Host: kr01.f3ec-6712-b77e71ff36bc.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9-xx238
   network: ws
   port: 80
   server: 104.18.24.176
@@ -241,7 +271,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx48
+  name: -xx42
   network: ws
   port: 80
   server: 104.18.24.176
