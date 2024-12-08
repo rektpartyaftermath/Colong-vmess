@@ -226,7 +226,7 @@ proxies:
     path: /af323d
 - alterId: 0
   cipher: auto
-  name: -xx231
+  name: -xx230
   network: ws
   port: 80
   server: 104.22.28.102
@@ -241,7 +241,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx234
+  name: -xx233
   network: ws
   port: 80
   server: 104.22.28.102
@@ -256,7 +256,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx238
+  name: 9-xx237
   network: ws
   port: 80
   server: 104.22.28.102
@@ -269,6 +269,51 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
+- alterId: 0
+  cipher: auto
+  name: 8-xx250
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a3a8a33a-c68e-42e9-b9ff-970e948ed651
+  ws-opts:
+    headers:
+      Host: br1.127414.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 88-xx261
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9-xx317
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4804f14b-c1f8-452d-a6ec-eff1490aeac9
+  ws-opts:
+    headers:
+      Host: hdfy6c1.freelines.net
+    path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL
 - alterId: 0
   cipher: auto
   name: -xx42
