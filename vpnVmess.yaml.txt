@@ -33,23 +33,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx133
-  network: ws
-  port: 443
-  server: sgcft01.xqc.best
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 04da9c6c-509e-4d9b-ac97-a5d595db9f9b
-  ws-opts:
-    path: /stream
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 9-xx136
+  name: 9-xx133
   network: ws
   port: 443
   server: 104.21.83.115
@@ -65,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx137
+  name: 9-xx134
   network: ws
   port: 443
   server: 104.21.83.108
@@ -97,7 +81,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx264
+  name: -xx260
   network: ws
   port: 443
   server: gov.uk
@@ -113,7 +97,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx265
+  name: 8-xx261
   network: ws
   port: 443
   server: root.mid.al
@@ -123,6 +107,54 @@ proxies:
   uuid: a983c698-cae4-4254-d047-51898ccd8ee7
   ws-opts:
     path: /aries?ed=2048
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx390
+  network: ws
+  port: 443
+  server: sgcft01.xqc.best
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 07840d21-e282-4a95-9749-32b8a90f28dd
+  ws-opts:
+    path: /stream
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9-xx391
+  network: ws
+  port: 443
+  server: 104.17.197.31
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    path: /
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9-xx392
+  network: ws
+  port: 443
+  server: 173.245.58.5
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    path: /
     headers:
       host: graph.facebook.com
   servername: graph.facebook.com
