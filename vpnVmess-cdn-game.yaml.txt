@@ -226,7 +226,7 @@ proxies:
     path: /af323d
 - alterId: 0
   cipher: auto
-  name: -xx225
+  name: -xx223
   network: ws
   port: 80
   server: 104.18.24.176
@@ -241,7 +241,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx228
+  name: -xx226
   network: ws
   port: 80
   server: 104.18.24.176
@@ -256,7 +256,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx232
+  name: 9-xx230
   network: ws
   port: 80
   server: 104.18.24.176
@@ -271,7 +271,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx245
+  name: 8-xx243
   network: ws
   port: 80
   server: 104.18.24.176
@@ -286,7 +286,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 88-xx256
+  name: 88-xx254
   network: ws
   port: 80
   server: 104.18.24.176
@@ -301,7 +301,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx312
+  name: 9-xx310
   network: ws
   port: 80
   server: 104.18.24.176
@@ -316,7 +316,7 @@ proxies:
     path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL
 - alterId: 0
   cipher: auto
-  name: 8-xx354
+  name: 8-xx351
   network: ws
   port: 80
   server: 104.18.24.176
@@ -328,6 +328,21 @@ proxies:
   ws-opts:
     headers:
       Host: us1.849yht89w.jiesk4pdqcqjo16j.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8-xx417
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: hyfhhg.jadovah977.workers.dev
     path: /
 - alterId: 0
   cipher: auto
