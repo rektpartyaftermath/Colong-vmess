@@ -286,7 +286,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 88-xx254
+  name: 88-xx253
   network: ws
   port: 80
   server: 104.21.69.223
@@ -301,7 +301,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx310
+  name: 9-xx309
   network: ws
   port: 80
   server: 104.21.69.223
@@ -316,7 +316,7 @@ proxies:
     path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL
 - alterId: 0
   cipher: auto
-  name: 8-xx351
+  name: 8-xx350
   network: ws
   port: 80
   server: 104.21.69.223
@@ -331,7 +331,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx416
+  name: 8-xx415
   network: ws
   port: 80
   server: 104.21.69.223
@@ -361,7 +361,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx452
+  name: -xx451
   network: ws
   port: 80
   server: 104.21.69.223
@@ -376,7 +376,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx467
+  name: -xx466
   network: ws
   port: 80
   server: 104.21.69.223
