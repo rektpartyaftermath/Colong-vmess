@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx114
+  name: -xx113
   network: ws
   port: 80
   server: 104.21.69.223
@@ -31,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx124
+  name: -xx123
   network: ws
   port: 80
   server: 104.21.69.223
@@ -46,7 +46,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx126
+  name: -xx125
   network: ws
   port: 80
   server: 104.21.69.223
@@ -61,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 89-xx129
+  name: 89-xx128
   network: ws
   port: 80
   server: 104.21.69.223
@@ -76,7 +76,7 @@ proxies:
     path: /kiulujunuqs
 - alterId: 0
   cipher: auto
-  name: 8-xx131
+  name: 8-xx130
   network: ws
   port: 80
   server: 104.21.69.223
@@ -91,7 +91,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx135
+  name: 9-xx134
   network: ws
   port: 80
   server: 104.21.69.223
@@ -106,7 +106,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx136
+  name: -xx135
   network: ws
   port: 80
   server: 104.21.69.223
@@ -121,7 +121,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx137
+  name: 9-xx136
   network: ws
   port: 80
   server: 104.21.69.223
@@ -136,7 +136,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx138
+  name: 9-xx137
   network: ws
   port: 80
   server: 104.21.69.223
@@ -151,7 +151,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx139
+  name: 9-xx138
   network: ws
   port: 80
   server: 104.21.69.223
@@ -166,7 +166,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 98-xx140
+  name: 98-xx139
   network: ws
   port: 80
   server: 104.21.69.223
@@ -181,7 +181,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx141
+  name: 9-xx140
   network: ws
   port: 80
   server: 104.21.69.223
@@ -226,7 +226,7 @@ proxies:
     path: /af323d
 - alterId: 0
   cipher: auto
-  name: -xx222
+  name: -xx220
   network: ws
   port: 80
   server: 104.21.69.223
@@ -241,7 +241,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx225
+  name: -xx223
   network: ws
   port: 80
   server: 104.21.69.223
@@ -256,22 +256,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx229
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8-xx242
+  name: 8-xx239
   network: ws
   port: 80
   server: 104.21.69.223
@@ -286,7 +271,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 88-xx252
+  name: 88-xx249
   network: ws
   port: 80
   server: 104.21.69.223
@@ -301,7 +286,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx308
+  name: 9-xx304
   network: ws
   port: 80
   server: 104.21.69.223
@@ -316,7 +301,7 @@ proxies:
     path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL
 - alterId: 0
   cipher: auto
-  name: 8-xx348
+  name: 8-xx344
   network: ws
   port: 80
   server: 104.21.69.223
@@ -331,7 +316,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx410
+  name: 8-xx406
   network: ws
   port: 80
   server: 104.21.69.223
@@ -361,7 +346,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx445
+  name: -xx441
   network: ws
   port: 80
   server: 104.21.69.223
@@ -376,7 +361,37 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx460
+  name: -xx456
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx530
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 59aefa2d-968a-472b-bbe0-905bb3ae492e
+  ws-opts:
+    headers:
+      Host: jp03.c9ea-01e4-677e.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx531
   network: ws
   port: 80
   server: 104.21.69.223
