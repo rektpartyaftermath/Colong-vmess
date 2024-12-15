@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx103
+  name: -xx101
   network: ws
   port: 443
   server: visa.com
@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx111
+  name: 9-xx109
   network: ws
   port: 443
   server: 69.48.218.58
@@ -33,7 +33,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx131
+  name: 9-xx129
   network: ws
   port: 443
   server: 104.21.83.115
@@ -49,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx132
+  name: 9-xx130
   network: ws
   port: 443
   server: 104.21.83.108
@@ -81,7 +81,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx251
+  name: -xx248
   network: ws
   port: 443
   server: gov.uk
@@ -97,7 +97,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx252
+  name: 8-xx249
   network: ws
   port: 443
   server: root.mid.al
@@ -113,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx376
+  name: 9-xx373
   network: ws
   port: 443
   server: 104.17.197.31
@@ -129,7 +129,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx377
+  name: 9-xx374
   network: ws
   port: 443
   server: 173.245.58.5
@@ -145,7 +145,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx558
+  name: 9-xx553
   network: ws
   port: 443
   server: dktwonwydebplc.com
@@ -161,7 +161,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx559
+  name: 9-xx554
   network: ws
   port: 443
   server: 23.158.56.227
@@ -177,7 +177,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx560
+  name: -xx555
   network: ws
   port: 443
   server: 172.67.136.233
