@@ -206,18 +206,6 @@ proxies:
     headers:
       Host: Sb-1u6.paGEs.dEv
     path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
-- name: 加拿大 210
-  type: vless
-  network: ws
-  server: www.speedtest.net
-  port: 2095
-  uuid: a70e1ca7-0cfa-5d07-b068-ca7657f9aba8
-  skip-cert-verify: false
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.digikala.com.joinTelegram.mosiv2.fi3.vless.Sitespeedtest.net.
-    path: /join-
 - name: 美国 003
   type: vmess
   network: ws
@@ -3106,6 +3094,397 @@ proxies:
     headers:
       Host: us-new03.daluquan.top
     path: /itdog?ed=2560
+- name: 加拿大 059
+  type: vmess
+  network: ws
+  server: 104.26.0.247
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: watt-miss-semester-slots.trycloudflare.com
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: watt-miss-semester-slots.trycloudflare.com
+    path: github.com/Alvin9999
+- name: 美国 012
+  type: vmess
+  network: ws
+  server: 104.18.114.144
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: watt-miss-semester-slots.trycloudflare.com
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: watt-miss-semester-slots.trycloudflare.com
+    path: github.com/Alvin9999
+- name: 加拿大 060
+  type: vmess
+  network: ws
+  server: 104.21.238.55
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: watt-miss-semester-slots.trycloudflare.com
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: watt-miss-semester-slots.trycloudflare.com
+    path: github.com/Alvin9999
+- name: 美国 013
+  type: vmess
+  network: ws
+  server: 104.18.114.44
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: watt-miss-semester-slots.trycloudflare.com
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: watt-miss-semester-slots.trycloudflare.com
+    path: github.com/Alvin9999
+- name: 美国 014
+  type: vmess
+  network: ws
+  server: 104.21.238.89
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: watt-miss-semester-slots.trycloudflare.com
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: watt-miss-semester-slots.trycloudflare.com
+    path: github.com/Alvin9999
+- name: 加拿大 062
+  type: vmess
+  network: ws
+  server: 104.21.238.72
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: watt-miss-semester-slots.trycloudflare.com
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: watt-miss-semester-slots.trycloudflare.com
+    path: github.com/Alvin9999
+- name: 加拿大 066
+  type: vmess
+  network: ws
+  server: 104.21.238.190
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: watt-miss-semester-slots.trycloudflare.com
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: watt-miss-semester-slots.trycloudflare.com
+    path: github.com/Alvin9999
+- name: 加拿大 068
+  type: vmess
+  network: ws
+  server: 104.26.0.61
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: watt-miss-semester-slots.trycloudflare.com
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: watt-miss-semester-slots.trycloudflare.com
+    path: github.com/Alvin9999
+- name: 加拿大 069
+  type: vmess
+  network: ws
+  server: 104.26.0.52
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: watt-miss-semester-slots.trycloudflare.com
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: watt-miss-semester-slots.trycloudflare.com
+    path: github.com/Alvin9999
+- name: 加拿大 073
+  type: vmess
+  network: ws
+  server: 104.18.114.176
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: e10.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: e10.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 015
+  type: vmess
+  network: ws
+  server: 104.26.0.12
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m10.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m10.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 074
+  type: vmess
+  network: ws
+  server: 104.21.238.128
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: a10.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: a10.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 075
+  type: vmess
+  network: ws
+  server: 104.21.238.156
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: p7.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: p7.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 076
+  type: vmess
+  network: ws
+  server: 104.26.0.196
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: w10.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: w10.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 077
+  type: vmess
+  network: ws
+  server: 104.26.0.201
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: e10.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: e10.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 019
+  type: vmess
+  network: ws
+  server: 104.26.0.226
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: p7.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: p7.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 078
+  type: vmess
+  network: ws
+  server: 104.26.0.80
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: p7.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: p7.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 079
+  type: vmess
+  network: ws
+  server: 104.18.114.213
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m10.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m10.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 080
+  type: vmess
+  network: ws
+  server: 104.26.0.99
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: e10.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: e10.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 081
+  type: vmess
+  network: ws
+  server: 104.21.238.20
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m10.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m10.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 020
+  type: vmess
+  network: ws
+  server: 104.18.114.21
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: e10.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: e10.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 082
+  type: vmess
+  network: ws
+  server: 104.26.0.107
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: w10.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: w10.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 083
+  type: vmess
+  network: ws
+  server: 104.18.114.178
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: w10.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: w10.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 084
+  type: vmess
+  network: ws
+  server: 104.21.238.215
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: a10.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: a10.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 085
+  type: vmess
+  network: ws
+  server: 104.26.0.171
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: e10.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: e10.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 086
+  type: vmess
+  network: ws
+  server: 104.26.0.27
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: p7.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: p7.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 087
+  type: vmess
+  network: ws
+  server: 104.21.238.133
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: p7.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: p7.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 021
+  type: vmess
+  network: ws
+  server: 162.159.45.194
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: a21.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: a21.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 088
+  type: vmess
+  network: ws
+  server: 104.26.0.8
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: w19.164748.xyz
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: w19.164748.xyz
+    path: github.com/Alvin9999
+- name: 加拿大 089
+  type: vmess
+  network: ws
+  server: 3.clarity168.com
+  port: 443
+  uuid: 48f837fa-12d0-498d-b5f6-94f9979736a4
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: 3.clarity168.com
+    path: /
 proxy-groups:
 - name: PROXY
   type: select
@@ -3123,7 +3502,6 @@ proxy-groups:
   - 美国 002
   - 美国 005
   - 美国 101
-  - 加拿大 210
   - 美国 003
   - 美国 167
   - 美国 170
@@ -3326,6 +3704,36 @@ proxy-groups:
   - 加拿大 053
   - 加拿大 054
   - 加拿大 055
+  - 加拿大 059
+  - 美国 012
+  - 加拿大 060
+  - 美国 013
+  - 美国 014
+  - 加拿大 062
+  - 加拿大 066
+  - 加拿大 068
+  - 加拿大 069
+  - 加拿大 073
+  - 美国 015
+  - 加拿大 074
+  - 加拿大 075
+  - 加拿大 076
+  - 加拿大 077
+  - 美国 019
+  - 加拿大 078
+  - 加拿大 079
+  - 加拿大 080
+  - 加拿大 081
+  - 美国 020
+  - 加拿大 082
+  - 加拿大 083
+  - 加拿大 084
+  - 加拿大 085
+  - 加拿大 086
+  - 加拿大 087
+  - 美国 021
+  - 加拿大 088
+  - 加拿大 089
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204

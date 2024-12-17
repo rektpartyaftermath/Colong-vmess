@@ -16,22 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx115
-  network: ws
-  port: 80
-  server: 104.21.69.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: hyfhhg.jadovah977.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx12
+  name: -xx11
   network: ws
   port: 80
   server: 104.21.69.223
@@ -46,7 +31,22 @@ proxies:
     path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL
 - alterId: 0
   cipher: auto
-  name: -xx122
+  name: 8-xx114
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: hyfhhg.jadovah977.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx121
   network: ws
   port: 80
   server: 104.21.69.223
@@ -61,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx156
+  name: -xx155
   network: ws
   port: 80
   server: 104.21.69.223
@@ -76,7 +76,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 98-xx17
+  name: 98-xx16
   network: ws
   port: 80
   server: 104.21.69.223
@@ -91,7 +91,7 @@ proxies:
     path: /af323d
 - alterId: 0
   cipher: auto
-  name: -xx32
+  name: -xx31
   network: ws
   port: 80
   server: 104.21.69.223
