@@ -31,7 +31,7 @@ proxies:
     path: /af323d
 - alterId: 0
   cipher: auto
-  name: -xx105
+  name: -xx104
   network: ws
   port: 80
   server: 104.21.69.223
@@ -46,7 +46,7 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  name: 8-xx107
+  name: 8-xx106
   network: ws
   port: 80
   server: 104.21.69.223
@@ -61,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx117
+  name: -xx114
   network: ws
   port: 80
   server: 104.21.69.223
@@ -91,7 +91,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: 8-xx61
+  name: 8-xx60
   network: ws
   port: 80
   server: 104.21.69.223
@@ -106,7 +106,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx68
+  name: -xx67
   network: ws
   port: 80
   server: 104.21.69.223
@@ -121,7 +121,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx80
+  name: -xx79
   network: ws
   port: 80
   server: 104.21.69.223

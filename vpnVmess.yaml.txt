@@ -17,23 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx100
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    path: /
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: -xx102
+  name: -xx101
   network: ws
   port: 443
   server: 163.5.159.231
@@ -49,7 +33,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx108
+  name: 9-xx107
   network: ws
   port: 443
   server: cf.fovi.tk
@@ -65,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx109
+  name: -xx108
   network: ws
   port: 443
   server: tls.98.node-for-bigairport.win
@@ -73,6 +57,22 @@ proxies:
   tls: true
   type: vmess
   uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-opts:
+    path: /
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx116
+  network: ws
+  port: 443
+  server: 108.165.152.71
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
   ws-opts:
     path: /
     headers:
@@ -97,7 +97,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 89-xx85
+  name: 89-xx84
   network: ws
   port: 443
   server: 3.clarity168.com
@@ -113,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx98
+  name: -xx97
   network: ws
   port: 443
   server: irvideo.cfd
@@ -121,6 +121,22 @@ proxies:
   tls: true
   type: vmess
   uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    path: /
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx99
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
   ws-opts:
     path: /
     headers:
