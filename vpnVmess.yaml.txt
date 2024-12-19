@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx05
+  name: -xx04
   network: ws
   port: 443
   server: speedtest.net
@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx106
+  name: -xx105
   network: ws
   port: 443
   server: 108.165.152.71
@@ -33,7 +33,39 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx50
+  name: -xx174
+  network: ws
+  port: 443
+  server: 188.114.96.3
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    path: /azumase.ren
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx181
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 8-xx49
   network: ws
   port: 443
   server: root.mid.al
@@ -49,7 +81,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 89-xx75
+  name: 89-xx74
   network: ws
   port: 443
   server: 3.clarity168.com
@@ -65,7 +97,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx88
+  name: -xx87
   network: ws
   port: 443
   server: irvideo.cfd
@@ -81,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx90
+  name: -xx89
   network: ws
   port: 443
   server: 202.78.162.5
@@ -97,7 +129,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx92
+  name: -xx91
   network: ws
   port: 443
   server: 163.5.159.231
@@ -113,7 +145,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx98
+  name: 9-xx97
   network: ws
   port: 443
   server: cf.fovi.tk
@@ -129,7 +161,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx99
+  name: -xx98
   network: ws
   port: 443
   server: tls.98.node-for-bigairport.win
