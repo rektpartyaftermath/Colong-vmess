@@ -1,47 +1,61 @@
 proxies:
-- name: -xx102
+- name: -xx100
   password: CMLiussss
   port: 443
   server: 172.67.193.36
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx103
+- name: -xx101
   password: telegram-id-privatevpns
   port: 443
   server: 18.133.105.230
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx108
+- name: -xx106
   password: bpb-trojan
   port: 443
   server: 190.93.246.80
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx109
+- name: -xx107
   password: bpb-trojan
   port: 443
   server: 190.93.246.95
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx116
+- name: -xx114
   password: blue2024
   port: 443
   server: 198.41.203.5
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx186
+- name: -xx184
   password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
   port: 443
   server: 23.227.38.11
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 8-xx65
+- name: -xx204
+  password: tg-fq521free
+  port: 443
+  server: 194.76.18.129
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: 8-xx205
+  password: tg-fq521free
+  port: 443
+  server: 216.24.57.30
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: 8-xx63
   password: qmsdh_com
   port: 443
   server: 104.20.30.149

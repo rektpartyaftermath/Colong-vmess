@@ -31,7 +31,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx172
+  name: -xx170
   network: ws
   port: 80
   server: 104.22.28.102
@@ -46,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx178
+  name: 9-xx176
   network: ws
   port: 80
   server: 104.22.28.102
@@ -61,7 +61,22 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 8-xx183
+  name: 8-xx181
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: -xx183
   network: ws
   port: 80
   server: 104.22.28.102
@@ -84,21 +99,6 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: -xx187
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
   ws-opts:
     headers:
@@ -106,7 +106,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: -xx189
+  name: -xx187
   network: ws
   port: 80
   server: 104.22.28.102
@@ -121,7 +121,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - alterId: 0
   cipher: auto
-  name: -xx190
+  name: -xx188
   network: ws
   port: 80
   server: 104.22.28.102
@@ -136,7 +136,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: -xx191
+  name: -xx189
   network: ws
   port: 80
   server: 104.22.28.102
@@ -151,7 +151,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: -xx192
+  name: -xx190
   network: ws
   port: 80
   server: 104.22.28.102
@@ -166,7 +166,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: -xx194
+  name: -xx192
   network: ws
   port: 80
   server: 104.22.28.102
@@ -181,7 +181,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx195
+  name: -xx193
   network: ws
   port: 80
   server: 104.22.28.102
@@ -196,7 +196,22 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx53
+  name: -xx200
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8-xx51
   network: ws
   port: 80
   server: 104.22.28.102
@@ -211,7 +226,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx59
+  name: -xx57
   network: ws
   port: 80
   server: 104.22.28.102
@@ -226,7 +241,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx70
+  name: -xx68
   network: ws
   port: 80
   server: 104.22.28.102
@@ -241,7 +256,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx94
+  name: -xx92
   network: ws
   port: 80
   server: 104.22.28.102
@@ -256,7 +271,7 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  name: 8-xx96
+  name: 8-xx94
   network: ws
   port: 80
   server: 104.22.28.102

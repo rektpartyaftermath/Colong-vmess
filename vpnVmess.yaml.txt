@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx105
+  name: -xx103
   network: ws
   port: 443
   server: 108.165.152.71
@@ -33,7 +33,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx174
+  name: -xx172
   network: ws
   port: 443
   server: 188.114.96.3
@@ -49,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx181
+  name: -xx179
   network: ws
   port: 443
   server: cold-dawn-9246.fly.dev
@@ -65,7 +65,39 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx49
+  name: -xx203
+  network: ws
+  port: 443
+  server: gov.uk
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    path: /77848824
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx206
+  network: ws
+  port: 443
+  server: cdncdncdn.aikunapp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e9ff847b-e8ff-4690-bd68-d024c63c381e
+  ws-opts:
+    path: /vmess_ws/smjc/index?ed=8192
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 8-xx47
   network: ws
   port: 443
   server: root.mid.al
@@ -81,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 89-xx74
+  name: 89-xx72
   network: ws
   port: 443
   server: 3.clarity168.com
@@ -97,7 +129,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx87
+  name: -xx85
   network: ws
   port: 443
   server: irvideo.cfd
@@ -113,7 +145,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx89
+  name: -xx87
   network: ws
   port: 443
   server: 202.78.162.5
@@ -129,7 +161,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx91
+  name: -xx89
   network: ws
   port: 443
   server: 163.5.159.231
@@ -145,7 +177,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9-xx97
+  name: 9-xx95
   network: ws
   port: 443
   server: cf.fovi.tk
@@ -161,7 +193,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx98
+  name: -xx96
   network: ws
   port: 443
   server: tls.98.node-for-bigairport.win
