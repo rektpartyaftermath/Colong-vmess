@@ -31,7 +31,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: -xx170
+  name: -xx164
   network: ws
   port: 80
   server: 104.21.69.223
@@ -46,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx176
+  name: 9-xx170
   network: ws
   port: 80
   server: 104.21.69.223
@@ -61,7 +61,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 8-xx181
+  name: 8-xx175
   network: ws
   port: 80
   server: 104.21.69.223
@@ -76,7 +76,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: -xx183
+  name: -xx177
   network: ws
   port: 80
   server: 104.21.69.223
@@ -91,7 +91,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: -xx185
+  name: -xx179
   network: ws
   port: 80
   server: 104.21.69.223
@@ -106,7 +106,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: -xx187
+  name: -xx181
   network: ws
   port: 80
   server: 104.21.69.223
@@ -121,7 +121,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - alterId: 0
   cipher: auto
-  name: -xx188
+  name: -xx182
   network: ws
   port: 80
   server: 104.21.69.223
@@ -136,7 +136,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: -xx189
+  name: -xx183
   network: ws
   port: 80
   server: 104.21.69.223
@@ -151,7 +151,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: -xx190
+  name: -xx184
   network: ws
   port: 80
   server: 104.21.69.223
@@ -166,7 +166,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: -xx192
+  name: -xx186
   network: ws
   port: 80
   server: 104.21.69.223
@@ -181,7 +181,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx193
+  name: -xx187
   network: ws
   port: 80
   server: 104.21.69.223
@@ -196,7 +196,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx200
+  name: -xx194
   network: ws
   port: 80
   server: 104.21.69.223
@@ -211,7 +211,52 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx51
+  name: -xx202
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f4b58947-09f1-44d6-9f9d-23efb9ecb0e3
+  ws-opts:
+    headers:
+      Host: us5.sulink.one
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx203
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: df4a2a93-6717-4f90-9856-36d7a44639cc
+  ws-opts:
+    headers:
+      Host: jp2.1vpn.sbs
+    path: /kiulujunuqs
+- alterId: 0
+  cipher: auto
+  name: -xx204
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c94530f5-b616-44ab-a61f-83f32c502179
+  ws-opts:
+    headers:
+      Host: mg01.jixingwangluo.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8-xx49
   network: ws
   port: 80
   server: 104.21.69.223
@@ -226,7 +271,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx57
+  name: -xx55
   network: ws
   port: 80
   server: 104.21.69.223
@@ -241,7 +286,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx68
+  name: -xx66
   network: ws
   port: 80
   server: 104.21.69.223
@@ -256,7 +301,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx92
+  name: -xx88
   network: ws
   port: 80
   server: 104.21.69.223
@@ -271,7 +316,7 @@ proxies:
     path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
-  name: 8-xx94
+  name: 8-xx90
   network: ws
   port: 80
   server: 104.21.69.223
