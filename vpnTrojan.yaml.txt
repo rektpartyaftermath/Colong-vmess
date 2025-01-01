@@ -1,0 +1,8 @@
+proxies:
+- name: -xx04
+  password: telegram-id-privatevpns
+  port: 443
+  server: 18.135.213.190
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan

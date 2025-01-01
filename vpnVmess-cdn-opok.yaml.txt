@@ -1,0 +1,76 @@
+proxies:
+- alterId: 0
+  cipher: auto
+  name: -xx03
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fb05a8fb-d3ad-4e3f-8676-d5a59d66b5e0
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wada12222
+- alterId: 0
+  cipher: auto
+  name: -xx06
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 545485da-9ff4-48c5-ae94-45e6e4ee7d26
+  ws-opts:
+    headers:
+      Host: 6606.com
+    path: /racevpn
+- alterId: 0
+  cipher: auto
+  name: -xx12
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fb05a8fb-d3ad-4e3f-8676-d5a59d66b5e0
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wada12222
+- alterId: 0
+  cipher: auto
+  name: -xx24
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 8-xx25
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /?ed=2048
