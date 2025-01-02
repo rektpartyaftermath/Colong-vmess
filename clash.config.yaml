@@ -289,20 +289,6 @@ proxies:
     headers:
       Host: yd.changyouVPN.top
     path: /?ed=2048
-- name: 美国 001
-  type: vmess
-  network: ws
-  server: 156.229.162.206
-  port: 8014
-  uuid: fb05a8fb-d3ad-4e3f-8676-d5a59d66b5e0
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /wada12222
 - name: 新加坡 001
   type: vmess
   network: ws
@@ -415,25 +401,6 @@ proxies:
     headers:
       Host: irvideo.cfd
     path: /linkws
-- name: 德国 001
-  type: vmess
-  network: http
-  server: 91.107.249.225
-  port: 2053
-  uuid: a0b2f962-fc82-407a-aa1b-647165a95a12
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  tfo: false
-  alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - iran.ir
-    method: GET
-    path:
-    - /telegram-Gozargah-Azadi
 - name: 加拿大 006
   type: vmess
   network: ws
@@ -518,6 +485,1077 @@ proxies:
   tls: false
   alterId: 1
   cipher: auto
+- name: 美国 001
+  type: vmess
+  network: ws
+  server: 151.101.192.155
+  port: 80
+  uuid: 8c036bb6-2f9d-4501-a8ee-78c4ebc30e33
+  servername: banknabi-mahdi313.IR.
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: banknabi-mahdi313.IR.
+    path: /?ed=80/#id-telegram:-->
+- name: 加拿大 008
+  type: vmess
+  network: ws
+  server: 162.159.136.98
+  port: 80
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: rn2.hostmjj.com
+    path: /
+- name: 韩国 001
+  type: vmess
+  network: ws
+  server: 131.186.16.245
+  port: 40474
+  uuid: fb05a8fb-d3ad-4e3f-8676-d5a59d66b5e0
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wada12222
+- name: 美国 009
+  type: vmess
+  network: ws
+  server: 38.150.7.183
+  port: 8000
+  uuid: fb05a8fb-d3ad-4e3f-8676-d5a59d66b5e0
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wada12222
+- name: 美国 010
+  type: vmess
+  network: ws
+  server: 156.229.162.206
+  port: 8015
+  uuid: fb05a8fb-d3ad-4e3f-8676-d5a59d66b5e0
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wada12222
+- name: 伊朗 001
+  type: vmess
+  network: ws
+  server: 2.189.59.4
+  port: 443
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  servername: obdii.cfd
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /
+- name: 美国 011
+  type: vmess
+  network: ws
+  server: 54.89.91.89
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /
+- name: 德国 001
+  type: vmess
+  network: ws
+  server: 18.199.155.218
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /
+- name: 美国 014
+  type: vmess
+  network: ws
+  server: 3.76.206.85
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /
+- name: 美国 015
+  type: vmess
+  network: ws
+  server: 3.68.62.122
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /
+- name: 美国 016
+  type: vmess
+  network: ws
+  server: 129.146.168.102
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /
+- name: 德国 002
+  type: vmess
+  network: ws
+  server: 3.122.250.165
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /
+- name: 美国 017
+  type: vmess
+  network: ws
+  server: 3.66.115.225
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /
+- name: 美国 018
+  type: vmess
+  network: ws
+  server: 34.225.195.136
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /
+- name: 美国 019
+  type: vmess
+  network: ws
+  server: 141.148.187.195
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /
+- name: 美国 020
+  type: vmess
+  network: ws
+  server: 3.79.160.138
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /
+- name: 瑞典 001
+  type: vmess
+  network: ws
+  server: 51.20.99.157
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /
+- name: 加拿大 009
+  type: vmess
+  network: ws
+  server: 35.182.188.214
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /
+- name: 德国 003
+  type: vmess
+  network: ws
+  server: 3.126.159.12
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: 塞浦路斯 002
+  type: vmess
+  network: ws
+  server: 195.85.59.161
+  port: 443
+  uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: kr.cfyyds.filegear-sg.me
+    path: /rongseven?ed=2048
+- name: 美国 021
+  type: vmess
+  network: ws
+  server: 3.18.169.201
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: 美国 022
+  type: vmess
+  network: ws
+  server: 132.226.114.74
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: 美国 023
+  type: vmess
+  network: ws
+  server: 132.226.31.178
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: 法国 004
+  type: vmess
+  network: ws
+  server: 141.145.217.226
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: 日本 003
+  type: vmess
+  network: ws
+  server: 141.147.154.214
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: 美国 024
+  type: vmess
+  network: ws
+  server: hms07.xfixedfloat.cfd
+  port: 443
+  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: afrhms07.xfixedfloat.cfd
+    path: /linkws
+- name: 美国 025
+  type: vmess
+  network: ws
+  server: 3.140.211.75
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: 伯利兹 001
+  type: vmess
+  network: ws
+  server: 45.131.7.227
+  port: 8080
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: luodi.davesuen.store
+    path: /2a4fa40f
+- name: 美国 026
+  type: vmess
+  network: ws
+  server: 129.146.7.98
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: 美国 027
+  type: vmess
+  network: ws
+  server: 18.236.13.188
+  port: 443
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: 韩国 002
+  type: vless
+  network: ws
+  server: 152.70.90.168
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=152.70.90.168:443
+- name: 韩国 003
+  type: vless
+  network: ws
+  server: 193.122.107.147
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560
+- name: 韩国 004
+  type: vless
+  network: ws
+  server: 131.186.17.132
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560
+- name: 日本 004
+  type: vless
+  network: ws
+  server: 158.101.148.105
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560
+- name: 美国 028
+  type: vmess
+  network: tcp
+  server: 142.0.134.244
+  port: 45017
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: false
+  alterId: 64
+  cipher: auto
+- name: 美国 029
+  type: vless
+  network: ws
+  server: 206.238.236.215
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=206.238.236.215:443
+- name: 美国 030
+  type: vless
+  network: ws
+  server: 206.238.237.185
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=206.238.237.185:443
+- name: 美国 031
+  type: vless
+  network: ws
+  server: 23.94.240.130
+  port: 15161
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560
+- name: 哈萨克斯坦 001
+  type: vless
+  network: ws
+  server: 194.76.18.103
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=194.76.18.103:443
+- name: 法国 005
+  type: vless
+  network: ws
+  server: 185.16.110.91
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=185.16.110.91:443
+- name: 美国 032
+  type: vless
+  network: ws
+  server: 63.141.128.103
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560
+- name: 美国 033
+  type: vless
+  network: ws
+  server: 160.79.105.85
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=160.79.105.85:443
+- name: 南非 001
+  type: vless
+  network: ws
+  server: 160.123.255.34
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560
+- name: 荷兰 001
+  type: vless
+  network: http
+  server: 146.190.16.108
+  port: 23701
+  uuid: 677a41e5-dbe6-429b-8f91-cc014b1ae1bd
+  servername: Speedtest.net
+  skip-cert-verify: false
+  tls: false
+  http-opts:
+    headers:
+      Host:
+      - Speedtest.net
+    method: GET
+    path:
+    - /
+- name: 美国 034
+  type: vless
+  network: ws
+  server: 160.79.104.116
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=160.79.104.116:443
+- name: 韩国 005
+  type: vless
+  network: ws
+  server: 211.218.223.130
+  port: 30012
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /uxb.vs2024.us.kg
+- name: 美国 035
+  type: vless
+  network: ws
+  server: 206.238.236.65
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560
+- name: 美国 036
+  type: vless
+  network: ws
+  server: 160.79.105.12
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=160.79.105.12:443
+- name: 美国 037
+  type: vless
+  network: ws
+  server: 160.79.104.19
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=160.79.104.197:443
+- name: 美国 038
+  type: vless
+  network: ws
+  server: 91.149.239.145
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=91.149.239.145:443
+- name: 美国 039
+  type: vless
+  network: ws
+  server: 206.238.237.218
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=206.238.237.218:443
+- name: 日本 005
+  type: vless
+  network: ws
+  server: 141.147.147.180
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560
+- name: 日本 006
+  type: vless
+  network: ws
+  server: 138.2.36.157
+  port: 8443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=proxyip.jp.fxxk.dedyn.io
+- name: 美国 040
+  type: vless
+  network: ws
+  server: 160.79.104.98
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560
+- name: 南非 002
+  type: vless
+  network: ws
+  server: 160.123.255.85
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=160.123.255.85:443
+- name: 俄罗斯 001
+  type: vless
+  server: 185.40.153.191
+  port: 443
+  uuid: 71b60539-19bf-4282-b09f-7596ffc3cc8b
+  servername: vk.com
+  skip-cert-verify: false
+  tls: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: NsRSWMDMKxVFiry3uRJB8tG5rG8LdIJqTJvHK0Uc6Gw
+    short-id: EeEFB5bF
+  flow: xtls-rprx-vision
+- name: 美国 041
+  type: vless
+  network: ws
+  server: 132.226.114.74
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560
+- name: 美国 042
+  type: vless
+  network: ws
+  server: 20.235.105.146
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=20.235.105.146:443
+- name: 美国 043
+  type: vless
+  network: ws
+  server: 160.79.104.254
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /uxb.vs2024.us.kg
+- name: 韩国 006
+  type: vless
+  network: ws
+  server: 149.129.8.215
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560
+- name: 美国 044
+  type: vless
+  network: ws
+  server: 160.79.104.103
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=160.79.104.103:443
+- name: 南非 003
+  type: vless
+  network: ws
+  server: 160.123.255.215
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /uxb.vs2024.us.kg
+- name: 俄罗斯 002
+  type: vless
+  network: ws
+  server: 45.67.215.98
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560
+- name: 美国 045
+  type: vless
+  network: ws
+  server: 206.238.237.151
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560
+- name: 新西兰 001
+  type: vless
+  network: ws
+  server: 202.37.33.81
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=202.37.33.81:443
+- name: 美国 046
+  type: vless
+  network: ws
+  server: 63.141.128.254
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /uxb.vs2024.us.kg
+- name: 美国 047
+  type: vless
+  network: ws
+  server: 160.79.104.181
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=160.79.104.181:443
+- name: 美国 048
+  type: vless
+  network: ws
+  server: 192.9.158.188
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /uxb.vs2024.us.kg
+- name: 加拿大 010
+  type: vless
+  network: ws
+  server: 140.238.158.238
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560&proxyip=140.238.158.238:443
+- name: 新加坡 002
+  type: vless
+  network: ws
+  server: 168.138.178.6
+  port: 19990
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /?ed=2560
+- name: 英国 001
+  type: vmess
+  network: ws
+  server: 141.101.122.109
+  port: 443
+  uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: rac.679888.xyz
+    path: /lfljvws
+- name: 奥地利 001
+  type: vless
+  network: ws
+  server: 212.183.88.94
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /uxb.vs2024.us.kg
+- name: 美国 049
+  type: vless
+  network: ws
+  server: 154.17.21.134
+  port: 18446
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /uxb.vs2024.us.kg
+- name: 美国 050
+  type: vless
+  network: ws
+  server: 160.79.105.72
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /uxb.vs2024.us.kg
+- name: 韩国 007
+  type: vless
+  network: ws
+  server: 144.24.78.162
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxb.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxb.vs2024.us.kg
+    path: /uxb.vs2024.us.kg
 proxy-groups:
 - name: PROXY
   type: select
@@ -540,7 +1578,6 @@ proxy-groups:
   - 美国 013
   - 加拿大 017
   - 加拿大 001
-  - 美国 001
   - 新加坡 001
   - 加拿大 002
   - 加拿大 003
@@ -549,13 +1586,87 @@ proxy-groups:
   - 加拿大 005
   - 法国 002
   - 法国 003
-  - 德国 001
   - 加拿大 006
   - 加拿大 007
   - 美国 007
   - 美国 008
   - 日本 001
   - 日本 002
+  - 美国 001
+  - 加拿大 008
+  - 韩国 001
+  - 美国 009
+  - 美国 010
+  - 伊朗 001
+  - 美国 011
+  - 德国 001
+  - 美国 014
+  - 美国 015
+  - 美国 016
+  - 德国 002
+  - 美国 017
+  - 美国 018
+  - 美国 019
+  - 美国 020
+  - 瑞典 001
+  - 加拿大 009
+  - 德国 003
+  - 塞浦路斯 002
+  - 美国 021
+  - 美国 022
+  - 美国 023
+  - 法国 004
+  - 日本 003
+  - 美国 024
+  - 美国 025
+  - 伯利兹 001
+  - 美国 026
+  - 美国 027
+  - 韩国 002
+  - 韩国 003
+  - 韩国 004
+  - 日本 004
+  - 美国 028
+  - 美国 029
+  - 美国 030
+  - 美国 031
+  - 哈萨克斯坦 001
+  - 法国 005
+  - 美国 032
+  - 美国 033
+  - 南非 001
+  - 荷兰 001
+  - 美国 034
+  - 韩国 005
+  - 美国 035
+  - 美国 036
+  - 美国 037
+  - 美国 038
+  - 美国 039
+  - 日本 005
+  - 日本 006
+  - 美国 040
+  - 南非 002
+  - 俄罗斯 001
+  - 美国 041
+  - 美国 042
+  - 美国 043
+  - 韩国 006
+  - 美国 044
+  - 南非 003
+  - 俄罗斯 002
+  - 美国 045
+  - 新西兰 001
+  - 美国 046
+  - 美国 047
+  - 美国 048
+  - 加拿大 010
+  - 新加坡 002
+  - 英国 001
+  - 奥地利 001
+  - 美国 049
+  - 美国 050
+  - 韩国 007
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
