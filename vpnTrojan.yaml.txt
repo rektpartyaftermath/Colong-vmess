@@ -1,8 +1,15 @@
 proxies:
-- name: -xx04
-  password: telegram-id-privatevpns
+- name: -xx55
+  password: yaml777
   port: 443
-  server: 18.135.213.190
+  server: 172.67.207.57
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx76
+  password: ypDt8RkT7J
+  port: 443
+  server: 89.187.181.172
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan

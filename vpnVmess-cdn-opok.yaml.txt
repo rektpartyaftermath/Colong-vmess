@@ -1,37 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx03
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fb05a8fb-d3ad-4e3f-8676-d5a59d66b5e0
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /wada12222
-- alterId: 0
-  cipher: auto
-  name: -xx06
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 545485da-9ff4-48c5-ae94-45e6e4ee7d26
-  ws-opts:
-    headers:
-      Host: 6606.com
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  name: -xx22
+  name: -xx05
   network: ws
   port: 80
   server: 104.22.28.102
@@ -46,7 +16,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8-xx23
+  name: 8-xx06
   network: ws
   port: 80
   server: 104.22.28.102
@@ -61,7 +31,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx26
+  name: -xx07
   network: ws
   port: 80
   server: 104.22.28.102
@@ -76,22 +46,7 @@ proxies:
     path: ->
 - alterId: 0
   cipher: auto
-  name: 8-xx27
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
-  ws-opts:
-    headers:
-      Host: rn2.hostmjj.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9-xx29
+  name: 9-xx09
   network: ws
   port: 80
   server: 104.22.28.102
@@ -106,7 +61,7 @@ proxies:
     path: /wada12222
 - alterId: 0
   cipher: auto
-  name: -xx30
+  name: -xx10
   network: ws
   port: 80
   server: 104.22.28.102
@@ -121,7 +76,22 @@ proxies:
     path: /wada12222
 - alterId: 0
   cipher: auto
-  name: -xx53
+  name: -xx100
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: -xx12
   network: ws
   port: 80
   server: 104.22.28.102
@@ -134,3 +104,93 @@ proxies:
     headers:
       Host: luodi.davesuen.store
     path: /2a4fa40f
+- alterId: 0
+  cipher: auto
+  name: -xx46
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      Host: luodi.davesuen.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx47
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      Host: luodi.davesuen.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx48
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      Host: luodi.davesuen.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx50
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      Host: luodi.davesuen.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx51
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      Host: luodi.davesuen.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx52
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  ws-opts:
+    headers:
+      Host: luodi.davesuen.store
+    path: /
