@@ -1,66 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx05
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
-  ws-opts:
-    headers:
-      Host: amd.al
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 8-xx06
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
-  ws-opts:
-    headers:
-      Host: amd.al
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: -xx07
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8c036bb6-2f9d-4501-a8ee-78c4ebc30e33
-  ws-opts:
-    headers:
-      Host: banknabi-mahdi313.IR.
-    path: ->
-- alterId: 0
-  cipher: auto
-  name: 9-xx09
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fb05a8fb-d3ad-4e3f-8676-d5a59d66b5e0
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /wada12222
-- alterId: 0
-  cipher: auto
   name: -xx10
   network: ws
   port: 80
@@ -69,14 +9,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fb05a8fb-d3ad-4e3f-8676-d5a59d66b5e0
+  uuid: 03231e6e-2251-498b-8e0a-6ab9222309ef
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /wada12222
+      Host: banknabi-mahdi313.IR.
+    path: -->
 - alterId: 0
   cipher: auto
-  name: -xx100
+  name: -xx11
   network: ws
   port: 80
   server: 104.18.24.176
@@ -84,11 +24,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  uuid: 03231e6e-2251-498b-8e0a-6ab9222309ef
   ws-opts:
     headers:
-      Host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+      Host: banknabi-mahdi313.IR.
+    path: -->
 - alterId: 0
   cipher: auto
   name: -xx12
@@ -99,98 +39,8 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+  uuid: 03231e6e-2251-498b-8e0a-6ab9222309ef
   ws-opts:
     headers:
-      Host: luodi.davesuen.store
-    path: /2a4fa40f
-- alterId: 0
-  cipher: auto
-  name: -xx46
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      Host: luodi.davesuen.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx47
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      Host: luodi.davesuen.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx48
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      Host: luodi.davesuen.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx50
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      Host: luodi.davesuen.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx51
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      Host: luodi.davesuen.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx52
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-  ws-opts:
-    headers:
-      Host: luodi.davesuen.store
-    path: /
+      Host: banknabi-mahdi313.IR.
+    path: -->

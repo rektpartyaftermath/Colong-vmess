@@ -1,15 +1,8 @@
 proxies:
-- name: -xx55
-  password: yaml777
+- name: -xx40
+  password: '3723507166611775488'
   port: 443
-  server: 172.67.207.57
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx76
-  password: ypDt8RkT7J
-  port: 443
-  server: 89.187.181.172
+  server: 13.48.19.247
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
