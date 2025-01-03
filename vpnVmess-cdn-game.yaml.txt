@@ -1,36 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx10
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 03231e6e-2251-498b-8e0a-6ab9222309ef
-  ws-opts:
-    headers:
-      Host: banknabi-mahdi313.IR.
-    path: -->
-- alterId: 0
-  cipher: auto
-  name: -xx11
-  network: ws
-  port: 80
-  server: 104.18.24.176
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 03231e6e-2251-498b-8e0a-6ab9222309ef
-  ws-opts:
-    headers:
-      Host: banknabi-mahdi313.IR.
-    path: -->
-- alterId: 0
-  cipher: auto
   name: -xx12
   network: ws
   port: 80
@@ -39,8 +9,23 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 03231e6e-2251-498b-8e0a-6ab9222309ef
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
   ws-opts:
     headers:
-      Host: banknabi-mahdi313.IR.
-    path: -->
+      Host: range-shape-b3fuegu.bananok182.workers.dev
+    path: /hms02.fxiaomi.sbs/link
+- alterId: 0
+  cipher: auto
+  name: -xx13
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: range-shape-b3fuegu.bananok182.workers.dev
+    path: /hms02.fxiaomi.sbs/link
