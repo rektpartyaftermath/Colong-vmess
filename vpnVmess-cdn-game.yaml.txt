@@ -29,3 +29,48 @@ proxies:
     headers:
       Host: range-shape-b3fuegu.bananok182.workers.dev
     path: /hms02.fxiaomi.sbs/link
+- alterId: 0
+  cipher: auto
+  name: -xx85
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f071f630-bf7d-4741-8032-653b613dff04
+  ws-opts:
+    headers:
+      Host: khamenei-313.IR.
+    path: -->
+- alterId: 0
+  cipher: auto
+  name: -xx86
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa76de21-1a95-4cc6-82d2-542661154a48
+  ws-opts:
+    headers:
+      Host: banknabi-mahdi313.IR.
+    path: -->
+- alterId: 0
+  cipher: auto
+  name: -xx87
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa76de21-1a95-4cc6-82d2-542661154a48
+  ws-opts:
+    headers:
+      Host: banknabi-mahdi313.IR.
+    path: -->
