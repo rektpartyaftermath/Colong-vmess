@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx12
+  name: -xx100
   network: ws
   port: 80
   server: 104.22.28.102
@@ -9,14 +9,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
   ws-opts:
     headers:
-      Host: range-shape-b3fuegu.bananok182.workers.dev
-    path: /hms02.fxiaomi.sbs/link
+      Host: mg_cdn.yunjisuan.cf
+    path: /
 - alterId: 0
   cipher: auto
-  name: -xx13
+  name: -xx101
   network: ws
   port: 80
   server: 104.22.28.102
@@ -24,14 +24,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  uuid: 5f797b91-c7ec-4178-d19e-9b069b70b446
   ws-opts:
     headers:
-      Host: range-shape-b3fuegu.bananok182.workers.dev
-    path: /hms02.fxiaomi.sbs/link
+      Host: zUlA9.eSmAIlkORea.sHop
+    path: /
 - alterId: 0
   cipher: auto
-  name: -xx85
+  name: -xx102
   network: ws
   port: 80
   server: 104.22.28.102
@@ -39,14 +39,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f071f630-bf7d-4741-8032-653b613dff04
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
   ws-opts:
     headers:
-      Host: khamenei-313.IR.
-    path: -->
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: -xx86
+  name: -xx103
   network: ws
   port: 80
   server: 104.22.28.102
@@ -54,14 +54,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: aa76de21-1a95-4cc6-82d2-542661154a48
+  uuid: a2f27205-5b59-4a1d-e9ed-c78f7ab4b633
   ws-opts:
     headers:
-      Host: banknabi-mahdi313.IR.
-    path: -->
+      Host: Quran14.eSmAIlkORea.sHop
+    path: /
 - alterId: 0
   cipher: auto
-  name: -xx87
+  name: -xx28
   network: ws
   port: 80
   server: 104.22.28.102
@@ -69,8 +69,23 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: aa76de21-1a95-4cc6-82d2-542661154a48
+  uuid: 4ffc214f-6e89-4097-a791-a5cb22bd9319
   ws-opts:
     headers:
-      Host: banknabi-mahdi313.IR.
-    path: -->
+      Host: ovh.reonolimits.my.id
+    path: /vmessws
+- alterId: 0
+  cipher: auto
+  name: -xx33
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fd79106e-0f6c-4ad7-af1b-40a079afdf67
+  ws-opts:
+    headers:
+      Host: 7707.dev
+    path: /RACEVPN
