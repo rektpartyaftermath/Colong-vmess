@@ -1,1 +1,16 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: -xx17
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3a18edb8-80c1-4cba-b912-4f10513da259
+  ws-opts:
+    headers:
+      Host: ovh.reonolimits.my.id
+    path: /vmessws
