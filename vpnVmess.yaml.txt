@@ -1,1 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: -xx05
+  network: ws
+  port: 443
+  server: 199.232.214.133
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
+  ws-opts:
+    path: /farcry?ed=2560
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
