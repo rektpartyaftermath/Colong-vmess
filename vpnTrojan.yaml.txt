@@ -1,22 +1,22 @@
 proxies:
-- name: -xx07
-  password: b80Iy90Fma
-  port: 443
-  server: 104.26.9.227
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx29
-  password: telegram-id-privatevpns
-  port: 443
-  server: 13.38.254.180
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx90
+- name: -xx37
   password: '3723507166611775488'
   port: 443
   server: concrete-buzzard.boa152.lol
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx51
+  password: telegram-id-privatevpns
+  port: 443
+  server: 63.32.120.6
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx52
+  password: telegram-id-privatevpns
+  port: 443
+  server: 176.34.211.0
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
