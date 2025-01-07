@@ -331,21 +331,6 @@ proxies:
     headers:
       Host: nl.zhuk.us.kg
     path: /
-- name: 法国 001
-  type: vmess
-  network: ws
-  server: 45.145.165.113
-  port: 443
-  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
-  servername: hms19.best-tizi.top
-  skip-cert-verify: false
-  tls: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: hms19.best-tizi.top
-    path: /
 - name: 加拿大 007
   type: vmess
   network: ws
@@ -362,13 +347,6 @@ proxies:
     headers:
       Host: ovh.reonolimits.my.id
     path: /vmessws
-- name: 美国 005
-  type: vless
-  server: 3.79.61.93
-  port: 20733
-  uuid: 928c7c5b-5928-4b7c-98d7-dcfca65d02f3
-  skip-cert-verify: false
-  tls: false
 - name: 美国 006
   type: vless
   network: ws
@@ -663,6 +641,126 @@ proxies:
     headers:
       Host: wow-online.ir
     path: /
+- name: 美国 005
+  type: vmess
+  network: grpc
+  server: 104.21.88.223
+  port: 443
+  uuid: fd670030-d8c8-467b-a4b9-06d26a0323d8
+  servername: sth.happyground.ir
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: 6mHwqI1HSSVtXxCxshcV
+- name: 美国 011
+  type: vless
+  network: ws
+  server: hajlab.ucdavis.edu
+  port: 443
+  uuid: 0862aacf-9eb1-46ef-9743-df83346e1a08
+  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v01.drlimit.net
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v01.drlimit.net
+- name: 加拿大 017
+  type: vless
+  network: ws
+  server: 162.159.152.152
+  port: 443
+  uuid: 25f0c73e-af30-42ab-93eb-ac45e1c25f18
+  servername: join-v2rey.pages.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: join-v2rey.pages.dev
+    path: /---------DisVpn---------DisVpn---------DisVpn
+- name: 加拿大 018
+  type: vless
+  network: ws
+  server: medium.com
+  port: 443
+  uuid: 25f0c73e-af30-42ab-93eb-ac45e1c25f18
+  servername: DisVpn.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: randomized
+  ws-opts:
+    headers:
+      Host: DisVpn.us.kg
+    path: /---------DisVpn---------DisVpn---------DisVpn
+- name: 美国 012
+  type: vless
+  network: grpc
+  server: zula.ir
+  port: 8443
+  uuid: 2725d136-d620-4687-9752-be65774f2914
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+- name: 加拿大 019
+  type: vless
+  network: ws
+  server: 104.16.20.118
+  port: 443
+  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
+  servername: freedom-1rj.pages.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: randomized
+  ws-opts:
+    headers:
+      Host: freedom-1rj.pages.dev
+    path: /freedom-1rj.pages.dev/?ed=2560
+- name: 加拿大 020
+  type: vless
+  network: ws
+  server: 108.162.195.199
+  port: 443
+  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
+  servername: freedom-1rj.pages.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: randomized
+  ws-opts:
+    headers:
+      Host: freedom-1rj.pages.dev
+    path: /freedom-1rj.pages.dev/?ed=2560
+- name: 美国 013
+  type: vless
+  network: ws
+  server: 162.159.44.205
+  port: 443
+  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
+  servername: freedom-1rj.pages.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: freedom-1rj.pages.dev
+    path: /freedom-1rj.pages.dev/?ed=2560
 proxy-groups:
 - name: PROXY
   type: select
@@ -689,9 +787,7 @@ proxy-groups:
   - 加拿大 005
   - 加拿大 006
   - 德国 001
-  - 法国 001
   - 加拿大 007
-  - 美国 005
   - 美国 006
   - 瑞典 001
   - 加拿大 008
@@ -714,6 +810,14 @@ proxy-groups:
   - 美国 009
   - 美国 010
   - 瑞典 004
+  - 美国 005
+  - 美国 011
+  - 加拿大 017
+  - 加拿大 018
+  - 美国 012
+  - 加拿大 019
+  - 加拿大 020
+  - 美国 013
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
