@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx16
+  name: -xx23
   network: ws
   port: 80
   server: 104.21.69.223
@@ -9,8 +9,23 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3a18edb8-80c1-4cba-b912-4f10513da259
+  uuid: f9ab87c5-c542-4c10-a486-b59c91550787
   ws-opts:
     headers:
-      Host: ovh.reonolimits.my.id
-    path: /vmessws
+      Host: PARspacK51.eSMAIlkOrEA.sHoP
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: -xx24
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2c5fee13-f08b-4ba8-86db-27dd51cb9781
+  ws-opts:
+    headers:
+      Host: lt2-vmess.sshmax.xyz
+    path: /vmess
