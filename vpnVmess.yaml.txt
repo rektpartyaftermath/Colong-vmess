@@ -65,7 +65,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx68
+  name: -xx67
   network: ws
   port: 443
   server: jgw350m.pai50288.uk

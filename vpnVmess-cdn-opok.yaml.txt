@@ -91,22 +91,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx66
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6a4bf596-cb12-4a2a-951c-f06e4aca9a59
-  ws-opts:
-    headers:
-      Host: vv.orangelightyo.us.kg
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8-xx69
+  name: 8-xx68
   network: ws
   port: 80
   server: 104.22.28.102
