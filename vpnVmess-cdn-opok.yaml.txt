@@ -1,37 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx05
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bf41e07-12b6-4629-98a2-1c51c03e808d
-  ws-opts:
-    headers:
-      Host: domg.pmy666.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: -xx06
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 063e131c-260c-4739-b4a2-4cddd9358db0
-  ws-opts:
-    headers:
-      Host: te.wordclass.top
-    path: /vmessprotocol-vmessprotocol-vmessprotocol-vmessprotocol
-- alterId: 0
-  cipher: auto
-  name: -xx29
+  name: -xx26
   network: ws
   port: 80
   server: 104.22.28.102
@@ -42,11 +12,11 @@ proxies:
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-233-189-231.s2.db-link02.top
-    path: /dabai.in104.24.56.123
+      Host: 100-49-141-209.s1.db-link02.top
+    path: /dabai.in104.17.169.115
 - alterId: 0
   cipher: auto
-  name: -xx45
+  name: -xx35
   network: ws
   port: 80
   server: 104.22.28.102
@@ -54,14 +24,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
   ws-opts:
     headers:
-      Host: v3ra3do.wakeuptimerap.shop
+      Host: lv1.xv2ray.net
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx57
+  name: -xx40
   network: ws
   port: 80
   server: 104.22.28.102
@@ -72,35 +42,5 @@ proxies:
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-54-182-233.s2.db-link01.top
+      Host: 100-49-141-209.s1.db-link02.top
     path: /
-- alterId: 0
-  cipher: auto
-  name: -xx63
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-119-215-158.s3.cn-db.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8-xx68
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-213-61-102.s1.db-link02.top
-    path: /dabai.in104.21.151.202
