@@ -1,1 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: -xx61
+  network: ws
+  port: 443
+  server: us.cowvpn.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
+  ws-opts:
+    path: /cctv13/vmess_us1
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
