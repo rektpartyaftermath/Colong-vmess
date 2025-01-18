@@ -1,4 +1,11 @@
 proxies:
+- name: -xx118
+  password: b59ee60f-9fa4-4770-b6a7-288620147f60
+  port: 443
+  server: 192.65.217.200
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
 - name: 9-xx41
   password: Aimer
   port: 443
