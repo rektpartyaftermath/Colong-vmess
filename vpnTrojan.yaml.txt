@@ -83,7 +83,7 @@ proxies:
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 9 trojan-xx93
+- name: 9 trojan-xx92
   password: Nu5EqwcJ2OCuvKAcSQeGdg
   port: 443
   server: 172.67.204.84
