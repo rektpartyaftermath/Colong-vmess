@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx90
+  name: -xx102
   network: ws
   port: 80
   server: 104.18.24.176
@@ -9,11 +9,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 4a1cb611-381c-4fff-ca35-99be316eee17
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
   ws-opts:
     headers:
-      Host: yaml777.133010.xyz
-    path: /yaml777
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
 - alterId: 0
   cipher: auto
   name: -xx93
@@ -24,8 +24,68 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
   ws-opts:
     headers:
-      Host: irisoft.servecounterstrike.com
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx94
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 20666f30-0add-4da4-bba0-28f985426978
+  ws-opts:
+    headers:
+      Host: domg.pmy666.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: -xx95
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9-xx97
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 20666f30-0add-4da4-bba0-28f985426978
+  ws-opts:
+    headers:
+      Host: domg.pmy666.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: -xx99
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 20666f30-0add-4da4-bba0-28f985426978
+  ws-opts:
+    headers:
+      Host: domg.pmy666.xyz
     path: /
