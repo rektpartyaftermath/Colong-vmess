@@ -1,15 +1,8 @@
 proxies:
-- name: -xx125
-  password: 61834c10-4218-4918-b836-9b852b7add70
+- name: -xx87
+  password: ouo
   port: 443
-  server: sg.mjt000.com
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx36
-  password: Aimer
-  port: 443
-  server: 66.81.247.88
+  server: 132.226.171.151
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
