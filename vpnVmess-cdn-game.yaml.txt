@@ -1,6 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: -xx107
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b8b24778-ab3c-4d1a-9ab1-59f301d61c9f
+  ws-opts:
+    headers:
+      Host: domg.pmy666.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
   name: -xx77
   network: ws
   port: 80
