@@ -1,0 +1,8 @@
+proxies:
+- name: -xx87
+  password: ouo
+  port: 443
+  server: 132.226.171.151
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan

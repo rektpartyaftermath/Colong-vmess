@@ -1,0 +1,16 @@
+proxies:
+- alterId: 0
+  cipher: auto
+  name: -xx77
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
