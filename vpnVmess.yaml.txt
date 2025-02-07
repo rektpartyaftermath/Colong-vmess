@@ -1,23 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx73
-  network: ws
-  port: 443
-  server: 104.21.81.115
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  ws-opts:
-    path: /vmess
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 8-xx78
+  name: 8-xx75
   network: ws
   port: 443
   server: 23.94.243.79

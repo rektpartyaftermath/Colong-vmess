@@ -587,19 +587,6 @@ proxies:
     headers:
       Host: anTiFiLTEr.dOXAs38496.wOrkErs.dEV
     path: /6Fb9gZwPctjjwBVW?ed=2048
-- name: 美国 025
-  type: vless
-  network: ws
-  server: 104.21.22.88
-  port: 2086
-  uuid: 8c129b7d-c87f-42d7-bdac-55dfbfe88534
-  skip-cert-verify: false
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: Mahdi-heCTorr.vISOwE1371.woRKers.Dev
-    path: /FXlEIkZbsrYxD4i1?ed=2560
 - name: 美国 027
   type: vless
   network: ws
@@ -1030,22 +1017,6 @@ proxies:
     method: GET
     path:
     - /
-- name: 美国 075
-  type: vmess
-  network: ws
-  server: 104.21.81.115
-  port: 443
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  servername: northflank.107421.xyz
-  skip-cert-verify: true
-  tls: true
-  alterId: 0
-  cipher: auto
-  delay: 1706
-  ws-opts:
-    headers:
-      Host: northflank.107421.xyz
-    path: /vmess
 - name: 美国 079
   type: vless
   network: ws
@@ -1071,21 +1042,6 @@ proxies:
     headers:
       Host: sedalat.tatexe3807.workers.dev
     path: /
-- name: 加拿大 003
-  type: vmess
-  network: ws
-  server: s1.db-link01.top
-  port: 8880
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  servername: 100-250-32-53.s1.db-link01.top
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  delay: 2517
-  ws-opts:
-    headers:
-      Host: 100-250-32-53.s1.db-link01.top
-    path: /dabai.in172.67.95.35
 - name: 美国 072
   type: vmess
   network: ws
@@ -1226,209 +1182,130 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/60.0.3112.101 Safari/537.36
     path: /?ed=2560
-- name: 荷兰 001
-  type: trojan
+- name: 美国 064
+  type: vmess
   network: ws
-  server: 132.226.171.151
-  port: 40274
-  password: ouo
-  skip-cert-verify: false
-  sni: tr.koxok.us.kg
-  client-fingerprint: chrome
+  server: 104.21.238.4
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
   ws-opts:
     headers:
-      Host: tr.koxok.us.kg
-    path: /?ed=2560
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
 - name: 美国 001
-  type: vless
+  type: vmess
   network: ws
-  server: 198.62.62.22
-  port: 443
-  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
-  servername: dns68.putata.eu.org
-  tls: true
+  server: 104.21.238.5
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
   udp: true
-  client-fingerprint: randomized
+  alterId: 0
+  cipher: auto
   ws-opts:
     headers:
-      Host: dns68.putata.eu.org
-    path: /?ed=2048
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
 - name: 美国 002
-  type: vless
+  type: vmess
   network: ws
-  server: 23.166.168.219
-  port: 33158
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  tls: true
+  server: 104.21.238.6
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
   udp: true
+  alterId: 0
+  cipher: auto
   ws-opts:
     headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
 - name: 美国 003
-  type: vless
+  type: vmess
   network: ws
-  server: 23.165.40.119
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  tls: true
+  server: 104.21.238.7
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
   udp: true
+  alterId: 0
+  cipher: auto
   ws-opts:
     headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳
-- name: 韩国 001
-  type: vless
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 025
+  type: vmess
   network: ws
-  server: 193.123.249.172
-  port: 41931
-  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
-  servername: dns68.putata.eu.org
-  tls: true
+  server: 104.21.238.8
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
   udp: true
-  client-fingerprint: randomized
+  alterId: 0
+  cipher: auto
   ws-opts:
     headers:
-      Host: dns68.putata.eu.org
-    path: /?ed=2048
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
 - name: 美国 053
-  type: vless
+  type: vmess
   network: ws
-  server: 15.235.48.70
-  port: 443
-  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
-  servername: dns68.putata.eu.org
-  tls: true
+  server: 104.21.238.9
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
   udp: true
-  client-fingerprint: randomized
+  alterId: 0
+  cipher: auto
   ws-opts:
     headers:
-      Host: dns68.putata.eu.org
-    path: /?ed=2048
-- name: 荷兰 003
-  type: vless
-  network: ws
-  server: 132.226.22.106
-  port: 34237
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  tls: true
-  udp: true
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
 - name: 美国 054
-  type: vless
+  type: vmess
   network: ws
-  server: adele.ns.cloudflare.com
-  port: 443
-  uuid: a7ed3c5a-4ec0-4afd-9c7e-78deb0a38e61
-  servername: sbl3.pavo.eu.org
-  tls: true
+  server: 104.21.238.10
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
   udp: true
+  alterId: 0
+  cipher: auto
   ws-opts:
     headers:
-      Host: sbl3.pavo.eu.org
-    path: /a7ed3c5a-4ec0-4afd-9c7e-78deb0a38e61-vless?ed=2048
-- name: 韩国 002
-  type: vless
-  network: ws
-  server: 211.196.226.172
-  port: 32202
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  tls: true
-  udp: true
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳
-- name: 韩国 003
-  type: vless
-  network: ws
-  server: 121.182.55.77
-  port: 30063
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  tls: true
-  udp: true
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳
-- name: 英国 001
-  type: vless
-  network: ws
-  server: 85.113.70.29
-  port: 19125
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  tls: true
-  udp: true
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳
-- name: 韩国 004
-  type: vless
-  network: ws
-  server: 152.67.203.206
-  port: 20979
-  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
-  servername: dns68.putata.eu.org
-  tls: true
-  udp: true
-  client-fingerprint: randomized
-  ws-opts:
-    headers:
-      Host: dns68.putata.eu.org
-    path: /?ed=2048
-- name: 韩国 005
-  type: vless
-  network: ws
-  server: 59.3.3.161
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  tls: true
-  udp: true
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳
-- name: 荷兰 004
-  type: vless
-  network: ws
-  server: 45.144.48.46
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  tls: true
-  udp: true
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
 - name: 美国 055
-  type: vless
+  type: vmess
   network: ws
-  server: 150.230.254.196
-  port: 34237
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  tls: true
+  server: 104.21.238.11
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
   udp: true
+  alterId: 0
+  cipher: auto
   ws-opts:
     headers:
-      Host: a.ssll.gay
-    path: Telegram🇨🇳
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
 - name: 美国 056
   type: vmess
   network: ws
-  server: 104.18.114.2
+  server: 104.21.238.12
   port: 2086
   uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
   servername: m116.164748.xyz
@@ -1443,7 +1320,7 @@ proxies:
 - name: 美国 057
   type: vmess
   network: ws
-  server: 104.21.238.3
+  server: 104.21.238.13
   port: 2086
   uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
   servername: m116.164748.xyz
@@ -1457,23 +1334,8 @@ proxies:
     path: github.com/Alvin9999
 - name: 美国 059
   type: vmess
-  network: grpc
-  server: t03-cf.phpman.top
-  port: 443
-  uuid: 537d21ad-49af-41ad-8089-db557b63a40e
-  servername: t03-cf.phpman.top
-  skip-cert-verify: false
-  tls: true
-  tfo: false
-  alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /
-- name: 美国 063
-  type: vmess
   network: ws
-  server: 104.18.114.1
+  server: 104.21.238.14
   port: 2086
   uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
   servername: m116.164748.xyz
@@ -1485,10 +1347,190 @@ proxies:
     headers:
       Host: m116.164748.xyz
     path: github.com/Alvin9999
-- name: 美国 064
+- name: 美国 063
   type: vmess
   network: ws
-  server: 104.21.238.4
+  server: 104.21.238.15
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 066
+  type: vmess
+  network: ws
+  server: 104.21.238.16
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 071
+  type: vmess
+  network: ws
+  server: 104.21.238.17
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 073
+  type: vmess
+  network: ws
+  server: 104.21.238.18
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 074
+  type: vmess
+  network: ws
+  server: 104.21.238.19
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 075
+  type: vmess
+  network: ws
+  server: 104.21.238.20
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 081
+  type: vmess
+  network: ws
+  server: 104.21.238.21
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 085
+  type: vmess
+  network: ws
+  server: 104.21.238.22
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 089
+  type: vmess
+  network: ws
+  server: 104.21.238.23
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 091
+  type: vmess
+  network: ws
+  server: 104.21.238.24
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 092
+  type: vmess
+  network: ws
+  server: 104.21.238.25
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 093
+  type: vmess
+  network: ws
+  server: 104.21.238.26
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- name: 美国 094
+  type: vmess
+  network: ws
+  server: 104.21.238.27
   port: 2086
   uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
   servername: m116.164748.xyz
@@ -1547,7 +1589,6 @@ proxy-groups:
   - 加拿大 023
   - 加拿大 026
   - 美国 004
-  - 美国 025
   - 美国 027
   - 美国 029
   - 美国 031
@@ -1583,10 +1624,8 @@ proxy-groups:
   - 美国 078
   - 美国 082
   - 美国 070
-  - 美国 075
   - 美国 079
   - 美国 080
-  - 加拿大 003
   - 美国 072
   - 美国 083
   - 美国 084
@@ -1597,26 +1636,30 @@ proxy-groups:
   - 美国 069
   - 美国 097
   - 美国 110
-  - 荷兰 001
+  - 美国 064
   - 美国 001
   - 美国 002
   - 美国 003
-  - 韩国 001
+  - 美国 025
   - 美国 053
-  - 荷兰 003
   - 美国 054
-  - 韩国 002
-  - 韩国 003
-  - 英国 001
-  - 韩国 004
-  - 韩国 005
-  - 荷兰 004
   - 美国 055
   - 美国 056
   - 美国 057
   - 美国 059
   - 美国 063
-  - 美国 064
+  - 美国 066
+  - 美国 071
+  - 美国 073
+  - 美国 074
+  - 美国 075
+  - 美国 081
+  - 美国 085
+  - 美国 089
+  - 美国 091
+  - 美国 092
+  - 美国 093
+  - 美国 094
 - name: LOAD-BALANCE
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
