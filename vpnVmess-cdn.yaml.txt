@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx74
+  name: -xx39
   network: ws
   port: 80
   server: 104.21.69.223

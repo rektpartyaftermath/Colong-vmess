@@ -1,17 +1,1 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 8-xx75
-  network: ws
-  port: 443
-  server: 23.94.243.79
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    path: /dabai.in104.20.27.115
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
