@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx35
+  name: 99-xx130
   network: ws
   port: 80
   server: 104.18.24.176
@@ -9,8 +9,158 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
   ws-opts:
     headers:
-      Host: chunchuan.kejixiaoqi666.store
+      Host: telegram-isvvpn.ir
+    path: /racevpn?telegram-
+- alterId: 0
+  cipher: auto
+  name: -xx138
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-21-178-246.s4.db-link02.top
     path: /
+- alterId: 0
+  cipher: auto
+  name: 8-xx139
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-80-77-140.s4.db-link02.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9-xx141
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-223-174-216.s1.db-link01.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx33
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6afaf50-e32d-11ef-b534-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: us-21.hihu.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9-xx42
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx46
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: telegram-isvvpn.ir
+    path: /racevpn
+- alterId: 0
+  cipher: auto
+  name: -xx66
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-174-159-210.s1.cn-db.top
+    path: /dabai.in104.21.156.105
+- alterId: 0
+  cipher: auto
+  name: -xx68
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-110-239-147.s2.cn-db.top
+    path: /dabai.in172.67.81.78
+- alterId: 0
+  cipher: auto
+  name: -xx89
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: telegram-isvvpn.ir
+    path: /racevpn?telegram-
+- alterId: 0
+  cipher: auto
+  name: -xx90
+  network: ws
+  port: 80
+  server: 104.18.24.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: telegram-isvvpn.ir
+    path: /racevpn?telegram-
