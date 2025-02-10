@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx115
+  name: -xx112
   network: ws
   port: 443
   server: 57.129.24.142
@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx116
+  name: 8-xx113
   network: ws
   port: 443
   server: 23.162.200.227
@@ -33,7 +33,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 89-xx121
+  name: 89-xx118
   network: ws
   port: 443
   server: obdii.cfd
@@ -49,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx134
+  name: -xx131
   network: ws
   port: 443
   server: hknbyivfffj.site
@@ -65,7 +65,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx135
+  name: -xx132
   network: ws
   port: 443
   server: tokyo.899994.xyz
@@ -81,7 +81,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx136
+  name: -xx133
   network: ws
   port: 443
   server: 134.195.198.147
@@ -97,7 +97,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx137
+  name: -xx134
   network: ws
   port: 443
   server: 57.129.24.125
@@ -113,7 +113,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx140
+  name: -xx137
   network: ws
   port: 443
   server: fr0.899994.xyz
@@ -129,7 +129,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx142
+  name: -xx139
   network: ws
   port: 443
   server: northflank.107421.xyz
@@ -145,7 +145,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx143
+  name: 8-xx140
   network: ws
   port: 443
   server: br.899994.xyz
@@ -161,7 +161,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx144
+  name: -xx141
   network: ws
   port: 443
   server: 146.19.168.161
@@ -177,7 +177,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx148
+  name: -xx145
   network: ws
   port: 443
   server: 104.21.48.160
@@ -193,14 +193,110 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx150
+  name: -xx151
   network: ws
   port: 443
-  server: indiavideo.sbs
+  server: se.899994.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  ws-opts:
+    path: /
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx153
+  network: ws
+  port: 443
+  server: plex.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    path: /racevpn?telegram-
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx175
+  network: ws
+  port: 443
+  server: tls.85.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-opts:
+    path: /
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx183
+  network: ws
+  port: 443
+  server: 51.77.20.137
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx184
+  network: ws
+  port: 443
+  server: 104.21.77.29
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
+  ws-opts:
+    path: /
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx186
+  network: ws
+  port: 443
+  server: az05.beyondy.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    path: /
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx188
+  network: ws
+  port: 443
+  server: irvideo.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
   ws-opts:
     path: /
     headers:
@@ -225,23 +321,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx40
-  network: ws
-  port: 443
-  server: imnjmlav.whmvmkwuey.store
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2146f1c-9a28-46bd-8d6a-2320d2eeaa45
-  ws-opts:
-    path: /
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: -xx41
+  name: -xx40
   network: ws
   port: 443
   server: 202.78.162.5
@@ -257,7 +337,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx43
+  name: -xx42
   network: ws
   port: 443
   server: sgfqkqmltcy.site
@@ -273,7 +353,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx44
+  name: -xx43
   network: ws
   port: 443
   server: ca0.899994.xyz
@@ -289,7 +369,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx45
+  name: -xx44
   network: ws
   port: 443
   server: 151.101.194.133
@@ -305,7 +385,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx52
+  name: -xx51
   network: ws
   port: 443
   server: gov.uk
@@ -321,7 +401,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -xx92
+  name: -xx89
   network: ws
   port: 443
   server: 57.129.25.20

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 99-xx130
+  name: 99-xx127
   network: ws
   port: 80
   server: 104.22.28.102
@@ -16,7 +16,7 @@ proxies:
     path: /racevpn?telegram-
 - alterId: 0
   cipher: auto
-  name: -xx138
+  name: -xx135
   network: ws
   port: 80
   server: 104.22.28.102
@@ -31,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8-xx139
+  name: 8-xx136
   network: ws
   port: 80
   server: 104.22.28.102
@@ -46,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx141
+  name: 9-xx138
   network: ws
   port: 80
   server: 104.22.28.102
@@ -59,6 +59,51 @@ proxies:
     headers:
       Host: 100-223-174-216.s1.db-link01.top
     path: /
+- alterId: 0
+  cipher: auto
+  name: -xx149
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-55-60-174.s2.db-link01.top
+    path: /dabai.in172.67.60.154
+- alterId: 0
+  cipher: auto
+  name: -xx152
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f518cff0-ee41-3cde-a453-9f3fbccd7ff8
+  ws-opts:
+    headers:
+      Host: 100-123-224-69.s2.db-link02.top
+    path: /dabai.in172.67.79.58
+- alterId: 0
+  cipher: auto
+  name: -xx180
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: telegram-isvvpn.ir
+    path: /racevpn
 - alterId: 0
   cipher: auto
   name: -xx33
@@ -76,7 +121,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx42
+  name: 9-xx41
   network: ws
   port: 80
   server: 104.22.28.102
@@ -91,7 +136,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: -xx46
+  name: -xx45
   network: ws
   port: 80
   server: 104.22.28.102
@@ -106,7 +151,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: -xx66
+  name: -xx64
   network: ws
   port: 80
   server: 104.22.28.102
@@ -121,7 +166,7 @@ proxies:
     path: /dabai.in104.21.156.105
 - alterId: 0
   cipher: auto
-  name: -xx68
+  name: -xx66
   network: ws
   port: 80
   server: 104.22.28.102
@@ -136,7 +181,7 @@ proxies:
     path: /dabai.in172.67.81.78
 - alterId: 0
   cipher: auto
-  name: -xx89
+  name: -xx86
   network: ws
   port: 80
   server: 104.22.28.102
@@ -151,7 +196,7 @@ proxies:
     path: /racevpn?telegram-
 - alterId: 0
   cipher: auto
-  name: -xx90
+  name: -xx87
   network: ws
   port: 80
   server: 104.22.28.102
