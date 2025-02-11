@@ -1,112 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 99-xx127
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-  ws-opts:
-    headers:
-      Host: telegram-isvvpn.ir
-    path: /racevpn?telegram-
-- alterId: 0
-  cipher: auto
-  name: -xx135
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-21-178-246.s4.db-link02.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8-xx136
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-80-77-140.s4.db-link02.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9-xx138
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-223-174-216.s1.db-link01.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx149
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-55-60-174.s2.db-link01.top
-    path: /dabai.in172.67.60.154
-- alterId: 0
-  cipher: auto
-  name: -xx152
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f518cff0-ee41-3cde-a453-9f3fbccd7ff8
-  ws-opts:
-    headers:
-      Host: 100-123-224-69.s2.db-link02.top
-    path: /dabai.in172.67.79.58
-- alterId: 0
-  cipher: auto
-  name: -xx180
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-  ws-opts:
-    headers:
-      Host: telegram-isvvpn.ir
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  name: -xx33
+  name: -xx17
   network: ws
   port: 80
   server: 104.22.28.102
@@ -121,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9-xx41
+  name: -xx27
   network: ws
   port: 80
   server: 104.22.28.102
@@ -129,14 +24,44 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: www.darkroom.lol
-    path: /
+      Host: 100-110-239-147.s2.cn-db.top
+    path: /dabai.in172.67.81.78
 - alterId: 0
   cipher: auto
-  name: -xx45
+  name: -xx40
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: telegram-isvvpn.ir
+    path: /racevpn?telegram-
+- alterId: 0
+  cipher: auto
+  name: -xx41
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: telegram-isvvpn.ir
+    path: /racevpn?telegram-
+- alterId: 0
+  cipher: auto
+  name: -xx49
   network: ws
   port: 80
   server: 104.22.28.102
@@ -162,11 +87,11 @@ proxies:
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-174-159-210.s1.cn-db.top
-    path: /dabai.in104.21.156.105
+      Host: 100-152-16-179.s2.cn-db.top
+    path: /dabai.in172.67.64.151
 - alterId: 0
   cipher: auto
-  name: -xx66
+  name: -xx94
   network: ws
   port: 80
   server: 104.22.28.102
@@ -177,11 +102,11 @@ proxies:
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-110-239-147.s2.cn-db.top
-    path: /dabai.in172.67.81.78
+      Host: 100-16-20-50.s5.db-link01.top
+    path: /
 - alterId: 0
   cipher: auto
-  name: -xx86
+  name: 8-xx95
   network: ws
   port: 80
   server: 104.22.28.102
@@ -193,10 +118,10 @@ proxies:
   ws-opts:
     headers:
       Host: telegram-isvvpn.ir
-    path: /racevpn?telegram-
+    path: /racevpn
 - alterId: 0
   cipher: auto
-  name: -xx87
+  name: -xx96
   network: ws
   port: 80
   server: 104.22.28.102
