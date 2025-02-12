@@ -1,6 +1,51 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: -xx116
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: telegram-isvvpn.ir
+    path: /racevpn
+- alterId: 0
+  cipher: auto
+  name: -xx119
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d3d7daea-b61a-40a1-833e-318952cd0ab1
+  ws-opts:
+    headers:
+      Host: vmessjp.trevely.us.kg
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -xx121
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-49-141-209.s1.db-link02.top
+    path: /
+- alterId: 0
+  cipher: auto
   name: -xx17
   network: ws
   port: 80
@@ -134,3 +179,18 @@ proxies:
     headers:
       Host: telegram-isvvpn.ir
     path: /racevpn?telegram-
+- alterId: 0
+  cipher: auto
+  name: -xx97
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f26505cc-2278-4bab-b0ca-955c3c966baa
+  ws-opts:
+    headers:
+      Host: vmesspl.trevely.us.kg
+    path: /serv00?ed=2048

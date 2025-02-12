@@ -1,4 +1,39 @@
 proxies:
+- name: -xx109
+  password: Aimer
+  port: 443
+  server: 45.140.88.118
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx111
+  password: Aimer
+  port: 443
+  server: kip.ns.cloudflare.com
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx112
+  password: Aimer
+  port: 443
+  server: 178.159.43.246
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx113
+  password: Aimer
+  port: 443
+  server: aliyun.2096.us.kg
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx114
+  password: Aimer
+  port: 443
+  server: 192.227.231.56
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
 - name: -xx18
   password: Aimer
   port: 443
