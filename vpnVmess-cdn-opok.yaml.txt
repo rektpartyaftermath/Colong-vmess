@@ -1,82 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx116
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-  ws-opts:
-    headers:
-      Host: telegram-isvvpn.ir
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  name: -xx119
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d3d7daea-b61a-40a1-833e-318952cd0ab1
-  ws-opts:
-    headers:
-      Host: vmessjp.trevely.us.kg
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx121
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-49-141-209.s1.db-link02.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx17
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e6afaf50-e32d-11ef-b534-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: us-21.hihu.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -xx27
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-110-239-147.s2.cn-db.top
-    path: /dabai.in172.67.81.78
-- alterId: 0
-  cipher: auto
-  name: -xx40
+  name: -xx21
   network: ws
   port: 80
   server: 104.22.28.102
@@ -91,7 +16,7 @@ proxies:
     path: /racevpn?telegram-
 - alterId: 0
   cipher: auto
-  name: -xx41
+  name: -xx22
   network: ws
   port: 80
   server: 104.22.28.102
@@ -106,7 +31,7 @@ proxies:
     path: /racevpn?telegram-
 - alterId: 0
   cipher: auto
-  name: -xx49
+  name: -xx29
   network: ws
   port: 80
   server: 104.22.28.102
@@ -121,37 +46,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: -xx64
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-152-16-179.s2.cn-db.top
-    path: /dabai.in172.67.64.151
-- alterId: 0
-  cipher: auto
-  name: -xx94
-  network: ws
-  port: 80
-  server: 104.22.28.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-16-20-50.s5.db-link01.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8-xx95
+  name: 8-xx30
   network: ws
   port: 80
   server: 104.22.28.102
@@ -166,7 +61,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: -xx96
+  name: -xx31
   network: ws
   port: 80
   server: 104.22.28.102
@@ -181,7 +76,7 @@ proxies:
     path: /racevpn?telegram-
 - alterId: 0
   cipher: auto
-  name: -xx97
+  name: 9-xx79
   network: ws
   port: 80
   server: 104.22.28.102
@@ -189,8 +84,23 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f26505cc-2278-4bab-b0ca-955c3c966baa
+  uuid: f46bb68f-3069-494d-8650-f8e2a9294c92
   ws-opts:
     headers:
-      Host: vmesspl.trevely.us.kg
+      Host: vmessde.trevely.us.kg
     path: /serv00?ed=2048
+- alterId: 0
+  cipher: auto
+  name: -xx82
+  network: ws
+  port: 80
+  server: 104.22.28.102
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-235-225-209.s5.db-link02.top
+    path: /
