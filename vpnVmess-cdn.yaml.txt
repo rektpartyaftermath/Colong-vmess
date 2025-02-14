@@ -1,7 +1,37 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx21
+  name: -xx02
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+  ws-opts:
+    headers:
+      Host: kr.cfyyds.filegear-sg.me
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: -xx03
+  network: ws
+  port: 80
+  server: 104.21.69.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+  ws-opts:
+    headers:
+      Host: us.cfyyds.filegear-sg.me
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: -xx24
   network: ws
   port: 80
   server: 104.21.69.223
@@ -16,7 +46,7 @@ proxies:
     path: /racevpn?telegram-
 - alterId: 0
   cipher: auto
-  name: -xx22
+  name: -xx25
   network: ws
   port: 80
   server: 104.21.69.223
@@ -31,7 +61,7 @@ proxies:
     path: /racevpn?telegram-
 - alterId: 0
   cipher: auto
-  name: -xx29
+  name: -xx32
   network: ws
   port: 80
   server: 104.21.69.223
@@ -46,7 +76,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: 8-xx30
+  name: 8-xx33
   network: ws
   port: 80
   server: 104.21.69.223
@@ -61,7 +91,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: -xx31
+  name: -xx34
   network: ws
   port: 80
   server: 104.21.69.223
@@ -76,7 +106,7 @@ proxies:
     path: /racevpn?telegram-
 - alterId: 0
   cipher: auto
-  name: 9-xx79
+  name: 9-xx82
   network: ws
   port: 80
   server: 104.21.69.223
@@ -91,7 +121,7 @@ proxies:
     path: /serv00?ed=2048
 - alterId: 0
   cipher: auto
-  name: -xx82
+  name: -xx85
   network: ws
   port: 80
   server: 104.21.69.223
