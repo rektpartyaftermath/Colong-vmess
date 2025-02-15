@@ -1,7 +1,39 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: -xx27
+  name: -xx136
+  network: ws
+  port: 443
+  server: www.vpslook.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 84dbe45d-75df-48d0-bb89-a40af8429ea7
+  ws-opts:
+    path: /vmess-argo?ed=2048
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx157
+  network: ws
+  port: 443
+  server: www.visa.com.tw
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 301fad67-1288-47a9-b3ca-22b823e4e789
+  ws-opts:
+    path: /
+    headers:
+      host: graph.facebook.com
+  servername: graph.facebook.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -xx19
   network: ws
   port: 443
   server: plex.com
@@ -17,119 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx45
-  network: ws
-  port: 443
-  server: 104.19.60.80
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 0906bfce-4363-4535-8940-6b81f5021172
-  ws-opts:
-    path: /vmessjp.trevely.us.kg
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: -xx46
-  network: ws
-  port: 443
-  server: 172.64.137.151
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9bef2bd8-3b6f-4783-d7e1-2ec745b0b12e
-  ws-opts:
-    path: /vmessfr.trevely.us.kg
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: -xx48
-  network: ws
-  port: 443
-  server: 104.18.149.75
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 56529ad8-61d2-4bfa-aa0b-a800719cb5fe
-  ws-opts:
-    path: /aa
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 9-xx84
-  network: ws
-  port: 443
-  server: uswapcdn.899994.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
-  ws-opts:
-    path: /
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 98-xx86
-  network: ws
-  port: 443
-  server: mods-destruction-academy-gear.trycloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  ws-opts:
-    path: /
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: -xx88
-  network: ws
-  port: 443
-  server: hkvm.gecs.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 0a3cd062-241a-43fc-9c50-eccacbbd5aae
-  ws-opts:
-    path: /vm
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: -xx90
-  network: ws
-  port: 443
-  server: 104.19.240.17
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d4cecef2-4d32-4387-c0ab-98ad9d41936e
-  ws-opts:
-    path: /
-    headers:
-      host: graph.facebook.com
-  servername: graph.facebook.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: -xx92
+  name: -xx52
   network: ws
   port: 443
   server: hkwapcdn.899994.xyz
@@ -145,7 +65,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8-xx93
+  name: 8-xx53
   network: ws
   port: 443
   server: zmkkyc.whmvmkwuey.store
