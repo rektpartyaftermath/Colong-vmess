@@ -1,274 +1,218 @@
 proxies:
-- name: -xx102
-  password: Aimer
-  port: 443
-  server: 211.38.177.17
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx104
-  password: Aimer
-  port: 443
-  server: 112.169.242.150
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx105
-  password: Aimer
-  port: 443
-  server: 206.237.13.161
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx108
-  password: Aimer
-  port: 443
-  server: 14.37.56.164
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx109
-  password: Aimer
-  port: 443
-  server: 221.163.103.29
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx115
-  password: Aimer
-  port: 443
-  server: 222.103.130.244
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx117
-  password: Aimer
-  port: 443
-  server: 112.185.223.152
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx118
-  password: Aimer
-  port: 443
-  server: duke.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx120
-  password: Aimer
-  port: 443
-  server: 154.17.239.70
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx121
-  password: Aimer
-  port: 443
-  server: 154.17.227.138
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: 89-xx169
+- name: 89-xx130
   password: '3747000103274291200'
   port: 443
   server: 13.50.141.41
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx26
-  password: Aimer
+- name: -xx136
+  password: qCfu8t%24s%7B2m%3BsTxm
   port: 443
-  server: 45.140.88.118
+  server: 172.66.47.62
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx27
-  password: Aimer
+- name: -xx140
+  password: naEX%5Dg*qw%40MT%26lFz
   port: 443
-  server: 178.159.43.246
+  server: 104.21.64.1
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx28
-  password: Aimer
+- name: 8-xx141
+  password: qCfu8t%24s%7B2m%3BsTxm
   port: 443
-  server: aliyun.2096.us.kg
+  server: 172.66.44.194
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx29
-  password: Aimer
+- name: -xx143
+  password: naEX%5Dg*qw%40MT%26lFz
   port: 443
-  server: 192.227.231.56
+  server: 104.21.96.1
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 8-xx41
+- name: -xx153
+  password: Aimer
+  port: 443
+  server: 129.154.207.203
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx159
+  password: Aimer
+  port: 443
+  server: 121.188.117.151
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx164
+  password: Aimer
+  port: 443
+  server: 64.110.89.92
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name:  grpc-xx166
+  password: 8d31967e-7af4-4ead-bf99-32b810dab193
+  port: 443
+  server: 138.124.183.89
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: 9-xx167
+  password: Aimer
+  port: 443
+  server: 106.240.1.52
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx169
+  password: Aimer
+  port: 443
+  server: 135.84.76.152
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: 8-xx170
+  password: Aimer
+  port: 443
+  server: 160.79.104.131
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: 9-xx172
+  password: Aimer
+  port: 443
+  server: 135.84.74.27
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: 9-xx174
+  password: Aimer
+  port: 443
+  server: 38.22.233.160
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx177
+  password: telegram-id-privatevpns
+  port: 443
+  server: 3.121.12.144
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: 8-xx33
   password: Aimer
   port: 443
   server: 154.26.177.9
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 8-xx42
+- name: 8-xx34
   password: Aimer
   port: 443
   server: 154.26.176.94
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx45
-  password: Aimer
-  port: 443
-  server: 91.149.239.70
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: 8-xx48
-  password: Aimer
-  port: 443
-  server: ignacio.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx52
-  password: 936c6853-6bbf-4e24-8667-ec5b2fc275b3
-  port: 443
-  server: 172.67.73.163
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx55
+- name: -xx41
   password: Aimer
   port: 443
   server: 221.149.132.232
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx58
-  password: Aimer
-  port: 443
-  server: 125.138.28.68
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx59
-  password: Aimer
-  port: 443
-  server: 121.179.37.140
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx60
-  password: Aimer
-  port: 443
-  server: 125.128.229.252
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx62
+- name: -xx44
   password: Aimer
   port: 443
   server: 222.114.11.234
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx63
-  password: Aimer
-  port: 443
-  server: 220.121.230.236
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx64
-  password: Aimer
-  port: 443
-  server: 121.184.10.253
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx65
-  password: Aimer
-  port: 443
-  server: 43.156.253.94
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: 8-xx66
+- name: 8-xx45
   password: Aimer
   port: 443
   server: 118.45.241.209
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx67
-  password: Aimer
-  port: 443
-  server: 46.3.99.95
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: 9-xx68
-  password: Aimer
-  port: 443
-  server: 125.132.46.2
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx78
+- name: -xx49
   password: Aimer
   port: 443
   server: 154.26.179.89
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
+- name: -xx65
+  password: Aimer
+  port: 443
+  server: 211.38.177.17
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx67
+  password: Aimer
+  port: 443
+  server: 112.169.242.150
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx68
+  password: Aimer
+  port: 443
+  server: 206.237.13.161
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx71
+  password: Aimer
+  port: 443
+  server: 14.37.56.164
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx72
+  password: Aimer
+  port: 443
+  server: 221.163.103.29
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
+- name: -xx78
+  password: Aimer
+  port: 443
+  server: 222.103.130.244
+  skip-cert-verify: true
+  sni: graph.facebook.com
+  type: trojan
 - name: -xx80
   password: Aimer
   port: 443
-  server: 185.183.84.165
+  server: 112.185.223.152
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: -xx82
+- name: -xx81
   password: Aimer
   port: 443
-  server: 91.149.239.198
+  server: duke.ns.cloudflare.com
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
-- name: 8-xx83
+- name: -xx83
   password: Aimer
   port: 443
-  server: 91.217.139.139
+  server: 154.17.239.70
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
 - name: -xx84
   password: Aimer
   port: 443
-  server: 38.47.117.85
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx85
-  password: 936c6853-6bbf-4e24-8667-ec5b2fc275b3
-  port: 443
-  server: 104.26.15.85
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx86
-  password: 936c6853-6bbf-4e24-8667-ec5b2fc275b3
-  port: 443
-  server: 104.26.14.85
-  skip-cert-verify: true
-  sni: graph.facebook.com
-  type: trojan
-- name: -xx87
-  password: '3747000103274291200'
-  port: 443
-  server: 85.90.194.160
+  server: 154.17.227.138
   skip-cert-verify: true
   sni: graph.facebook.com
   type: trojan
